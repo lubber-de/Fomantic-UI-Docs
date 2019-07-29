@@ -1565,7 +1565,7 @@ type        : 'UI Behavior'
         Dependent Fields
         <div class="ui teal horizontal label">New in 2.2</div>
       </h4>
-      <p>You can specify validation fields to only be used when other fields are present. Simply add <code>depends: 'id'</code> with the ID of the field that must be non-blank for this rule to evaluate.</p>
+      <p>You can specify validation fields to only be used when other fields are present. Simply add <code>depends: 'identifier'</code> with the ID of the field that must be non-blank for this rule to evaluate.</p>
       <div class="ignored code">
       $('.ui.form')
         .form({
@@ -1976,24 +1976,24 @@ type        : 'UI Behavior'
         <td>Validates field, updates UI, and calls onSuccess or onFailure</td>
       </tr>
       <tr>
-        <td>get field(id)</td>
-        <td>Returns element with matching name, id, or data-validate metadata to ID</td>
+        <td>get field(identifier)</td>
+        <td>Returns element with matching name, id, or data-validate metadata to identifier</td>
       </tr>
       <tr>
-        <td>get value(id)</td>
+        <td>get value(identifier)</td>
         <td>Returns value of element with id</td>
       </tr>
       <tr>
-        <td>get values(ids)</td>
-        <td>Returns object of element values that match array of ids. If no IDS are passed will return all fields</td>
+        <td>get values(identifiers)</td>
+        <td>Returns object of element values that match array of identifiers. If no IDS are passed will return all fields</td>
       </tr>
       <tr>
-        <td>set value(id)</td>
+        <td>set value(identifier)</td>
         <td>Sets value of element with id</td>
       </tr>
       <tr>
         <td>set values(values)</td>
-        <td>Sets key/value pairs from passed values object to matching ids</td>
+        <td>Sets key/value pairs from passed values object to matching identifiers</td>
       </tr>
       <tr>
         <td>get validation(element)</td>
@@ -2005,11 +2005,11 @@ type        : 'UI Behavior'
       </tr>
       <tr>
         <td>add errors(errors)</td>
-        <td>Adds errors to form, given an array errors</td>
+        <td>Manually add errors to form, given an array errors</td>
       </tr>
       <tr>
-        <td>add prompt(id, prompt)</td>
-        <td>Adds a custom user prompt for a given element with id</td>
+        <td>add prompt(identifier, prompt)</td>
+        <td>Adds a custom user prompt for a given element with identifier</td>
       </tr>
       <tr>
         <td>clear</td>
@@ -2292,8 +2292,8 @@ type        : 'UI Behavior'
           </tr>
           <tr>
             <td>prompt</td>
-            <td>Errors (Array)</td>
-            <td>Constructs an element to prompt the user to an invalid field</td>
+            <td>Errors (Array, className)</td>
+            <td>Constructs an element to prompt the user to an invalid field using the given className for error label styling</td>
           </tr>
         </tbody>
       </table>
@@ -2307,7 +2307,7 @@ type        : 'UI Behavior'
       <table class="ui celled sortable definition table">
         <thead>
           <th>Setting</th>
-          <th class="six wide">Default</th>
+          <th class="ten wide">Default</th>
           <th>Description</th>
         </thead>
         <tbody>
@@ -2321,12 +2321,19 @@ type        : 'UI Behavior'
             <td>
               <div class="code">
         selector : {
-          message   : '.error.message',
+          checkbox  : 'input[type="checkbox"], input[type="radio"]',
+          clear     : '.clear',
           field     : 'input, textarea, select',
           group     : '.field',
           input     : 'input',
-          prompt    : '.prompt',
-          submit    : '.submit'
+          message   : '.error.message',
+          prompt    : '.prompt.label',
+          radio     : 'input[type="radio"]',
+          reset     : '.reset:not([type="reset"])',
+          submit    : '.submit:not([type="submit"])',
+          uiCheckbox: '.ui.checkbox',
+          uiDropdown: '.ui.dropdown',
+          uiCalendar: '.ui.calendar'
         }
               </div>
             </td>
@@ -2353,10 +2360,10 @@ type        : 'UI Behavior'
             <td>
               <div class="code">
         className : {
-          active      : 'active',
-          placeholder : 'default',
-          disabled    : 'disabled',
-          visible     : 'visible'
+          error   : 'error',
+          label   : 'ui basic red pointing prompt label',
+          pressed : 'down',
+          success : 'success'
         }
               </div>
             </td>
@@ -2403,7 +2410,10 @@ type        : 'UI Behavior'
             <td colspan="2">
               <div class="code">
         errors   : {
-          method   : 'The method you called is not defined.'
+          identifier : 'You must specify a string identifier for each field',
+          method     : 'The method you called is not defined.',
+          noRule     : 'There is no rule matching the one you specified',
+          oldSyntax  : 'Starting in 2.0 forms now only take a single settings object. Validation settings converted to new syntax automatically.'
         }
               </div>
             </td>
