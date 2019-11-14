@@ -140,6 +140,16 @@ themes      : ['Default']
       ;
       </div>
     </div>
+    <div class="another example">
+      <p>You can also set the type or date using HTML markup <span class="ui black label">New in 2.8.0</span></p>
+      <div class="ui ignored info message">This could be useful when used with form validation without the need to instantiate the calendar via javascript before. Form validation recognizes a calendar component within the form and instantiates it automatically by using existing metadata values.</div>
+      <div class="ui calendar" id="type_calendar" data-type="date" data-date="2019-12-24">
+        <div class="ui input left icon">
+          <i class="calendar icon"></i>
+          <input type="text" placeholder="Date">
+        </div>
+      </div>
+    </div>
 
     <div class="example">
       <h4 class="ui header">Year first calendar</h4>
@@ -595,7 +605,7 @@ themes      : ['Default']
       </tr>
       <tr>
         <td>set date(date, updateInput = true, fireChange = true)</td>
-        <td>Set the selected date. Pass <code>false</code> to <code>updateInput</code> to disable updating the input. Pass <code>false</code> to <code>fireChange</code> to disable the <code>onChange</code> callback for this change</td>
+        <td>Set the selected date. Pass <code>false</code> to <code>updateInput</code> to disable updating the input. Pass <code>false</code> to <code>fireChange</code> to disable the <code>onBeforeChange</code> and <code>onChange</code> callbacks for this change</td>
       </tr>
       <tr>
         <td>get mode</td>
@@ -853,10 +863,15 @@ themes      : ['Default']
         <th>Description</th>
       </thead>
       <tbody>
-      <tr>
+        <tr>
+          <td>onBeforeChange <span class="ui red label"><i class="exclamation icon"></i>New in 2.8.0</span></td>
+          <td>active content</td>
+          <td>Is called before a calendar date changes. <code>return false;</code> will cancel the change</td>
+        </tr>
+        <tr>
           <td>onChange</td>
           <td>active content</td>
-          <td>Is called after a calendar date changes. <code>return false;</code> will cancel the change</td>
+          <td>Is called after a calendar date has changed.</td>
         </tr>
         <tr>
           <td>onShow</td>
@@ -893,7 +908,7 @@ themes      : ['Default']
     <table class="ui sortable celled definition table">
       <thead>
         <th>Setting</th>
-        <th class="six wide">Default</th>
+        <th class="seven wide">Default</th>
         <th>Description</th>
       </thead>
       <tbody>
@@ -909,15 +924,17 @@ themes      : ['Default']
         </tr>
         <tr>
           <td>selector</td>
-          <td colspan="2">
+          <td>
             <div class="code" data-type="css">
             selector    : {
               popup: '.ui.popup',
               input: 'input',
-              activator: 'input'
+              activator: 'input',
+              append: '.inline.field,.inline.fields'
             }
             </div>
           </td>
+          <td>If the calendars parent node matches the <code>append</code> selector, the calendar is appended to the input field instead of prepended.</td>
         </tr>
         <tr>
           <td>className</td>

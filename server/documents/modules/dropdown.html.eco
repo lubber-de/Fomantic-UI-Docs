@@ -2881,24 +2881,24 @@ themes      : ['Default', 'GitHub', 'Material']
           <td>Toggles current visibility of dropdown</td>
         </tr>
         <tr>
-          <td>show</td>
-          <td>Shows dropdown</td>
+          <td>show(callback,preventFocus)</td>
+          <td>Shows dropdown. If a function is provided to <code>callback</code>, it's called after the dropdown-menu is shown. Set <code>preventFocus</code> to <code>true</code> if you don't want the dropdown field to focus after the menu is shown  </td>
         </tr>
         <tr>
-          <td>hide</td>
-          <td>Hides dropdown</td>
+          <td>hide(callback,preventBlur)</td>
+          <td>Hides dropdown. If a function is provided to <code>callback</code>, it's called after the dropdown-menu is hidden. Set <code>preventBlur</code> to <code>true</code> if you don't want the dropdown field to blur after the menu is hidden  </td>
         </tr>
         <tr>
-          <td>clear</td>
-          <td>Clears dropdown of selection</td>
+          <td>clear (preventChangeTrigger)</td>
+          <td>Clears dropdown of selection. Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event (default: <code>false</code>).</td>
         </tr>
         <tr>
           <td>hide others</td>
           <td>Hides all other dropdowns that is not current dropdown</td>
         </tr>
         <tr>
-          <td>restore defaults</td>
-          <td>Restores dropdown text and value to its value on page load</td>
+          <td>restore defaults (preventChangeTrigger)</td>
+          <td>Restores dropdown text and value to its value on page load. Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event (default: <code>false</code>).</td>
         </tr>
         <tr>
           <td>restore default text</td>
@@ -2937,8 +2937,8 @@ themes      : ['Default', 'GitHub', 'Material']
           <td>Sets dropdown text to a value</td>
         </tr>
         <tr>
-          <td>set value(value)</td>
-          <td>Sets dropdown input to value (does not update display state)</td>
+          <td>set value (value,text,$selected,preventChangeTrigger)</td>
+          <td>Sets dropdown input to value (does not update display state). <code>text</code> and <code>$selected</code> are used internally and can be ignored. Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event</td>
         </tr>
         <tr>
           <td>get text</td>
@@ -3056,7 +3056,12 @@ themes      : ['Default', 'GitHub', 'Material']
         <tr>
           <td>ignoreCase</td>
           <td>false<div class="ui label">New in 2.2.13</div></td>
-          <td>Whether values with matching cases should be treated as identical when adding them to a dropdown.</td>
+          <td>Whether values with non matching cases should be treated as identical when adding them to a dropdown.</td>
+        </tr>
+        <tr>
+          <td>ignoreSearchCase</td>
+          <td>true<div class="ui label">New in 2.8.0</div></td>
+          <td>Whether values with non matching cases should be treated as identical when filtering the items.</td>
         </tr>
         <tr>
           <td>allowReselection</td>

@@ -8,8 +8,8 @@ standalone  : true
 title       : 'Slider'
 description : 'A slider allows users to select values within a range'
 type        : 'UI Module'
-status      : 'BETA'
-statusColor : 'orange'
+status      : 'NEW'
+statusColor : 'teal'
 
 themes      : ['Default']
 ---
@@ -45,6 +45,22 @@ themes      : ['Default']
       <h4 class="ui header">Labeled ticked slider</h4>
       <p>A slider that show its labels and ticks</p>
       <div class="ui labeled ticked slider"></div>
+    </div>
+
+    <div class="example">
+        <h4 class="ui header">Custom interpreted labels</h4>
+        <p>You can provide a function which returns a custom label according to the label value</p>
+        <div class="ui labeled ticked slider" id="interpretedlabel"></div>
+    </div>
+    <div class="evaluated code" data-type="javascript">
+        var labels = ["α", "β", "γ", "δ", "ε", "ζ", "η", "θ", "ι", "κ", "λ", "μ", "ν", "ξ", "ο", "π", "ρ", "σ/ς", "τ", "υ", "φ", "χ", "ψ", "ω"];
+        $('#interpretedlabel')
+          .slider({
+            interpretLabel: function(value) {
+              return labels[value];
+            }
+          })
+        ;
     </div>
 
     <div class="example">
@@ -297,6 +313,19 @@ themes      : ['Default']
           <td>The type of label to display for a labeled slider. Can be <code>number</code> or <code>letter</code></td>
         </tr>
         <tr>
+          <td>interpretLabel</td>
+          <td>false</td>
+          <td>
+            You can specify a function here which consumes the current label value as parameter and should return a custom label text according to the given value
+            <div class="code">
+            interpretLabel: function(value){
+            //do something with 'value' and return matching text
+              return myCustomText;
+            }
+            </div>
+          </td>
+        </tr>
+        <tr>
           <td>showLabelTicks</td>
           <td>false</td>
           <td>Show ticks on a labeled slider</td>
@@ -325,6 +354,11 @@ themes      : ['Default']
           <td>pageMultiplier</td>
           <td>2</td>
           <td>Page up/down multiplier. Define how many more times the steps to take on page up/down press</td>
+        </tr>
+        <tr>
+          <td>preventCrossover</td>
+          <td>true</td>
+          <td>Prevents the lower thumb to crossover the thumb handle.</td>
         </tr>
       </tbody>
     </table>
