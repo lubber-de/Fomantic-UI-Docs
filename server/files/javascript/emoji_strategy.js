@@ -2730,7 +2730,7 @@ var emojiStrategy = [
     "shortname": ":person_lifting_weights:",
     "shortname_alternates": [":lifter:", ":weight_lifter:"],
     "keywords": ["lifter", "weight", "uc7"],
-    "unicode_output": "1f3cb-fe0f"
+    "unicode_output": "1f3cb"
   },
   "1f3cb-1f3fb": {
     "name": "person lifting weights: light skin tone",
@@ -2738,7 +2738,7 @@ var emojiStrategy = [
     "shortname": ":person_lifting_weights_tone1:",
     "shortname_alternates": [":lifter_tone1:", ":weight_lifter_tone1:"],
     "keywords": ["lifter", "light skin tone", "weight", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fb"
+    "unicode_output": "1f3cb-1f3fb"
   },
   "1f3cb-1f3fc": {
     "name": "person lifting weights: medium-light skin tone",
@@ -2746,7 +2746,7 @@ var emojiStrategy = [
     "shortname": ":person_lifting_weights_tone2:",
     "shortname_alternates": [":lifter_tone2:", ":weight_lifter_tone2:"],
     "keywords": ["lifter", "medium-light skin tone", "weight", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fc"
+    "unicode_output": "1f3cb-1f3fc"
   },
   "1f3cb-1f3fd": {
     "name": "person lifting weights: medium skin tone",
@@ -2754,7 +2754,7 @@ var emojiStrategy = [
     "shortname": ":person_lifting_weights_tone3:",
     "shortname_alternates": [":lifter_tone3:", ":weight_lifter_tone3:"],
     "keywords": ["lifter", "medium skin tone", "weight", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fd"
+    "unicode_output": "1f3cb-1f3fd"
   },
   "1f3cb-1f3fe": {
     "name": "person lifting weights: medium-dark skin tone",
@@ -2762,7 +2762,7 @@ var emojiStrategy = [
     "shortname": ":person_lifting_weights_tone4:",
     "shortname_alternates": [":lifter_tone4:", ":weight_lifter_tone4:"],
     "keywords": ["lifter", "medium-dark skin tone", "weight", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fe"
+    "unicode_output": "1f3cb-1f3fe"
   },
   "1f3cb-1f3ff": {
     "name": "person lifting weights: dark skin tone",
@@ -2770,7 +2770,7 @@ var emojiStrategy = [
     "shortname": ":person_lifting_weights_tone5:",
     "shortname_alternates": [":lifter_tone5:", ":weight_lifter_tone5:"],
     "keywords": ["dark skin tone", "lifter", "weight", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3ff"
+    "unicode_output": "1f3cb-1f3ff"
   },
   "1f3cb-2640": {
     "name": "woman lifting weights",
@@ -2786,7 +2786,7 @@ var emojiStrategy = [
     "shortname": ":woman_lifting_weights_tone1:",
     "shortname_alternates": [":woman_lifting_weights_light_skin_tone:"],
     "keywords": ["light skin tone", "weight lifter", "woman", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fb-200d-2640-fe0f"
+    "unicode_output": "1f3cb-1f3fb-200d-2640-fe0f"
   },
   "1f3cb-1f3fc-2640": {
     "name": "woman lifting weights: medium-light skin tone",
@@ -2794,7 +2794,7 @@ var emojiStrategy = [
     "shortname": ":woman_lifting_weights_tone2:",
     "shortname_alternates": [":woman_lifting_weights_medium_light_skin_tone:"],
     "keywords": ["medium-light skin tone", "weight lifter", "woman", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fc-200d-2640-fe0f"
+    "unicode_output": "1f3cb-1f3fc-200d-2640-fe0f"
   },
   "1f3cb-1f3fd-2640": {
     "name": "woman lifting weights: medium skin tone",
@@ -2802,7 +2802,7 @@ var emojiStrategy = [
     "shortname": ":woman_lifting_weights_tone3:",
     "shortname_alternates": [":woman_lifting_weights_medium_skin_tone:"],
     "keywords": ["medium skin tone", "weight lifter", "woman", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fd-200d-2640-fe0f"
+    "unicode_output": "1f3cb-1f3fd-200d-2640-fe0f"
   },
   "1f3cb-1f3fe-2640": {
     "name": "woman lifting weights: medium-dark skin tone",
@@ -2810,7 +2810,7 @@ var emojiStrategy = [
     "shortname": ":woman_lifting_weights_tone4:",
     "shortname_alternates": [":woman_lifting_weights_medium_dark_skin_tone:"],
     "keywords": ["medium-dark skin tone", "weight lifter", "woman", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fe-200d-2640-fe0f"
+    "unicode_output": "1f3cb-1f3fe-200d-2640-fe0f"
   },
   "1f3cb-1f3ff-2640": {
     "name": "woman lifting weights: dark skin tone",
@@ -2818,7 +2818,7 @@ var emojiStrategy = [
     "shortname": ":woman_lifting_weights_tone5:",
     "shortname_alternates": [":woman_lifting_weights_dark_skin_tone:"],
     "keywords": ["dark skin tone", "weight lifter", "woman", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3ff-200d-2640-fe0f"
+    "unicode_output": "1f3cb-1f3ff-200d-2640-fe0f"
   },
   "1f3cb-2642": {
     "name": "man lifting weights",
@@ -2834,7 +2834,7 @@ var emojiStrategy = [
     "shortname": ":man_lifting_weights_tone1:",
     "shortname_alternates": [":man_lifting_weights_light_skin_tone:"],
     "keywords": ["light skin tone", "man", "weight lifter", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fb-200d-2642-fe0f"
+    "unicode_output": "1f3cb-1f3fb-200d-2642-fe0f"
   },
   "1f3cb-1f3fc-2642": {
     "name": "man lifting weights: medium-light skin tone",
@@ -2842,7 +2842,7 @@ var emojiStrategy = [
     "shortname": ":man_lifting_weights_tone2:",
     "shortname_alternates": [":man_lifting_weights_medium_light_skin_tone:"],
     "keywords": ["man", "medium-light skin tone", "weight lifter", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fc-200d-2642-fe0f"
+    "unicode_output": "1f3cb-1f3fc-200d-2642-fe0f"
   },
   "1f3cb-1f3fd-2642": {
     "name": "man lifting weights: medium skin tone",
@@ -2850,7 +2850,7 @@ var emojiStrategy = [
     "shortname": ":man_lifting_weights_tone3:",
     "shortname_alternates": [":man_lifting_weights_medium_skin_tone:"],
     "keywords": ["man", "medium skin tone", "weight lifter", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fd-200d-2642-fe0f"
+    "unicode_output": "1f3cb-1f3fd-200d-2642-fe0f"
   },
   "1f3cb-1f3fe-2642": {
     "name": "man lifting weights: medium-dark skin tone",
@@ -2858,7 +2858,7 @@ var emojiStrategy = [
     "shortname": ":man_lifting_weights_tone4:",
     "shortname_alternates": [":man_lifting_weights_medium_dark_skin_tone:"],
     "keywords": ["man", "medium-dark skin tone", "weight lifter", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3fe-200d-2642-fe0f"
+    "unicode_output": "1f3cb-1f3fe-200d-2642-fe0f"
   },
   "1f3cb-1f3ff-2642": {
     "name": "man lifting weights: dark skin tone",
@@ -2866,7 +2866,7 @@ var emojiStrategy = [
     "shortname": ":man_lifting_weights_tone5:",
     "shortname_alternates": [":man_lifting_weights_dark_skin_tone:"],
     "keywords": ["dark skin tone", "man", "weight lifter", "uc8"],
-    "unicode_output": "1f3cb-fe0f-1f3ff-200d-2642-fe0f"
+    "unicode_output": "1f3cb-1f3ff-200d-2642-fe0f"
   },
   "1f93c": {
     "name": "people wrestling",
@@ -2882,7 +2882,7 @@ var emojiStrategy = [
     "shortname": ":women_wrestling:",
     "shortname_alternates": [],
     "keywords": ["women", "wrestle", "uc9"],
-    "unicode_output": "1f93c-2640-fe0f"
+    "unicode_output": "1f93c-200d-2640-fe0f"
   },
   "1f93c-2642": {
     "name": "men wrestling",
@@ -2890,7 +2890,7 @@ var emojiStrategy = [
     "shortname": ":men_wrestling:",
     "shortname_alternates": [],
     "keywords": ["men", "wrestle", "uc9"],
-    "unicode_output": "1f93c-2642-fe0f"
+    "unicode_output": "1f93c-200d-2642-fe0f"
   },
   "1f938": {
     "name": "person cartwheeling",
@@ -3042,7 +3042,7 @@ var emojiStrategy = [
     "shortname": ":person_bouncing_ball:",
     "shortname_alternates": [":basketball_player:", ":person_with_ball:"],
     "keywords": ["ball", "uc5"],
-    "unicode_output": "26f9-fe0f"
+    "unicode_output": "26f9"
   },
   "26f9-1f3fb": {
     "name": "person bouncing ball: light skin tone",
@@ -3050,7 +3050,7 @@ var emojiStrategy = [
     "shortname": ":person_bouncing_ball_tone1:",
     "shortname_alternates": [":basketball_player_tone1:", ":person_with_ball_tone1:"],
     "keywords": ["ball", "light skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fb"
+    "unicode_output": "26f9-1f3fb"
   },
   "26f9-1f3fc": {
     "name": "person bouncing ball: medium-light skin tone",
@@ -3058,7 +3058,7 @@ var emojiStrategy = [
     "shortname": ":person_bouncing_ball_tone2:",
     "shortname_alternates": [":basketball_player_tone2:", ":person_with_ball_tone2:"],
     "keywords": ["ball", "medium-light skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fc"
+    "unicode_output": "26f9-1f3fc"
   },
   "26f9-1f3fd": {
     "name": "person bouncing ball: medium skin tone",
@@ -3066,7 +3066,7 @@ var emojiStrategy = [
     "shortname": ":person_bouncing_ball_tone3:",
     "shortname_alternates": [":basketball_player_tone3:", ":person_with_ball_tone3:"],
     "keywords": ["ball", "medium skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fd"
+    "unicode_output": "26f9-1f3fd"
   },
   "26f9-1f3fe": {
     "name": "person bouncing ball: medium-dark skin tone",
@@ -3074,7 +3074,7 @@ var emojiStrategy = [
     "shortname": ":person_bouncing_ball_tone4:",
     "shortname_alternates": [":basketball_player_tone4:", ":person_with_ball_tone4:"],
     "keywords": ["ball", "medium-dark skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fe"
+    "unicode_output": "26f9-1f3fe"
   },
   "26f9-1f3ff": {
     "name": "person bouncing ball: dark skin tone",
@@ -3082,7 +3082,7 @@ var emojiStrategy = [
     "shortname": ":person_bouncing_ball_tone5:",
     "shortname_alternates": [":basketball_player_tone5:", ":person_with_ball_tone5:"],
     "keywords": ["ball", "dark skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3ff"
+    "unicode_output": "26f9-1f3ff"
   },
   "26f9-2640": {
     "name": "woman bouncing ball",
@@ -3098,7 +3098,7 @@ var emojiStrategy = [
     "shortname": ":woman_bouncing_ball_tone1:",
     "shortname_alternates": [":woman_bouncing_ball_light_skin_tone:"],
     "keywords": ["ball", "light skin tone", "woman", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fb-200d-2640-fe0f"
+    "unicode_output": "26f9-1f3fb-200d-2640-fe0f"
   },
   "26f9-1f3fc-2640": {
     "name": "woman bouncing ball: medium-light skin tone",
@@ -3106,7 +3106,7 @@ var emojiStrategy = [
     "shortname": ":woman_bouncing_ball_tone2:",
     "shortname_alternates": [":woman_bouncing_ball_medium_light_skin_tone:"],
     "keywords": ["ball", "medium-light skin tone", "woman", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fc-200d-2640-fe0f"
+    "unicode_output": "26f9-1f3fc-200d-2640-fe0f"
   },
   "26f9-1f3fd-2640": {
     "name": "woman bouncing ball: medium skin tone",
@@ -3114,7 +3114,7 @@ var emojiStrategy = [
     "shortname": ":woman_bouncing_ball_tone3:",
     "shortname_alternates": [":woman_bouncing_ball_medium_skin_tone:"],
     "keywords": ["ball", "medium skin tone", "woman", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fd-200d-2640-fe0f"
+    "unicode_output": "26f9-1f3fd-200d-2640-fe0f"
   },
   "26f9-1f3fe-2640": {
     "name": "woman bouncing ball: medium-dark skin tone",
@@ -3122,7 +3122,7 @@ var emojiStrategy = [
     "shortname": ":woman_bouncing_ball_tone4:",
     "shortname_alternates": [":woman_bouncing_ball_medium_dark_skin_tone:"],
     "keywords": ["ball", "medium-dark skin tone", "woman", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fe-200d-2640-fe0f"
+    "unicode_output": "26f9-1f3fe-200d-2640-fe0f"
   },
   "26f9-1f3ff-2640": {
     "name": "woman bouncing ball: dark skin tone",
@@ -3130,7 +3130,7 @@ var emojiStrategy = [
     "shortname": ":woman_bouncing_ball_tone5:",
     "shortname_alternates": [":woman_bouncing_ball_dark_skin_tone:"],
     "keywords": ["ball", "dark skin tone", "woman", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3ff-200d-2640-fe0f"
+    "unicode_output": "26f9-1f3ff-200d-2640-fe0f"
   },
   "26f9-2642": {
     "name": "man bouncing ball",
@@ -3146,7 +3146,7 @@ var emojiStrategy = [
     "shortname": ":man_bouncing_ball_tone1:",
     "shortname_alternates": [":man_bouncing_ball_light_skin_tone:"],
     "keywords": ["ball", "light skin tone", "man", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fb-200d-2642-fe0f"
+    "unicode_output": "26f9-1f3fb-200d-2642-fe0f"
   },
   "26f9-1f3fc-2642": {
     "name": "man bouncing ball: medium-light skin tone",
@@ -3154,7 +3154,7 @@ var emojiStrategy = [
     "shortname": ":man_bouncing_ball_tone2:",
     "shortname_alternates": [":man_bouncing_ball_medium_light_skin_tone:"],
     "keywords": ["ball", "man", "medium-light skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fc-200d-2642-fe0f"
+    "unicode_output": "26f9-1f3fc-200d-2642-fe0f"
   },
   "26f9-1f3fd-2642": {
     "name": "man bouncing ball: medium skin tone",
@@ -3162,7 +3162,7 @@ var emojiStrategy = [
     "shortname": ":man_bouncing_ball_tone3:",
     "shortname_alternates": [":man_bouncing_ball_medium_skin_tone:"],
     "keywords": ["ball", "man", "medium skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fd-200d-2642-fe0f"
+    "unicode_output": "26f9-1f3fd-200d-2642-fe0f"
   },
   "26f9-1f3fe-2642": {
     "name": "man bouncing ball: medium-dark skin tone",
@@ -3170,7 +3170,7 @@ var emojiStrategy = [
     "shortname": ":man_bouncing_ball_tone4:",
     "shortname_alternates": [":man_bouncing_ball_medium_dark_skin_tone:"],
     "keywords": ["ball", "man", "medium-dark skin tone", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3fe-200d-2642-fe0f"
+    "unicode_output": "26f9-1f3fe-200d-2642-fe0f"
   },
   "26f9-1f3ff-2642": {
     "name": "man bouncing ball: dark skin tone",
@@ -3178,7 +3178,7 @@ var emojiStrategy = [
     "shortname": ":man_bouncing_ball_tone5:",
     "shortname_alternates": [":man_bouncing_ball_dark_skin_tone:"],
     "keywords": ["ball", "dark skin tone", "man", "uc8"],
-    "unicode_output": "26f9-fe0f-1f3ff-200d-2642-fe0f"
+    "unicode_output": "26f9-1f3ff-200d-2642-fe0f"
   },
   "1f93a": {
     "name": "person fencing",
@@ -3338,7 +3338,7 @@ var emojiStrategy = [
     "shortname": ":person_golfing:",
     "shortname_alternates": [":golfer:"],
     "keywords": ["ball", "golf", "uc7"],
-    "unicode_output": "1f3cc-fe0f"
+    "unicode_output": "1f3cc"
   },
   "1f3cc-1f3fb": {
     "name": "person golfing: light skin tone",
@@ -3346,7 +3346,7 @@ var emojiStrategy = [
     "shortname": ":person_golfing_tone1:",
     "shortname_alternates": [":person_golfing_light_skin_tone:"],
     "keywords": ["ball", "golf", "light skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fb"
+    "unicode_output": "1f3cc-1f3fb"
   },
   "1f3cc-1f3fc": {
     "name": "person golfing: medium-light skin tone",
@@ -3354,7 +3354,7 @@ var emojiStrategy = [
     "shortname": ":person_golfing_tone2:",
     "shortname_alternates": [":person_golfing_medium_light_skin_tone:"],
     "keywords": ["ball", "golf", "medium-light skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fc"
+    "unicode_output": "1f3cc-1f3fc"
   },
   "1f3cc-1f3fd": {
     "name": "person golfing: medium skin tone",
@@ -3362,7 +3362,7 @@ var emojiStrategy = [
     "shortname": ":person_golfing_tone3:",
     "shortname_alternates": [":person_golfing_medium_skin_tone:"],
     "keywords": ["ball", "golf", "medium skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fd"
+    "unicode_output": "1f3cc-1f3fd"
   },
   "1f3cc-1f3fe": {
     "name": "person golfing: medium-dark skin tone",
@@ -3370,7 +3370,7 @@ var emojiStrategy = [
     "shortname": ":person_golfing_tone4:",
     "shortname_alternates": [":person_golfing_medium_dark_skin_tone:"],
     "keywords": ["ball", "golf", "medium-dark skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fe"
+    "unicode_output": "1f3cc-1f3fe"
   },
   "1f3cc-1f3ff": {
     "name": "person golfing: dark skin tone",
@@ -3378,7 +3378,7 @@ var emojiStrategy = [
     "shortname": ":person_golfing_tone5:",
     "shortname_alternates": [":person_golfing_dark_skin_tone:"],
     "keywords": ["ball", "dark skin tone", "golf", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3ff"
+    "unicode_output": "1f3cc-1f3ff"
   },
   "1f3cc-2640": {
     "name": "woman golfing",
@@ -3394,7 +3394,7 @@ var emojiStrategy = [
     "shortname": ":woman_golfing_tone1:",
     "shortname_alternates": [":woman_golfing_light_skin_tone:"],
     "keywords": ["golf", "light skin tone", "woman", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fb-200d-2640-fe0f"
+    "unicode_output": "1f3cc-1f3fb-200d-2640-fe0f"
   },
   "1f3cc-1f3fc-2640": {
     "name": "woman golfing: medium-light skin tone",
@@ -3402,7 +3402,7 @@ var emojiStrategy = [
     "shortname": ":woman_golfing_tone2:",
     "shortname_alternates": [":woman_golfing_medium_light_skin_tone:"],
     "keywords": ["golf", "medium-light skin tone", "woman", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fc-200d-2640-fe0f"
+    "unicode_output": "1f3cc-1f3fc-200d-2640-fe0f"
   },
   "1f3cc-1f3fd-2640": {
     "name": "woman golfing: medium skin tone",
@@ -3410,7 +3410,7 @@ var emojiStrategy = [
     "shortname": ":woman_golfing_tone3:",
     "shortname_alternates": [":woman_golfing_medium_skin_tone:"],
     "keywords": ["golf", "medium skin tone", "woman", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fd-200d-2640-fe0f"
+    "unicode_output": "1f3cc-1f3fd-200d-2640-fe0f"
   },
   "1f3cc-1f3fe-2640": {
     "name": "woman golfing: medium-dark skin tone",
@@ -3418,7 +3418,7 @@ var emojiStrategy = [
     "shortname": ":woman_golfing_tone4:",
     "shortname_alternates": [":woman_golfing_medium_dark_skin_tone:"],
     "keywords": ["golf", "medium-dark skin tone", "woman", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fe-200d-2640-fe0f"
+    "unicode_output": "1f3cc-1f3fe-200d-2640-fe0f"
   },
   "1f3cc-1f3ff-2640": {
     "name": "woman golfing: dark skin tone",
@@ -3426,7 +3426,7 @@ var emojiStrategy = [
     "shortname": ":woman_golfing_tone5:",
     "shortname_alternates": [":woman_golfing_dark_skin_tone:"],
     "keywords": ["dark skin tone", "golf", "woman", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3ff-200d-2640-fe0f"
+    "unicode_output": "1f3cc-1f3ff-200d-2640-fe0f"
   },
   "1f3cc-2642": {
     "name": "man golfing",
@@ -3442,7 +3442,7 @@ var emojiStrategy = [
     "shortname": ":man_golfing_tone1:",
     "shortname_alternates": [":man_golfing_light_skin_tone:"],
     "keywords": ["golf", "light skin tone", "man", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fb-200d-2642-fe0f"
+    "unicode_output": "1f3cc-1f3fb-200d-2642-fe0f"
   },
   "1f3cc-1f3fc-2642": {
     "name": "man golfing: medium-light skin tone",
@@ -3450,7 +3450,7 @@ var emojiStrategy = [
     "shortname": ":man_golfing_tone2:",
     "shortname_alternates": [":man_golfing_medium_light_skin_tone:"],
     "keywords": ["golf", "man", "medium-light skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fc-200d-2642-fe0f"
+    "unicode_output": "1f3cc-1f3fc-200d-2642-fe0f"
   },
   "1f3cc-1f3fd-2642": {
     "name": "man golfing: medium skin tone",
@@ -3458,7 +3458,7 @@ var emojiStrategy = [
     "shortname": ":man_golfing_tone3:",
     "shortname_alternates": [":man_golfing_medium_skin_tone:"],
     "keywords": ["golf", "man", "medium skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fd-200d-2642-fe0f"
+    "unicode_output": "1f3cc-1f3fd-200d-2642-fe0f"
   },
   "1f3cc-1f3fe-2642": {
     "name": "man golfing: medium-dark skin tone",
@@ -3466,7 +3466,7 @@ var emojiStrategy = [
     "shortname": ":man_golfing_tone4:",
     "shortname_alternates": [":man_golfing_medium_dark_skin_tone:"],
     "keywords": ["golf", "man", "medium-dark skin tone", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3fe-200d-2642-fe0f"
+    "unicode_output": "1f3cc-1f3fe-200d-2642-fe0f"
   },
   "1f3cc-1f3ff-2642": {
     "name": "man golfing: dark skin tone",
@@ -3474,7 +3474,7 @@ var emojiStrategy = [
     "shortname": ":man_golfing_tone5:",
     "shortname_alternates": [":man_golfing_dark_skin_tone:"],
     "keywords": ["dark skin tone", "golf", "man", "uc8"],
-    "unicode_output": "1f3cc-fe0f-1f3ff-200d-2642-fe0f"
+    "unicode_output": "1f3cc-1f3ff-200d-2642-fe0f"
   },
   "1f3c7": {
     "name": "horse racing",
@@ -5095,7 +5095,7 @@ var emojiStrategy = [
   "1f4f1": {
     "name": "mobile phone",
     "category": "objects",
-    "shortname": ":iphone:",
+    "shortname": ":mobile_phone:",
     "shortname_alternates": [],
     "keywords": ["cell", "mobile", "phone", "telephone", "uc6"],
     "unicode_output": "1f4f1"
@@ -9172,46 +9172,6 @@ var emojiStrategy = [
     "keywords": ["uc11"],
     "unicode_output": "1f9c2"
   },
-  "1f60a": {
-    "name": "smiling face with smiling eyes",
-    "category": "people",
-    "shortname": ":blush:",
-    "shortname_alternates": [],
-    "keywords": ["blush", "eye", "face", "smile", "uc6"],
-    "unicode_output": "1f60a"
-  },
-  "1f607": {
-    "name": "smiling face with halo",
-    "category": "people",
-    "shortname": ":innocent:",
-    "shortname_alternates": [],
-    "keywords": ["angel", "face", "fairy tale", "fantasy", "halo", "innocent", "smile", "uc6"],
-    "unicode_output": "1f607"
-  },
-  "1f642": {
-    "name": "slightly smiling face",
-    "category": "people",
-    "shortname": ":slight_smile:",
-    "shortname_alternates": [":slightly_smiling_face:"],
-    "keywords": ["face", "smile", "uc7"],
-    "unicode_output": "1f642"
-  },
-  "1f643": {
-    "name": "upside-down face",
-    "category": "people",
-    "shortname": ":upside_down:",
-    "shortname_alternates": [":upside_down_face:"],
-    "keywords": ["face", "upside-down", "uc8"],
-    "unicode_output": "1f643"
-  },
-  "1f609": {
-    "name": "winking face",
-    "category": "people",
-    "shortname": ":wink:",
-    "shortname_alternates": [],
-    "keywords": ["face", "wink", "uc6"],
-    "unicode_output": "1f609"
-  },
   "1f600": {
     "name": "grinning face",
     "category": "people",
@@ -9283,6 +9243,46 @@ var emojiStrategy = [
     "shortname_alternates": [],
     "keywords": ["face", "outlined", "relaxed", "smile", "uc1"],
     "unicode_output": "263a-fe0f"
+  },
+  "1f60a": {
+    "name": "smiling face with smiling eyes",
+    "category": "people",
+    "shortname": ":blush:",
+    "shortname_alternates": [],
+    "keywords": ["blush", "eye", "face", "smile", "uc6"],
+    "unicode_output": "1f60a"
+  },
+  "1f607": {
+    "name": "smiling face with halo",
+    "category": "people",
+    "shortname": ":innocent:",
+    "shortname_alternates": [],
+    "keywords": ["angel", "face", "fairy tale", "fantasy", "halo", "innocent", "smile", "uc6"],
+    "unicode_output": "1f607"
+  },
+  "1f642": {
+    "name": "slightly smiling face",
+    "category": "people",
+    "shortname": ":slight_smile:",
+    "shortname_alternates": [":slightly_smiling_face:"],
+    "keywords": ["face", "smile", "uc7"],
+    "unicode_output": "1f642"
+  },
+  "1f643": {
+    "name": "upside-down face",
+    "category": "people",
+    "shortname": ":upside_down:",
+    "shortname_alternates": [":upside_down_face:"],
+    "keywords": ["face", "upside-down", "uc8"],
+    "unicode_output": "1f643"
+  },
+  "1f609": {
+    "name": "winking face",
+    "category": "people",
+    "shortname": ":wink:",
+    "shortname_alternates": [],
+    "keywords": ["face", "wink", "uc6"],
+    "unicode_output": "1f609"
   },
   "1f60c": {
     "name": "relieved face",
@@ -9524,14 +9524,6 @@ var emojiStrategy = [
     "keywords": ["face", "tired", "weary", "uc6"],
     "unicode_output": "1f629"
   },
-  "1f971": {
-    "name": "yawning face",
-    "category": "people",
-    "shortname": ":yawning_face:",
-    "shortname_alternates": [],
-    "keywords": ["uc12"],
-    "unicode_output": "1f971"
-  },
   "1f97a": {
     "name": "pleading face",
     "category": "people",
@@ -9683,6 +9675,14 @@ var emojiStrategy = [
     "shortname_alternates": [],
     "keywords": ["uc10"],
     "unicode_output": "1f92d"
+  },
+  "1f971": {
+    "name": "yawning face",
+    "category": "people",
+    "shortname": ":yawning_face:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f971"
   },
   "1f92b": {
     "name": "shushing face",
@@ -10068,14 +10068,6 @@ var emojiStrategy = [
     "keywords": ["cat", "face", "pouting", "uc6"],
     "unicode_output": "1f63e"
   },
-  "1f91d": {
-    "name": "handshake",
-    "category": "people",
-    "shortname": ":handshake:",
-    "shortname_alternates": [":shaking_hands:"],
-    "keywords": ["agreement", "hand", "handshake", "meeting", "shake", "uc9"],
-    "unicode_output": "1f91d"
-  },
   "1f932": {
     "name": "palms up together",
     "category": "people",
@@ -10267,6 +10259,14 @@ var emojiStrategy = [
     "shortname_alternates": [],
     "keywords": ["clap", "dark skin tone", "hand", "uc8"],
     "unicode_output": "1f44f-1f3ff"
+  },
+  "1f91d": {
+    "name": "handshake",
+    "category": "people",
+    "shortname": ":handshake:",
+    "shortname_alternates": [":shaking_hands:"],
+    "keywords": ["agreement", "hand", "handshake", "meeting", "shake", "uc9"],
+    "unicode_output": "1f91d"
   },
   "1f44d": {
     "name": "thumbs up",
@@ -10618,7 +10618,7 @@ var emojiStrategy = [
     "shortname": ":v_tone1:",
     "shortname_alternates": [],
     "keywords": ["hand", "light skin tone", "v", "victory", "uc8"],
-    "unicode_output": "270c-fe0f-1f3fb"
+    "unicode_output": "270c-1f3fb"
   },
   "270c-1f3fc": {
     "name": "victory hand: medium-light skin tone",
@@ -10626,7 +10626,7 @@ var emojiStrategy = [
     "shortname": ":v_tone2:",
     "shortname_alternates": [],
     "keywords": ["hand", "medium-light skin tone", "v", "victory", "uc8"],
-    "unicode_output": "270c-fe0f-1f3fc"
+    "unicode_output": "270c-1f3fc"
   },
   "270c-1f3fd": {
     "name": "victory hand: medium skin tone",
@@ -10634,7 +10634,7 @@ var emojiStrategy = [
     "shortname": ":v_tone3:",
     "shortname_alternates": [],
     "keywords": ["hand", "medium skin tone", "v", "victory", "uc8"],
-    "unicode_output": "270c-fe0f-1f3fd"
+    "unicode_output": "270c-1f3fd"
   },
   "270c-1f3fe": {
     "name": "victory hand: medium-dark skin tone",
@@ -10642,7 +10642,7 @@ var emojiStrategy = [
     "shortname": ":v_tone4:",
     "shortname_alternates": [],
     "keywords": ["hand", "medium-dark skin tone", "v", "victory", "uc8"],
-    "unicode_output": "270c-fe0f-1f3fe"
+    "unicode_output": "270c-1f3fe"
   },
   "270c-1f3ff": {
     "name": "victory hand: dark skin tone",
@@ -10650,7 +10650,7 @@ var emojiStrategy = [
     "shortname": ":v_tone5:",
     "shortname_alternates": [],
     "keywords": ["dark skin tone", "hand", "v", "victory", "uc8"],
-    "unicode_output": "270c-fe0f-1f3ff"
+    "unicode_output": "270c-1f3ff"
   },
   "1f91f": {
     "name": "love-you gesture",
@@ -11050,7 +11050,7 @@ var emojiStrategy = [
     "shortname": ":point_up_tone1:",
     "shortname_alternates": [],
     "keywords": ["finger", "hand", "index", "light skin tone", "point", "up", "uc8"],
-    "unicode_output": "261d-fe0f-1f3fb"
+    "unicode_output": "261d-1f3fb"
   },
   "261d-1f3fc": {
     "name": "index pointing up: medium-light skin tone",
@@ -11058,7 +11058,7 @@ var emojiStrategy = [
     "shortname": ":point_up_tone2:",
     "shortname_alternates": [],
     "keywords": ["finger", "hand", "index", "medium-light skin tone", "point", "up", "uc8"],
-    "unicode_output": "261d-fe0f-1f3fc"
+    "unicode_output": "261d-1f3fc"
   },
   "261d-1f3fd": {
     "name": "index pointing up: medium skin tone",
@@ -11066,7 +11066,7 @@ var emojiStrategy = [
     "shortname": ":point_up_tone3:",
     "shortname_alternates": [],
     "keywords": ["finger", "hand", "index", "medium skin tone", "point", "up", "uc8"],
-    "unicode_output": "261d-fe0f-1f3fd"
+    "unicode_output": "261d-1f3fd"
   },
   "261d-1f3fe": {
     "name": "index pointing up: medium-dark skin tone",
@@ -11074,7 +11074,7 @@ var emojiStrategy = [
     "shortname": ":point_up_tone4:",
     "shortname_alternates": [],
     "keywords": ["finger", "hand", "index", "medium-dark skin tone", "point", "up", "uc8"],
-    "unicode_output": "261d-fe0f-1f3fe"
+    "unicode_output": "261d-1f3fe"
   },
   "261d-1f3ff": {
     "name": "index pointing up: dark skin tone",
@@ -11082,7 +11082,7 @@ var emojiStrategy = [
     "shortname": ":point_up_tone5:",
     "shortname_alternates": [],
     "keywords": ["dark skin tone", "finger", "hand", "index", "point", "up", "uc8"],
-    "unicode_output": "261d-fe0f-1f3ff"
+    "unicode_output": "261d-1f3ff"
   },
   "270b": {
     "name": "raised hand",
@@ -11186,7 +11186,7 @@ var emojiStrategy = [
     "shortname": ":hand_splayed:",
     "shortname_alternates": [":raised_hand_with_fingers_splayed:"],
     "keywords": ["finger", "hand", "splayed", "uc7"],
-    "unicode_output": "1f590-fe0f"
+    "unicode_output": "1f590"
   },
   "1f590-1f3fb": {
     "name": "hand with fingers splayed: light skin tone",
@@ -11194,7 +11194,7 @@ var emojiStrategy = [
     "shortname": ":hand_splayed_tone1:",
     "shortname_alternates": [":raised_hand_with_fingers_splayed_tone1:"],
     "keywords": ["finger", "hand", "light skin tone", "splayed", "uc8"],
-    "unicode_output": "1f590-fe0f-1f3fb"
+    "unicode_output": "1f590-1f3fb"
   },
   "1f590-1f3fc": {
     "name": "hand with fingers splayed: medium-light skin tone",
@@ -11202,7 +11202,7 @@ var emojiStrategy = [
     "shortname": ":hand_splayed_tone2:",
     "shortname_alternates": [":raised_hand_with_fingers_splayed_tone2:"],
     "keywords": ["finger", "hand", "medium-light skin tone", "splayed", "uc8"],
-    "unicode_output": "1f590-fe0f-1f3fc"
+    "unicode_output": "1f590-1f3fc"
   },
   "1f590-1f3fd": {
     "name": "hand with fingers splayed: medium skin tone",
@@ -11210,7 +11210,7 @@ var emojiStrategy = [
     "shortname": ":hand_splayed_tone3:",
     "shortname_alternates": [":raised_hand_with_fingers_splayed_tone3:"],
     "keywords": ["finger", "hand", "medium skin tone", "splayed", "uc8"],
-    "unicode_output": "1f590-fe0f-1f3fd"
+    "unicode_output": "1f590-1f3fd"
   },
   "1f590-1f3fe": {
     "name": "hand with fingers splayed: medium-dark skin tone",
@@ -11218,7 +11218,7 @@ var emojiStrategy = [
     "shortname": ":hand_splayed_tone4:",
     "shortname_alternates": [":raised_hand_with_fingers_splayed_tone4:"],
     "keywords": ["finger", "hand", "medium-dark skin tone", "splayed", "uc8"],
-    "unicode_output": "1f590-fe0f-1f3fe"
+    "unicode_output": "1f590-1f3fe"
   },
   "1f590-1f3ff": {
     "name": "hand with fingers splayed: dark skin tone",
@@ -11226,7 +11226,7 @@ var emojiStrategy = [
     "shortname": ":hand_splayed_tone5:",
     "shortname_alternates": [":raised_hand_with_fingers_splayed_tone5:"],
     "keywords": ["dark skin tone", "finger", "hand", "splayed", "uc8"],
-    "unicode_output": "1f590-fe0f-1f3ff"
+    "unicode_output": "1f590-1f3ff"
   },
   "1f596": {
     "name": "vulcan salute",
@@ -11490,7 +11490,7 @@ var emojiStrategy = [
     "shortname": ":writing_hand_tone1:",
     "shortname_alternates": [],
     "keywords": ["hand", "light skin tone", "write", "uc8"],
-    "unicode_output": "270d-fe0f-1f3fb"
+    "unicode_output": "270d-1f3fb"
   },
   "270d-1f3fc": {
     "name": "writing hand: medium-light skin tone",
@@ -11498,7 +11498,7 @@ var emojiStrategy = [
     "shortname": ":writing_hand_tone2:",
     "shortname_alternates": [],
     "keywords": ["hand", "medium-light skin tone", "write", "uc8"],
-    "unicode_output": "270d-fe0f-1f3fc"
+    "unicode_output": "270d-1f3fc"
   },
   "270d-1f3fd": {
     "name": "writing hand: medium skin tone",
@@ -11506,7 +11506,7 @@ var emojiStrategy = [
     "shortname": ":writing_hand_tone3:",
     "shortname_alternates": [],
     "keywords": ["hand", "medium skin tone", "write", "uc8"],
-    "unicode_output": "270d-fe0f-1f3fd"
+    "unicode_output": "270d-1f3fd"
   },
   "270d-1f3fe": {
     "name": "writing hand: medium-dark skin tone",
@@ -11514,7 +11514,7 @@ var emojiStrategy = [
     "shortname": ":writing_hand_tone4:",
     "shortname_alternates": [],
     "keywords": ["hand", "medium-dark skin tone", "write", "uc8"],
-    "unicode_output": "270d-fe0f-1f3fe"
+    "unicode_output": "270d-1f3fe"
   },
   "270d-1f3ff": {
     "name": "writing hand: dark skin tone",
@@ -11522,7 +11522,7 @@ var emojiStrategy = [
     "shortname": ":writing_hand_tone5:",
     "shortname_alternates": [],
     "keywords": ["dark skin tone", "hand", "write", "uc8"],
-    "unicode_output": "270d-fe0f-1f3ff"
+    "unicode_output": "270d-1f3ff"
   },
   "1f64f": {
     "name": "folded hands",
@@ -11700,14 +11700,6 @@ var emojiStrategy = [
     "keywords": ["lips", "uc6"],
     "unicode_output": "1f444"
   },
-  "1f445": {
-    "name": "tongue",
-    "category": "people",
-    "shortname": ":tongue:",
-    "shortname_alternates": [],
-    "keywords": ["body", "uc6"],
-    "unicode_output": "1f445"
-  },
   "1f9b7": {
     "name": "tooth",
     "category": "people",
@@ -11723,6 +11715,14 @@ var emojiStrategy = [
     "shortname_alternates": [],
     "keywords": ["uc11"],
     "unicode_output": "1f9b4"
+  },
+  "1f445": {
+    "name": "tongue",
+    "category": "people",
+    "shortname": ":tongue:",
+    "shortname_alternates": [],
+    "keywords": ["body", "uc6"],
+    "unicode_output": "1f445"
   },
   "1f442": {
     "name": "ear",
@@ -12173,7 +12173,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d1"
   },
   "1f9d1-1f3fb": {
-    "name": "adult: light skin tone",
+    "name": "person: light skin tone",
     "category": "people",
     "shortname": ":adult_tone1:",
     "shortname_alternates": [":adult_light_skin_tone:"],
@@ -12181,7 +12181,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d1-1f3fb"
   },
   "1f9d1-1f3fc": {
-    "name": "adult: medium-light skin tone",
+    "name": "person: medium-light skin tone",
     "category": "people",
     "shortname": ":adult_tone2:",
     "shortname_alternates": [":adult_medium_light_skin_tone:"],
@@ -12189,7 +12189,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d1-1f3fc"
   },
   "1f9d1-1f3fd": {
-    "name": "adult: medium skin tone",
+    "name": "person: medium skin tone",
     "category": "people",
     "shortname": ":adult_tone3:",
     "shortname_alternates": [":adult_medium_skin_tone:"],
@@ -12197,7 +12197,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d1-1f3fd"
   },
   "1f9d1-1f3fe": {
-    "name": "adult: medium-dark skin tone",
+    "name": "person: medium-dark skin tone",
     "category": "people",
     "shortname": ":adult_tone4:",
     "shortname_alternates": [":adult_medium_dark_skin_tone:"],
@@ -12205,7 +12205,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d1-1f3fe"
   },
   "1f9d1-1f3ff": {
-    "name": "adult: dark skin tone",
+    "name": "person: dark skin tone",
     "category": "people",
     "shortname": ":adult_tone5:",
     "shortname_alternates": [":adult_dark_skin_tone:"],
@@ -12259,6 +12259,54 @@ var emojiStrategy = [
     "shortname_alternates": [],
     "keywords": ["dark skin tone", "man", "uc8"],
     "unicode_output": "1f468-1f3ff"
+  },
+  "1f9d1-1f9b1": {
+    "name": "person: curly hair",
+    "category": "people",
+    "shortname": ":person_curly_hair:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9b1"
+  },
+  "1f9d1-1f3fb-1f9b1": {
+    "name": "person: light skin tone, curly hair",
+    "category": "people",
+    "shortname": ":person_tone1_curly_hair:",
+    "shortname_alternates": [":person_light_skin_tone_curly_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9b1"
+  },
+  "1f9d1-1f3fc-1f9b1": {
+    "name": "person: medium-light skin tone, curly hair",
+    "category": "people",
+    "shortname": ":person_tone2_curly_hair:",
+    "shortname_alternates": [":person_medium_light_skin_tone_curly_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9b1"
+  },
+  "1f9d1-1f3fd-1f9b1": {
+    "name": "person: medium skin tone, curly hair",
+    "category": "people",
+    "shortname": ":person_tone3_curly_hair:",
+    "shortname_alternates": [":person_medium_skin_tone_curly_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9b1"
+  },
+  "1f9d1-1f3fe-1f9b1": {
+    "name": "person: medium-dark skin tone, curly hair",
+    "category": "people",
+    "shortname": ":person_tone4_curly_hair:",
+    "shortname_alternates": [":person_medium_dark_skin_tone_curly_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9b1"
+  },
+  "1f9d1-1f3ff-1f9b1": {
+    "name": "person: dark skin tone, curly hair",
+    "category": "people",
+    "shortname": ":person_tone5_curly_hair:",
+    "shortname_alternates": [":person_dark_skin_tone_curly_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9b1"
   },
   "1f469-1f9b1": {
     "name": "woman: curly hair",
@@ -12355,6 +12403,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_curly_haired_dark_skin_tone:"],
     "keywords": ["uc11"],
     "unicode_output": "1f468-1f3ff-200d-1f9b1"
+  },
+  "1f9d1-1f9b0": {
+    "name": "person: red hair",
+    "category": "people",
+    "shortname": ":person_red_hair:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9b0"
+  },
+  "1f9d1-1f3fb-1f9b0": {
+    "name": "person: light skin tone, red hair",
+    "category": "people",
+    "shortname": ":person_tone1_red_hair:",
+    "shortname_alternates": [":person_light_skin_tone_red_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9b0"
+  },
+  "1f9d1-1f3fc-1f9b0": {
+    "name": "person: medium-light skin tone, red hair",
+    "category": "people",
+    "shortname": ":person_tone2_red_hair:",
+    "shortname_alternates": [":person_medium_light_skin_tone_red_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9b0"
+  },
+  "1f9d1-1f3fd-1f9b0": {
+    "name": "person: medium skin tone, red hair",
+    "category": "people",
+    "shortname": ":person_tone3_red_hair:",
+    "shortname_alternates": [":person_medium_skin_tone_red_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9b0"
+  },
+  "1f9d1-1f3fe-1f9b0": {
+    "name": "person: medium-dark skin tone, red hair",
+    "category": "people",
+    "shortname": ":person_tone4_red_hair:",
+    "shortname_alternates": [":person_medium_dark_skin_tone_red_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9b0"
+  },
+  "1f9d1-1f3ff-1f9b0": {
+    "name": "person: dark skin tone, red hair",
+    "category": "people",
+    "shortname": ":person_tone5_red_hair:",
+    "shortname_alternates": [":person_dark_skin_tone_red_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9b0"
   },
   "1f469-1f9b0": {
     "name": "woman: red hair",
@@ -12596,6 +12692,54 @@ var emojiStrategy = [
     "keywords": ["blond", "dark skin tone", "man", "uc8"],
     "unicode_output": "1f471-1f3ff-200d-2642-fe0f"
   },
+  "1f9d1-1f9b3": {
+    "name": "person: white hair",
+    "category": "people",
+    "shortname": ":person_white_hair:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9b3"
+  },
+  "1f9d1-1f3fb-1f9b3": {
+    "name": "person: light skin tone, white hair",
+    "category": "people",
+    "shortname": ":person_tone1_white_hair:",
+    "shortname_alternates": [":person_light_skin_tone_white_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9b3"
+  },
+  "1f9d1-1f3fc-1f9b3": {
+    "name": "person: medium-light skin tone, white hair",
+    "category": "people",
+    "shortname": ":person_tone2_white_hair:",
+    "shortname_alternates": [":person_medium_light_skin_tone_white_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9b3"
+  },
+  "1f9d1-1f3fd-1f9b3": {
+    "name": "person: medium skin tone, white hair",
+    "category": "people",
+    "shortname": ":person_tone3_white_hair:",
+    "shortname_alternates": [":person_medium_skin_tone_white_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9b3"
+  },
+  "1f9d1-1f3fe-1f9b3": {
+    "name": "person: medium-dark skin tone, white hair",
+    "category": "people",
+    "shortname": ":person_tone4_white_hair:",
+    "shortname_alternates": [":person_medium_dark_skin_tone_white_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9b3"
+  },
+  "1f9d1-1f3ff-1f9b3": {
+    "name": "person: dark skin tone, white hair",
+    "category": "people",
+    "shortname": ":person_tone5_white_hair:",
+    "shortname_alternates": [":person_dark_skin_tone_white_hair:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9b3"
+  },
   "1f469-1f9b3": {
     "name": "woman: white hair",
     "category": "people",
@@ -12691,6 +12835,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_white_haired_dark_skin_tone:"],
     "keywords": ["uc11"],
     "unicode_output": "1f468-1f3ff-200d-1f9b3"
+  },
+  "1f9d1-1f9b2": {
+    "name": "person: bald",
+    "category": "people",
+    "shortname": ":person_bald:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9b2"
+  },
+  "1f9d1-1f3fb-1f9b2": {
+    "name": "person: light skin tone, bald",
+    "category": "people",
+    "shortname": ":person_tone1_bald:",
+    "shortname_alternates": [":person_light_skin_tone_bald:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9b2"
+  },
+  "1f9d1-1f3fc-1f9b2": {
+    "name": "person: medium-light skin tone, bald",
+    "category": "people",
+    "shortname": ":person_tone2_bald:",
+    "shortname_alternates": [":person_medium_light_skin_tone_bald:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9b2"
+  },
+  "1f9d1-1f3fd-1f9b2": {
+    "name": "person: medium skin tone, bald",
+    "category": "people",
+    "shortname": ":person_tone3_bald:",
+    "shortname_alternates": [":person_medium_skin_tone_bald:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9b2"
+  },
+  "1f9d1-1f3fe-1f9b2": {
+    "name": "person: medium-dark skin tone, bald",
+    "category": "people",
+    "shortname": ":person_tone4_bald:",
+    "shortname_alternates": [":person_medium_dark_skin_tone_bald:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9b2"
+  },
+  "1f9d1-1f3ff-1f9b2": {
+    "name": "person: dark skin tone, bald",
+    "category": "people",
+    "shortname": ":person_tone5_bald:",
+    "shortname_alternates": [":person_dark_skin_tone_bald:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9b2"
   },
   "1f469-1f9b2": {
     "name": "woman: bald",
@@ -12893,7 +13085,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d3"
   },
   "1f9d3-1f3fb": {
-    "name": "older adult: light skin tone",
+    "name": "older person: light skin tone",
     "category": "people",
     "shortname": ":older_adult_tone1:",
     "shortname_alternates": [":older_adult_light_skin_tone:"],
@@ -12901,7 +13093,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d3-1f3fb"
   },
   "1f9d3-1f3fc": {
-    "name": "older adult: medium-light skin tone",
+    "name": "older person: medium-light skin tone",
     "category": "people",
     "shortname": ":older_adult_tone2:",
     "shortname_alternates": [":older_adult_medium_light_skin_tone:"],
@@ -12909,7 +13101,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d3-1f3fc"
   },
   "1f9d3-1f3fd": {
-    "name": "older adult: medium skin tone",
+    "name": "older person: medium skin tone",
     "category": "people",
     "shortname": ":older_adult_tone3:",
     "shortname_alternates": [":older_adult_medium_skin_tone:"],
@@ -12917,7 +13109,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d3-1f3fd"
   },
   "1f9d3-1f3fe": {
-    "name": "older adult: medium-dark skin tone",
+    "name": "older person: medium-dark skin tone",
     "category": "people",
     "shortname": ":older_adult_tone4:",
     "shortname_alternates": [":older_adult_medium_dark_skin_tone:"],
@@ -12925,7 +13117,7 @@ var emojiStrategy = [
     "unicode_output": "1f9d3-1f3fe"
   },
   "1f9d3-1f3ff": {
-    "name": "older adult: dark skin tone",
+    "name": "older person: dark skin tone",
     "category": "people",
     "shortname": ":older_adult_tone5:",
     "shortname_alternates": [":older_adult_dark_skin_tone:"],
@@ -13658,7 +13850,7 @@ var emojiStrategy = [
     "shortname": ":detective:",
     "shortname_alternates": [":spy:", ":sleuth_or_spy:"],
     "keywords": ["detective", "sleuth", "spy", "uc7"],
-    "unicode_output": "1f575-fe0f"
+    "unicode_output": "1f575"
   },
   "1f575-1f3fb": {
     "name": "detective: light skin tone",
@@ -13666,7 +13858,7 @@ var emojiStrategy = [
     "shortname": ":detective_tone1:",
     "shortname_alternates": [":spy_tone1:", ":sleuth_or_spy_tone1:"],
     "keywords": ["detective", "light skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fb"
+    "unicode_output": "1f575-1f3fb"
   },
   "1f575-1f3fc": {
     "name": "detective: medium-light skin tone",
@@ -13674,7 +13866,7 @@ var emojiStrategy = [
     "shortname": ":detective_tone2:",
     "shortname_alternates": [":spy_tone2:", ":sleuth_or_spy_tone2:"],
     "keywords": ["detective", "medium-light skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fc"
+    "unicode_output": "1f575-1f3fc"
   },
   "1f575-1f3fd": {
     "name": "detective: medium skin tone",
@@ -13682,7 +13874,7 @@ var emojiStrategy = [
     "shortname": ":detective_tone3:",
     "shortname_alternates": [":spy_tone3:", ":sleuth_or_spy_tone3:"],
     "keywords": ["detective", "medium skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fd"
+    "unicode_output": "1f575-1f3fd"
   },
   "1f575-1f3fe": {
     "name": "detective: medium-dark skin tone",
@@ -13690,7 +13882,7 @@ var emojiStrategy = [
     "shortname": ":detective_tone4:",
     "shortname_alternates": [":spy_tone4:", ":sleuth_or_spy_tone4:"],
     "keywords": ["detective", "medium-dark skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fe"
+    "unicode_output": "1f575-1f3fe"
   },
   "1f575-1f3ff": {
     "name": "detective: dark skin tone",
@@ -13698,7 +13890,7 @@ var emojiStrategy = [
     "shortname": ":detective_tone5:",
     "shortname_alternates": [":spy_tone5:", ":sleuth_or_spy_tone5:"],
     "keywords": ["dark skin tone", "detective", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3ff"
+    "unicode_output": "1f575-1f3ff"
   },
   "1f575-2640": {
     "name": "woman detective",
@@ -13714,7 +13906,7 @@ var emojiStrategy = [
     "shortname": ":woman_detective_tone1:",
     "shortname_alternates": [":woman_detective_light_skin_tone:"],
     "keywords": ["detective", "light skin tone", "sleuth", "spy", "woman", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fb-200d-2640-fe0f"
+    "unicode_output": "1f575-1f3fb-200d-2640-fe0f"
   },
   "1f575-1f3fc-2640": {
     "name": "woman detective: medium-light skin tone",
@@ -13722,7 +13914,7 @@ var emojiStrategy = [
     "shortname": ":woman_detective_tone2:",
     "shortname_alternates": [":woman_detective_medium_light_skin_tone:"],
     "keywords": ["detective", "medium-light skin tone", "sleuth", "spy", "woman", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fc-200d-2640-fe0f"
+    "unicode_output": "1f575-1f3fc-200d-2640-fe0f"
   },
   "1f575-1f3fd-2640": {
     "name": "woman detective: medium skin tone",
@@ -13730,7 +13922,7 @@ var emojiStrategy = [
     "shortname": ":woman_detective_tone3:",
     "shortname_alternates": [":woman_detective_medium_skin_tone:"],
     "keywords": ["detective", "medium skin tone", "sleuth", "spy", "woman", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fd-200d-2640-fe0f"
+    "unicode_output": "1f575-1f3fd-200d-2640-fe0f"
   },
   "1f575-1f3fe-2640": {
     "name": "woman detective: medium-dark skin tone",
@@ -13738,7 +13930,7 @@ var emojiStrategy = [
     "shortname": ":woman_detective_tone4:",
     "shortname_alternates": [":woman_detective_medium_dark_skin_tone:"],
     "keywords": ["detective", "medium-dark skin tone", "sleuth", "spy", "woman", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fe-200d-2640-fe0f"
+    "unicode_output": "1f575-1f3fe-200d-2640-fe0f"
   },
   "1f575-1f3ff-2640": {
     "name": "woman detective: dark skin tone",
@@ -13746,7 +13938,7 @@ var emojiStrategy = [
     "shortname": ":woman_detective_tone5:",
     "shortname_alternates": [":woman_detective_dark_skin_tone:"],
     "keywords": ["dark skin tone", "detective", "sleuth", "spy", "woman", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3ff-200d-2640-fe0f"
+    "unicode_output": "1f575-1f3ff-200d-2640-fe0f"
   },
   "1f575-2642": {
     "name": "man detective",
@@ -13762,7 +13954,7 @@ var emojiStrategy = [
     "shortname": ":man_detective_tone1:",
     "shortname_alternates": [":man_detective_light_skin_tone:"],
     "keywords": ["detective", "light skin tone", "man", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fb-200d-2642-fe0f"
+    "unicode_output": "1f575-1f3fb-200d-2642-fe0f"
   },
   "1f575-1f3fc-2642": {
     "name": "man detective: medium-light skin tone",
@@ -13770,7 +13962,7 @@ var emojiStrategy = [
     "shortname": ":man_detective_tone2:",
     "shortname_alternates": [":man_detective_medium_light_skin_tone:"],
     "keywords": ["detective", "man", "medium-light skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fc-200d-2642-fe0f"
+    "unicode_output": "1f575-1f3fc-200d-2642-fe0f"
   },
   "1f575-1f3fd-2642": {
     "name": "man detective: medium skin tone",
@@ -13778,7 +13970,7 @@ var emojiStrategy = [
     "shortname": ":man_detective_tone3:",
     "shortname_alternates": [":man_detective_medium_skin_tone:"],
     "keywords": ["detective", "man", "medium skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fd-200d-2642-fe0f"
+    "unicode_output": "1f575-1f3fd-200d-2642-fe0f"
   },
   "1f575-1f3fe-2642": {
     "name": "man detective: medium-dark skin tone",
@@ -13786,7 +13978,7 @@ var emojiStrategy = [
     "shortname": ":man_detective_tone4:",
     "shortname_alternates": [":man_detective_medium_dark_skin_tone:"],
     "keywords": ["detective", "man", "medium-dark skin tone", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3fe-200d-2642-fe0f"
+    "unicode_output": "1f575-1f3fe-200d-2642-fe0f"
   },
   "1f575-1f3ff-2642": {
     "name": "man detective: dark skin tone",
@@ -13794,7 +13986,55 @@ var emojiStrategy = [
     "shortname": ":man_detective_tone5:",
     "shortname_alternates": [":man_detective_dark_skin_tone:"],
     "keywords": ["dark skin tone", "detective", "man", "sleuth", "spy", "uc8"],
-    "unicode_output": "1f575-fe0f-1f3ff-200d-2642-fe0f"
+    "unicode_output": "1f575-1f3ff-200d-2642-fe0f"
+  },
+  "1f9d1-2695": {
+    "name": "health worker",
+    "category": "people",
+    "shortname": ":health_worker:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-2695-fe0f"
+  },
+  "1f9d1-1f3fb-2695": {
+    "name": "health worker: light skin tone",
+    "category": "people",
+    "shortname": ":health_worker_tone1:",
+    "shortname_alternates": [":health_worker_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-2695-fe0f"
+  },
+  "1f9d1-1f3fc-2695": {
+    "name": "health worker: medium-light skin tone",
+    "category": "people",
+    "shortname": ":health_worker_tone2:",
+    "shortname_alternates": [":health_worker_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-2695-fe0f"
+  },
+  "1f9d1-1f3fd-2695": {
+    "name": "health worker: medium skin tone",
+    "category": "people",
+    "shortname": ":health_worker_tone3:",
+    "shortname_alternates": [":health_worker_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-2695-fe0f"
+  },
+  "1f9d1-1f3fe-2695": {
+    "name": "health worker: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":health_worker_tone4:",
+    "shortname_alternates": [":health_worker_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-2695-fe0f"
+  },
+  "1f9d1-1f3ff-2695": {
+    "name": "health worker: dark skin tone",
+    "category": "people",
+    "shortname": ":health_worker_tone5:",
+    "shortname_alternates": [":health_worker_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-2695-fe0f"
   },
   "1f469-2695": {
     "name": "woman health worker",
@@ -13892,6 +14132,54 @@ var emojiStrategy = [
     "keywords": ["dark skin tone", "doctor", "healthcare", "man", "nurse", "therapist", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-2695-fe0f"
   },
+  "1f9d1-1f33e": {
+    "name": "farmer",
+    "category": "people",
+    "shortname": ":farmer:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f33e"
+  },
+  "1f9d1-1f3fb-1f33e": {
+    "name": "farmer: light skin tone",
+    "category": "people",
+    "shortname": ":farmer_tone1:",
+    "shortname_alternates": [":farmer_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f33e"
+  },
+  "1f9d1-1f3fc-1f33e": {
+    "name": "farmer: medium-light skin tone",
+    "category": "people",
+    "shortname": ":farmer_tone2:",
+    "shortname_alternates": [":farmer_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f33e"
+  },
+  "1f9d1-1f3fd-1f33e": {
+    "name": "farmer: medium skin tone",
+    "category": "people",
+    "shortname": ":farmer_tone3:",
+    "shortname_alternates": [":farmer_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f33e"
+  },
+  "1f9d1-1f3fe-1f33e": {
+    "name": "farmer: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":farmer_tone4:",
+    "shortname_alternates": [":farmer_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f33e"
+  },
+  "1f9d1-1f3ff-1f33e": {
+    "name": "farmer: dark skin tone",
+    "category": "people",
+    "shortname": ":farmer_tone5:",
+    "shortname_alternates": [":farmer_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f33e"
+  },
   "1f469-1f33e": {
     "name": "woman farmer",
     "category": "people",
@@ -13987,6 +14275,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_farmer_dark_skin_tone:"],
     "keywords": ["dark skin tone", "farmer", "gardener", "man", "rancher", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f33e"
+  },
+  "1f9d1-1f373": {
+    "name": "cook",
+    "category": "people",
+    "shortname": ":cook:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f373"
+  },
+  "1f9d1-1f3fb-1f373": {
+    "name": "cook: light skin tone",
+    "category": "people",
+    "shortname": ":cook_tone1:",
+    "shortname_alternates": [":cook_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f373"
+  },
+  "1f9d1-1f3fc-1f373": {
+    "name": "cook: medium-light skin tone",
+    "category": "people",
+    "shortname": ":cook_tone2:",
+    "shortname_alternates": [":cook_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f373"
+  },
+  "1f9d1-1f3fd-1f373": {
+    "name": "cook: medium skin tone",
+    "category": "people",
+    "shortname": ":cook_tone3:",
+    "shortname_alternates": [":cook_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f373"
+  },
+  "1f9d1-1f3fe-1f373": {
+    "name": "cook: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":cook_tone4:",
+    "shortname_alternates": [":cook_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f373"
+  },
+  "1f9d1-1f3ff-1f373": {
+    "name": "cook: dark skin tone",
+    "category": "people",
+    "shortname": ":cook_tone5:",
+    "shortname_alternates": [":cook_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f373"
   },
   "1f469-1f373": {
     "name": "woman cook",
@@ -14084,6 +14420,54 @@ var emojiStrategy = [
     "keywords": ["chef", "cook", "dark skin tone", "man", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f373"
   },
+  "1f9d1-1f393": {
+    "name": "student",
+    "category": "people",
+    "shortname": ":student:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f393"
+  },
+  "1f9d1-1f3fb-1f393": {
+    "name": "student: light skin tone",
+    "category": "people",
+    "shortname": ":student_tone1:",
+    "shortname_alternates": [":student_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f393"
+  },
+  "1f9d1-1f3fc-1f393": {
+    "name": "student: medium-light skin tone",
+    "category": "people",
+    "shortname": ":student_tone2:",
+    "shortname_alternates": [":student_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f393"
+  },
+  "1f9d1-1f3fd-1f393": {
+    "name": "student: medium skin tone",
+    "category": "people",
+    "shortname": ":student_tone3:",
+    "shortname_alternates": [":student_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f393"
+  },
+  "1f9d1-1f3fe-1f393": {
+    "name": "student: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":student_tone4:",
+    "shortname_alternates": [":student_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f393"
+  },
+  "1f9d1-1f3ff-1f393": {
+    "name": "student: dark skin tone",
+    "category": "people",
+    "shortname": ":student_tone5:",
+    "shortname_alternates": [":student_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f393"
+  },
   "1f469-1f393": {
     "name": "woman student",
     "category": "people",
@@ -14179,6 +14563,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_student_dark_skin_tone:"],
     "keywords": ["dark skin tone", "graduate", "man", "student", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f393"
+  },
+  "1f9d1-1f3a4": {
+    "name": "singer",
+    "category": "people",
+    "shortname": ":singer:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f3a4"
+  },
+  "1f9d1-1f3fb-1f3a4": {
+    "name": "singer: light skin tone",
+    "category": "people",
+    "shortname": ":singer_tone1:",
+    "shortname_alternates": [":singer_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f3a4"
+  },
+  "1f9d1-1f3fc-1f3a4": {
+    "name": "singer: medium-light skin tone",
+    "category": "people",
+    "shortname": ":singer_tone2:",
+    "shortname_alternates": [":singer_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f3a4"
+  },
+  "1f9d1-1f3fd-1f3a4": {
+    "name": "singer: medium skin tone",
+    "category": "people",
+    "shortname": ":singer_tone3:",
+    "shortname_alternates": [":singer_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f3a4"
+  },
+  "1f9d1-1f3fe-1f3a4": {
+    "name": "singer: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":singer_tone4:",
+    "shortname_alternates": [":singer_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f3a4"
+  },
+  "1f9d1-1f3ff-1f3a4": {
+    "name": "singer: dark skin tone",
+    "category": "people",
+    "shortname": ":singer_tone5:",
+    "shortname_alternates": [":singer_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f3a4"
   },
   "1f469-1f3a4": {
     "name": "woman singer",
@@ -14276,6 +14708,54 @@ var emojiStrategy = [
     "keywords": ["actor", "dark skin tone", "entertainer", "man", "rock", "singer", "star", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f3a4"
   },
+  "1f9d1-1f3eb": {
+    "name": "teacher",
+    "category": "people",
+    "shortname": ":teacher:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f3eb"
+  },
+  "1f9d1-1f3fb-1f3eb": {
+    "name": "teacher: light skin tone",
+    "category": "people",
+    "shortname": ":teacher_tone1:",
+    "shortname_alternates": [":teacher_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f3eb"
+  },
+  "1f9d1-1f3fc-1f3eb": {
+    "name": "teacher: medium-light skin tone",
+    "category": "people",
+    "shortname": ":teacher_tone2:",
+    "shortname_alternates": [":teacher_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f3eb"
+  },
+  "1f9d1-1f3fd-1f3eb": {
+    "name": "teacher: medium skin tone",
+    "category": "people",
+    "shortname": ":teacher_tone3:",
+    "shortname_alternates": [":teacher_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f3eb"
+  },
+  "1f9d1-1f3fe-1f3eb": {
+    "name": "teacher: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":teacher_tone4:",
+    "shortname_alternates": [":teacher_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f3eb"
+  },
+  "1f9d1-1f3ff-1f3eb": {
+    "name": "teacher: dark skin tone",
+    "category": "people",
+    "shortname": ":teacher_tone5:",
+    "shortname_alternates": [":teacher_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f3eb"
+  },
   "1f469-1f3eb": {
     "name": "woman teacher",
     "category": "people",
@@ -14371,6 +14851,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_teacher_dark_skin_tone:"],
     "keywords": ["dark skin tone", "instructor", "man", "professor", "teacher", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f3eb"
+  },
+  "1f9d1-1f3ed": {
+    "name": "factory worker",
+    "category": "people",
+    "shortname": ":factory_worker:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f3ed"
+  },
+  "1f9d1-1f3fb-1f3ed": {
+    "name": "factory worker: light skin tone",
+    "category": "people",
+    "shortname": ":factory_worker_tone1:",
+    "shortname_alternates": [":factory_worker_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f3ed"
+  },
+  "1f9d1-1f3fc-1f3ed": {
+    "name": "factory worker: medium-light skin tone",
+    "category": "people",
+    "shortname": ":factory_worker_tone2:",
+    "shortname_alternates": [":factory_worker_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f3ed"
+  },
+  "1f9d1-1f3fd-1f3ed": {
+    "name": "factory worker: medium skin tone",
+    "category": "people",
+    "shortname": ":factory_worker_tone3:",
+    "shortname_alternates": [":factory_worker_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f3ed"
+  },
+  "1f9d1-1f3fe-1f3ed": {
+    "name": "factory worker: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":factory_worker_tone4:",
+    "shortname_alternates": [":factory_worker_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f3ed"
+  },
+  "1f9d1-1f3ff-1f3ed": {
+    "name": "factory worker: dark skin tone",
+    "category": "people",
+    "shortname": ":factory_worker_tone5:",
+    "shortname_alternates": [":factory_worker_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f3ed"
   },
   "1f469-1f3ed": {
     "name": "woman factory worker",
@@ -14468,6 +14996,54 @@ var emojiStrategy = [
     "keywords": ["assembly", "dark skin tone", "factory", "industrial", "man", "worker", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f3ed"
   },
+  "1f9d1-1f4bb": {
+    "name": "technologist",
+    "category": "people",
+    "shortname": ":technologist:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f4bb"
+  },
+  "1f9d1-1f3fb-1f4bb": {
+    "name": "technologist: light skin tone",
+    "category": "people",
+    "shortname": ":technologist_tone1:",
+    "shortname_alternates": [":technologist_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f4bb"
+  },
+  "1f9d1-1f3fc-1f4bb": {
+    "name": "technologist: medium-light skin tone",
+    "category": "people",
+    "shortname": ":technologist_tone2:",
+    "shortname_alternates": [":technologist_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f4bb"
+  },
+  "1f9d1-1f3fd-1f4bb": {
+    "name": "technologist: medium skin tone",
+    "category": "people",
+    "shortname": ":technologist_tone3:",
+    "shortname_alternates": [":technologist_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f4bb"
+  },
+  "1f9d1-1f3fe-1f4bb": {
+    "name": "technologist: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":technologist_tone4:",
+    "shortname_alternates": [":technologist_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f4bb"
+  },
+  "1f9d1-1f3ff-1f4bb": {
+    "name": "technologist: dark skin tone",
+    "category": "people",
+    "shortname": ":technologist_tone5:",
+    "shortname_alternates": [":technologist_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f4bb"
+  },
   "1f469-1f4bb": {
     "name": "woman technologist",
     "category": "people",
@@ -14563,6 +15139,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_technologist_dark_skin_tone:"],
     "keywords": ["coder", "dark skin tone", "developer", "inventor", "man", "software", "technologist", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f4bb"
+  },
+  "1f9d1-1f4bc": {
+    "name": "office worker",
+    "category": "people",
+    "shortname": ":office_worker:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f4bc"
+  },
+  "1f9d1-1f3fb-1f4bc": {
+    "name": "office worker: light skin tone",
+    "category": "people",
+    "shortname": ":office_worker_tone1:",
+    "shortname_alternates": [":office_worker_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f4bc"
+  },
+  "1f9d1-1f3fc-1f4bc": {
+    "name": "office worker: medium-light skin tone",
+    "category": "people",
+    "shortname": ":office_worker_tone2:",
+    "shortname_alternates": [":office_worker_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f4bc"
+  },
+  "1f9d1-1f3fd-1f4bc": {
+    "name": "office worker: medium skin tone",
+    "category": "people",
+    "shortname": ":office_worker_tone3:",
+    "shortname_alternates": [":office_worker_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f4bc"
+  },
+  "1f9d1-1f3fe-1f4bc": {
+    "name": "office worker: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":office_worker_tone4:",
+    "shortname_alternates": [":office_worker_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f4bc"
+  },
+  "1f9d1-1f3ff-1f4bc": {
+    "name": "office worker: dark skin tone",
+    "category": "people",
+    "shortname": ":office_worker_tone5:",
+    "shortname_alternates": [":office_worker_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f4bc"
   },
   "1f469-1f4bc": {
     "name": "woman office worker",
@@ -14660,6 +15284,54 @@ var emojiStrategy = [
     "keywords": ["architect", "business", "dark skin tone", "man", "manager", "office", "white-collar", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f4bc"
   },
+  "1f9d1-1f527": {
+    "name": "mechanic",
+    "category": "people",
+    "shortname": ":mechanic:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f527"
+  },
+  "1f9d1-1f3fb-1f527": {
+    "name": "mechanic: light skin tone",
+    "category": "people",
+    "shortname": ":mechanic_tone1:",
+    "shortname_alternates": [":mechanic_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f527"
+  },
+  "1f9d1-1f3fc-1f527": {
+    "name": "mechanic: medium-light skin tone",
+    "category": "people",
+    "shortname": ":mechanic_tone2:",
+    "shortname_alternates": [":mechanic_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f527"
+  },
+  "1f9d1-1f3fd-1f527": {
+    "name": "mechanic: medium skin tone",
+    "category": "people",
+    "shortname": ":mechanic_tone3:",
+    "shortname_alternates": [":mechanic_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f527"
+  },
+  "1f9d1-1f3fe-1f527": {
+    "name": "mechanic: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":mechanic_tone4:",
+    "shortname_alternates": [":mechanic_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f527"
+  },
+  "1f9d1-1f3ff-1f527": {
+    "name": "mechanic: dark skin tone",
+    "category": "people",
+    "shortname": ":mechanic_tone5:",
+    "shortname_alternates": [":mechanic_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f527"
+  },
   "1f469-1f527": {
     "name": "woman mechanic",
     "category": "people",
@@ -14755,6 +15427,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_mechanic_dark_skin_tone:"],
     "keywords": ["dark skin tone", "electrician", "man", "mechanic", "plumber", "tradesperson", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f527"
+  },
+  "1f9d1-1f52c": {
+    "name": "scientist",
+    "category": "people",
+    "shortname": ":scientist:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f52c"
+  },
+  "1f9d1-1f3fb-1f52c": {
+    "name": "scientist: light skin tone",
+    "category": "people",
+    "shortname": ":scientist_tone1:",
+    "shortname_alternates": [":scientist_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f52c"
+  },
+  "1f9d1-1f3fc-1f52c": {
+    "name": "scientist: medium-light skin tone",
+    "category": "people",
+    "shortname": ":scientist_tone2:",
+    "shortname_alternates": [":scientist_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f52c"
+  },
+  "1f9d1-1f3fd-1f52c": {
+    "name": "scientist: medium skin tone",
+    "category": "people",
+    "shortname": ":scientist_tone3:",
+    "shortname_alternates": [":scientist_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f52c"
+  },
+  "1f9d1-1f3fe-1f52c": {
+    "name": "scientist: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":scientist_tone4:",
+    "shortname_alternates": [":scientist_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f52c"
+  },
+  "1f9d1-1f3ff-1f52c": {
+    "name": "scientist: dark skin tone",
+    "category": "people",
+    "shortname": ":scientist_tone5:",
+    "shortname_alternates": [":scientist_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f52c"
   },
   "1f469-1f52c": {
     "name": "woman scientist",
@@ -14852,6 +15572,54 @@ var emojiStrategy = [
     "keywords": ["biologist", "chemist", "dark skin tone", "engineer", "man", "mathematician", "physicist", "scientist", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f52c"
   },
+  "1f9d1-1f3a8": {
+    "name": "artist",
+    "category": "people",
+    "shortname": ":artist:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f3a8"
+  },
+  "1f9d1-1f3fb-1f3a8": {
+    "name": "artist: light skin tone",
+    "category": "people",
+    "shortname": ":artist_tone1:",
+    "shortname_alternates": [":artist_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f3a8"
+  },
+  "1f9d1-1f3fc-1f3a8": {
+    "name": "artist: medium-light skin tone",
+    "category": "people",
+    "shortname": ":artist_tone2:",
+    "shortname_alternates": [":artist_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f3a8"
+  },
+  "1f9d1-1f3fd-1f3a8": {
+    "name": "artist: medium skin tone",
+    "category": "people",
+    "shortname": ":artist_tone3:",
+    "shortname_alternates": [":artist_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f3a8"
+  },
+  "1f9d1-1f3fe-1f3a8": {
+    "name": "artist: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":artist_tone4:",
+    "shortname_alternates": [":artist_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f3a8"
+  },
+  "1f9d1-1f3ff-1f3a8": {
+    "name": "artist: dark skin tone",
+    "category": "people",
+    "shortname": ":artist_tone5:",
+    "shortname_alternates": [":artist_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f3a8"
+  },
   "1f469-1f3a8": {
     "name": "woman artist",
     "category": "people",
@@ -14947,6 +15715,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_artist_dark_skin_tone:"],
     "keywords": ["artist", "dark skin tone", "man", "palette", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f3a8"
+  },
+  "1f9d1-1f692": {
+    "name": "firefighter",
+    "category": "people",
+    "shortname": ":firefighter:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f692"
+  },
+  "1f9d1-1f3fb-1f692": {
+    "name": "firefighter: light skin tone",
+    "category": "people",
+    "shortname": ":firefighter_tone1:",
+    "shortname_alternates": [":firefighter_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f692"
+  },
+  "1f9d1-1f3fc-1f692": {
+    "name": "firefighter: medium-light skin tone",
+    "category": "people",
+    "shortname": ":firefighter_tone2:",
+    "shortname_alternates": [":firefighter_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f692"
+  },
+  "1f9d1-1f3fd-1f692": {
+    "name": "firefighter: medium skin tone",
+    "category": "people",
+    "shortname": ":firefighter_tone3:",
+    "shortname_alternates": [":firefighter_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f692"
+  },
+  "1f9d1-1f3fe-1f692": {
+    "name": "firefighter: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":firefighter_tone4:",
+    "shortname_alternates": [":firefighter_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f692"
+  },
+  "1f9d1-1f3ff-1f692": {
+    "name": "firefighter: dark skin tone",
+    "category": "people",
+    "shortname": ":firefighter_tone5:",
+    "shortname_alternates": [":firefighter_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f692"
   },
   "1f469-1f692": {
     "name": "woman firefighter",
@@ -15044,6 +15860,54 @@ var emojiStrategy = [
     "keywords": ["dark skin tone", "firefighter", "firetruck", "man", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f692"
   },
+  "1f9d1-2708": {
+    "name": "pilot",
+    "category": "people",
+    "shortname": ":pilot:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-2708-fe0f"
+  },
+  "1f9d1-1f3fb-2708": {
+    "name": "pilot: light skin tone",
+    "category": "people",
+    "shortname": ":pilot_tone1:",
+    "shortname_alternates": [":pilot_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-2708-fe0f"
+  },
+  "1f9d1-1f3fc-2708": {
+    "name": "pilot: medium-light skin tone",
+    "category": "people",
+    "shortname": ":pilot_tone2:",
+    "shortname_alternates": [":pilot_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-2708-fe0f"
+  },
+  "1f9d1-1f3fd-2708": {
+    "name": "pilot: medium skin tone",
+    "category": "people",
+    "shortname": ":pilot_tone3:",
+    "shortname_alternates": [":pilot_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-2708-fe0f"
+  },
+  "1f9d1-1f3fe-2708": {
+    "name": "pilot: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":pilot_tone4:",
+    "shortname_alternates": [":pilot_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-2708-fe0f"
+  },
+  "1f9d1-1f3ff-2708": {
+    "name": "pilot: dark skin tone",
+    "category": "people",
+    "shortname": ":pilot_tone5:",
+    "shortname_alternates": [":pilot_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-2708-fe0f"
+  },
   "1f469-2708": {
     "name": "woman pilot",
     "category": "people",
@@ -15140,6 +16004,54 @@ var emojiStrategy = [
     "keywords": ["dark skin tone", "man", "pilot", "plane", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-2708-fe0f"
   },
+  "1f9d1-1f680": {
+    "name": "astronaut",
+    "category": "people",
+    "shortname": ":astronaut:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f680"
+  },
+  "1f9d1-1f3fb-1f680": {
+    "name": "astronaut: light skin tone",
+    "category": "people",
+    "shortname": ":astronaut_tone1:",
+    "shortname_alternates": [":astronaut_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f680"
+  },
+  "1f9d1-1f3fc-1f680": {
+    "name": "astronaut: medium-light skin tone",
+    "category": "people",
+    "shortname": ":astronaut_tone2:",
+    "shortname_alternates": [":astronaut_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f680"
+  },
+  "1f9d1-1f3fd-1f680": {
+    "name": "astronaut: medium skin tone",
+    "category": "people",
+    "shortname": ":astronaut_tone3:",
+    "shortname_alternates": [":astronaut_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f680"
+  },
+  "1f9d1-1f3fe-1f680": {
+    "name": "astronaut: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":astronaut_tone4:",
+    "shortname_alternates": [":astronaut_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f680"
+  },
+  "1f9d1-1f3ff-1f680": {
+    "name": "astronaut: dark skin tone",
+    "category": "people",
+    "shortname": ":astronaut_tone5:",
+    "shortname_alternates": [":astronaut_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f680"
+  },
   "1f469-1f680": {
     "name": "woman astronaut",
     "category": "people",
@@ -15235,6 +16147,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_astronaut_dark_skin_tone:"],
     "keywords": ["astronaut", "dark skin tone", "man", "rocket", "uc8"],
     "unicode_output": "1f468-1f3ff-200d-1f680"
+  },
+  "1f9d1-2696": {
+    "name": "judge",
+    "category": "people",
+    "shortname": ":judge:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-2696-fe0f"
+  },
+  "1f9d1-1f3fb-2696": {
+    "name": "judge: light skin tone",
+    "category": "people",
+    "shortname": ":judge_tone1:",
+    "shortname_alternates": [":judge_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-2696-fe0f"
+  },
+  "1f9d1-1f3fc-2696": {
+    "name": "judge: medium-light skin tone",
+    "category": "people",
+    "shortname": ":judge_tone2:",
+    "shortname_alternates": [":judge_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-2696-fe0f"
+  },
+  "1f9d1-1f3fd-2696": {
+    "name": "judge: medium skin tone",
+    "category": "people",
+    "shortname": ":judge_tone3:",
+    "shortname_alternates": [":judge_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-2696-fe0f"
+  },
+  "1f9d1-1f3fe-2696": {
+    "name": "judge: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":judge_tone4:",
+    "shortname_alternates": [":judge_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-2696-fe0f"
+  },
+  "1f9d1-1f3ff-2696": {
+    "name": "judge: dark skin tone",
+    "category": "people",
+    "shortname": ":judge_tone5:",
+    "shortname_alternates": [":judge_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-2696-fe0f"
   },
   "1f469-2696": {
     "name": "woman judge",
@@ -18922,7 +19882,7 @@ var emojiStrategy = [
     "shortname": ":levitate_tone1:",
     "shortname_alternates": [":man_in_business_suit_levitating_tone1:", ":man_in_business_suit_levitating_light_skin_tone:"],
     "keywords": ["business", "light skin tone", "man", "suit", "uc8"],
-    "unicode_output": "1f574-fe0f-1f3fb"
+    "unicode_output": "1f574-1f3fb"
   },
   "1f574-1f3fc": {
     "name": "man in suit levitating: medium-light skin tone",
@@ -18930,7 +19890,7 @@ var emojiStrategy = [
     "shortname": ":levitate_tone2:",
     "shortname_alternates": [":man_in_business_suit_levitating_tone2:", ":man_in_business_suit_levitating_medium_light_skin_tone:"],
     "keywords": ["business", "man", "medium-light skin tone", "suit", "uc8"],
-    "unicode_output": "1f574-fe0f-1f3fc"
+    "unicode_output": "1f574-1f3fc"
   },
   "1f574-1f3fd": {
     "name": "man in suit levitating: medium skin tone",
@@ -18938,7 +19898,7 @@ var emojiStrategy = [
     "shortname": ":levitate_tone3:",
     "shortname_alternates": [":man_in_business_suit_levitating_tone3:", ":man_in_business_suit_levitating_medium_skin_tone:"],
     "keywords": ["business", "man", "medium skin tone", "suit", "uc8"],
-    "unicode_output": "1f574-fe0f-1f3fd"
+    "unicode_output": "1f574-1f3fd"
   },
   "1f574-1f3fe": {
     "name": "man in suit levitating: medium-dark skin tone",
@@ -18946,7 +19906,7 @@ var emojiStrategy = [
     "shortname": ":levitate_tone4:",
     "shortname_alternates": [":man_in_business_suit_levitating_tone4:", ":man_in_business_suit_levitating_medium_dark_skin_tone:"],
     "keywords": ["business", "man", "medium-dark skin tone", "suit", "uc8"],
-    "unicode_output": "1f574-fe0f-1f3fe"
+    "unicode_output": "1f574-1f3fe"
   },
   "1f574-1f3ff": {
     "name": "man in suit levitating: dark skin tone",
@@ -18954,7 +19914,7 @@ var emojiStrategy = [
     "shortname": ":levitate_tone5:",
     "shortname_alternates": [":man_in_business_suit_levitating_tone5:", ":man_in_business_suit_levitating_dark_skin_tone:"],
     "keywords": ["business", "dark skin tone", "man", "suit", "uc8"],
-    "unicode_output": "1f574-fe0f-1f3ff"
+    "unicode_output": "1f574-1f3ff"
   },
   "1f6b6": {
     "name": "person walking",
@@ -19532,6 +20492,54 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f9ce-1f3ff-200d-2642-fe0f"
   },
+  "1f9d1-1f9af": {
+    "name": "person with probing cane",
+    "category": "people",
+    "shortname": ":person_with_probing_cane:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9af"
+  },
+  "1f9d1-1f3fb-1f9af": {
+    "name": "person with probing cane: light skin tone",
+    "category": "people",
+    "shortname": ":person_with_probing_cane_tone1:",
+    "shortname_alternates": [":person_with_probing_cane_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9af"
+  },
+  "1f9d1-1f3fc-1f9af": {
+    "name": "person with probing cane: medium-light skin tone",
+    "category": "people",
+    "shortname": ":person_with_probing_cane_tone2:",
+    "shortname_alternates": [":person_with_probing_cane_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9af"
+  },
+  "1f9d1-1f3fd-1f9af": {
+    "name": "person with probing cane: medium skin tone",
+    "category": "people",
+    "shortname": ":person_with_probing_cane_tone3:",
+    "shortname_alternates": [":person_with_probing_cane_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9af"
+  },
+  "1f9d1-1f3fe-1f9af": {
+    "name": "person with probing cane: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":person_with_probing_cane_tone4:",
+    "shortname_alternates": [":person_with_probing_cane_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9af"
+  },
+  "1f9d1-1f3ff-1f9af": {
+    "name": "person with probing cane: dark skin tone",
+    "category": "people",
+    "shortname": ":person_with_probing_cane_tone5:",
+    "shortname_alternates": [":person_with_probing_cane_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9af"
+  },
   "1f469-1f9af": {
     "name": "woman with probing cane",
     "category": "people",
@@ -19628,6 +20636,54 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f468-1f3ff-200d-1f9af"
   },
+  "1f9d1-1f9bc": {
+    "name": "person in motorized wheelchair",
+    "category": "people",
+    "shortname": ":person_in_motorized_wheelchair:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9bc"
+  },
+  "1f9d1-1f3fb-1f9bc": {
+    "name": "person in motorized wheelchair: light skin tone",
+    "category": "people",
+    "shortname": ":person_in_motorized_wheelchair_tone1:",
+    "shortname_alternates": [":person_in_motorized_wheelchair_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9bc"
+  },
+  "1f9d1-1f3fc-1f9bc": {
+    "name": "person in motorized wheelchair: medium-light skin tone",
+    "category": "people",
+    "shortname": ":person_in_motorized_wheelchair_tone2:",
+    "shortname_alternates": [":person_in_motorized_wheelchair_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9bc"
+  },
+  "1f9d1-1f3fd-1f9bc": {
+    "name": "person in motorized wheelchair: medium skin tone",
+    "category": "people",
+    "shortname": ":person_in_motorized_wheelchair_tone3:",
+    "shortname_alternates": [":person_in_motorized_wheelchair_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9bc"
+  },
+  "1f9d1-1f3fe-1f9bc": {
+    "name": "person in motorized wheelchair: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":person_in_motorized_wheelchair_tone4:",
+    "shortname_alternates": [":person_in_motorized_wheelchair_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9bc"
+  },
+  "1f9d1-1f3ff-1f9bc": {
+    "name": "person in motorized wheelchair: dark skin tone",
+    "category": "people",
+    "shortname": ":person_in_motorized_wheelchair_tone5:",
+    "shortname_alternates": [":person_in_motorized_wheelchair_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9bc"
+  },
   "1f469-1f9bc": {
     "name": "woman in motorized wheelchair",
     "category": "people",
@@ -19723,6 +20779,54 @@ var emojiStrategy = [
     "shortname_alternates": [":man_in_motorized_wheelchair_dark_skin_tone:"],
     "keywords": ["uc12"],
     "unicode_output": "1f468-1f3ff-200d-1f9bc"
+  },
+  "1f9d1-1f9bd": {
+    "name": "person in manual wheelchair",
+    "category": "people",
+    "shortname": ":person_in_manual_wheelchair:",
+    "shortname_alternates": [],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-200d-1f9bd"
+  },
+  "1f9d1-1f3fb-1f9bd": {
+    "name": "person in manual wheelchair: light skin tone",
+    "category": "people",
+    "shortname": ":person_in_manual_wheelchair_tone1:",
+    "shortname_alternates": [":person_in_manual_wheelchair_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f9bd"
+  },
+  "1f9d1-1f3fc-1f9bd": {
+    "name": "person in manual wheelchair: medium-light skin tone",
+    "category": "people",
+    "shortname": ":person_in_manual_wheelchair_tone2:",
+    "shortname_alternates": [":person_in_manual_wheelchair_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f9bd"
+  },
+  "1f9d1-1f3fd-1f9bd": {
+    "name": "person in manual wheelchair: medium skin tone",
+    "category": "people",
+    "shortname": ":person_in_manual_wheelchair_tone3:",
+    "shortname_alternates": [":person_in_manual_wheelchair_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f9bd"
+  },
+  "1f9d1-1f3fe-1f9bd": {
+    "name": "person in manual wheelchair: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":person_in_manual_wheelchair_tone4:",
+    "shortname_alternates": [":person_in_manual_wheelchair_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f9bd"
+  },
+  "1f9d1-1f3ff-1f9bd": {
+    "name": "person in manual wheelchair: dark skin tone",
+    "category": "people",
+    "shortname": ":person_in_manual_wheelchair_tone5:",
+    "shortname_alternates": [":person_in_manual_wheelchair_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f9bd"
   },
   "1f469-1f9bd": {
     "name": "woman in manual wheelchair",
@@ -19836,13 +20940,37 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fb"
   },
-  "1f9d1-1f3fc-1f91d-1f9d1-1f3fc": {
-    "name": "people holding hands: medium-light skin tone",
+  "1f9d1-1f3fb-1f91d-1f9d1-1f3fc": {
+    "name": "people holding hands: light skin tone, medium-light skin tone",
     "category": "people",
-    "shortname": ":people_holding_hands_tone2:",
-    "shortname_alternates": [":people_holding_hands_medium_light_skin_tone:"],
+    "shortname": ":people_holding_hands_tone1_tone2:",
+    "shortname_alternates": [":people_holding_hands_light_skin_tone_medium_light_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fc"
+    "unicode_output": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fc"
+  },
+  "1f9d1-1f3fb-1f91d-1f9d1-1f3fd": {
+    "name": "people holding hands: light skin tone, medium skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone1_tone3:",
+    "shortname_alternates": [":people_holding_hands_light_skin_tone_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fd"
+  },
+  "1f9d1-1f3fb-1f91d-1f9d1-1f3fe": {
+    "name": "people holding hands: light skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone1_tone4:",
+    "shortname_alternates": [":people_holding_hands_light_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3fe"
+  },
+  "1f9d1-1f3fb-1f91d-1f9d1-1f3ff": {
+    "name": "people holding hands: light skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone1_tone5:",
+    "shortname_alternates": [":people_holding_hands_light_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fb-200d-1f91d-200d-1f9d1-1f3ff"
   },
   "1f9d1-1f3fc-1f91d-1f9d1-1f3fb": {
     "name": "people holding hands: medium-light skin tone, light skin tone",
@@ -19852,13 +20980,37 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fb"
   },
-  "1f9d1-1f3fd-1f91d-1f9d1-1f3fd": {
-    "name": "people holding hands: medium skin tone",
+  "1f9d1-1f3fc-1f91d-1f9d1-1f3fc": {
+    "name": "people holding hands: medium-light skin tone",
     "category": "people",
-    "shortname": ":people_holding_hands_tone3:",
-    "shortname_alternates": [":people_holding_hands_medium_skin_tone:"],
+    "shortname": ":people_holding_hands_tone2:",
+    "shortname_alternates": [":people_holding_hands_medium_light_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fd"
+    "unicode_output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fc"
+  },
+  "1f9d1-1f3fc-1f91d-1f9d1-1f3fd": {
+    "name": "people holding hands: medium-light skin tone, medium skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone2_tone3:",
+    "shortname_alternates": [":people_holding_hands_medium_light_skin_tone_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fd"
+  },
+  "1f9d1-1f3fc-1f91d-1f9d1-1f3fe": {
+    "name": "people holding hands: medium-light skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone2_tone4:",
+    "shortname_alternates": [":people_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3fe"
+  },
+  "1f9d1-1f3fc-1f91d-1f9d1-1f3ff": {
+    "name": "people holding hands: medium-light skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone2_tone5:",
+    "shortname_alternates": [":people_holding_hands_medium_light_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fc-200d-1f91d-200d-1f9d1-1f3ff"
   },
   "1f9d1-1f3fd-1f91d-1f9d1-1f3fb": {
     "name": "people holding hands: medium skin tone, light skin tone",
@@ -19876,13 +21028,29 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fc"
   },
-  "1f9d1-1f3fe-1f91d-1f9d1-1f3fe": {
-    "name": "people holding hands: medium-dark skin tone",
+  "1f9d1-1f3fd-1f91d-1f9d1-1f3fd": {
+    "name": "people holding hands: medium skin tone",
     "category": "people",
-    "shortname": ":people_holding_hands_tone4:",
-    "shortname_alternates": [":people_holding_hands_medium_dark_skin_tone:"],
+    "shortname": ":people_holding_hands_tone3:",
+    "shortname_alternates": [":people_holding_hands_medium_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fe"
+    "unicode_output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fd"
+  },
+  "1f9d1-1f3fd-1f91d-1f9d1-1f3fe": {
+    "name": "people holding hands: medium skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone3_tone4:",
+    "shortname_alternates": [":people_holding_hands_medium_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3fe"
+  },
+  "1f9d1-1f3fd-1f91d-1f9d1-1f3ff": {
+    "name": "people holding hands: medium skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone3_tone5:",
+    "shortname_alternates": [":people_holding_hands_medium_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fd-200d-1f91d-200d-1f9d1-1f3ff"
   },
   "1f9d1-1f3fe-1f91d-1f9d1-1f3fb": {
     "name": "people holding hands: medium-dark skin tone, light skin tone",
@@ -19908,13 +21076,21 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fd"
   },
-  "1f9d1-1f3ff-1f91d-1f9d1-1f3ff": {
-    "name": "people holding hands: dark skin tone",
+  "1f9d1-1f3fe-1f91d-1f9d1-1f3fe": {
+    "name": "people holding hands: medium-dark skin tone",
     "category": "people",
-    "shortname": ":people_holding_hands_tone5:",
-    "shortname_alternates": [":people_holding_hands_dark_skin_tone:"],
+    "shortname": ":people_holding_hands_tone4:",
+    "shortname_alternates": [":people_holding_hands_medium_dark_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3ff"
+    "unicode_output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3fe"
+  },
+  "1f9d1-1f3fe-1f91d-1f9d1-1f3ff": {
+    "name": "people holding hands: medium-dark skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone4_tone5:",
+    "shortname_alternates": [":people_holding_hands_medium_dark_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3fe-200d-1f91d-200d-1f9d1-1f3ff"
   },
   "1f9d1-1f3ff-1f91d-1f9d1-1f3fb": {
     "name": "people holding hands: dark skin tone, light skin tone",
@@ -19947,6 +21123,14 @@ var emojiStrategy = [
     "shortname_alternates": [":people_holding_hands_dark_skin_tone_medium_dark_skin_tone:"],
     "keywords": ["uc12"],
     "unicode_output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3fe"
+  },
+  "1f9d1-1f3ff-1f91d-1f9d1-1f3ff": {
+    "name": "people holding hands: dark skin tone",
+    "category": "people",
+    "shortname": ":people_holding_hands_tone5:",
+    "shortname_alternates": [":people_holding_hands_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f9d1-1f3ff-200d-1f91d-200d-1f9d1-1f3ff"
   },
   "1f46b": {
     "name": "woman and man holding hands",
@@ -19996,14 +21180,6 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fb-200d-1f91d-200d-1f468-1f3ff"
   },
-  "1f46b-1f3fc": {
-    "name": "woman and man holding hands: medium-light skin tone",
-    "category": "people",
-    "shortname": ":woman_and_man_holding_hands_tone2:",
-    "shortname_alternates": [":woman_and_man_holding_hands_medium_light_skin_tone:"],
-    "keywords": ["uc12"],
-    "unicode_output": "1f46b-1f3fc"
-  },
   "1f469-1f3fc-1f91d-1f468-1f3fb": {
     "name": "woman and man holding hands: medium light skin tone, light skin tone",
     "category": "people",
@@ -20011,6 +21187,14 @@ var emojiStrategy = [
     "shortname_alternates": [":woman_and_man_holding_hands_medium_light_skin_tone_light_skin_tone:"],
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fc-200d-1f91d-200d-1f468-1f3fb"
+  },
+  "1f46b-1f3fc": {
+    "name": "woman and man holding hands: medium-light skin tone",
+    "category": "people",
+    "shortname": ":woman_and_man_holding_hands_tone2:",
+    "shortname_alternates": [":woman_and_man_holding_hands_medium_light_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f46b-1f3fc"
   },
   "1f469-1f3fc-1f91d-1f468-1f3fd": {
     "name": "woman and man holding hands: medium light skin tone, medium skin tone",
@@ -20036,14 +21220,6 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fc-200d-1f91d-200d-1f468-1f3ff"
   },
-  "1f46b-1f3fd": {
-    "name": "woman and man holding hands: medium skin tone",
-    "category": "people",
-    "shortname": ":woman_and_man_holding_hands_tone3:",
-    "shortname_alternates": [":woman_and_man_holding_hands_medium_skin_tone:"],
-    "keywords": ["uc12"],
-    "unicode_output": "1f46b-1f3fd"
-  },
   "1f469-1f3fd-1f91d-1f468-1f3fb": {
     "name": "woman and man holding hands: medium skin tone, light skin tone",
     "category": "people",
@@ -20060,6 +21236,14 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fd-200d-1f91d-200d-1f468-1f3fc"
   },
+  "1f46b-1f3fd": {
+    "name": "woman and man holding hands: medium skin tone",
+    "category": "people",
+    "shortname": ":woman_and_man_holding_hands_tone3:",
+    "shortname_alternates": [":woman_and_man_holding_hands_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f46b-1f3fd"
+  },
   "1f469-1f3fd-1f91d-1f468-1f3fe": {
     "name": "woman and man holding hands: medium skin tone, medium dark skin tone",
     "category": "people",
@@ -20075,14 +21259,6 @@ var emojiStrategy = [
     "shortname_alternates": [":woman_and_man_holding_hands_medium_skin_tone_dark_skin_tone:"],
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fd-200d-1f91d-200d-1f468-1f3ff"
-  },
-  "1f46b-1f3fe": {
-    "name": "woman and man holding hands: medium-dark skin tone",
-    "category": "people",
-    "shortname": ":woman_and_man_holding_hands_tone4:",
-    "shortname_alternates": [":woman_and_man_holding_hands_medium_dark_skin_tone:"],
-    "keywords": ["uc12"],
-    "unicode_output": "1f46b-1f3fe"
   },
   "1f469-1f3fe-1f91d-1f468-1f3fb": {
     "name": "woman and man holding hands: medium dark skin tone, light skin tone",
@@ -20108,6 +21284,14 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fe-200d-1f91d-200d-1f468-1f3fd"
   },
+  "1f46b-1f3fe": {
+    "name": "woman and man holding hands: medium-dark skin tone",
+    "category": "people",
+    "shortname": ":woman_and_man_holding_hands_tone4:",
+    "shortname_alternates": [":woman_and_man_holding_hands_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f46b-1f3fe"
+  },
   "1f469-1f3fe-1f91d-1f468-1f3ff": {
     "name": "woman and man holding hands: medium dark skin tone, dark skin tone",
     "category": "people",
@@ -20115,14 +21299,6 @@ var emojiStrategy = [
     "shortname_alternates": [":woman_and_man_holding_hands_medium_dark_skin_tone_dark_skin_tone:"],
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fe-200d-1f91d-200d-1f468-1f3ff"
-  },
-  "1f46b-1f3ff": {
-    "name": "woman and man holding hands: dark skin tone",
-    "category": "people",
-    "shortname": ":woman_and_man_holding_hands_tone5:",
-    "shortname_alternates": [":woman_and_man_holding_hands_dark_skin_tone:"],
-    "keywords": ["uc12"],
-    "unicode_output": "1f46b-1f3ff"
   },
   "1f469-1f3ff-1f91d-1f468-1f3fb": {
     "name": "woman and man holding hands: dark skin tone, light skin tone",
@@ -20156,6 +21332,14 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3ff-200d-1f91d-200d-1f468-1f3fe"
   },
+  "1f46b-1f3ff": {
+    "name": "woman and man holding hands: dark skin tone",
+    "category": "people",
+    "shortname": ":woman_and_man_holding_hands_tone5:",
+    "shortname_alternates": [":woman_and_man_holding_hands_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f46b-1f3ff"
+  },
   "1f46d": {
     "name": "women holding hands",
     "category": "people",
@@ -20172,13 +21356,37 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f46d-1f3fb"
   },
-  "1f46d-1f3fc": {
-    "name": "women holding hands: medium-light skin tone",
+  "1f469-1f3fb-1f91d-1f469-1f3fc": {
+    "name": "women holding hands: light skin tone, medium-light skin tone",
     "category": "people",
-    "shortname": ":women_holding_hands_tone2:",
-    "shortname_alternates": [":women_holding_hands_medium_light_skin_tone:"],
+    "shortname": ":women_holding_hands_tone1_tone2:",
+    "shortname_alternates": [":women_holding_hands_light_skin_tone_medium_light_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46d-1f3fc"
+    "unicode_output": "1f469-1f3fb-200d-1f91d-200d-1f469-1f3fc"
+  },
+  "1f469-1f3fb-1f91d-1f469-1f3fd": {
+    "name": "women holding hands: light skin tone, medium skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone1_tone3:",
+    "shortname_alternates": [":women_holding_hands_light_skin_tone_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fb-200d-1f91d-200d-1f469-1f3fd"
+  },
+  "1f469-1f3fb-1f91d-1f469-1f3fe": {
+    "name": "women holding hands: light skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone1_tone4:",
+    "shortname_alternates": [":women_holding_hands_light_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fb-200d-1f91d-200d-1f469-1f3fe"
+  },
+  "1f469-1f3fb-1f91d-1f469-1f3ff": {
+    "name": "women holding hands: light skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone1_tone5:",
+    "shortname_alternates": [":women_holding_hands_light_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fb-200d-1f91d-200d-1f469-1f3ff"
   },
   "1f469-1f3fc-1f91d-1f469-1f3fb": {
     "name": "women holding hands: medium-light skin tone, light skin tone",
@@ -20188,13 +21396,37 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fc-200d-1f91d-200d-1f469-1f3fb"
   },
-  "1f46d-1f3fd": {
-    "name": "women holding hands: medium skin tone",
+  "1f46d-1f3fc": {
+    "name": "women holding hands: medium-light skin tone",
     "category": "people",
-    "shortname": ":women_holding_hands_tone3:",
-    "shortname_alternates": [":women_holding_hands_medium_skin_tone:"],
+    "shortname": ":women_holding_hands_tone2:",
+    "shortname_alternates": [":women_holding_hands_medium_light_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46d-1f3fd"
+    "unicode_output": "1f46d-1f3fc"
+  },
+  "1f469-1f3fc-1f91d-1f469-1f3fd": {
+    "name": "women holding hands: medium-light skin tone, medium skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone2_tone3:",
+    "shortname_alternates": [":women_holding_hands_medium_light_skin_tone_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fc-200d-1f91d-200d-1f469-1f3fd"
+  },
+  "1f469-1f3fc-1f91d-1f469-1f3fe": {
+    "name": "women holding hands: medium-light skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone2_tone4:",
+    "shortname_alternates": [":women_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fc-200d-1f91d-200d-1f469-1f3fe"
+  },
+  "1f469-1f3fc-1f91d-1f469-1f3ff": {
+    "name": "women holding hands: medium-light skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone2_tone5:",
+    "shortname_alternates": [":women_holding_hands_medium_light_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fc-200d-1f91d-200d-1f469-1f3ff"
   },
   "1f469-1f3fd-1f91d-1f469-1f3fb": {
     "name": "women holding hands: medium skin tone, light skin tone",
@@ -20212,13 +21444,29 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fd-200d-1f91d-200d-1f469-1f3fc"
   },
-  "1f46d-1f3fe": {
-    "name": "women holding hands: medium-dark skin tone",
+  "1f46d-1f3fd": {
+    "name": "women holding hands: medium skin tone",
     "category": "people",
-    "shortname": ":women_holding_hands_tone4:",
-    "shortname_alternates": [":women_holding_hands_medium_dark_skin_tone:"],
+    "shortname": ":women_holding_hands_tone3:",
+    "shortname_alternates": [":women_holding_hands_medium_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46d-1f3fe"
+    "unicode_output": "1f46d-1f3fd"
+  },
+  "1f469-1f3fd-1f91d-1f469-1f3fe": {
+    "name": "women holding hands: medium skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone3_tone4:",
+    "shortname_alternates": [":women_holding_hands_medium_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fd-200d-1f91d-200d-1f469-1f3fe"
+  },
+  "1f469-1f3fd-1f91d-1f469-1f3ff": {
+    "name": "women holding hands: medium skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone3_tone5:",
+    "shortname_alternates": [":women_holding_hands_medium_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fd-200d-1f91d-200d-1f469-1f3ff"
   },
   "1f469-1f3fe-1f91d-1f469-1f3fb": {
     "name": "women holding hands: medium-dark skin tone, light skin tone",
@@ -20244,13 +21492,21 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3fe-200d-1f91d-200d-1f469-1f3fd"
   },
-  "1f46d-1f3ff": {
-    "name": "women holding hands: dark skin tone",
+  "1f46d-1f3fe": {
+    "name": "women holding hands: medium-dark skin tone",
     "category": "people",
-    "shortname": ":women_holding_hands_tone5:",
-    "shortname_alternates": [":women_holding_hands_dark_skin_tone:"],
+    "shortname": ":women_holding_hands_tone4:",
+    "shortname_alternates": [":women_holding_hands_medium_dark_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46d-1f3ff"
+    "unicode_output": "1f46d-1f3fe"
+  },
+  "1f469-1f3fe-1f91d-1f469-1f3ff": {
+    "name": "women holding hands: medium-dark skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone4_tone5:",
+    "shortname_alternates": [":women_holding_hands_medium_dark_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f469-1f3fe-200d-1f91d-200d-1f469-1f3ff"
   },
   "1f469-1f3ff-1f91d-1f469-1f3fb": {
     "name": "women holding hands: dark skin tone, light skin tone",
@@ -20284,6 +21540,14 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f469-1f3ff-200d-1f91d-200d-1f469-1f3fe"
   },
+  "1f46d-1f3ff": {
+    "name": "women holding hands: dark skin tone",
+    "category": "people",
+    "shortname": ":women_holding_hands_tone5:",
+    "shortname_alternates": [":women_holding_hands_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f46d-1f3ff"
+  },
   "1f46c": {
     "name": "men holding hands",
     "category": "people",
@@ -20300,13 +21564,37 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f46c-1f3fb"
   },
-  "1f46c-1f3fc": {
-    "name": "men holding hands: medium-light skin tone",
+  "1f468-1f3fb-1f91d-1f468-1f3fc": {
+    "name": "men holding hands: light skin tone, medium-light skin tone",
     "category": "people",
-    "shortname": ":men_holding_hands_tone2:",
-    "shortname_alternates": [":men_holding_hands_medium_light_skin_tone:"],
+    "shortname": ":men_holding_hands_tone1_tone2:",
+    "shortname_alternates": [":men_holding_hands_light_skin_tone_medium_light_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46c-1f3fc"
+    "unicode_output": "1f468-1f3fb-200d-1f91d-200d-1f468-1f3fc"
+  },
+  "1f468-1f3fb-1f91d-1f468-1f3fd": {
+    "name": "men holding hands: light skin tone, medium skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone1_tone3:",
+    "shortname_alternates": [":men_holding_hands_light_skin_tone_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fb-200d-1f91d-200d-1f468-1f3fd"
+  },
+  "1f468-1f3fb-1f91d-1f468-1f3fe": {
+    "name": "men holding hands: light skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone1_tone4:",
+    "shortname_alternates": [":men_holding_hands_light_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fb-200d-1f91d-200d-1f468-1f3fe"
+  },
+  "1f468-1f3fb-1f91d-1f468-1f3ff": {
+    "name": "men holding hands: light skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone1_tone5:",
+    "shortname_alternates": [":men_holding_hands_light_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fb-200d-1f91d-200d-1f468-1f3ff"
   },
   "1f468-1f3fc-1f91d-1f468-1f3fb": {
     "name": "men holding hands: medium-light skin tone, light skin tone",
@@ -20316,13 +21604,37 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f468-1f3fc-200d-1f91d-200d-1f468-1f3fb"
   },
-  "1f46c-1f3fd": {
-    "name": "men holding hands: medium skin tone",
+  "1f46c-1f3fc": {
+    "name": "men holding hands: medium-light skin tone",
     "category": "people",
-    "shortname": ":men_holding_hands_tone3:",
-    "shortname_alternates": [":men_holding_hands_medium_skin_tone:"],
+    "shortname": ":men_holding_hands_tone2:",
+    "shortname_alternates": [":men_holding_hands_medium_light_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46c-1f3fd"
+    "unicode_output": "1f46c-1f3fc"
+  },
+  "1f468-1f3fc-1f91d-1f468-1f3fd": {
+    "name": "men holding hands: medium-light skin tone, medium skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone2_tone3:",
+    "shortname_alternates": [":men_holding_hands_medium_light_skin_tone_medium_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fc-200d-1f91d-200d-1f468-1f3fd"
+  },
+  "1f468-1f3fc-1f91d-1f468-1f3fe": {
+    "name": "men holding hands: medium-light skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone2_tone4:",
+    "shortname_alternates": [":men_holding_hands_medium_light_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fc-200d-1f91d-200d-1f468-1f3fe"
+  },
+  "1f468-1f3fc-1f91d-1f468-1f3ff": {
+    "name": "men holding hands: medium-light skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone2_tone5:",
+    "shortname_alternates": [":men_holding_hands_medium_light_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fc-200d-1f91d-200d-1f468-1f3ff"
   },
   "1f468-1f3fd-1f91d-1f468-1f3fb": {
     "name": "men holding hands: medium skin tone, light skin tone",
@@ -20340,13 +21652,29 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f468-1f3fd-200d-1f91d-200d-1f468-1f3fc"
   },
-  "1f46c-1f3fe": {
-    "name": "men holding hands: medium-dark skin tone",
+  "1f46c-1f3fd": {
+    "name": "men holding hands: medium skin tone",
     "category": "people",
-    "shortname": ":men_holding_hands_tone4:",
-    "shortname_alternates": [":men_holding_hands_medium_dark_skin_tone:"],
+    "shortname": ":men_holding_hands_tone3:",
+    "shortname_alternates": [":men_holding_hands_medium_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46c-1f3fe"
+    "unicode_output": "1f46c-1f3fd"
+  },
+  "1f468-1f3fd-1f91d-1f468-1f3fe": {
+    "name": "men holding hands: medium skin tone, medium-dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone3_tone4:",
+    "shortname_alternates": [":men_holding_hands_medium_skin_tone_medium_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fd-200d-1f91d-200d-1f468-1f3fe"
+  },
+  "1f468-1f3fd-1f91d-1f468-1f3ff": {
+    "name": "men holding hands: medium skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone3_tone5:",
+    "shortname_alternates": [":men_holding_hands_medium_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fd-200d-1f91d-200d-1f468-1f3ff"
   },
   "1f468-1f3fe-1f91d-1f468-1f3fb": {
     "name": "men holding hands: medium-dark skin tone, light skin tone",
@@ -20372,13 +21700,21 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f468-1f3fe-200d-1f91d-200d-1f468-1f3fd"
   },
-  "1f46c-1f3ff": {
-    "name": "men holding hands: dark skin tone",
+  "1f46c-1f3fe": {
+    "name": "men holding hands: medium-dark skin tone",
     "category": "people",
-    "shortname": ":men_holding_hands_tone5:",
-    "shortname_alternates": [":men_holding_hands_dark_skin_tone:"],
+    "shortname": ":men_holding_hands_tone4:",
+    "shortname_alternates": [":men_holding_hands_medium_dark_skin_tone:"],
     "keywords": ["uc12"],
-    "unicode_output": "1f46c-1f3ff"
+    "unicode_output": "1f46c-1f3fe"
+  },
+  "1f468-1f3fe-1f91d-1f468-1f3ff": {
+    "name": "men holding hands: medium-dark skin tone, dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone4_tone5:",
+    "shortname_alternates": [":men_holding_hands_medium_dark_skin_tone_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f468-1f3fe-200d-1f91d-200d-1f468-1f3ff"
   },
   "1f468-1f3ff-1f91d-1f468-1f3fb": {
     "name": "men holding hands: dark skin tone, light skin tone",
@@ -20412,6 +21748,14 @@ var emojiStrategy = [
     "keywords": ["uc12"],
     "unicode_output": "1f468-1f3ff-200d-1f91d-200d-1f468-1f3fe"
   },
+  "1f46c-1f3ff": {
+    "name": "men holding hands: dark skin tone",
+    "category": "people",
+    "shortname": ":men_holding_hands_tone5:",
+    "shortname_alternates": [":men_holding_hands_dark_skin_tone:"],
+    "keywords": ["uc12"],
+    "unicode_output": "1f46c-1f3ff"
+  },
   "1f491": {
     "name": "couple with heart",
     "category": "people",
@@ -20426,7 +21770,7 @@ var emojiStrategy = [
     "shortname": ":couple_with_heart_woman_man:",
     "shortname_alternates": [],
     "keywords": ["couple", "love", "man", "woman", "uc6"],
-    "unicode_output": "1f469-2764-200d-fe0f-200d-1f468"
+    "unicode_output": "1f469-200d-2764-fe0f-200d-1f468"
   },
   "1f469-2764-1f469": {
     "name": "couple with heart: woman, woman",
@@ -20434,7 +21778,7 @@ var emojiStrategy = [
     "shortname": ":couple_ww:",
     "shortname_alternates": [":couple_with_heart_ww:"],
     "keywords": ["couple", "love", "woman", "uc6"],
-    "unicode_output": "1f469-2764-200d-fe0f-200d-1f469"
+    "unicode_output": "1f469-200d-2764-fe0f-200d-1f469"
   },
   "1f468-2764-1f468": {
     "name": "couple with heart: man, man",
@@ -20442,7 +21786,7 @@ var emojiStrategy = [
     "shortname": ":couple_mm:",
     "shortname_alternates": [":couple_with_heart_mm:"],
     "keywords": ["couple", "love", "man", "uc6"],
-    "unicode_output": "1f468-2764-200d-fe0f-200d-1f468"
+    "unicode_output": "1f468-200d-2764-fe0f-200d-1f468"
   },
   "1f48f": {
     "name": "kiss",
@@ -20458,7 +21802,7 @@ var emojiStrategy = [
     "shortname": ":kiss_woman_man:",
     "shortname_alternates": [],
     "keywords": ["couple", "man", "woman", "uc6"],
-    "unicode_output": "1f469-200d-2764-fe0f-1f48b-200d-1f468"
+    "unicode_output": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f468"
   },
   "1f469-2764-1f48b-1f469": {
     "name": "kiss: woman, woman",
@@ -20466,7 +21810,7 @@ var emojiStrategy = [
     "shortname": ":kiss_ww:",
     "shortname_alternates": [":couplekiss_ww:"],
     "keywords": ["couple", "woman", "uc6"],
-    "unicode_output": "1f469-200d-2764-fe0f-1f48b-200d-1f469"
+    "unicode_output": "1f469-200d-2764-fe0f-200d-1f48b-200d-1f469"
   },
   "1f468-2764-1f48b-1f468": {
     "name": "kiss: man, man",
@@ -20474,7 +21818,7 @@ var emojiStrategy = [
     "shortname": ":kiss_mm:",
     "shortname_alternates": [":couplekiss_mm:"],
     "keywords": ["couple", "man", "uc6"],
-    "unicode_output": "1f468-200d-2764-fe0f-1f48b-200d-1f468"
+    "unicode_output": "1f468-200d-2764-fe0f-200d-1f48b-200d-1f468"
   },
   "1f46a": {
     "name": "family",
@@ -22067,214 +23411,6 @@ var emojiStrategy = [
     "shortname_alternates": [],
     "keywords": ["fog", "uc6"],
     "unicode_output": "1f301"
-  },
-  "1f1ff": {
-    "name": "regional indicator symbol letter z",
-    "category": "regional",
-    "shortname": ":regional_indicator_z:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1ff"
-  },
-  "1f1fe": {
-    "name": "regional indicator symbol letter y",
-    "category": "regional",
-    "shortname": ":regional_indicator_y:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1fe"
-  },
-  "1f1fd": {
-    "name": "regional indicator symbol letter x",
-    "category": "regional",
-    "shortname": ":regional_indicator_x:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1fd"
-  },
-  "1f1fc": {
-    "name": "regional indicator symbol letter w",
-    "category": "regional",
-    "shortname": ":regional_indicator_w:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1fc"
-  },
-  "1f1fb": {
-    "name": "regional indicator symbol letter v",
-    "category": "regional",
-    "shortname": ":regional_indicator_v:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1fb"
-  },
-  "1f1fa": {
-    "name": "regional indicator symbol letter u",
-    "category": "regional",
-    "shortname": ":regional_indicator_u:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1fa"
-  },
-  "1f1f9": {
-    "name": "regional indicator symbol letter t",
-    "category": "regional",
-    "shortname": ":regional_indicator_t:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f9"
-  },
-  "1f1f8": {
-    "name": "regional indicator symbol letter s",
-    "category": "regional",
-    "shortname": ":regional_indicator_s:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f8"
-  },
-  "1f1f7": {
-    "name": "regional indicator symbol letter r",
-    "category": "regional",
-    "shortname": ":regional_indicator_r:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f7"
-  },
-  "1f1f6": {
-    "name": "regional indicator symbol letter q",
-    "category": "regional",
-    "shortname": ":regional_indicator_q:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f6"
-  },
-  "1f1f5": {
-    "name": "regional indicator symbol letter p",
-    "category": "regional",
-    "shortname": ":regional_indicator_p:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f5"
-  },
-  "1f1f4": {
-    "name": "regional indicator symbol letter o",
-    "category": "regional",
-    "shortname": ":regional_indicator_o:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f4"
-  },
-  "1f1f3": {
-    "name": "regional indicator symbol letter n",
-    "category": "regional",
-    "shortname": ":regional_indicator_n:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f3"
-  },
-  "1f1f2": {
-    "name": "regional indicator symbol letter m",
-    "category": "regional",
-    "shortname": ":regional_indicator_m:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f2"
-  },
-  "1f1f1": {
-    "name": "regional indicator symbol letter l",
-    "category": "regional",
-    "shortname": ":regional_indicator_l:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f1"
-  },
-  "1f1f0": {
-    "name": "regional indicator symbol letter k",
-    "category": "regional",
-    "shortname": ":regional_indicator_k:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1f0"
-  },
-  "1f1ef": {
-    "name": "regional indicator symbol letter j",
-    "category": "regional",
-    "shortname": ":regional_indicator_j:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1ef"
-  },
-  "1f1ee": {
-    "name": "regional indicator symbol letter i",
-    "category": "regional",
-    "shortname": ":regional_indicator_i:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1ee"
-  },
-  "1f1ed": {
-    "name": "regional indicator symbol letter h",
-    "category": "regional",
-    "shortname": ":regional_indicator_h:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1ed"
-  },
-  "1f1ec": {
-    "name": "regional indicator symbol letter g",
-    "category": "regional",
-    "shortname": ":regional_indicator_g:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1ec"
-  },
-  "1f1eb": {
-    "name": "regional indicator symbol letter f",
-    "category": "regional",
-    "shortname": ":regional_indicator_f:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1eb"
-  },
-  "1f1ea": {
-    "name": "regional indicator symbol letter e",
-    "category": "regional",
-    "shortname": ":regional_indicator_e:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1ea"
-  },
-  "1f1e9": {
-    "name": "regional indicator symbol letter d",
-    "category": "regional",
-    "shortname": ":regional_indicator_d:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1e9"
-  },
-  "1f1e8": {
-    "name": "regional indicator symbol letter c",
-    "category": "regional",
-    "shortname": ":regional_indicator_c:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1e8"
-  },
-  "1f1e7": {
-    "name": "regional indicator symbol letter b",
-    "category": "regional",
-    "shortname": ":regional_indicator_b:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1e7"
-  },
-  "1f1e6": {
-    "name": "regional indicator symbol letter a",
-    "category": "regional",
-    "shortname": ":regional_indicator_a:",
-    "shortname_alternates": [],
-    "keywords": ["uc6"],
-    "unicode_output": "1f1e6"
   },
   "1f3f3": {
     "name": "white flag",
@@ -24420,6 +25556,214 @@ var emojiStrategy = [
     "keywords": ["flag", "uc6"],
     "unicode_output": "1f1fa-1f1f3"
   },
+  "1f1ff": {
+    "name": "regional indicator symbol letter z",
+    "category": "regional",
+    "shortname": ":regional_indicator_z:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1ff"
+  },
+  "1f1fe": {
+    "name": "regional indicator symbol letter y",
+    "category": "regional",
+    "shortname": ":regional_indicator_y:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1fe"
+  },
+  "1f1fd": {
+    "name": "regional indicator symbol letter x",
+    "category": "regional",
+    "shortname": ":regional_indicator_x:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1fd"
+  },
+  "1f1fc": {
+    "name": "regional indicator symbol letter w",
+    "category": "regional",
+    "shortname": ":regional_indicator_w:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1fc"
+  },
+  "1f1fb": {
+    "name": "regional indicator symbol letter v",
+    "category": "regional",
+    "shortname": ":regional_indicator_v:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1fb"
+  },
+  "1f1fa": {
+    "name": "regional indicator symbol letter u",
+    "category": "regional",
+    "shortname": ":regional_indicator_u:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1fa"
+  },
+  "1f1f9": {
+    "name": "regional indicator symbol letter t",
+    "category": "regional",
+    "shortname": ":regional_indicator_t:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f9"
+  },
+  "1f1f8": {
+    "name": "regional indicator symbol letter s",
+    "category": "regional",
+    "shortname": ":regional_indicator_s:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f8"
+  },
+  "1f1f7": {
+    "name": "regional indicator symbol letter r",
+    "category": "regional",
+    "shortname": ":regional_indicator_r:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f7"
+  },
+  "1f1f6": {
+    "name": "regional indicator symbol letter q",
+    "category": "regional",
+    "shortname": ":regional_indicator_q:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f6"
+  },
+  "1f1f5": {
+    "name": "regional indicator symbol letter p",
+    "category": "regional",
+    "shortname": ":regional_indicator_p:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f5"
+  },
+  "1f1f4": {
+    "name": "regional indicator symbol letter o",
+    "category": "regional",
+    "shortname": ":regional_indicator_o:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f4"
+  },
+  "1f1f3": {
+    "name": "regional indicator symbol letter n",
+    "category": "regional",
+    "shortname": ":regional_indicator_n:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f3"
+  },
+  "1f1f2": {
+    "name": "regional indicator symbol letter m",
+    "category": "regional",
+    "shortname": ":regional_indicator_m:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f2"
+  },
+  "1f1f1": {
+    "name": "regional indicator symbol letter l",
+    "category": "regional",
+    "shortname": ":regional_indicator_l:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f1"
+  },
+  "1f1f0": {
+    "name": "regional indicator symbol letter k",
+    "category": "regional",
+    "shortname": ":regional_indicator_k:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1f0"
+  },
+  "1f1ef": {
+    "name": "regional indicator symbol letter j",
+    "category": "regional",
+    "shortname": ":regional_indicator_j:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1ef"
+  },
+  "1f1ee": {
+    "name": "regional indicator symbol letter i",
+    "category": "regional",
+    "shortname": ":regional_indicator_i:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1ee"
+  },
+  "1f1ed": {
+    "name": "regional indicator symbol letter h",
+    "category": "regional",
+    "shortname": ":regional_indicator_h:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1ed"
+  },
+  "1f1ec": {
+    "name": "regional indicator symbol letter g",
+    "category": "regional",
+    "shortname": ":regional_indicator_g:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1ec"
+  },
+  "1f1eb": {
+    "name": "regional indicator symbol letter f",
+    "category": "regional",
+    "shortname": ":regional_indicator_f:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1eb"
+  },
+  "1f1ea": {
+    "name": "regional indicator symbol letter e",
+    "category": "regional",
+    "shortname": ":regional_indicator_e:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1ea"
+  },
+  "1f1e9": {
+    "name": "regional indicator symbol letter d",
+    "category": "regional",
+    "shortname": ":regional_indicator_d:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1e9"
+  },
+  "1f1e8": {
+    "name": "regional indicator symbol letter c",
+    "category": "regional",
+    "shortname": ":regional_indicator_c:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1e8"
+  },
+  "1f1e7": {
+    "name": "regional indicator symbol letter b",
+    "category": "regional",
+    "shortname": ":regional_indicator_b:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1e7"
+  },
+  "1f1e6": {
+    "name": "regional indicator symbol letter a",
+    "category": "regional",
+    "shortname": ":regional_indicator_a:",
+    "shortname_alternates": [],
+    "keywords": ["uc6"],
+    "unicode_output": "1f1e6"
+  },
   "1f3fb": {
     "name": "light skin tone",
     "category": "modifier",
@@ -24461,4 +25805,3 @@ var emojiStrategy = [
     "unicode_output": "1f3ff"
   }
 }
-];
