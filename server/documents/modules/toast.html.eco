@@ -91,7 +91,7 @@ themes      : ['Default']
         $('body')
           .toast({
             class: 'error',
-            message: `An error occured !`
+            message: `An error occurred !`
           })
         ;
         </div>
@@ -107,7 +107,7 @@ themes      : ['Default']
 
     <div class="no example">
         <h4 class="ui header">Position</h4>
-        <p>A toast can appear in different positions on the screen.</p>
+        <p>A toast can appear at different positions on the screen.</p>
         <div class="code" data-demo="true">
         $('body')
           .toast({
@@ -125,7 +125,61 @@ themes      : ['Default']
         ;
         </div>
     </div>
-
+    <div class="no example">
+          <h4 class="ui header">Attached Position<span class="ui black label">New in 2.8.8</span></h4>
+          <p>A toast can have an attached position which will show the toast over the whole width of the screen. Just like notifications on mobile devices.</p>
+          <div class="ui warning message">
+            Attached positions with centered content only support attached actions. See the  <a href="#actions-and-centered-and-attached-position">examples tab</a> for more info.
+          </div>
+          <div class="code" data-demo="true">
+            $('body')
+              .toast({
+                position: 'top attached',
+                title: 'Watch out!',
+                message: `I am a top attached toast`
+              })
+            ;
+          </div>
+          <div class="code" data-demo="true">
+            $('body')
+              .toast({
+                position: 'bottom attached',
+                title: 'Watch out!',
+                message: 'I am a bottom attached toast',
+                newestOnTop: true
+              })
+            ;
+          </div>
+      </div>
+    <div class="no example">
+      <h4 class="ui header">Direction <span class="ui black label">New in 2.8.8</span></h4>
+      <p>Toasts can stack horizontal</p>
+      <div class="code" data-demo="true">
+      $('body')
+        .toast({
+          horizontal: true,
+          position: 'top left',
+          message: `Next one will open to the right`
+        })
+      ;
+      </div>
+    </div>
+    <div class="no example">
+          <h4 class="ui header">Center Aligned<span class="ui black label">New in 2.8.8</span></h4>
+          <p>The toasts content can be shown center aligned.</p>
+          <div class="ui warning message">
+              Centered content in <a href="#attached-position">attached toasts</a> only support attached actions. See the  <a href="#actions-and-centered-and-attached-position">examples tab</a> for more info.
+          </div>
+          <div class="code" data-demo="true">
+              $('body')
+                  .toast({
+                      title: 'Veronika has joined',
+                      message: 'Welcome to the Fomantic-UI community!',
+                      class: 'center aligned', // you can also use 'centered'
+                  })
+              ;
+          </div>
+      </div>
     <div class="no example">
         <h4 class="ui header">Duration</h4>
         <p>You can choose how long a toast should be displayed.</p>
@@ -137,7 +191,7 @@ themes      : ['Default']
           })
         ;
         </div>
-        <p>You can even avoid a toast to disapear.</p>
+        <p>You can even avoid a toast to disappear.</p>
         <div class="code" data-demo="true">
         $('body')
           .toast({
@@ -238,7 +292,6 @@ themes      : ['Default']
         $('body')
           .toast({
             message: 'I am an inverted colorful toast',
-//            class: 'inverted purple',
             class : 'inverted ' + suiColors[suiPlus()],   //cycle through all colors
             showProgress: 'bottom'
           })
@@ -305,6 +358,27 @@ themes      : ['Default']
             }]
           })
         ;
+        </div>
+    </div>
+    <div class="no example">
+        <h4 class="ui header">Centered<div class="ui black label">New in 2.8.8</div></h4>
+        <p>The actions buttons can also be shown <code>centered</code></p>
+        <div class="code" data-demo="true">
+          $('body')
+              .toast({
+                  message: 'Do you really want to star Fomantic-UI?',
+                  displayTime: 0,
+                  class: 'black',
+                  classActions: 'centered', // you can also use 'center aligned'
+                  actions:	[{
+                      text: 'Yes, really',
+                      class: 'yellow',
+                      click: function() {
+                        $('body').toast({message:'You clicked "yes", toast closes by default'});
+                    }
+                 }]
+              })
+          ;
         </div>
     </div>
     <div class="no example">
@@ -489,7 +563,29 @@ themes      : ['Default']
       ;
       </div>
     </div>
-
+    <div class="no example">
+      <h4 class="ui header">Actions and centered and attached position</h4>
+      <p>Using actions in <a href="#attached-position">attached position</a> variants in combination with  <a href="#center-aligned">centered toast content</a>  does only support  <a href="#attached">attached actions</a>. This is because of the flexbox usage to align a possible icon/image next to the content.</p>
+      <div class="code" data-demo="true">
+          $('body')
+              .toast({
+                  title: 'Centered top attached',
+                  message: 'I only support attached actions',
+                  displayTime: 0,
+                  position: 'top attached',
+                  class: 'centered',
+                  classActions: 'attached',
+                  actions:	[{
+                      text: 'Mark as read',
+                      class: 'grey'
+                  },{
+                      text: 'Delete',
+                      class: 'red'
+                  }]
+              })
+          ;
+      </div>
+    </div>
     <h2 class="ui dividing header">Create from DOM</h2>
 
     <p>By creating your toasts out of existing DOM nodes you can make use of other existing FUI components <span class="ui black label">New in 2.8.0</span></p>
@@ -511,8 +607,29 @@ themes      : ['Default']
         </div>
     </div>
     <div class="example">
+      <h4 class="ui header">Template <span class="ui black label">New in 2.8.8</span></h4>
+      <p>You can reuse a dom template and provide its content via setting parameters</p>
+      <div class="ui pink toast" id="domtemplate" >
+          <img class="ui image avatar">
+          <div class="content">
+              <div class="ui header"></div>
+              <div class="message"></div>
+          </div>
+      </div>
+      <p></p>
+      <div class="code" data-demo="true">
+          $('#domtemplate')
+          .toast({
+            title: 'Hello visitor #' + Math.random().toString(36).substr(2),
+            message: 'Message ID: '+ Math.random().toString(36).substr(2),
+            showImage: '//fomantic-ui.com/images/avatar/small/zoe.jpg'
+          })
+          ;
+      </div>
+    </div>
+    <div class="example">
         <h4 class="ui header">Approve / Deny Callbacks</h4>
-        <p>Just like <a href="/modules/modal.html#approve--deny-callbacks">Modal</a>, Toast will automatically tie approve/deny callbacks to any positive/approve, negative/deny or ok/cancel buttons without the need to create actions via setting
+        <p>Just like <a href="/modules/modal.html#approve--deny-callbacks">Modal</a>, Toast will automatically tie approve/deny callbacks to any positive/approve, negative/deny or ok/cancel buttons without the need to create actions via setting</p>
         <div class="ui ignored info message">
             If <code>onDeny</code>, <code>onApprove</code> or <code>onHide</code> returns false it will prevent the toast from closing
         </div>
@@ -679,7 +796,49 @@ themes      : ['Default']
             ;
             </div>
         </div>
-
+        <div class="example">
+            <h4 class="ui header">General HTML Layout</h4>
+            <p>The general layout of a rendered toast might be useful for people who want to implement their own javascript display logic and just want to reuse Fomantics HTML CSS Layout.</p>
+            <p>The following structure is used to position the toasts. Each position container implements a <code>toast-box</code> per toast. The extra wrapper is needed to make dynamic elements like progressbar independent of the toast layout.</p>
+            <div class="code" data-type="html">
+                <div class="ui top right toast-container">
+                    <div class="toast-box">
+<!-- only when vertical attached buttons are used an extra wrapping node is needed -->
+                        <div class="vertical attached">
+                            <div class="vertical attached ui buttons actions">
+                                <button class="ui button">Action button</button>
+                            </div>
+<!--  An optional progressbar. If the toast has got the compact class, the progressbar should also have it -->
+                            <div class="ui attached compact progress">
+                                <div class="bar"></div>
+                            </div>
+<!-- Here comes the actual toast -->
+                            <div class="ui compact toast"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>A single toast layout inside the above mentioned <code>toast-box</code> has the following structure</p>
+            <div class="code" data-type="html">
+<!-- The 'neutral' class will show the toast with a white background if no color is given -->
+                <div class="ui neutral toast" style="display: block;">
+<!-- optional icon -->
+                    <i class="microphone icon "></i>
+<!-- optional image -->
+                    <img class="ui image avatar" src="https://fomantic-ui.com/images/avatar/small/veronika.jpg">
+                    <div class="content">
+                        <div class="ui header">Toast Header</div>
+                        Toast content
+                    </div>
+<!-- optional close icon -->
+                    <i class="close icon "></i>
+<!-- optional action buttons (vertical attached buttons are declared in the toast-box instead) -->
+                    <div class="ui buttons actions">
+                        <button class="ui button">Action button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <h2 class="ui dividing header">Behaviors</h2>
 
         <p>All the following behaviors can be called using the syntax:<p>
@@ -688,6 +847,13 @@ themes      : ['Default']
         </div>
 
         <table class="ui definition celled table">
+          <thead>
+            <tr>
+                <th>Behavior</th>
+                <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
             <tr>
                 <td>animate pause</td>
                 <td>Pauses the display time decrease (and possible progress bar animation)</td>
@@ -708,6 +874,7 @@ themes      : ['Default']
                 <td>get remainingTime</td>
                 <td>Returns the remaining time in milliseconds</td>
             </tr>
+          </tbody>
         </table>
 
     </div>
@@ -732,6 +899,11 @@ themes      : ['Default']
           <td>Sets where the toast can be displayed. Can be <code>top right</code>, <code>top center</code>, <code>top left</code>, <code>bottom right</code>, <code>bottom center</code> and <code>bottom left</code></td>
         </tr>
         <tr>
+          <td>horizontal</td>
+          <td>false</td>
+          <td>If the toasts should stack horizontal instead of vertical</td>
+        </tr>
+        <tr>
           <td>class</td>
           <td>neutral</td>
           <td>Define the class of notification. Can be any existing color definition or <code>info</code>, <code>success</code>, <code>warning</code> and <code>error</code>. If <code>ui message</code> is used in className.toast option (see below), this option can hold any supported class of the message component</td>
@@ -751,7 +923,11 @@ themes      : ['Default']
             <td>mini</td>
             <td>Can hold a string to be added to the image class. <code>mini</code>, <code>tiny</code>, <code>small</code> and <code>avatar</code> are supported out of the box</td>
         </tr>
-
+        <tr>
+            <td>context</td>
+            <td>body</td>
+            <td>Selector or jquery object specifying the area to attach the toast container to</td>
+        </tr>
         <tr>
           <td>displayTime</td>
           <td>3000</td>

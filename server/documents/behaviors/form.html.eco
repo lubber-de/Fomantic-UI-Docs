@@ -353,7 +353,8 @@ type        : 'UI Behavior'
       </h4>
         <p>Validation rules are a set of conditions required to validate a field</p>
       <div class="ui info message">Validation rules are found in <code>$.fn.form.settings.rules</code>, to add new global validation rules, modify <code>$.fn.form.settings.rules</code> to include your function.</div>
-      <div class="in red message">To pass parameters to a rule, use bracket notation in your settings object. For example <code>type: 'not[dog]'</code></div>
+      <div class="ui info message">To pass parameters to a rule, use bracket notation in your settings object. For example <code>type: 'not[dog]'</code></div>
+      <div class="ui info message">Despite the global setting <code>shouldTrim</code> you can optionally specify to trim/not trim values before validation by adding <code>shouldTrim:true</code> or <code>shouldTrim:false</code> to each rule <span class="ui tiny black label">New in 2.8.8</span></div>
 
       <h3 class="ui header"><a href="#empty">Empty</a></h3>
       <table class="ui celled sortable basic table segment">
@@ -384,18 +385,28 @@ type        : 'UI Behavior'
           </tr>
           <tr>
             <td>integer</td>
-            <td>A field is an integer value, or matches an integer range</td>
+            <td>A field is an integer value or matches an integer range</td>
             <td><code>integer</code> or <code>integer[1..10]</code></td>
           </tr>
           <tr>
             <td>decimal</td>
-            <td>A field must be a decimal number</td>
-            <td></td>
+            <td>A field must be a decimal number or matches a decimal range</td>
+            <td><code>decimal</code> or <code>decimal[0.1..1.5]</code></td>
           </tr>
           <tr>
             <td>number</td>
-            <td>A field is any number decimal or non-decimal</td>
-            <td></td>
+            <td>A field is any number decimal or non-decimal or matches a number range</td>
+            <td><code>number</code> or <code>number[1..10]</code></td>
+          </tr>
+          <tr>
+            <td>minValue</td>
+            <td>A field has a minimum number decimal or non-decimal</td>
+            <td><code>minValue[1.5]</code></td>
+          </tr>
+          <tr>
+            <td>maxValue</td>
+            <td>A field has a maximum number decimal or non-decimal</td>
+            <td><code>maxValue[50]</code></td>
           </tr>
           <tr>
             <td>regExp[expression]</td>
@@ -1428,7 +1439,7 @@ type        : 'UI Behavior'
       <p>You can use the special behaviors <code>add field/rule</code>, <code>remove rule</code> and <code>remove field</code> to dynamically add or remove fields or rules. </p>
       <div class="ui ignored info message">
         <div class="ui header">Adding Multiple Rules and Complex Rules</div>
-        You can specify shorthand or full rule objects when adding rules. You can also specifiy fields as an array to modify multiple fields.</code>.
+        You can specify shorthand or full rule objects when adding rules. You can also specify fields as an array to modify multiple fields.</code>.
       </div>
       <div class="code">
       // lets only validate username to start
@@ -1866,7 +1877,7 @@ type        : 'UI Behavior'
     <div class="dirty example">
       <h4 class="ui header">Dirty / Clean state</h4>
       <p>
-        When initialized, form has a <em>clean</em> state that record all field values. Once at least one field is modified, form enter in <em>dirty</em> state, that can be catched trough the <code>onDirty</code> event.
+        When initialized, form has a <em>clean</em> state that record all field values. Once at least one field is modified, form enter in <em>dirty</em> state, that can be caught through the <code>onDirty</code> event.
       </p>
       <p>
         Dirty fields can be retrieved by calling the <code>$('form').form('get dirty fields')</code> method, and form can be set to a <em>clean</em> state even with new values by calling the <code>$('form').form('set as clean')</code> method. All new values will then be set as default.
@@ -2035,6 +2046,10 @@ type        : 'UI Behavior'
         <td>set auto check</td>
         <td>Automatically adds the "empty" rule or automatically checks a checkbox for all fields with classname or attribute <code>required</code></td>
       </tr>
+      <tr>
+        <td>set optional(identifier, bool = true)<div class="ui label">New in 2.8.8</div></td>
+        <td>Set or unset matching fields as optional</td>
+      </tr>
     </table>
 
     <h2 class="ui dividing header">Settings</h2>
@@ -2109,6 +2124,11 @@ type        : 'UI Behavior'
             <td>false</td>
             <td>Whether fields with classname or attribute <code>required</code> should automatically add the "empty" rule or automatically checks checkbox fields</td>
           </tr>
+          <tr>
+            <td>errorFocus<div class="ui label">New in 2.8.8</div></td>
+            <td>false</td>
+            <td>Whether, on an invalid form validation, it should automatically focus either the first error field (Use <code>true</code>) or a specific dom node (Use a unique selector string such as <code>.ui.error.message</code> or <code>#myelement</code>)</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -2136,7 +2156,7 @@ type        : 'UI Behavior'
               }
               </div>
               <div class="ui warning message">
-                The <code>leavingMessage</code> text will only be displayed on Internet Explorer browsers. Other browsers will display a standard message, to prevent intruding popups (more informations <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event">here</a>).
+                The <code>leavingMessage</code> text will only be displayed on Internet Explorer browsers. Other browsers will display a standard message, to prevent intruding popups (more information <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event">here</a>).
               </div>
             </td>
           </tr>
@@ -2178,12 +2198,12 @@ type        : 'UI Behavior'
         </tbody>
       </table>
     </div>
-    
+
     <div class="no example">
       <h4 class="ui header">
         Formatters
       </h4>
-      <p>Settings to modify default returned values. Actually exclusively used with calendar fields (trough the <code>dateHandling: 'formatter'</code> setting).</p>
+      <p>Settings to modify default returned values. Actually exclusively used with calendar fields (through the <code>dateHandling: 'formatter'</code> setting).</p>
 
       <table class="ui celled sortable definition table">
         <thead>
@@ -2234,7 +2254,7 @@ type        : 'UI Behavior'
         </tbody>
       </table>
     </div>
-    
+
     <div class="no example">
       <h4 class="ui header">
         Callbacks
