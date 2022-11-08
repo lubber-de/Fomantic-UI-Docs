@@ -11,7 +11,6 @@ description : 'API allows elements to trigger actions on a server'
 type        : 'UI Behavior'
 ---
 
-<script src="/javascript/library/serialize-object.js"></script>
 <script src="/javascript/api.js"></script>
 
 <%- @partial('header',  { tabs: { overview: 'Overview', usage: 'Usage',  behaviors: 'Behaviors',  settings: 'Settings' } }) %>
@@ -34,7 +33,7 @@ type        : 'UI Behavior'
 
     <div class="no example">
       <h4 class="ui header">Preserve Templated URLs</h4>
-      <p>API helps you decouple URLs from your code. Use named API actions like <code>get followers</code> instead of URLs like <code>http://foo.com/get/1.0/followers.json</code> in your code.</p>
+      <p>API helps you decouple URLs from your code. Use named API actions like <code>get followers</code> instead of URLs like <code>https://foo.com/get/1.0/followers.json</code> in your code.</p>
       <div class="ignored code" data-type="javascript">
       $('.button')
         .api({
@@ -155,7 +154,7 @@ type        : 'UI Behavior'
         <div class="code">
         $('.search.button')
           .api({
-            url: 'http://www.google.com?q={value}'
+            url: '//www.google.com?q={value}'
           })
         ;
         </div>
@@ -433,13 +432,10 @@ type        : 'UI Behavior'
         <p>When you use the <code>serializeForm</code> setting or attach API events on a form, API will automatically include the closest form in data sent to the server.</p>
         <p>Structured form data is beneficial over <a href="https://api.jquery.com/serialize/">jQuery's serialize</a> for several reasons:</p>
         <ul class="ui large list">
-          <li><a href="https://github.com/macek/jquery-serialize-object" target="_blank">Serialize Object</a> correctly converts structured form names like <code>name="name[first]"</code> into nested object literals.</li>
+          <li><code>serializeForm: true</code> correctly converts structured form names like <code>name="name[first]"</code> into nested object literals.</li>
           <li>Structured form data can be modified in Javascript in <code>beforeSend</code>.</li>
           <li>Form data will automatically be converted to their Javascript equivalents, for instance, checkboxes will be converted to <code>boolean</code> values.</li>
         </ul>
-        <div class="ui ignored warning message">
-          Structured form data requires including <a href="https://github.com/macek/jquery-serialize-object" target="_blank">macek's serialize object.</a>
-        </div>
       </div>
       <div class="example">
         <h4 class="ui header">Structured Data Example</h4>
@@ -975,7 +971,7 @@ type        : 'UI Behavior'
       AJAX
     </h4>
     <div class="ui info message">
-      You can pass in any standard <a href="http://api.jquery.com/jquery.ajax/">jQuery AJAX setting</a> like <code>timeout</code> or <code>contentType</code> to API's settings and it will be automatically passed to the request's AJAX call.
+      You can pass in any standard <a href="https://api.jquery.com/jquery.ajax/">jQuery AJAX setting</a> like <code>timeout</code> or <code>contentType</code> to API's settings and it will be automatically passed to the request's AJAX call.
     </div>
 
     <h4 class="ui header">
@@ -1016,7 +1012,7 @@ type        : 'UI Behavior'
         <tr>
           <td>serializeForm</td>
           <td>false</td>
-          <td>Whether to serialize closest form and include in request</td>
+          <td>Whether to serialize closest form and include in request.<br>If set to <code>'formdata'</code> instead of <code>true</code> the Formdata Web API is used (formdata however does not support nested named keys like <code>a[b][c][d]</code>)</td>
         </tr>
         <tr>
           <td>throttle</td>
@@ -1118,8 +1114,8 @@ type        : 'UI Behavior'
         </tr>
         <tr>
           <td>rawResponse</td>
-          <td>false</td>
-          <td>If set, the onResponse event handler is able to handle an raw Array Object, which is probably returned by the requested source. Even if the datatype is json, it won't be force converted into an object anymore then.</td>
+          <td>true</td>
+          <td>If set to false, a possible given JSON Array response will be force converted into a JSON Object before being provided to the onResponse event handler, even if the datatype is json.</td>
           <td></td>
         </tr>
         <tr>
@@ -1311,7 +1307,6 @@ type        : 'UI Behavior'
               JSONParse         : 'JSON could not be parsed during error handling',
               legacyParameters  : 'You are using legacy API success callback names',
               missingAction     : 'API action used but no url was defined',
-              missingSerialize  : 'Required dependency jquery-serialize-object missing, using basic serialize',
               missingURL        : 'No URL specified for API event',
               noReturnedValue   : 'The beforeSend callback must return a settings object, beforeSend ignored.',
               parseError        : 'There was an error parsing your request',

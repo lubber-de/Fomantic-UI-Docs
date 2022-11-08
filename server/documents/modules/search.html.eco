@@ -49,7 +49,7 @@ type        : 'UI Module'
       <p>A search can display results from remote content ordered by categories</p>
       <div class="ui category search">
         <div class="ui icon input">
-          <input class="prompt" type="text" placeholder="Search animals...">
+          <input class="prompt" type="text" placeholder="Search people...">
           <i class="search icon"></i>
         </div>
         <div class="results"></div>
@@ -854,7 +854,7 @@ type        : 'UI Module'
           <td>
             easeOutExpo
           </td>
-          <td>Easing equation when using fallback Javascript animation</td>
+          <td>Easing equation when using fallback Javascript animation. EaseOutExpo is included with search, for additional options you must include <a href="https://gsgd.co.uk/sandbox/jquery/easing/">easing equations</td>
         </tr>
         <tr>
           <td>ignoreDiacritics</td>
@@ -1026,7 +1026,7 @@ type        : 'UI Module'
         </tr>
         <tr>
           <td>silent</td>
-          <td>False</td>
+          <td>false</td>
           <td>Silences all console output including error messages, regardless of other debug settings.</td>
         </tr>
         <tr>

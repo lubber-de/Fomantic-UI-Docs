@@ -8,8 +8,6 @@ standalone  : true
 title       : 'Slider'
 description : 'A slider allows users to select values within a range'
 type        : 'UI Module'
-status      : 'NEW'
-statusColor : 'teal'
 
 themes      : ['Default']
 ---
@@ -268,6 +266,10 @@ themes      : ['Default']
       <tr>
         <td>set rangeValue(fromValue, toValue, fireChange = true)</td>
         <td>Set the current range slider values. Pass <code>false</code> to <code>fireChange</code> to skip the <code>onChange</code> and <code>onMove</code> callbacks</td>
+      </tr>
+      <tr>
+        <td>destroy</td>
+        <td>Destroys instance and removes all events</td>
       </tr>
     </table>
 
