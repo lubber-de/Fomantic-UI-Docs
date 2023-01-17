@@ -18,7 +18,7 @@ type        : 'Main'
     <h2 class="ui dividing header">One big step ahead</h2>
     <p>Fomantic <code>2.9</code> once again includes more than <a href="https://github.com/fomantic/Fomantic-UI/pulls?q=is%3Apr+milestone%3A2.9.0+">200</a> new features, improvements and bugfixes.</p>
     <div class="ui small info message">
-     The few SUI 2.5.0 fixes, which were not already been fixed within the past 4 years in previous Fomantic UI Versions <em class="ui emoji" data-emoji=":wink:"></em>, are included as well
+     The few SUI 2.5.0 fixes, which were not already fixed within the past 4 years in previous Fomantic UI Versions <em class="ui emoji" data-emoji=":wink:"></em>, are included as well
     </div>
     <h2 class="ui dividing header">
       New UI Component
@@ -239,6 +239,13 @@ type        : 'Main'
         <div class="list">
           <div class="item">New default value for <code>errorFocus</code> is <code>true</code></div>
           <div class="item">"length" rule was removed, use <code>minlength</code> instead</div>
+        </div>
+      </div>
+      <div class="item">
+        <div>Icon</div>
+        <div class="list">
+          <div class="item"><code>chart line</code> was renamed to <code>chartline</code></div>
+          <div class="item"><code>line graph</code> was renamed to <code>linegraph</code></div>
         </div>
       </div>
       <div class="item">

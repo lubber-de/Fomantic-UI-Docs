@@ -1949,7 +1949,7 @@ themes      : ['Default', 'GitHub', 'Material']
           .dropdown({
             apiSettings: {
               // this url parses query server side and returns filtered results
-              url: '//api.github.com/search/repositories?q={query}'
+              url: 'https://api.github.com/search/repositories?q={query}'
             },
             fields: {
             // the remote api has a different structure than expected, which we can adjust
@@ -3605,13 +3605,13 @@ themes      : ['Default', 'GitHub', 'Material']
           <td>
             <div class="code">
             label: {
-              transition : 'horizontal flip',
+              transition : 'scale',
               duration   : 200,
               variation  : false
             }
             </div>
           </td>
-          <td>Allows customization of multi-select labels</td>
+          <td>Allows customization of multi-select labels. Setting <code>transition: false</code> will not animate the label at all</td>
         </tr>
       </tbody>
     </table>
@@ -3764,8 +3764,7 @@ themes      : ['Default', 'GitHub', 'Material']
           delay : {
             hide   : 300,
             show   : 200,
-            search : 50,
-            touch  : 50
+            search : 20
           }
           </div>
           </td>
@@ -4017,7 +4016,7 @@ themes      : ['Default', 'GitHub', 'Material']
               method          : 'The method you called is not defined.',
               noAPI           : 'The API module is required to load resources remotely',
               noStorage       : 'Saving remote data requires session storage',
-              noTransition    : 'This module requires ui transitions <https://github.com/Semantic-Org/UI-Transition>',
+              noElement       : 'This module requires ui {element}',
               noNormalize     : '"ignoreDiacritics" setting will be ignored. Browser does not support String().normalize(). You may consider including <https://cdn.jsdelivr.net/npm/unorm@1.4.1/lib/unorm.min.js> as a polyfill.'
             }
             </div>
@@ -4054,7 +4053,7 @@ themes      : ['Default', 'GitHub', 'Material']
       .dropdown({
         preserveHTML : false,
         apiSettings: {
-          url: '//api.github.com/search/repositories?q={query}'
+          url: 'https://api.github.com/search/repositories?q={query}'
         }
       });
     </div>

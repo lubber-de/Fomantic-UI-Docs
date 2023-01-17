@@ -33,7 +33,7 @@ type        : 'Introduction'
     <p>Fomantic UI uses Gulp for several reasons:</p>
     <div class="ui large bulleted list">
       <div class="item">Process LESS files with <a href="/usage/theming.html">theming variables</a></div>
-      <div class="item">Add vendor prefixes for <a href="https://github.com/fomantic/Fomantic-UI/blob/master/tasks/config/project/tasks.js#L96">supported browsers</a> with <a href="https://github.com/postcss/autoprefixer" target="_blank">autoprefixer</a></div>
+      <div class="item">Add vendor prefixes for <a href="https://github.com/fomantic/Fomantic-UI/blob/master/README.md#-browser-support">supported browsers</a> with <a href="https://github.com/postcss/autoprefixer" target="_blank">autoprefixer</a></div>
       <div class="item">Watch file changes and rebuild the necessary files when adjusting themes</div>
       <div class="item">Automatically process asset paths, so that minified and concatenated releases can exist in different directories</div>
       <div class="item">Allow custom builds with only the required components for your site</div>
@@ -187,7 +187,7 @@ type        : 'Introduction'
     <h4>semantic.json</h4>
     <p>Build tool settings are stored in a special file called <code>semantic.json</code> It can be included in any folder that is in a parent folder of the fomantic install folder.</p>
     <p>If you used the npm or meteor, a <code>semantic.json</code> file is automatically generated for you in the root of your project. If you used a different package manager you can run <code>gulp install</code> to run the interactive installer.</p>
-    <div class="ignored code">
+    <div class="ignored code" data-type="JS" data-title="semantic.json">
     {
       // base path added to all other paths specified in "paths"
       "base": "",
@@ -298,8 +298,25 @@ type        : 'Introduction'
         "form",
         "modal",
         "step",
-        "emoji
+        "emoji"
       ],
+
+      // Use custom postcss/autoprefixer options object
+      "prefix": {},
+
+      // Use a custom Banner on each generated js/css file
+      "banner": "/* A custom central FUI Banner !!!\n Awesome Release! \n*/",
+
+      // strip all top headers from each component inside the concatenated, non-minified, semantic.css/js
+      "stripHeaders": true,
+
+      // Custom placeholder values inside banner
+      "header": {
+         "year": "ALWAYS 2099 :)",
+         "title": "Fomantic-UI Pro",
+         "repository": "Not yet available",
+         "url": "https://fomantic-ui.com/pro"
+      },
 
       // whether to include special project maintainer tasks
       "admin": false
