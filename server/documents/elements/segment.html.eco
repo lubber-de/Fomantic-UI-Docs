@@ -461,6 +461,19 @@ themes      : ['default', 'GitHub']
   </div>
 
   <div class="example">
+      <h4 class="ui header">Seamless attached <span class="ui black label">New in 2.9.2</span></h4>
+      <p>A segment can be seamless attached removing the related sides border. This is especially useful when working with a <a href="/collections/menu.html#tabular"><code>vertical tabular menu</code></a></p>
+      <div class="ui horizontal segments">
+          <div class="ui seamless left attached right aligned segment">
+            <p>This segment is seamless left attached</p>
+          </div>
+          <div class="ui seamless right attached segment">
+            <p>This segment is seamless right attached</p>
+          </div>
+      </div>
+  </div>
+
+  <div class="example">
     <h4 class="ui header">Padded</h4>
     <p>A segment can increase its padding</p>
     <div class="ui padded segment">
