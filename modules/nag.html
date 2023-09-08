@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Nag | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Nag | Fomantic-UI Docs</title>
 
 <meta name="description" content="A nag is an important message that persists until dismissed by a user" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="active item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="active item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,13 +834,15 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
-        
+        <link rel="stylesheet/less" type="text/css" href="/src/definitions/modules/nag.less" />
+<script src="/javascript/nag.js"></script>
 
-<div class="ui masthead vertical segment">
+
+
+<div class="ui masthead vertical tab segment">
   <div class="ui container">
     <div class="introduction">
 
@@ -856,6 +850,16 @@
         Nag
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the nag module here"
+            data-url="https://fomantic-ui.com/modules/nag.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A nag is an important message that persists until dismissed by a user
         </div>
       </h1>
@@ -867,81 +871,549 @@
           <i class="edit icon"></i>
         </a>
         
+        <a class="bug popup icon item" data-content="Submit Bug Report" href="https://github.com/fomantic/Fomantic-UI/issues/new?body=%23%20Bug%20Report%0A%0A%3C!--%0ATitle%20Format%0A%20%20%5BScope%5D%20Summary%20of%20what%20is%20broken%0A--%3E%0A%0A%23%23%20Steps%20to%20reproduce%0A1.%0A2.%0A3.%0A%0A%23%23%20Expected%20result%0A%0A%23%23%20Actual%20result%0A%0A%23%23%20Testcase%0A%3C!--%20Fork%20https%3A%2F%2Fjsfiddle.net%2F31d6y7mn%20--%3E%0A%0A%23%23%20Screenshot%20(when%20possible)%0A!%5B%5D()%0A%0A%23%23%20Version%0Ax.x.x">
+          <i class="bug icon"></i>
+        </a>
+        
         <a class="github popup icon item" data-content="View project on GitHub" href="https://github.com/fomantic/Fomantic-UI">
           <i class="alternate github icon"></i>
         </a>
       </div>
 
       
+<!--       <a href="/module.html" class="ui right floated basic right labeled icon button">
+        Learn about Modules
+        <i class="help icon" data-title="What are Modules?" data-content="Modules are UI elements that include behaviors as part of their definition. Modules require some knowledge of Javascript to use."></i>
+      </a> -->
+      
       
     </div>
+    
+    
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+      <div class="ui four item stackable tabs menu">
+        
+          <a class="active item" data-tab="definition">Definition</a>
+          
+        
+          <a class="item" data-tab="examples">Examples</a>
+          
+        
+          <a class="item" data-tab="usage">Usage</a>
+          
+        
+          <a class="item" data-tab="settings">Settings</a>
+          
+        
+      </div>
     
   </div>
 </div>
 
-
 <div class="main container">
 
-  <div class="ui active tab" data-tab="overview">
+  <div class="ui active tab" data-tab="definition">
 
-    <h2 class="ui dividing header">Current Progress</h2>
-    <div class="ui indicating progress">
-      <div class="bar" style="width: 60%;">
-        <div class="progress">60%</div>
-      </div>
-      <div class="label">Needs Documentation / Re-coding</div>
-    </div>
+    <h2 class="ui dividing header">Types</h2>
 
-    <h2 class="ui dividing header">Usage</h2>
-    <div class="no example">
-      <h4 class="ui header"></h4>
-      <p>Nags are used to present a user with a one time message which will persist until a user acknowledges the message. This can be used for providing notices like the site's use of cookies, an important change to a site like a security breach.</p>
-      <p>Semantic's nag component provides built in options for ensuring a nag is only displayed once. You can trigger an API endpoint on dismissal, in order to store a value in your database, or you can use localstorage or cookie value to make sure that a particular computer does not receive the nag again.</p>
-    </div>
-
-    <h2 class="ui dividing header">Example</h2>
-
-    <div class="code" data-type="javascript" data-demo="true">
-    // Wont re-appear unless cleared
-    $('.cookie.nag')
-      .nag('show')
-    ;
-    </div>
-    <div class="code" data-type="javascript" data-demo="true">
-    // Clears cookie so nag shows again
-    $('.cookie.nag')
-      .nag('clear')
-    ;
-    </div>
-    <div class="ui code" data-type="html" data-preview="true">
-      <div class="ui inline cookie nag">
-        <span class="title">
-          We use cookies to ensure you get the best experience on our website
-        </span>
+    <div class="ui info message">A nag is hidden by default, it needs to be initialized via javascript to be shown. See <a href="#/usage">usage</a> section for more details</div>
+    <div class="example">
+      <h4 class="ui header">Nag</h4>
+      <p>A simple nag appears in the DOM where it is declared</p>
+      <div class="ui nag">
+        Look, I am a nag!
         <i class="close icon"></i>
       </div>
     </div>
-    <div class="evaluated code" data-type="javascript">
-    // Automatically shows on init if cookie isnt set
-    $('.cookie.nag')
-      .nag({
-        key      : 'accepts-cookies',
-        value    : true
-      })
-    ;
+
+    <div class="example" data-use-content="true">
+      <h4 class="ui header">Title</h4>
+      <p>A nag can have a title</p>
+      <div class="ui nag">
+        <div class="title">Welcome to the nag module</div>
+        <div>Look, I am a nag!</div>
+        <i class="close icon"></i>
+      </div>
     </div>
 
-    <h2 class="ui dividing header">Support Development</h2>
-    <div class="no example">
+    <div class="example" data-class="fixed">
+     <h4 class="ui header">Fixed Nag</h4>
+      <p>A fixed nag appears at the top of the screen</p>
+      <div class="ui fixed nag" id="fixednag">
+        Look, i am a fixed nag!
+        <i class="close icon"></i>
+      </div>
+      <div class="code" data-type="javascript" data-demo="true">
+          /*
+           persist:true is used to ignore dismiss storage when closing
+           for demo purposes here, not related to 'fixed' variant
+          */
+          $('#fixednag')
+          .nag({
+            persist:true
+          })
+          ;
+      </div>
+    </div>
+    <div class="example" data-class="bottom fixed">
+      <p>A fixed nag can appear at the bottom of the screen</p>
+      <div class="ui bottom fixed nag" id="bottomfixednag">
+        Look, I am a bottom fixed nag!
+        <i class="close icon"></i>
+      </div>
+      <div class="code" data-type="javascript" data-demo="true">
+          $('#bottomfixednag')
+          .nag({
+            persist:true
+          })
+          ;
+      </div>
+    </div>
 
-      <p>You can help support the future development of the Fomantic UI project, and help boost the priority of this component by donating to Fomantic UI development.</p>
+    <div class="example" data-class="overlay">
+     <h4 class="ui header">Overlay Nag</h4>
+      <p>An overlay nag is absolute positioned and appears at the top of the parent DOM node</p>
+      <div class="ui segment">
+          <div class="ui overlay nag">
+            <div class="title">Welcome to the nag module</div>
+              <div>Look, I am a top overlay nag!</div>
+            <i class="close icon"></i>
+          </div>
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
+      </div>
+    </div>
+    <div class="example" data-class="bottom overlay">
+      <p>An overlay nag can appear at the bottom of the parent node</p>
+      <div class="ui segment">
+          <div class="ui bottom overlay nag">
+            <div class="title">Welcome to the nag module</div>
+              <div>Look, I am a bottom overlay nag!</div>
+            <i class="close icon"></i>
+          </div>
+          <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
+      </div>
+    </div>
 
-      <p>Please be sure to leave a note in the comments to indicate that you are interested in the development of this particular component.</p>
+
+    <h2 class="ui dividing header">Groups</h2>
+
+    <div class="example" data-class="nags">
+        <h4 class="ui header">Nags</h4>
+        <p>A group of nags can be formatted to appear together</p>
+        <div class="ui nags">
+            <div class="ui nag"><div class="title">First nag</div><i class="close icon"></i></div>
+            <div class="ui nag"><div class="title">Second nag</div><i class="close icon"></i></div>
+            <div class="ui nag"><div class="title">Third nag</div><i class="close icon"></i></div>
+        </div>
+    </div>
+    <h2 class="ui dividing header">Variations</h2>
+    <div class="example" data-class="colors">
+        <h4 class="ui header">Colored</h4>
+        <p>A nag can be formatted to be different colors</p>
+        <div class="ui red nag"><div class="title">Red</div><i class="close icon"></i></div> <p></p>
+        <div class="ui orange nag"><div class="title">Orange</div><i class="close icon"></i></div> <p></p>
+        <div class="ui yellow nag"><div class="title">Yellow</div><i class="close icon"></i></div> <p></p>
+        <div class="ui olive nag"><div class="title">Olive</div><i class="close icon"></i></div> <p></p>
+        <div class="ui green nag"><div class="title">Green</div><i class="close icon"></i></div> <p></p>
+        <div class="ui teal nag"><div class="title">Teal</div><i class="close icon"></i></div> <p></p>
+        <div class="ui blue nag"><div class="title">Blue</div><i class="close icon"></i></div> <p></p>
+        <div class="ui violet nag"><div class="title">Violet</div><i class="close icon"></i></div> <p></p>
+        <div class="ui purple nag"><div class="title">Purple</div><i class="close icon"></i></div> <p></p>
+        <div class="ui pink nag"><div class="title">Pink</div><i class="close icon"></i></div> <p></p>
+        <div class="ui brown nag"><div class="title">Brown</div><i class="close icon"></i></div> <p></p>
+        <div class="ui black nag"><div class="title">Black</div><i class="close icon"></i></div>
+    </div>
+    <div class="example">
+        <h4 class="ui header">Inverted</h4>
+        <p>A nag can be formatted to appear inverted</p>
+        <div class="ui inverted nag">
+            <div class="title">Inverted</div>
+            <div> This nag has inverted colors</div>
+            <i class="close icon"></i>
+        </div>
+    </div>
+    <div class="example">
+        <h4 class="ui header">Size</h4>
+        <p>A nag can have different sizes</p>
+        <div class="ui mini nag">
+          <div class="title">Mini nag</div>
+          <i class="close icon"></i>
+        </div>
+        <p></p>
+        <div class="ui tiny nag">
+          <div class="title">Tiny nag</div>
+          <i class="close icon"></i>
+        </div>
+        <p></p>
+        <div class="ui small nag">
+          <div class="title">Small nag</div>
+          <i class="close icon"></i>
+        </div>
+        <p></p>
+        <div class="ui large nag">
+          <div class="title">Large nag</div>
+          <i class="close icon"></i>
+        </div>
+        <p></p>
+        <div class="ui big nag">
+          <div class="title">Big nag</div>
+          <i class="close icon"></i>
+        </div>
+        <p></p>
+        <div class="ui huge nag">
+          <div class="title">Huge nag</div>
+          <i class="close icon"></i>
+        </div>
+        <p></p>
+        <div class="ui massive nag">
+          <div class="title">Massive nag</div>
+          <i class="close icon"></i>
+        </div>
 
     </div>
+  </div>
+  <div class="ui tab" data-tab="examples">
+      <h2 class="ui dividing header">Examples</h2>
+
+      <div class="ui code" data-type="html" data-preview="true">
+        <div class="ui cookie nag">
+          <span class="title">
+            We use cookies to ensure you get the best experience on our website
+          </span>
+          <i class="close icon"></i>
+        </div>
+      </div>
+      <div class="evaluated code" data-type="javascript">
+      // Automatically shows on init if cookie isn't set
+      $('.cookie.nag')
+        .nag({
+          key      : 'accepts-cookies',
+          value    : true
+        })
+      ;
+      </div>
+      <div class="code" data-type="javascript" data-demo="true">
+      // Wont re-appear unless cleared
+      $('.cookie.nag')
+        .nag('show')
+      ;
+      </div>
+      <div class="code" data-type="javascript" data-demo="true">
+      // Clears cookie so nag shows again
+      $('.cookie.nag')
+        .nag('clear')
+      ;
+      </div>
+
 
   </div>
 
+  <div class="ui tab" data-tab="usage">
+      <h2 class="ui dividing header">Usage</h2>
+
+      <div class="no example">
+        <p>Nags are used to present a user with a one time message which will persist until a user acknowledges the message. This can be used for providing notices like the site's use of cookies, an important change to a site like a security breach.</p>
+        <p>Fomantic's nag component provides built in options for ensuring a nag is only displayed once. You can trigger an API endpoint on dismissal, in order to store a value in your database, or you can use localstorage, sessionstorage or cookie value to make sure that a particular computer does not receive the nag again.</p>
+      </div>
+
+      <h3 class="ui header">Initializing a Nag</h3>
+      <div class="code" data-label="Javascript" data-type="javascript">
+          $('.ui.nag')
+            .nag()
+          ;
+      </div>
+      <div class="code" data-label="HTML" data-type="html">
+          <div class="ui nag">
+            <div class="title">Welcome to the nag module</div>
+            <div>Some additional Info here</div>
+            <i class="close icon"></i>
+          </div>
+      </div>
+
+
+      <h2 class="ui dividing header">Behaviors</h2>
+
+        <p>All the following behaviors can be called using the syntax:<p>
+        <div class="code" data-type="javascript">
+            $('.ui.nag').nag('behavior', argumentOne, argumentTwo...);
+        </div>
+
+        <table class="ui definition celled table">
+            <tr>
+                <td>show</td>
+                <td>Shows the nag, if it isn't dismissed and no expiration date is set in storage</td>
+            </tr>
+            <tr>
+                <td>hide</td>
+                <td>Hides the nag</td>
+            </tr>
+            <tr>
+                <td>dismiss</td>
+                <td>Dismisses the nag and sets the expiration date into the given storage to prevent the nag being shown the next time</td>
+            </tr>
+            <tr>
+                <td>clear</td>
+                <td>Deletes an already set expiration date, so the nag gets shown the next time</td>
+            </tr>
+            <tr>
+              <td>destroy</td>
+              <td>Destroys instance and removes all events</td>
+            </tr>
+        </table>
+
+  </div>
+
+  <div class="ui tab" data-tab="settings">
+
+    <h2 class="ui dividing header">Settings</h2>
+
+    <h3 class="ui header">
+      Nag Settings
+      <div class="sub header">Settings to configure nag behavior</div>
+    </h3>
+    <table class="ui celled sortable definition table segment">
+      <thead>
+        <th>Setting</th>
+        <th class="four wide">Default</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>persist</td>
+          <td>false</td>
+          <td><code>true</code> will show the nag, even if it is already dismissed, but will keep a set expiration date intact</td>
+        </tr>
+        <tr>
+          <td>displayTime</td>
+          <td>0</td>
+          <td>Time in milliseconds until nag gets automatically hidden. Zero requires manually dismissal, otherwise hides on its own</td>
+        </tr>
+
+        <tr>
+          <td>context</td>
+          <td>body</td>
+          <td>Selector or jquery object specifying the area to attach the nag to</td>
+        </tr>
+        <tr>
+          <td>detachable</td>
+          <td>false</td>
+          <td>If set to true will re-attach the nag to the given <code>context</code> node</td>
+        </tr>
+        <tr>
+            <td>expires</td>
+            <td>30</td>
+            <td>Amount of days or a Date Object until expiration of cookie/localstorage</td>
+        </tr>
+        <tr>
+            <td>domain</td>
+            <td>false</td>
+            <td>cookie option</td>
+        </tr>
+        <tr>
+            <td>path</td>
+            <td>/</td>
+            <td>cookie option</td>
+        </tr>
+        <tr>
+          <td>secure</td>
+          <td>false</td>
+          <td>cookie option</td>
+        </tr>
+        <tr>
+          <td>samesite</td>
+          <td>false</td>
+          <td>cookie option</td>
+        </tr>
+        <tr>
+          <td>storageMethod</td>
+          <td>cookie</td>
+          <td>Storage to store the expiration date when the nag is dismissed. Can be either <code>cookie</code>, <code>localstorage</code> or <code>sessionstorage</code></td>
+        </tr>
+        <tr>
+            <td>key</td>
+            <td>nag</td>
+            <td>Key to store in dismissed localstorage/cookie</td>
+        </tr>
+        <tr>
+          <td>value</td>
+          <td>dismiss</td>
+          <td>Value to store in dismissed localstorage/cookie</td>
+        </tr>
+        <tr>
+          <td>expirationKey</td>
+          <td>ExpirationDate</td>
+          <td>Key suffix to support expiration in localstorage</td>
+        </tr>
+        <tr>
+          <td>animation</td>
+          <td>
+            <div class="code" data-type="javascript">
+              animation   : {
+                show : 'slide',
+                hide : 'slide'
+              }
+            </div>
+          </td>
+          <td>Animation transition style for open/close animation. Can be either <code>slide</code> or <code>fade</code></td>
+        </tr>
+        <tr>
+          <td>duration</td>
+          <td>500</td>
+          <td>Duration of open/close animation</td>
+        </tr>
+       <tr>
+         <td>easing</td>
+         <td>easeOutQuad</td>
+         <td>Easing of open/close animation. EaseOutQuad is included with nag, for additional options you must include <a href="https://gsgd.co.uk/sandbox/jquery/easing/">easing equations</a>.</td>
+       </tr>
+      </tbody>
+    </table>
+
+    <h4 class="ui header">Callbacks</h4>
+    <p>Callbacks specify a function to occur after a specific behavior.</p>
+
+    <table class="ui celled sortable definition table segment">
+      <thead>
+        <tr>
+          <th class="four wide"></th>
+          <th class="four wide">Parameters</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>onShow</td>
+          <td>$module</td>
+          <td>Callback before nag is shown. Returning <code>false</code> from this callback will cancel the nag from showing.</td>
+        </tr>
+        <tr>
+          <td>onVisible</td>
+          <td>$module</td>
+          <td>Callback after nag is shown.</td>
+        </tr>
+        <tr>
+          <td>onHide</td>
+          <td>$module</td>
+          <td>Callback before nag is hidden. Returning <code>false</code> from this callback will cancel the nag from hiding.</td>
+        </tr>
+        <tr>
+          <td>onHidden</td>
+          <td>$module</td>
+          <td>Callback after nag is hidden.</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <h3 class="ui header">
+      DOM Settings
+      <div class="sub header">DOM settings specify how this module should interface with the DOM</div>
+    </h3>
+    <table class="ui celled sortable definition table segment">
+      <thead>
+        <th>Setting</th>
+        <th class="eight wide">Default</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>namespace</td>
+          <td>nag</td>
+          <td>Event namespace. Makes sure module teardown does not effect other events attached to an element.</td>
+        </tr>
+        <tr>
+          <td>selector</td>
+          <td>
+            <div class="code" data-type="javascript">
+              selector      : {
+                close : '> .close.icon'
+              }
+            </div>
+          </td>
+          <td>DOM Selectors used internally</td>
+        </tr>
+        <tr>
+          <td>className</td>
+          <td>
+            <div class="code" data-type="javascript">
+    className   : {
+      bottom    : 'bottom',
+      fixed     : 'fixed'
+    }
+            </div>
+          </td>
+          <td>Class names used to attach style to state</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="ui horizontal divider"><i class="icon setting"></i></div>
+
+    <h3 class="ui header">
+      Debug Settings
+      <div class="sub header">Debug settings controls debug output to the console</div>
+    </h3>
+
+    <table class="ui celled sortable definition table segment">
+      <thead>
+        <th>Setting</th>
+        <th class="four wide">Default</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>name</td>
+          <td>Nag</td>
+          <td>Name used in debug logs</td>
+        </tr>
+        <tr>
+          <td>silent</td>
+          <td>false</td>
+          <td>Silences all console output including error messages, regardless of other debug settings.</td>
+        </tr>
+        <tr>
+          <td>debug</td>
+          <td>false</td>
+          <td>Provides standard debug output to console</td>
+        </tr>
+        <tr>
+          <td>performance</td>
+          <td>true</td>
+          <td>Provides standard debug output to console</td>
+        </tr>
+        <tr>
+          <td>verbose</td>
+          <td>false</td>
+          <td>Provides ancillary debug output to console</td>
+        </tr>
+        <tr>
+          <td>errors</td>
+          <td colspan="2">
+            <div class="code" data-type="javascript">
+              error: {
+                noStorage       : 'Unsupported storage method',
+                method          : 'The method you called is not defined.',
+                setItem         : 'Unexpected error while setting value',
+                expiresFormat   : '"expires" must be a number of days or a Date Object'
+              }
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
 </div>
         <footer class="ui vertical footer segment">
   <div class="ui container">
@@ -1003,39 +1475,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -1047,7 +1490,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -1058,7 +1502,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

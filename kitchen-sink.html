@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>All UI | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>All UI | Fomantic-UI Docs</title>
 
 <meta name="description" content="Examples of all user interface elements" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="custom" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -856,6 +847,16 @@
         All UI
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the   here"
+            data-url="https://fomantic-ui.com/s/.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           Examples of all user interface elements
         </div>
       </h1>
@@ -907,7 +908,6 @@
     
   </div>
 </div>
-
 
 <div class="main demo ui container">
 
@@ -1974,7 +1974,7 @@ $('.button.demo .follow')
 <style type="text/css">
 .demo.icons .icon {
   font-size: 16px;
-  margin: 0em 4px 8px;
+  margin: 0 4px 8px;
 }
 </style>
     </div>
@@ -2600,7 +2600,6 @@ $('.button.demo .follow')
   <br><br>
   <br><br>
 </div>
-
     </div>
     <div class="example">
       <h4 class="ui header">
@@ -2688,7 +2687,6 @@ $('.button.demo .follow')
     <img src="/images/avatar/large/laura.jpg" class="ui small bordered circular image">
   </div>
 </div>
-
     </div>
     <div class="example">
       <h4 class="ui header">
@@ -3494,7 +3492,7 @@ $('.button.demo .follow')
 }
 
 .demo .grid.nested.examples .grid .grid {
-  box-shadow: 0px 0px 0px 1px #F0F0F0 inset;
+  box-shadow: 0 0 0 1px #F0F0F0 inset;
 }
 .demo .grid.nested.examples .grid .grid .column:after {
   background-color: #AAAAAA;
@@ -3512,8 +3510,8 @@ $('.button.demo .follow')
 
 /* Animation */
 .demo .grid.examples {
-  margin: 0em !important;
-  padding: 0em !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 </style>
@@ -4058,7 +4056,6 @@ $(document)
   })
 ;
 </script>
-
     </div>
     <div class="example">
       <h4 class="ui header">
@@ -4365,7 +4362,6 @@ $(document)
     </div>
   </div>
 </div>
-
     </div>
   </div>
   <div class="ui tab" data-tab="modules">
@@ -4649,10 +4645,10 @@ $(document)
 
 <style type="text/css">
   .dimmer.demo:not(.page) {
-    margin: 2em 0em;
+    margin: 2em 0;
   }
   h4 + .dimmer.demo {
-    margin-top: 0em;
+    margin-top: 0;
   }
 </style>
 <script type="text/javascript">
@@ -5038,7 +5034,7 @@ Show me posts trending
 <div class="ui left pointing dropdown icon button">
   <i class="settings icon"></i>
   <div class="menu">
-    <div class="ui transparent left icon input">
+    <div class="ui transparent left search icon input">
       <i class="search icon"></i>
       <input name="search" placeholder="Search issues..." type="text">
     </div>
@@ -5175,7 +5171,6 @@ $(document)
   })
 ;
 </script>
-
     </div>
     <div class="example">
       <h4 class="ui header">
@@ -5918,6 +5913,9 @@ $(document)
       .search({
         apiSettings: {
           action: 'search'
+        },
+        fields: {
+          remoteValues : 'items'
         }
       })
     ;
@@ -6285,7 +6283,7 @@ $(document)
             direction  = $('.sidebar.direction.demo .buttons .button.active').data('direction'),
             dimPage    = $('.sidebar.direction.demo .dim').checkbox('is checked')
           ;
-          if( $(this).filter('.disabled').size() === 0) {
+          if( $(this).filter('.disabled').length === 0) {
             $('.' + direction + '.demo.sidebar')
               .not('.styled')
               .sidebar('setting', {
@@ -6482,39 +6480,10 @@ $(document)
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -6526,7 +6495,8 @@ $(document)
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -6537,7 +6507,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

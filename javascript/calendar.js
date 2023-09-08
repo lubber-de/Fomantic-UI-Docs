@@ -40,7 +40,10 @@ semantic.calendar.ready = function() {
   // 24 hour format
   $('#no_ampm').calendar({
     type: 'time',
-    ampm: false
+    formatter: {
+      time: 'H:mm',
+      cellTime: 'H:mm'
+    }
   });
 
   // Month and year
@@ -69,16 +72,21 @@ semantic.calendar.ready = function() {
   ;
 
   // Custom format
+  $('#token_format_calendar').calendar({
+    monthFirst: false,
+    type: 'date',
+    formatter: {
+        date: '"approx:" YYYY-MM-DD'
+    }
+  });
   $('#custom_format_calendar').calendar({
     monthFirst: false,
     type: 'date',
     formatter: {
       date: function (date, settings) {
-        if (!date) return '';
-        var day = date.getDate();
-        var month = date.getMonth() + 1;
-        var year = date.getFullYear();
-        return day + '/' + month + '/' + year;
+          if (!date) {return '';}
+          // Show the selected year 85 Years ahead
+          return 'Expires in ' + (date.getFullYear() + 85);
       }
     }
   });
@@ -114,12 +122,15 @@ semantic.calendar.ready = function() {
     monthFirst: false,
     text: {
       days: ['D', 'L', 'M', 'M', 'J', 'V', 'S'],
+      dayNamesShort: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
+      dayNames: ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
       months: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Decembre'],
       monthsShort: ['Jan', 'Fev', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Aou', 'Sep', 'Oct', 'Nov', 'Dec'],
       today: 'Aujourd\'hui',
       now: 'Maintenant',
       am: 'AM',
-      pm: 'PM'
+      pm: 'PM',
+      weekNo: 'Semaine'
     }
   });
 
@@ -135,30 +146,102 @@ semantic.calendar.ready = function() {
 
   $('#disableddates_calendar')
     .calendar({
-      initialDate: new Date(2018,11,1),
+      initialDate: new Date('2018-12-1'),
       disabledDates: [{
-        date: new Date(2018,11,22),
+        date: new Date('2018-12-22'),
         message: 'xmas gift shopping'
       },
         {
-          date: new Date(2018,11,25),
-          message: 'Santa Clause is coming to town'
+          date: new Date('2018-12-25'),
+          message: 'Santa Clause is coming to town',
+          inverted: true,
+          variation: 'basic'
         },
-        new Date(2018,11,31)  /* No Reason. Everybody knows why ;) */
+        new Date('2018-12-31')  /* No Reason. Everybody knows why ;) */
       ]
     })
   ;
 
+  $('#disabledhours_calendar')
+    .calendar({
+        initialDate: new Date('2021-07-01'),
+        formatter: {
+            datetime: 'MMMM D, YYYY H:mm',
+            time: 'H:mm',
+            cellTime: 'H:mm'
+        },
+        disabledHours: [
+            0, // Midnight will always be disabled
+            {
+                // Every Saturday and Sunday will be entirely disabled
+                days: [0, 6],
+                hours: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                message: 'We dont work on Saturday and Sunday',
+                inverted: true,
+                variation: 'basic'
+            },
+            {
+                // Friday afternoon will be disabled
+                date: new Date('2021-07-02'),
+                hours: [12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                message: 'Sorry this afternoon we are closed !',
+                inverted: true
+            },
+            {
+                // All hours between 1 and 7 will be disabled every day
+                hours: [1, 2, 3, 4, 5, 6, 7],
+                message: 'We are sleeping !'
+            },
+            {
+                // 12:00 and 13:00 will be disabled every day
+                hours: [12, 13],
+                message: 'Lunch time !'
+            }
+        ]
+    })
+  ;
+
+  $('#multimonth_calendar')
+    .calendar({
+        type: 'date',
+        multiMonth: 3,
+        monthOffset: -1 // current month will be shown in the middle of 3 months
+    })
+  ;
+
+
   $('#enableddates_calendar')
       .calendar({
         type: 'date',
-        initialDate: new Date(2019,2,1),
+        initialDate: new Date('2019-3-1'),
         enabledDates: [
-          new Date(2018,2,5),
-          new Date(2018,2,10),
-          new Date(2018,2,20)
+          new Date('2018-3-5'),
+          new Date('2018-3-10'),
+          new Date('2018-3-20')
         ]
       })
+  ;
+
+  $('#tiny_calendar')
+    .calendar()
+  ;
+
+  $('#medium_calendar')
+    .calendar()
+  ;
+
+  $('#big_calendar')
+    .calendar()
+  ;
+
+  $('#inverted_calendar')
+    .calendar()
+  ;
+
+  $('#context_calendar')
+    .calendar({
+        context: 'body'
+    })
   ;
 };
 

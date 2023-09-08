@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Search | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Search | Fomantic-UI Docs</title>
 
 <meta name="description" content="A search module allows a user to query for results from a selection of data" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -859,6 +850,16 @@
         Search
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the search module here"
+            data-url="https://fomantic-ui.com/modules/search.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A search module allows a user to query for results from a selection of data
         </div>
       </h1>
@@ -925,18 +926,17 @@
   </div>
 </div>
 
-
 <div class="main ui container">
 
   <div class="ui active tab" data-tab="definition">
 
     <h2 class="ui dividing header">Types</h2>
 
-    <div class="standard example">
+    <div class="standard example" data-class="search">
       <h4 class="ui header">Standard</h4>
       <p>A search can display a set of results</p>
       <div class="ui search">
-        <input class="prompt" type="text" placeholder="Common passwords...">
+        <input class="prompt" type="text" placeholder="Github Repositories...">
         <div class="results"></div>
       </div>
     </div>
@@ -947,7 +947,7 @@
       </div>
       <div class="ui search">
         <div class="ui icon input">
-          <input class="prompt" type="text" placeholder="Common passwords...">
+          <input class="prompt" type="text" placeholder="Github Repositories...">
           <i class="search icon"></i>
         </div>
         <div class="results"></div>
@@ -960,13 +960,24 @@
       <p>A search can display results from remote content ordered by categories</p>
       <div class="ui category search">
         <div class="ui icon input">
-          <input class="prompt" type="text" placeholder="Search animals...">
+          <input class="prompt" type="text" placeholder="Search people...">
           <i class="search icon"></i>
         </div>
         <div class="results"></div>
       </div>
     </div>
 
+    <div class="category example" data-since="2.9.3">
+     <h4 class="ui header">Horizontal Category</h4>
+      <p>You can also display horizontal category names on top of each results instead.</p>
+      <div class="ui horizontal category search">
+        <div class="ui icon input">
+          <input class="prompt" type="text" placeholder="Search people...">
+          <i class="search icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+    </div>
 
     <div class="local example">
       <h4 class="ui header">Local Search</h4>
@@ -1020,10 +1031,9 @@
     </div>
 
 
-    <div class="local-category example">
+    <div class="local-category example" data-since="2.3">
       <h4 class="ui header">
         Local Category Search
-        <div class="ui teal label">New in 2.3</div>
       </h4>
       <p>A search can look for category results inside a static local source.</p>
       <div class="ui ignored info message">
@@ -1063,10 +1073,9 @@
       </div>
     </div>
 
-    <div class="diacritics example">
+    <div class="diacritics example" data-since="2.7.2">
       <h4 class="ui header">
         Search ignoring Diacritics
-        <div class="ui black label">New in 2.7.2</div>
       </h4>
       <p>A selection dropdown can allow a user to ignore all Diacritics while searching.</p>
       <div class="ui ignored info message">
@@ -1197,10 +1206,9 @@
 
     <h2 class="ui dividing header">Variations</h2>
 
-    <div class="category example">
+    <div class="category example" data-since="2.3.1">
       <h4 class="ui header">
         Disabled
-        <div class="ui teal label">New in 2.3.1</div>
       </h4>
       <p>A search can show it is currently unable to be interacted with</p>
       <div class="ui disabled category search">
@@ -1218,6 +1226,7 @@
 	  <div class="ui ignored info message">
         <p>The search scroll height depends on viewport size. The search scroll height is calculated using <strong>search item height * number of items</strong> to be shown for applicable media query break point.</p>
       </div>
+      <div class="ui ignored message" data-since="2.9.3">You can also use <code>resizable scrolling</code> and a native resize drag handler will appear to the bottom right of the results. This needs a <a href="https://caniuse.com/?search=resize" target="_blank">modern browser</a>, so does not work in IE11 or legacy Edge.</div>
       <div class="ui scrolling local search">
         <div class="ui icon input">
           <input class="prompt" type="text" placeholder="Search countries...">
@@ -1227,7 +1236,7 @@
       </div>
     </div>
 
-    <div class="local example">
+    <div class="local example" data-since="2.8.5" data-class="!very short, !very long, short, long">
       <h4 class="ui header">Height</h4>
       <p>A search can be very short (0.75x of default height) so that more results can be glanced.</p>
 	  <div class="ui ignored info message">
@@ -1263,7 +1272,7 @@
       </div>
     </div>
 
-    <div class="category example">
+    <div class="category example" data-class="!right aligned">
       <h4 class="ui header">Aligned</h4>
       <p>A search can have its results aligned to its left or right container edge</p>
       <div class="ui right aligned category search">
@@ -1272,6 +1281,32 @@
           <i class="search icon"></i>
         </div>
         <div class="results"></div>
+      </div>
+    </div>
+
+    <div class="example">
+      <h4 class="ui header">Size</h4>
+      <p>A search can vary in size</p>
+      <div class="ui mini search">
+        <input class="prompt" type="text" placeholder="Mini search...">
+      </div>
+      <div class="ui tiny search">
+        <input class="prompt" type="text" placeholder="Tiny search...">
+      </div>
+      <div class="ui small search">
+        <input class="prompt" type="text" placeholder="Small search...">
+      </div>
+      <div class="ui large search">
+        <input class="prompt" type="text" placeholder="Large search...">
+      </div>
+      <div class="ui big search">
+        <input class="prompt" type="text" placeholder="Big search...">
+      </div>
+      <div class="ui huge search">
+        <input class="prompt" type="text" placeholder="Huge search...">
+      </div>
+      <div class="ui massive search">
+        <input class="prompt" type="text" placeholder="Massive search...">
       </div>
     </div>
 
@@ -1312,9 +1347,9 @@
     </div>
 
     <h4 class="ui header">Local Object</h4>
-    <p>Local search results allow you to search across specified properties of a javacript object literal looking for matching values</p>
+    <p>Local search results allow you to search across specified properties of a javascript object literal looking for matching values</p>
     <p>
-      You can set which fields are searchable using the <code>searchFields</code> setting. Local object search can only display standard search results (not categories).
+      You can set which fields are searchable using the <code>searchFields</code> setting.
     </p>
     <div class="code" data-label="javascript">
       // searches across any array/object of searchable objects
@@ -1343,10 +1378,10 @@
 
     <h2 class="ui dividing header">Server Responses</h2>
 
-    <div class="ui info message">You may also consider adding a top level property like <code>success: true</code> and using API's <code>successTest</code> parameter to determine whether a server response is actually succesful, even if it returns the correct HTTP code</div>
+    <div class="ui info message">You may also consider adding a top level property like <code>success: true</code> and using API's <code>successTest</code> parameter to determine whether a server response is actually successful, even if it returns the correct HTTP code</div>
 
     <h4 class="ui header">Standard</h4>
-    <div class="code" data-title="Server JSON Response">
+    <div class="code" data-title="Server JSON Response" data-type="json">
       {
         "results": [
           {
@@ -1371,7 +1406,7 @@
 
 
     <h4 class="ui header">Category</h4>
-    <div class="code" data-title="Server JSON Response">
+    <div class="code" data-title="Server JSON Response" data-type="json">
       {
         "results": {
           "category1": {
@@ -1415,7 +1450,7 @@
     </div>
 
 
-    <h2 class="ui dividing header">Retreiving Results</h2>
+    <h2 class="ui dividing header">Retrieving Results</h2>
 
     <h4 class="ui header">Unique IDs</h4>
     <p>If no <code>id</code> property is included on a result, a key will automatically be generated when your results are returned for each result.</p>
@@ -1441,7 +1476,7 @@
     <h2 class="ui dividing header">Behaviors</h2>
 
     <p>All the following behaviors can be called using the syntax:</p>
-    <div class="code">
+    <div class="code" data-type="javascript">
     $('.your.element')
       .search('behavior name', argumentOne, argumentTwo)
     ;
@@ -1480,10 +1515,6 @@
         <tr>
           <td>search object(query, object, searchFields)</td>
           <td>Search object for specified query and return results</td>
-        </tr>
-        <tr>
-          <td>cancel query</td>
-          <td>Cancels current remote search request</td>
         </tr>
         <tr>
           <td>is focused</td>
@@ -1554,11 +1585,11 @@
     <div class="mapping example">
       <h4 class="ui header">Using Different Response Fields</h4>
       <p>Search expects a very specific API response, however you can easily modify the mapping of server response to displayed field using the <code>fields</code> parameter.
-      <div class="ui ignored code">
+      <div class="ui ignored code" data-type="javascript">
       $('.ui.search')
         .search({
           apiSettings: {
-            url: '//api.github.com/search/repositories?q={query}'
+            url: 'https://api.github.com/search/repositories?q={query}'
           },
           fields: {
             results : 'items',
@@ -1589,7 +1620,7 @@
       	</div>
       </div>
       <p><a href="/behaviors/api.html">API</a> provides a callback <a href="/behaviors/api.html#response-callbacks"><code>onResponse</code></a> that can be used to restructure third party APIs to match the expected server response for search.</p>
-      <p>You can also use <a href="/behaviors/api.html#mocking-responses"><code>mockResponseAsync</code></a> to use a custom backend for fullfilling searches.</p>
+      <p>You can also use <a href="/behaviors/api.html#mocking-responses"><code>mockResponseAsync</code></a> to use a custom backend for fulfilling searches.</p>
       <div class="ui search">
         <div class="ui left icon input">
           <input class="prompt" type="text" placeholder="Search GitHub">
@@ -1633,7 +1664,7 @@
               });
               return response;
             },
-            url: '//api.github.com/search/repositories?q={query}'
+            url: 'https://api.github.com/search/repositories?q={query}'
           }
         })
       ;
@@ -1659,7 +1690,7 @@
         <tr>
           <td>apiSettings</td>
           <td>
-          <div class="code">
+          <div class="code" data-type="javascript">
           {
             action: 'search'
           }
@@ -1680,14 +1711,14 @@
         <tr>
           <td>transition</td>
           <td>
-            fade
+            scale
           </td>
           <td>Named transition to use when animating menu in and out. Fade and slide down are available without including <a href="/modules/transition.html">ui transitions</a></td>
         </tr>
         <tr>
           <td>duration</td>
           <td>
-            300
+            200
           </td>
           <td>Duration of animation events</td>
         </tr>
@@ -1712,19 +1743,33 @@
           <td>Whether the search should automatically select the first search result after searching</td>
         </tr>
         <tr>
+          <td>preserveHTML</td>
+          <td>true</td>
+          <td>Whether to preserve possible html of resultset values</td>
+        </tr>
+        <tr>
           <td>showNoResults</td>
-          <td>false</td>
+          <td>true</td>
           <td>Whether a "no results" message should be shown if no results are found. (These messages can be modified using the <code>template</code> object specified below)</td>
         </tr>
         <tr>
           <td>fullTextSearch</td>
           <td>'exact'</td>
-          <td>Specifying to "true" will use a fuzzy full text search, setting to "exact" will force the exact search to be matched somewhere in the string, setting to <code>false</code> will only match to start of string. (This setting was previously called <code>searchFullText</code>.)</td>
+          <td>
+            <ul class="ui list"><div class="ui small header">Possible values</div>
+                <li><code>'exact'</code> will force the exact search to be matched somewhere in the string</li>
+                <li data-since="2.9.1"><code>'some'</code> Will do the same as <code>exact</code> but supports multiple search values separated by whitespace. At least one word must match</li>
+                <li data-since="2.9.1"><code>'all'</code> is same as <code>some</code> but all words have to match in all given searchfields of each record altogether </li>
+                <li><code>true</code> will use a fuzzy full text search</li>
+                <li><code>false</code> will only match to start of string.</li>
+            </ul>
+            (This setting was previously called <code>searchFullText</code>.)
+          </td>
         </tr>
         <tr>
           <td>fields</td>
           <td>
-            <div class="code" data-type="css">
+            <div class="code" data-type="javascript">
             fields: {
               categories      : 'results',     // array of categories (category view)
               categoryName    : 'name',        // name of category (category view)
@@ -1734,6 +1779,7 @@
               price           : 'price',       // result price
               results         : 'results',     // array of results (standard)
               title           : 'title',       // result title
+              url             : 'url',         // result url
               action          : 'action',      // "view more" object name
               actionText      : 'text',        // "view more" text
               actionURL       : 'url'          // "view more" url (if set to false the text will appear as a div)
@@ -1747,6 +1793,7 @@
           <td>
             <div class="code" data-type="javascript">
               [
+                'id',
                 'title',
                 'description'
               ]
@@ -1761,7 +1808,7 @@
         </tr>
         <tr>
           <td>searchDelay</td>
-          <td>100</td>
+          <td>200</td>
           <td>Delay before querying results on inputchange</td>
         </tr>
         <tr>
@@ -1769,13 +1816,28 @@
           <td>
             easeOutExpo
           </td>
-          <td>Easing equation when using fallback Javascript animation</td>
+          <td>Easing equation when using fallback Javascript animation. EaseOutExpo is included with search, for additional options you must include <a href="https://gsgd.co.uk/sandbox/jquery/easing/">easing equations</td>
         </tr>
         <tr>
           <td>ignoreDiacritics</td>
           <td>false</td>
-          <td>When activated, searches will also match results for base diacritic letters. For example when searching for 'a', it will also match 'á' or 'â' or 'å' and so on...
-              It will also ignore diacritics for the searchterm, so if searching for 'ó', it will match 'ó', but also 'o', 'ô' or 'õ' and so on...<div class="ui black label">New in 2.7.2</div><div class="ui red label">Not available in IE</div></td>
+          <td data-since="2.7.2">When activated, searches will also match results for base diacritic letters. For example when searching for 'a', it will also match 'á' or 'â' or 'å' and so on...
+              It will also ignore diacritics for the searchterm, so if searching for 'ó', it will match 'ó', but also 'o', 'ô' or 'õ' and so on... <div class="ui tiny horizontal red label">Not available in IE</div></td>
+        </tr>
+        <tr>
+          <td>type</td>
+          <td>'standard'</td>
+          <td>Template to use (specified in settings.templates)</td>
+        </tr>
+        <tr>
+          <td>displayField</td>
+          <td>''</td>
+          <td>Field to display in standard results template</td>
+        </tr>
+        <tr>
+          <td>automatic</td>
+          <td>true</td>
+          <td>Whether to add events to prompt automatically</td>
         </tr>
       </tbody>
     </table>
@@ -1807,9 +1869,9 @@
           <td>Callback on search query</td>
         </tr>
         <tr>
-          <td>onResults(response)</td>
+          <td>onResults(response, fromCache)</td>
           <td>module</td>
-          <td>Callback on server response</td>
+          <td>Callback on server response. If the results were generated from cache, the <code>fromCache</code> parameter is <code>true</code></td>
         </tr>
         <tr>
           <td>onResultsOpen</td>
@@ -1841,7 +1903,7 @@
         <tr>
           <td>templates</td>
           <td>
-            <div class="code" data-type="css">
+            <div class="code" data-type="javascript">
             $.fn.search.settings.templates : {
               escape: function(string) {
                 // returns escaped string for injected results
@@ -1888,7 +1950,7 @@
         <tr>
           <td>regExp</td>
           <td>
-            <div class="code" data-type="css">
+            <div class="code" data-type="javascript">
             regExp: {
               escape     : /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g,
               beginsWith : '(?:\s|^)'
@@ -1900,13 +1962,15 @@
         <tr>
           <td>selector</td>
           <td>
-            <div class="code" data-type="css">
+            <div class="code" data-type="javascript">
             selector : {
               prompt       : '.prompt',
               searchButton : '.search.button',
               results      : '.results',
+              message      : '.results > .message',
               category     : '.category',
-              result       : '.result'
+              result       : '.result',
+              title        : '.title, .name'
             }
             </div>
           </td>
@@ -1915,10 +1979,11 @@
         <tr>
           <td>metadata</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             metadata: {
               cache   : 'cache',
-              results : 'results'
+              results : 'results',
+              result  : 'result'
             }
             </div>
           </td>
@@ -1927,13 +1992,17 @@
         <tr>
           <td>className</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             className: {
-              active  : 'active',
-              empty   : 'empty',
-              focus   : 'focus',
-              loading : 'loading',
-              pressed : 'down'
+              animating : 'animating',
+              active    : 'active',
+              category  : 'category',
+              empty     : 'empty',
+              focus     : 'focus',
+              hidden    : 'hidden',
+              loading   : 'loading',
+              results   : 'results',
+              pressed   : 'down'
             }
             </div>
           </td>
@@ -1941,7 +2010,7 @@
         </tr>
         <tr>
           <td>silent</td>
-          <td>False</td>
+          <td>false</td>
           <td>Silences all console output including error messages, regardless of other debug settings.</td>
         </tr>
         <tr>
@@ -1962,16 +2031,17 @@
         <tr>
           <td>error</td>
           <td colspan="2">
-            <div class="code">
+            <div class="code" data-type="javascript">
             error : {
               source          : 'Cannot search. No source used, and Semantic API module was not included',
               noResultsHeader : 'No Results',
               noResults       : 'Your search returned no results',
-              logging         : 'Error in debug logging, exiting.',
               noTemplate      : 'A valid template name was not specified.',
+              oldSearchSyntax : 'searchFullText setting has been renamed fullTextSearch for consistency, please adjust your settings.',
               serverError     : 'There was an issue with querying the server.',
               maxResults      : 'Results must be an array to use maxResults setting',
-              method          : 'The method you called is not defined.'
+              method          : 'The method you called is not defined.',
+              noNormalize     : '"ignoreDiacritics" setting will be ignored. Browser does not support String().normalize(). You may consider including <https://cdn.jsdelivr.net/npm/unorm@1.4.1/lib/unorm.min.js> as a polyfill.'
             },
             </div>
           </td>
@@ -2006,7 +2076,7 @@
       .search({
     	preserveHTML : false,
     	apiSettings: {
-    	  url: '//api.github.com/search/repositories?q={query}'
+    	  url: 'https://api.github.com/search/repositories?q={query}'
     	},
     	fields: {
     	  results : 'items',
@@ -2136,39 +2206,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -2180,7 +2221,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -2191,7 +2233,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

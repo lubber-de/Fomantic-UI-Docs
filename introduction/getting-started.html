@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Getting Started | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Getting Started | Fomantic-UI Docs</title>
 
 <meta name="description" content="Getting up and running with Fomantic-UI" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="started" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -858,6 +849,16 @@
         Getting Started
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the   here"
+            data-url="https://fomantic-ui.com/s/.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           Getting up and running with Fomantic-UI
         </div>
       </h1>
@@ -881,7 +882,6 @@
   </div>
 </div>
 
-
 <div class="main ui intro container">
 
   <p>
@@ -892,6 +892,65 @@
     </a>.
   </p>
 
+  <h2 class="ui dividing header">General Usage</h2>
+    <div class="no example">
+      <h4 class="ui header">Descriptive classnames</h4>
+
+        <p>The base concept of Fomantic-UI is adding descriptional classnames to HTML nodes</p>
+        <div class="ui basic segment">
+            <code>ui primary button</code>
+            <div class="ui primary button">Button</div>
+        </div>
+        <div class="ui ignored info message">
+         The <code>ui</code> class is used as namespace to avoid problems when additional custom CSS is used.
+        </div>
+        <p>In many cases you can also combine variations to achieve multiple effects on the same component.</p>
+        <div class="ui basic segment">
+            <code>ui huge primary button</code>
+            <div class="ui huge primary button">Button</div>
+        </div>
+    </div>
+    <div class="no example">
+      <h4 class="ui header">Class order</h4>
+        <p>By specification, CSS allows to declare classnames in any order.</p>
+        <div class="ui basic segment">
+            <code>huge ui button primary</code>
+            <div class="huge ui button primary">Button</div>
+        </div>
+        <p>
+            However, some combinations of FUI classnames <b>MUST</b> be declared in a strict predefined order divided by <b>ONE</b> space character.
+            This is sometimes needed to avoid description confusion when the same classnames are used but have a different meaning.
+        </p>
+        <div class="ui basic segment">
+            <code>ui left labeled right floated button</code>
+            <div class="ui left labeled right floated button"><div class="ui secondary label">Labeled</div><div class="ui primary button">Button</div></div>
+        </div>
+        <p>If the classes are given unordered, the CSS selectors get confused and FUI does not know what the description means, thus the styling is broken.</p>
+        <div class="ui basic segment">
+            <code>ui left right button floated labeled</code>
+            <div class="ui left right button floated labeled"><div class="ui secondary label">Labeled</div><div class="ui primary button">Button</div></div>
+            <div class="ui bulleted list">
+                <div class="item">Where should the button be <b>floated</b>? Left or right?</div>
+                <div class="item">Where should the button be <b>labeled</b>? Left or right?</div>
+            </div>
+        </div>
+        <p>Some examples are labeled by <span class="ui small wordorder label"><i class="attention icon"></i>Word order required</span> to indicate the word order necessity.</p>
+        <p>So, as a general advise, just declare the classname order like a grammatical correct spoken description.</p>
+        <div class="ui ignored warning message">
+            <div class="header">Use <code>&lt;&gt;</code></div>
+            <div class="content">
+                <p>While there are situations where a strict ordered class name list is important, in most cases it isn't. If in doubt, always watch out for the <code>&lt;&gt;</code> symbol displayed to the right of the examples which shows the source code when clicked and highlights a possible required classname order.</p>
+                <div class="example" data-class="!left labeled, !right floated, button, primary, secondary, tiny" data-use-content="true">
+                    <div class="code" data-type="html">
+                        <div class="ui left labeled tiny right floated button">
+                            <div class="ui secondary label">Labeled</div>
+                            <div class="ui primary button">Button</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   <h2 class="ui dividing header">Installation</h2>
 
   <p>You can install Fomantic-UI via NPM or one of our CDN providers. You can also host the distribution files locally if you prefer to.</p>
@@ -902,15 +961,16 @@
 
     <h5 class="ui header">Requirements</h5>
     <ul class="ui list">
-      <li class="item">NodeJS >= v8</li>
-      <li class="item">NPM >= v5</li>
+      <li class="item">NodeJS >= v12</li>
+      <li class="item">NPM >= v6</li>
     </ul>
     <p>You can download NodeJS <a href="https://nodejs.org/en/download/" target="_blank">here</a>, NPM is installed with NodeJS.</p>
+    <div class="ui ignored info message" data-since="2.9.0"><i class="circle info icon"></i>Fomantic-UI also supports <code><a href="https://www.npmjs.com/package/yarn" target="_blank">yarn</a></code> as alternative package manager.</div>
     <br />
 
-    <p>Once you have NodeJS and NPM installed you will need to install <a href="https://npmjs.com/package/fomantic-ui">Fomantic-UI</a> as a dependency of your project.</p>
+    <p>Once you have NodeJS and NPM installed, you will need to install <a href="https://npmjs.com/package/fomantic-ui">Fomantic-UI</a> as a dependency of your project.</p>
 
-    <p>If you haven't already create a <code>package.json</code> file with the following command</p>
+    <p>If you haven't already, create a <code>package.json</code> file with the following command</p>
     <div class="ignored code" data-type="bash">
       $ npm init
     </div>
@@ -930,7 +990,14 @@
     </div>
 
     <p>
-      When NPM finishes installing it will start the Fomantic-UI interactive installation prompt.
+      When NPM finishes installing, a precompiled version of Fomantic-UI is already available inside the <code>dist</code> folder.
+      Starting from 2.9.0, the interactive installation prompt will not start automatically after npm install anymore. If you need a custom installed version of Fomantic-UI, you have to manually run the following right after npm install
+    </p>
+    <div class="ignored code" data-type="bash">
+      $ cd node_modules/fomantic-ui
+      $ npx gulp install
+    </div>
+    <p>
       The installation prompt is used to create your <code>semantic.json</code> file which stores
       critical information for when you need to install Fomantic-UI and also about the build
       process. It will also create a new directory containing all the files needed to create a
@@ -941,7 +1008,7 @@
     <div class="code" data-type="json">
       "dependencies": {
         ...
-        "fomantic-ui": "^2.8.6"
+        "fomantic-ui": "^2.9.3"
         ...
       }
     </div>
@@ -952,6 +1019,7 @@
       This is <code>semantic/</code> by default.
     </p>
     <div class="ignored code" data-type="bash">
+      $ cd semantic/
       $ npx gulp build
     </div>
     <p>
@@ -959,10 +1027,10 @@
       and JavaScript files. You can now include these in your web page and start using Fomantic-UI.
     </p>
     <div class="code" data-type="html">
-      <!-- You MUST include jQuery before Fomantic -->
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
-      <script src="/semantic/dist/semantic.min.js"></script>
+      <!-- You MUST include jQuery 3.4+ before Fomantic -->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/dist/semantic.min.css">
+      <script src="/dist/semantic.min.js"></script>
     </div>
   </div>
 
@@ -986,7 +1054,7 @@
         </a>
       </li>
       <li class="item">
-        <a href="https://unpkg.com/fomantic-ui@2.8.6/" target="_blank">
+        <a href="https://unpkg.com/fomantic-ui@2.9.3/" target="_blank">
           unpkg
         </a>
       </li>
@@ -999,26 +1067,26 @@
     </div>
     <div class="ui active basic tab vertical segment" data-tab="jsdelivr">
       <div class="code" data-type="html">
-        <!-- You MUST include jQuery before Fomantic -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.6/dist/semantic.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.6/dist/semantic.min.js"></script>
+        <!-- You MUST include jQuery 3.4+ before Fomantic -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
       </div>
     </div>
     <div class="ui basic tab vertical segment" data-tab="cdnjs">
       <div class="code" data-type="html">
-        <!-- You MUST include jQuery before Fomantic -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.6/semantic.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.6/semantic.min.js"></script>
+        <!-- You MUST include jQuery 3.4+ before Fomantic -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.9.3/semantic.min.js"></script>
       </div>
     </div>
     <div class="ui basic tab vertical segment" data-tab="unpkg">
       <div class="code" data-type="html">
-        <!-- You MUST include jQuery before Fomantic -->
-        <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://unpkg.com/fomantic-ui@2.8.6/dist/semantic.min.css">
-        <script src="https://unpkg.com/fomantic-ui@2.8.6/dist/semantic.min.js"></script>
+        <!-- You MUST include jQuery 3.4+ before Fomantic -->
+        <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://unpkg.com/fomantic-ui@2.9.3/dist/semantic.min.css">
+        <script src="https://unpkg.com/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
       </div>
     </div>
   </div>
@@ -1070,7 +1138,7 @@
   <div class="no example">
     <h4 class="ui header">Updating NPM Installation</h4>
 
-    <p>If you are using Fomantic-UI via NPM you can simply run the following comand</p>
+    <p>If you are using Fomantic-UI via NPM you can simply run the following command</p>
     <div class="ignored code" data-type="bash">
       $ npm update fomantic-ui
     </div>
@@ -1097,8 +1165,8 @@
       CDN url.
     </p>
     <div class="ui segment">
-      <p>https://cdn.jsdelivr.net/npm/fomantic-ui@<span class="ui red text">2.8.6</span>/dist/semantic.min.css</p>
-      <p>https://cdn.jsdelivr.net/npm/fomantic-ui@<span class="ui red text">2.8.6</span>/dist/semantic.min.js</p>
+      <p>https://cdn.jsdelivr.net/npm/fomantic-ui@<span class="ui red text">2.9.3</span>/dist/semantic.min.css</p>
+      <p>https://cdn.jsdelivr.net/npm/fomantic-ui@<span class="ui red text">2.9.3</span>/dist/semantic.min.js</p>
     </div>
   </div>
 
@@ -1212,39 +1280,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -1256,7 +1295,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -1267,7 +1307,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Feed | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Feed | Fomantic-UI Docs</title>
 
 <meta name="description" content="A feed presents user activity chronologically" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="feed" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -858,6 +849,16 @@
         Feed
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the feed view here"
+            data-url="https://fomantic-ui.com/views/feed.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A feed presents user activity chronologically
         </div>
       </h1>
@@ -895,7 +896,6 @@
     
   </div>
 </div>
-
 <div class="main ui container">
 
   <h2 class="ui dividing header">Types</h2>
@@ -1014,9 +1014,9 @@
 
   <h2 class="ui dividing header">Content</h2>
 
-  <div class="example">
+  <div class="example" data-use-content="true">
     <h4 class="ui header">Label</h4>
-    <p>An event can contain an image or icon label</p>
+    <p>An event label can contain an <a href="/elements/image.html">image</a>, <a href="/elements/icon.html">icon</a>, <a href="/elements/text.html">text</a> or <a href="/elements/label.html">label</a></p>
     <div class="ui feed">
       <div class="event">
         <div class="label">
@@ -1043,9 +1043,68 @@
       </div>
     </div>
   </div>
+  <div class="another example">
+    <div class="ui ignored info message" data-since="2.9.3">Longer label text can use the <code>multiline</code> class</div>
+    <div class="ui feed">
+      <div class="event">
+        <div class="label">
+          <span class="ui purple text">NEW</span>
+        </div>
+        <div class="content">
+          Check the latest sales offers
+        </div>
+      </div>
+      <div class="event">
+        <div class="label">
+          <span class="ui purple multiline text">THIS FALL</span>
+        </div>
+        <div class="content">
+          Only in selected theaters!
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="another example">
+    <div class="ui feed">
+      <div class="event">
+        <div class="label">
+          <div class="ui small green label">OK</div>
+        </div>
+        <div class="content">
+            Deployment was successful
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="another example" data-since="2.9.3">
+    <p>Using a data-text attribute for the label will automatically create a round label containing the given value</p>
+    <div class="ui ignored info message">
+        You can also add a color class. Also add <code>basic</code> for a variant without background color.
+    </div>
+    <div class="ui feed">
+      <div class="event">
+        <div class="label" data-text="Run"></div>
+        <div class="content">
+          Run, Forrest, run!
+        </div>
+      </div>
+      <div class="event">
+        <div class="red label" data-text="Stop"></div>
+        <div class="content">
+          Don't move!
+        </div>
+      </div>
+      <div class="event">
+        <div class="yellow basic label" data-text="Zzz"></div>
+        <div class="content">
+          Nap time
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-  <div class="example">
+  <div class="example" data-use-content="true">
     <h4 class="ui header">Date</h4>
     <p>An event or an event summary can contain a date</p>
     <div class="ui feed">
@@ -1082,9 +1141,12 @@
     </div>
   </div>
 
-  <div class="example">
+  <div class="example" data-class="summary, extra text, extra images" data-use-content="true">
     <h4 class="ui header">Additional information</h4>
     <p>An event can contain additional information like a set of images or text</p>
+    <div class="ui ignored info message" data-since="2.9.3">
+        You could add <code>right floated</code> to feed content elements to make them appear to the right of the content block
+    </div>
     <div class="ui feed">
       <div class="event">
         <div class="label">
@@ -1108,7 +1170,7 @@
           <img src="/images/avatar/small/laura.jpg">
         </div>
         <div class="content">
-          <div class="date">
+          <div class="right floated date">
             3 days ago
           </div>
           <div class="summary">
@@ -1122,8 +1184,237 @@
     </div>
   </div>
 
+  <h2 class="ui dividing header">States</h2>
 
+  <div class="example" data-since="2.9.3" data-use-content="true">
+    <h4 class="ui header">Disabled</h4>
+    <p>A feed or a single event can be disabled</p>
+    <div class="ui feed">
+      <div class="disabled event">
+        <div class="label">
+          <img src="/images/avatar/small/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a class="user">
+              I am a disabled feed event
+            </a>
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 4 Likes
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="event">
+        <div class="label">
+          <img src="/images/avatar/small/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a class="user">
+              I am a normal feed event
+            </a>
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 4 Likes
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="another example" data-use-content="true">
+    <div class="ui disabled feed">
+      <div class="event">
+        <div class="label">
+          <img src="/images/avatar/small/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a class="user">
+              I am a feed event of a whole disabled feed
+            </a>
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 4 Likes
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="event">
+        <div class="label">
+          <img src="/images/avatar/small/elliot.jpg">
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a class="user">
+              Me too
+            </a>
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 4 Likes
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <h2 class="ui dividing header">Variations</h2>
+  <div class="example" data-since="2.9.3" data-use-content="true">
+      <h4 class="ui header">Connected</h4>
+      <p>Feed events can be connected to visualize a linear timeline</p>
+      <div class="ui ignored info message">
+        You can add a color class like <code>ui <b>blue</b> connected feed</code> to get the connection line colored accordingly
+      </div>
+      <div class="ui connected feed">
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/elliot.jpg">
+          </div>
+          <div class="content">
+            <div class="summary">
+              <a class="user">
+                Elliot Fu
+              </a> added you as a friend
+              <div class="date">
+                1 Hour Ago
+              </div>
+            </div>
+            <div class="meta">
+              <a class="like">
+                <i class="like icon"></i> 4 Likes
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="label">
+            <i class="pencil icon"></i>
+          </div>
+          <div class="content">
+            <div class="summary">
+              You submitted a new post to the page
+              <div class="date">
+                3 days ago
+              </div>
+            </div>
+            <div class="extra text">
+              I'm having a BBQ this weekend. Come by around 4pm if you can.
+            </div>
+            <div class="meta">
+              <a class="like">
+                <i class="like icon"></i> 11 Likes
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/helen.jpg">
+          </div>
+          <div class="content">
+            <div class="date">
+              4 days ago
+            </div>
+            <div class="summary">
+              <a>Helen Troy</a> added <a>2 new illustrations</a>
+            </div>
+            <div class="extra images">
+              <a><img src="/images/wireframe/image.png"></a>
+              <a><img src="/images/wireframe/image.png"></a>
+            </div>
+            <div class="meta">
+              <a class="like">
+                <i class="like icon"></i> 1 Like
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="example" data-since="2.9.3" data-use-content="true">
+      <h4 class="ui header">Ordered</h4>
+      <p>Ordered feeds will automatically create ordered label content for the event. You can again combine this using a color class for the whole feed or each label individually. Also a basic variant is available.</p>
+      <div class="ui ignored warning message">
+        When used in combination with <a href="#connected"><code>connected</code></a> the connection line gets the feed color. If you want the connection line color being different than each event color, you have to define the colors for each event individually
+      </div>
+      <div class="ui orange ordered connected feed">
+        <div class="event">
+          <div class="blue label"></div>
+          <div class="content">
+            <div class="summary">
+                Different Labels color than whole feed color
+            </div>
+          </div>
+        </div>
+        <div class="black event">
+          <div class="label"></div>
+          <div class="content">
+            <div class="summary">
+              Automatic label content, line color taken from event color
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="label" data-text="3rd"></div>
+          <div class="content">
+            <div class="summary">
+              Content via data-text attribute
+            </div>
+          </div>
+        </div>
+        <div class="event">
+        <div class="basic label"></div>
+          <div class="content">
+            <div class="summary">
+              Basic Label
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="example" data-since="2.9.3" data-use-content="true">
+      <h4 class="ui header">Divided</h4>
+      <p>Feed events can be divided to better distinguish between grouped content</p>
+      <div class="ui divided feed">
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+               <a>Elliot Fu</a> added <a>Jenny Hess</a> as a friend
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+               <a>Stevie Feliciano</a> added <a>Elliot Fu</a> as a friend
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+               <a>Helen Troy</a> added <a>Christian Rocha</a> as a friend
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="content">
+            <div class="summary">
+               <a>Christian Rocha</a> signed up for the  site.
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
   <div class="example">
     <h4 class="ui header">Size</h4>
     <p>A feed can have different sizes</p>
@@ -1158,8 +1449,7 @@
           </div>
         </div>
       </div>
-    </div
-    >
+    </div>
   </div>
   <div class="another example">
     <div class="ui large feed">
@@ -1227,136 +1517,135 @@
         </div>
       </div>
     </div>
-    <div class="example">
-      <h4 class="ui header">Inverted</h4>
-      <p>A feed's color can be inverted</p>
+  </div>
 
-      <div class="ui inverted segment">
-        <div class="ui inverted feed">
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/elliot.jpg">
+  <div class="example" data-since="2.5">
+    <h4 class="ui header">Inverted</h4>
+    <p>A feed's color can be inverted</p>
+
+    <div class="ui inverted segment">
+      <div class="ui inverted feed">
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/elliot.jpg">
+          </div>
+          <div class="content">
+            <div class="date">
+                Just now
+              </div>
+            <div class="summary">
+              <a class="user">
+                Elliot Fu
+              </a> posted on his page
             </div>
-            <div class="content">
+            <div class="extra text">
+                Hey there !
+            </div>
+          </div>
+        </div>
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/elliot.jpg">
+          </div>
+          <div class="content">
+            <div class="summary">
+              <a class="user">
+                Elliot Fu
+              </a> added you as a friend
               <div class="date">
-                  Just now
-                </div>
-              <div class="summary">
-                <a class="user">
-                  Elliot Fu
-                </a> posted on his page
-              </div>
-              <div class="extra text">
-                  Hey there !
+                1 Hour Ago
               </div>
             </div>
           </div>
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/elliot.jpg">
-            </div>
-            <div class="content">
-              <div class="summary">
-                <a class="user">
-                  Elliot Fu
-                </a> added you as a friend
-                <div class="date">
-                  1 Hour Ago
-                </div>
+        </div>
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/helen.jpg">
+          </div>
+          <div class="content">
+            <div class="summary">
+              <a>Helen Troy</a> added <a>2 new illustrations</a>
+              <div class="date">
+                4 days ago
               </div>
+            </div>
+            <div class="extra images">
+              <a><img src="/images/wireframe/image.png"></a>
+              <a><img src="/images/wireframe/image.png"></a>
+            </div>
+            <div class="meta">
+              <a class="like">
+                <i class="like icon"></i> 1 Like
+              </a>
             </div>
           </div>
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/helen.jpg">
+        </div>
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/jenny.jpg">
+          </div>
+          <div class="content">
+            <div class="summary">
+              <a class="user">
+                Jenny Hess
+              </a> added you as a friend
+              <div class="date">
+                2 Days Ago
+              </div>
             </div>
-            <div class="content">
-              <div class="summary">
-                <a>Helen Troy</a> added <a>2 new illustrations</a>
-                <div class="date">
-                  4 days ago
-                </div>
-              </div>
-              <div class="extra images">
-                <a><img src="/images/wireframe/image.png"></a>
-                <a><img src="/images/wireframe/image.png"></a>
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 1 Like
-                </a>
-              </div>
+            <div class="meta">
+              <a class="like">
+                 <i class="like icon"></i> 8 Likes
+              </a>
             </div>
           </div>
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/jenny.jpg">
+        </div>
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/joe.jpg">
+          </div>
+          <div class="content">
+            <div class="summary">
+              <a>Joe Henderson</a> posted on his page
+              <div class="date">
+                3 days ago
+              </div>
             </div>
-            <div class="content">
-              <div class="summary">
-                <a class="user">
-                  Jenny Hess
-                </a> added you as a friend
-                <div class="date">
-                  2 Days Ago
-                </div>
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 8 Likes
-                </a>
-              </div>
+            <div class="extra text">
+              Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
+            </div>
+            <div class="meta">
+              <a class="like">
+                <i class="like icon"></i> 5 Likes
+              </a>
             </div>
           </div>
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/joe.jpg">
-            </div>
-            <div class="content">
-              <div class="summary">
-                <a>Joe Henderson</a> posted on his page
-                <div class="date">
-                  3 days ago
-                </div>
-              </div>
-              <div class="extra text">
-                Ours is a life of constant reruns. We're always circling back to where we'd we started, then starting all over again. Even if we don't run extra laps that day, we surely will come back for more of the same another day soon.
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 5 Likes
-                </a>
-              </div>
-            </div>
+        </div>
+        <div class="event">
+          <div class="label">
+            <img src="/images/avatar/small/justen.jpg">
           </div>
-          <div class="event">
-            <div class="label">
-              <img src="/images/avatar/small/justen.jpg">
+          <div class="content">
+            <div class="summary">
+              <a>Justen Kitsune</a> added <a>2 new photos</a> of you
+              <div class="date">
+                4 days ago
+              </div>
             </div>
-            <div class="content">
-              <div class="summary">
-                <a>Justen Kitsune</a> added <a>2 new photos</a> of you
-                <div class="date">
-                  4 days ago
-                </div>
-              </div>
-              <div class="extra images">
-                <a><img src="/images/wireframe/image.png"></a>
-                <a><img src="/images/wireframe/image.png"></a>
-              </div>
-              <div class="meta">
-                <a class="like">
-                  <i class="like icon"></i> 41 Likes
-                </a>
-              </div>
+            <div class="extra images">
+              <a><img src="/images/wireframe/image.png"></a>
+              <a><img src="/images/wireframe/image.png"></a>
+            </div>
+            <div class="meta">
+              <a class="like">
+                <i class="like icon"></i> 41 Likes
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
-
 
 </div>
         <footer class="ui vertical footer segment">
@@ -1419,39 +1708,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -1463,7 +1723,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -1474,7 +1735,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

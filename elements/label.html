@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Label | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Label | Fomantic-UI Docs</title>
 
 <meta name="description" content="A label displays content classification" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="label" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -858,6 +849,16 @@
         Label
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the label element here"
+            data-url="https://fomantic-ui.com/elements/label.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A label displays content classification
         </div>
       </h1>
@@ -896,7 +897,6 @@
   </div>
 </div>
 
-
 <div class="main ui container">
 
   <h2 class="ui dividing header">Types</h2>
@@ -907,6 +907,12 @@
     <div class="ui label">
       <i class="mail icon"></i> 23
     </div>
+  </div>
+  <div class="another example">
+      <p>Highlight keyboard shortcuts</p>
+      <kbd class="ui label">CTRL</kbd> + <kbd class="ui label">Alt</kbd> + <kbd class="ui label">Del</kbd>
+      <kbd class="ui inverted icon label"><i class="windows icon"></i></kbd> + <kbd class="ui inverted label">L</kbd>
+      <kbd class="ui basic label">W</kbd><kbd class="ui basic label">A</kbd><kbd class="ui basic label">S</kbd><kbd class="ui basic label">D</kbd>
   </div>
 
   <div class="example">
@@ -960,7 +966,7 @@
     </div>
   </div>
 
-  <div class="example" data-class="pointing above, pointing below, left pointing, right pointing">
+  <div class="example" data-class="!pointing above, !pointing below, !left pointing, !right pointing">
     <h4 class="ui header">Pointing</h4>
     <p>A label can point to content next to it</p>
     <form class="ui fluid form">
@@ -1057,7 +1063,7 @@
     <a class="ui teal tag label">Featured</a>
   </div>
 
-  <div class="example" data-class="left ribbon, right ribbon, ribbon">
+  <div class="example" data-class="left ribbon, !right ribbon, ribbon">
     <h4 class="ui header">Ribbon</h4>
     <p>A label can appear as a ribbon attaching itself to an element.</p>
     <div class="ui two column grid">
@@ -1105,7 +1111,7 @@
       <div class="column">
         <div class="ui fluid image">
           <div class="ui black ribbon right icon label">
-            Hotel <i class="hotel icon"></i> 
+            Hotel <i class="hotel icon"></i>
           </div>
           <img src="/images/wireframe/image.png">
         </div>
@@ -1125,7 +1131,7 @@
       <div class="column">
         <div class="ui fluid image">
           <div class="ui black ribbon icon label">
-            <i class="hotel icon"></i> 
+            <i class="hotel icon"></i>
           </div>
           <img src="/images/wireframe/image.png">
         </div>
@@ -1137,6 +1143,23 @@
           </div>
           <img src="/images/wireframe/image.png">
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="example" data-class="bottom ribbon, center ribbon, ribbon" data-since="2.9.3">
+    <h4 class="ui header">Bottom and Center Ribbon</h4>
+    <p>A ribbon label can appear vertically centered or positioned to the bottom.</p>
+    <div class="ui raised horizontal segments">
+      <div class="ui segment">
+        <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
+        <a class="ui red bottom ribbon label">Overview</a>
+        <span>Account Details</span>
+      </div>
+      <div class="ui segment">
+        <a class="ui red center right ribbon label">Overview</a>
+        <span>Account Details</span>
+        <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
       </div>
     </div>
   </div>
@@ -1224,7 +1247,7 @@
     </div>
   </div>
 
-  <div class="example" data-class="floating">
+  <div data-since="2.7.2" class="example" data-class="floating">
     <h4 class="ui header">Floating</h4>
     <p>A label can float above or below another element.</p>
     <div class="ui ignored warning message">A floating label must be positioned inside a container with <b>position: relative</b> to display properly.</div>
@@ -1235,7 +1258,7 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends
-        <div class="floating ui teal label">22</div>
+        <div class="floating ui blue label">22</div>
       </a>
     </div>
     <br><br>
@@ -1246,12 +1269,10 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends
-        <div class="floating ui teal label">22 Friends</div>
+        <div class="floating ui blue label">22 Friends</div>
       </a>
     </div>
     <br><br>
-    <div class="ui black bottom pointing label">New in 2.7.2</div>
-    <br>
     <div class="ui compact menu">
       <a class="item">
         <i class="icon mail"></i> Messages
@@ -1259,7 +1280,7 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends
-        <div class="bottom floating ui teal label">22</div>
+        <div class="bottom floating ui blue label">22</div>
       </a>
     </div>
     <br><br>
@@ -1270,13 +1291,12 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends
-        <div class="bottom floating ui teal label">22 Friends</div>
+        <div class="bottom floating ui blue label">22 Friends</div>
       </a>
     </div>
   </div>
-  <div class="example">
+  <div class="example" data-since="2.7.2">
     <h4 class="ui header">Floating left
-        <div class="ui black label">New in 2.7.2</div>
     </h4>
     <p>Floating Labels can be positioned to the left also</p>
     <div class="ui compact menu">
@@ -1286,7 +1306,7 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends
-        <div class="left floating ui teal label">22</div>
+        <div class="left floating ui blue label">22</div>
       </a>
     </div>
     <br><br>
@@ -1297,13 +1317,12 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends
-        <div class="left floating ui teal label">22 Friends</div>
+        <div class="left floating ui blue label">22 Friends</div>
       </a>
     </div>
   </div>
-  <div class="example">
+  <div class="example" data-since="2.7.2">
     <h4 class="ui header">Floating aligned
-      <div class="ui black label">New in 2.7.2</div>
     </h4>
     <p>Floating Labels containing large text can be aligned to the left or right</p>
     <div class="ui compact menu">
@@ -1313,8 +1332,63 @@
       </a>
       <a class="item">
         <i class="icon users"></i> Friends of the Fomantic-UI Community
-        <div class="right aligned floating ui teal label">22 Friends online</div>
+        <div class="right aligned floating ui blue label">22 Friends online</div>
       </a>
+    </div>
+  </div>
+
+  <div class="example" data-since="2.7">
+    <h4 class="ui header">Inverted</h4>
+    <p>All Variants of Label can be inverted</p>
+    <div class="ui inverted segment" >
+        <a class="ui primary inverted label">Primary</a>
+        <a class="ui secondary inverted label">Secondary</a>
+        <a class="ui red inverted label">Red</a>
+        <a class="ui orange inverted label">Orange</a>
+        <a class="ui yellow inverted label">Yellow</a>
+        <a class="ui olive inverted label">Olive</a>
+        <a class="ui green inverted label">Green</a>
+        <a class="ui teal inverted label">Teal</a>
+        <a class="ui blue inverted label">Blue</a>
+        <a class="ui violet inverted label">Violet</a>
+        <a class="ui purple inverted label">Purple</a>
+        <a class="ui pink inverted label">Pink</a>
+        <a class="ui brown inverted label">Brown</a>
+        <a class="ui grey inverted label">Grey</a>
+        <a class="ui black inverted label">Black</a>
+        <p></p>
+        <a class="ui primary inverted basic label">Primary</a>
+        <a class="ui secondary inverted basic label">Secondary</a>
+        <a class="ui red inverted basic label">Red</a>
+        <a class="ui orange inverted basic label">Orange</a>
+        <a class="ui yellow inverted basic label">Yellow</a>
+        <a class="ui olive inverted basic label">Olive</a>
+        <a class="ui green inverted basic label">Green</a>
+        <a class="ui teal inverted basic label">Teal</a>
+        <a class="ui blue inverted basic label">Blue</a>
+        <a class="ui violet inverted basic label">Violet</a>
+        <a class="ui purple inverted basic label">Purple</a>
+        <a class="ui pink inverted basic label">Pink</a>
+        <a class="ui brown inverted basic label">Brown</a>
+        <a class="ui grey inverted basic label">Grey</a>
+        <a class="ui black inverted basic label">Black</a>
+        <p></p>
+        <a class="ui inverted tag label">Tag</a>
+        <a class="ui primary inverted tag label">Primary</a>
+        <a class="ui secondary inverted tag label">Secondary</a>
+        <a class="ui red inverted tag label">Red</a>
+        <a class="ui orange inverted tag label">Orange</a>
+        <a class="ui yellow inverted tag label">Yellow</a>
+        <a class="ui olive inverted tag label">Olive</a>
+        <a class="ui green inverted tag label">Green</a>
+        <a class="ui teal inverted tag label">Teal</a>
+        <a class="ui blue inverted tag label">Blue</a>
+        <a class="ui violet inverted tag label">Violet</a>
+        <a class="ui purple inverted tag label">Purple</a>
+        <a class="ui pink inverted tag label">Pink</a>
+        <a class="ui brown inverted tag label">Brown</a>
+        <a class="ui grey inverted tag label">Grey</a>
+        <a class="ui black inverted tag label">Black</a>
     </div>
   </div>
 
@@ -1329,7 +1403,7 @@
     </div>
   </div>
 
-  <div class="example" data-use-content="true" data-class="icon">
+  <div class="example" data-use-content="true" data-class="icon, !left icon">
     <h4 class="ui header">Icon</h4>
     <p>A label can include an icon</p>
     <div class="ui label">
@@ -1349,7 +1423,7 @@
       Cat
     </div>
   </div>
-  
+
   <div class="another example" data-use-content="true">
     <div class="ignored ui info message">Icons can be placed to the right inside a label.</div>
 
@@ -1388,12 +1462,10 @@
   <div class="another example" data-use-content="true">
     <div class="ignored ui warning message">
       For backward-compatibility during v2.x, <code>close</code>/<code>delete</code> icon.
-      
       <ul>
         <li>Requires <code>left icon</code> to be added to the parent <code>label</code> when the icon is placed on the left of a label.</li>
         <li>Does not require <code>right icon</code> to be added to parent <code>label</code> when the icon is placed on the right of the label.</li>
       </ul>
-      
       This rule may be simplified in a later minor or major version.
     </div>
 
@@ -1415,7 +1487,7 @@
       <i class="delete icon"></i>
     </div>
   </div>
-    
+
   <div class="example" data-use-content="true" data-class="image" data-tag="img">
     <h4 class="ui header">Image</h4>
     <p>A label can include an image</p>
@@ -1444,9 +1516,28 @@
     </div>
   </div>
 
+  <h2 class="ui dividing header">States</h2>
+
+  <div class="example">
+    <h4 class="ui header">Disabled</h4>
+    <p>A label can show it is currently unable to be interacted with</p>
+    <a class="ui disabled label">
+      Disabled Label
+    </a>
+  </div>
+
   <h2 class="ui dividing header">Variations</h2>
 
-
+  <div class="example">
+    <h4 class="ui header">Fluid</h4>
+    <p>A label can take the width of its container</p>
+    <div class="ui fluid label">Fits container</div>
+  </div>
+  <div class="example" data-since="2.9.1">
+    <h4 class="ui header">Centered</h4>
+    <p>Text can be shown centered</p>
+    <div class="ui fluid centered label">Fits container</div>
+  </div>
   <div class="example" data-class="empty circular, circular">
     <h4 class="ui header">Circular</h4>
     <p>A label can be circular</p>
@@ -1480,10 +1571,8 @@
     <a class="ui black empty circular label"></a>
   </div>
 
-  <div class="example">
-    <h4 class="ui header">Basic
-      <div class="ui black label">New in 2.1</div>
-    </h4>
+  <div class="example" data-since="2.1">
+    <h4 class="ui header">Basic</h4>
     <p>A label can reduce its complexity</p>
     <a class="ui basic label">Basic</a>
     <a class="ui pointing basic label">Pointing</a>
@@ -1495,7 +1584,7 @@
     </a>
   </div>
 
-  <div class="example">
+  <div class="example" data-class="colors">
     <h4 class="ui header">Colored</h4>
     <p>A label can have different colors</p>
     <a class="ui primary label">Primary</a>
@@ -1515,10 +1604,8 @@
     <a class="ui black label">Black</a>
   </div>
 
-  <div class="example">
-    <h4 class="ui header">Basic Tag Labels
-        <div class="ui black label">New in 2.7</div>
-    </h4>
+  <div class="example" data-since="2.7">
+    <h4 class="ui header">Basic Tag Labels</h4>
     <p></p>
     <a class="ui basic tag label">Standard Tag</a>
     <a class="ui primary basic tag label">Primary</a>
@@ -1587,7 +1674,7 @@
       </div>
     </div>
   </div>
-  <div class="example">
+  <div class="example" data-class="colors">
     <h4 class="ui header">Colored Group</h4>
     <p>Labels can share colors together</p>
     <div class="ui blue labels">
@@ -1610,10 +1697,8 @@
     </div>
   </div>
 
-  <div class="example">
-    <h4 class="ui header">Basic Group
-        <div class="ui black label">New in 2.7</div>
-    </h4>
+  <div class="example" data-since="2.7">
+    <h4 class="ui header">Basic Group</h4>
     <p>Labels can share their style together</p>
     <div class="ui basic labels">
         <a class="ui label">
@@ -1678,65 +1763,6 @@
       </a>
     </div>
   </div>
-
- <h2 class="ui dividing header">Inverted
-    <div class="ui black label">New in 2.7</div>
-  </h2>
-
- <div class="example">
-    <h4 class="ui header">All Variants of Label can be inverted</h4>
-    <div class="ui inverted segment" >
-        <a class="ui primary inverted label">Primary</a>
-        <a class="ui secondary inverted label">Secondary</a>
-        <a class="ui red inverted label">Red</a>
-        <a class="ui orange inverted label">Orange</a>
-        <a class="ui yellow inverted label">Yellow</a>
-        <a class="ui olive inverted label">Olive</a>
-        <a class="ui green inverted label">Green</a>
-        <a class="ui teal inverted label">Teal</a>
-        <a class="ui blue inverted label">Blue</a>
-        <a class="ui violet inverted label">Violet</a>
-        <a class="ui purple inverted label">Purple</a>
-        <a class="ui pink inverted label">Pink</a>
-        <a class="ui brown inverted label">Brown</a>
-        <a class="ui grey inverted label">Grey</a>
-        <a class="ui black inverted label">Black</a>
-        <p></p>
-        <a class="ui primary inverted basic label">Primary</a>
-        <a class="ui secondary inverted basic label">Secondary</a>
-        <a class="ui red inverted basic label">Red</a>
-        <a class="ui orange inverted basic label">Orange</a>
-        <a class="ui yellow inverted basic label">Yellow</a>
-        <a class="ui olive inverted basic label">Olive</a>
-        <a class="ui green inverted basic label">Green</a>
-        <a class="ui teal inverted basic label">Teal</a>
-        <a class="ui blue inverted basic label">Blue</a>
-        <a class="ui violet inverted basic label">Violet</a>
-        <a class="ui purple inverted basic label">Purple</a>
-        <a class="ui pink inverted basic label">Pink</a>
-        <a class="ui brown inverted basic label">Brown</a>
-        <a class="ui grey inverted basic label">Grey</a>
-        <a class="ui black inverted basic label">Black</a>
-        <p></p>
-        <a class="ui inverted tag label">Tag</a>
-        <a class="ui primary inverted tag label">Primary</a>
-        <a class="ui secondary inverted tag label">Secondary</a>
-        <a class="ui red inverted tag label">Red</a>
-        <a class="ui orange inverted tag label">Orange</a>
-        <a class="ui yellow inverted tag label">Yellow</a>
-        <a class="ui olive inverted tag label">Olive</a>
-        <a class="ui green inverted tag label">Green</a>
-        <a class="ui teal inverted tag label">Teal</a>
-        <a class="ui blue inverted tag label">Blue</a>
-        <a class="ui violet inverted tag label">Violet</a>
-        <a class="ui purple inverted tag label">Purple</a>
-        <a class="ui pink inverted tag label">Pink</a>
-        <a class="ui brown inverted tag label">Brown</a>
-        <a class="ui grey inverted tag label">Grey</a>
-        <a class="ui black inverted tag label">Black</a>
-    </div>
- </div>
-
 </div>
         <footer class="ui vertical footer segment">
   <div class="ui container">
@@ -1798,39 +1824,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -1842,7 +1839,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -1853,7 +1851,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

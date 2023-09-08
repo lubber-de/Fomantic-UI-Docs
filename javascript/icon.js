@@ -12,6 +12,7 @@ semantic.icon.ready = function() {
       getIconList: function() {
         var
           $examples   = $('.icon .example'),
+          collectedIcons = [],
           icons       = []
         ;
         $examples.each(function() {
@@ -27,7 +28,8 @@ semantic.icon.ready = function() {
               terms = $icon.data('search-terms') || "",
               title = '<i class="' + icon +' icon"></i> ' + icon
             ;
-            if(!_.findWhere(icons, { icon: icon})) {
+            if(collectedIcons.indexOf(icon) === -1) {
+              collectedIcons.push(icon);
               icons.push({
                 category    : category,
                 description : terms,
@@ -40,21 +42,22 @@ semantic.icon.ready = function() {
         return icons;
       }
     },
-    categoryVisible = (category) => {
-      var rect = category.getBoundingClientRect();
+    iconVisible = function (icon) {
+      var rect = icon.getBoundingClientRect();
       var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
       return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
     },
-    checkVisibility = () => {
-      $('.icon.example').each(function() {
-        var element = $(this).get(0);
-    
-        if(categoryVisible(element)) {
-          $(this).css('visibility', 'visible');
-        } else {
-          $(this).css('visibility', 'hidden');
-        }
-      });
+    checkIconVisibility = function () {
+      $('.icon.example')
+        .find('i.icon')
+        .each(function () {
+          var element = $(this).get(0);
+          if (iconVisible(element)) {
+            $(this).css('visibility', 'visible');
+          } else {
+            $(this).css('visibility', 'hidden');
+          }
+        });
     }
   ;
 
@@ -63,8 +66,15 @@ semantic.icon.ready = function() {
     $iconSearch
       .search({
         type          : 'category',
+        fullTextSearch: 'all',
+        searchFields: [
+          'category',
+          'icon',
+          'description',
+        ],
         minCharacters : 1,
         maxResults    : 10,
+        cache         : false,
         source        : handler.getIconList(),
         onResults     : function(result) {
           setTimeout(function() {
@@ -75,14 +85,14 @@ semantic.icon.ready = function() {
               var
                 $result = $(this)
               ;
-              new Clipboard(this, {
+              new ClipboardJS(this, {
                 text: function() {
                   var
                     iconHTML = $result.find('i').get(0).outerHTML
                   ;
                   return iconHTML;
                 }
-            });
+              });
             });
           }, 0);
         },
@@ -90,14 +100,14 @@ semantic.icon.ready = function() {
           var
             $search = $('iconSearch .input > input')
           ;
-          $search.blur();
-          setTimeout(function() {
-            $('iconSearch input').transition('glow');
-            $search.val('Copied to clipboard!');
-          }, 50)
-          setTimeout(function() {
-            $search.val('');
-          }, 1500)
+          $search.trigger('blur');
+          $.toast({
+            class: 'inverted',
+            compact: false,
+            showIcon: 'copy',
+            message: 'Copied to clipboard!',
+            displayTime: 2000
+          });
           return false;
         }
       })
@@ -106,20 +116,19 @@ semantic.icon.ready = function() {
   }
 
   // only show icon category when visible on screen
-  $(document).scroll(checkVisibility);
-  $(window).resize(checkVisibility);
-  
-  checkVisibility();
-  
-  
+  $(document).on('scroll', checkIconVisibility);
+  $(window).on('resize', checkIconVisibility);
+
+  checkIconVisibility();
+
+
   // check if icon list tab is selected (if so run the check visibility function)
   var tab = $('.ui.two.item.stackable.tabs > a').get(0);
-  console.log(tab);
-  
-  var observer = new MutationObserver(() => {
-    checkVisibility();
+
+  var observer = new MutationObserver(function() {
+    checkIconVisibility();
   });
-  
+
   observer.observe(tab, {
     attributes: true,
     attributeFilter: ['class'],

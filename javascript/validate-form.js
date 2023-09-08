@@ -11,6 +11,7 @@ semantic.validateForm.ready = function() {
     $autoForm     = $('.auto.example .ui.form'),
     $colorForm    = $('.color.example .ui.form'),
     $promptForm   = $('.prompt.example .ui.form'),
+    $nativeForm   = $('.native.example .ui.form'),
     $ruleForm     = $('.custom.rule.example .ui.form'),
     $dropdownForm = $('.dropdown.example .ui.form'),
     $optionalForm = $('.optional.example .ui.form'),
@@ -104,7 +105,7 @@ semantic.validateForm.ready = function() {
           prompt : 'Please enter a username'
         },
         {
-          type   : 'length[5]',
+          type   : 'minLength[5]',
           prompt : 'Your username must be at least 5 characters'
         }
       ]
@@ -126,7 +127,7 @@ semantic.validateForm.ready = function() {
           prompt : 'Please enter a password'
         },
         {
-          type   : 'length[6]',
+          type   : 'minLength[6]',
           prompt : 'Your password must be at least 6 characters'
         }
       ]
@@ -235,6 +236,9 @@ semantic.validateForm.ready = function() {
     }
   });
 
+  $nativeForm.form({
+    inline: true
+  });
 
   $promptForm
     .form({
@@ -411,16 +415,16 @@ semantic.validateForm.ready = function() {
     })
   ;
 
-  $('#btn_set_clean').click(function() {
+  $('#btn_set_clean').on('click',function() {
     $dirtyForm.form('set as clean');
   });
 
-  $('#btn_show_dirty').click(function() {
+  $('#btn_show_dirty').on('click',function() {
     var dirty_fields = $dirtyForm.form('get dirty fields');
 
     dirty_fields.each(function(_, element) {
       $('#dirty_form_console').append('dirty element: ' + element.name + '<br>');
-    }); 
+    });
   });
 };
 

@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Tab | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Tab | Fomantic-UI Docs</title>
 
 <meta name="description" content="A tab is a hidden section of content activated by a menu" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,12 +834,10 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
-        <script src="/javascript/library/sinon.js"></script>
-<script src="/javascript/tab.js"></script>
+        <script src="/javascript/tab.js"></script>
 
 
 
@@ -859,6 +849,16 @@
         Tab
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the tab module here"
+            data-url="https://fomantic-ui.com/modules/tab.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A tab is a hidden section of content activated by a menu
         </div>
       </h1>
@@ -920,7 +920,6 @@
   </div>
 </div>
 
-
 <div class="main ui container">
 
   <div class="ui active tab" data-tab="definition">
@@ -929,7 +928,7 @@
       Type
     </h2>
 
-    <div class="example">
+    <div class="example" data-class="tab">
       <h4 class="ui header">
         Tab
       </h4>
@@ -980,7 +979,7 @@
       Variations
     </h2>
 
-    <div class="center example">
+    <div class="center example" data-class="center" data-use-content="true">
       <h4 class="ui header">
         Centered Item
       </h4>
@@ -1001,6 +1000,52 @@
       <div class="ui bottom attached tab segment" data-tab="three">
         <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
         <img class="ui wireframe image" src="/images/wireframe/paragraph.png">
+      </div>
+    </div>
+
+    <div class="inverted example">
+      <h4 class="ui header">
+        Inverted
+      </h4>
+      <p>A tab can be shown inverted</p>
+      <div class="ui inverted segment">
+        <div class="ui top attached inverted tabular menu">
+          <a class="active item" data-tab="one">Active Tab</a>
+          <a class="item" data-tab="two">Tab 2</a>
+          <a class="item" data-tab="three">Tab 3</a>
+        </div>
+        <div class="ui bottom attached active inverted tab segment" data-tab="one">
+          <p>content one</p>
+        </div>
+        <div class="ui bottom attached inverted tab segment" data-tab="two">
+          <p>content two</p>
+        </div>
+        <div class="ui bottom attached inverted tab segment" data-tab="three">
+          <p>content three</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="inverted example">
+      <h4 class="ui header">
+        Bottom attached menu
+      </h4>
+      <p>You can display the tabular menu at the bottom of the tab segments</p>
+      <div class="ui inverted segment">
+        <div class="ui top attached inverted tab segment" data-tab="one1">
+          <p>content one</p>
+        </div>
+        <div class="ui top attached inverted tab segment" data-tab="two1">
+          <p>content two</p>
+        </div>
+        <div class="ui top attached inverted tab segment active" data-tab="three1">
+          <p>content three</p>
+        </div>
+        <div class="ui bottom attached inverted tabular menu">
+          <a class="item" data-tab="one1">Active Tab</a>
+          <a class="item" data-tab="two1">Tab 2</a>
+          <a class="item active" data-tab="three1">Tab 3</a>
+        </div>
       </div>
     </div>
 
@@ -1044,19 +1089,19 @@
         If you are using tab contexts inside of tabs, you can also specify <code>childrenOnly: true</code> which will only look for tabs as the immediate children of the given context, or <code>context: 'parent'</code> a special keyword which avoids having to create unique selectors for each group.
       </div>
       <div class="code" data-type="javascript">
-        $('#context1 .menu .item')
+        $('.context1 .menu .item')
           .tab({
-            context: $('#context1')
+            context: '.context1'
           })
         ;
-        $('#context2 .menu .item')
+        $('.context2 .menu .item')
           .tab({
             // special keyword works same as above
             context: 'parent'
           })
         ;
       </div>
-      <div id="context1">
+      <div class="context1">
         <div class="ui secondary menu">
           <a class="item" data-tab="first">First</a>
           <a class="item active" data-tab="second">Second</a>
@@ -1094,7 +1139,7 @@
         </div>
       </div>
       <div class="ui divider"></div>
-      <div id="context2">
+      <div class="context2">
         <div class="ui secondary menu">
           <a class="item" data-tab="fourth">Fourth</a>
           <a class="item active" data-tab="fifth">Fifth</a>
@@ -1111,7 +1156,7 @@
         </div>
       </div>
       <div class="existing code" data-type="html">
-        <div id="context1">
+        <div class="context1">
           <div class="ui secondary menu">
             <a class="item" data-tab="first">First</a>
             <a class="item active" data-tab="second">Second</a>
@@ -1149,7 +1194,7 @@
           </div>
         </div>
         <div class="ui divider"></div>
-        <div id="context2">
+        <div class="context2">
           <div class="ui secondary menu">
             <a class="item" data-tab="fourth">Fourth</a>
             <a class="item active" data-tab="fifth">Fifth</a>
@@ -1222,12 +1267,12 @@
 
 
     <div class="dynamic no example">
-      <h4 class="header">Retreiving Remote Content</h4>
+      <h4 class="header">Retrieving Remote Content</h4>
       <p>Using <code>auto: true</code> will load the tab's path from your server with additional headers to specify an in-page request. When <a href="#settings"><code>cache: true</code></a> is set, re-opening a tab will be loaded from cache without a server request.</p>
       <div class="ui ignored warning message">
         API requests for the following example have been faked using <a href="/behaviors/api.html#using-custom-backends">mockResponse</a> API setting to avoid network overhead.
       </div>
-      <div class="code">
+      <div class="code" data-type="javascript">
       $('.dynamic.example .menu .item')
         .tab({
           cache: false,
@@ -1269,7 +1314,7 @@
     <div class="eval no example">
       <h4 class="header">Evaluating Scripts in HTML</h4>
       <p>By default, <code>script</code> tags included in HTML will only be evaluated on first load. To change this behavior you can adjust the  <code>evaluateScripts</code> setting.</p>
-      <div class="code">
+      <div class="code" data-type="javascript">
       $('.eval.example .menu .item')
         .tab({
           evaluateScripts : 'once',
@@ -1350,7 +1395,7 @@
 
     <div class="state example">
       <h4>Using HTML5 State</h4>
-      <p>For sites that are able to replicate change on the server, tab can automatically map changes in tab navigation to <a href="http://diveintohtml5.info/history.html" target="_blank">html5 state.</a>
+      <p>For sites that are able to replicate change on the server, tab can automatically map changes in tab navigation to <a href="//diveintohtml5.info/history.html" target="_blank">html5 state.</a>
       </p>
       <div class="ui ignored warning message">
         Since these docs are statically hosted on GitHub Pages, html5 state tabs are not demonstrable from the docs. You will need to try this example in your own code.
@@ -1424,6 +1469,20 @@
         <p>After any tab is opened it will look for a default tab to open inside of the current tab. This is the first tab that begins with the same stem url as the parent tab. For example a tab with the path <code>data-tab="home"</code> might open a tab automatically <code>data-tab="/home/inbox"</code>.</p>
         <p>This will happen recursively for every tab open, allowing as many levels of tabs as you like.</p>
       </div>
+      <div class="ignored ui warning message">
+        <h4 class="ui header">Using tab segments</h4>
+        <p>To avoid possible CSS issues when using <code>attached segments</code> you should wrap your tabular menu tab and related attached tab segments into a dedicated DOM node, for example a <code>ui segment</code></p>
+       <div class="code" data-type="html">
+          <div class="ui basic segment">
+            <div class="ui top attached tabular menu">
+              <a class="item" data-tab="entries">Tab menu item</a>
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="entries">
+              <p>Tab content</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
@@ -1438,7 +1497,7 @@
         <p>Tabs use Asual's <a href="https://github.com/asual/jquery-address">Address library</a> to provide cross-browser push state support. This is a <b>required dependency</b> for tabs with history to work correctly.</p>
       </div>
 
-      <div class="code">
+      <div class="code" data-type="javascript">
         $('.ui.menu .item')
           .tab({
             history: true,
@@ -1451,7 +1510,7 @@
     <div class="no example">
       <h4 class="ui header">...with HTML5 State</h4>
       <p>Tabs can can use html5 push state to manage page state without using <code>#/foo</code> links. When a user refreshes a page using push state the server will be queried for the new url. This means you must set up appropriate routes in your backend to match each link.</p>
-      <div class="code">
+      <div class="code" data-type="javascript">
       $('.ui.menu .item')
         .tab({
           history: true,
@@ -1466,7 +1525,7 @@
       <h4 class="ui header">Setting Paths</h4>
       <p>Using <code>historyType: state</code> requires specifying a <b>base URL without any internal state</b>. This cannot be set automatically to <code>window.location</code> because all tabs with html5 state will appear as normal page urls, and route accordingly.</p>
       <p>HTML5 state will only work with dynamic site back-ends because it requires each tab path to correctly route on the server to the appropriate content.</p>
-      <div class="code">
+      <div class="code" data-type="javascript">
       $('.ui.menu .item')
         .tab({
           history: true,
@@ -1545,6 +1604,10 @@
       <tr>
         <td>cache remove(path)</td>
         <td>Removes cached HTML for path</td>
+      </tr>
+      <tr>
+        <td>destroy</td>
+        <td>Destroys instance and removes all events</td>
       </tr>
     </table>
   </div>
@@ -1690,6 +1753,12 @@
           <td>Tab</td>
           <td>Called after a tab becomes visible</td>
         </tr>
+        <tr>
+          <td>onBeforeChange</td>
+          <td>tabPath</td>
+          <td>Tab</td>
+          <td>Called before a tab is about to be changed. Returning <code>false</code> will cancel the tab change</td>
+        </tr>
       </tbody>
     </table>
 
@@ -1716,7 +1785,7 @@
         <tr>
           <td>templates</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             templates    : {
               // returns page title
               determineTitle: function(tabArray) {}
@@ -1728,7 +1797,7 @@
         <tr>
           <td>selector</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             selector    : {
               tabs : '.ui.tab',
               parent : '.ui:not(.menu)'
@@ -1740,7 +1809,7 @@
         <tr>
           <td>metadata</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             metadata : {
               tab    : 'tab',
               loaded : 'loaded',
@@ -1753,7 +1822,7 @@
         <tr>
           <td>className</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             className   : {
               loading : 'loading',
               active  : 'active'
@@ -1788,28 +1857,28 @@
         </tr>
         <tr>
           <td>silent</td>
-          <td>False</td>
+          <td>false</td>
           <td>Silences all console output including error messages, regardless of other debug settings.</td>
         </tr>
         <tr>
           <td>debug</td>
-          <td>False</td>
+          <td>false</td>
           <td>Provides standard debug output to console</td>
         </tr>
         <tr>
           <td>performance</td>
-          <td>True</td>
+          <td>true</td>
           <td>Provides standard debug output to console</td>
         </tr>
         <tr>
           <td>verbose</td>
-          <td>True</td>
+          <td>false</td>
           <td>Provides ancillary debug output to console</td>
         </tr>
         <tr>
           <td>errors</td>
           <td colspan="2">
-            <div class="code">
+            <div class="code" data-type="javascript">
       error: {
         api        : 'You attempted to load content without API module',
         method     : 'The method you called is not defined',
@@ -1887,39 +1956,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -1931,7 +1971,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -1942,7 +1983,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

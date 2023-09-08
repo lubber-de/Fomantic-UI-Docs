@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Dropdown | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Dropdown | Fomantic-UI Docs</title>
 
 <meta name="description" content="A dropdown allows a user to select a value from a series of options" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="dropdown" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -860,6 +851,16 @@
         Dropdown
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the dropdown module here"
+            data-url="https://fomantic-ui.com/modules/dropdown.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A dropdown allows a user to select a value from a series of options
         </div>
       </h1>
@@ -939,7 +940,6 @@
   </div>
 </div>
 
-
 <div class="main ui container">
 
   <div class="ui active tab" data-tab="definition">
@@ -999,21 +999,42 @@
       <div class="ui ignored info message">
         Selection dropdowns can be initialized directly on a <code>select</code> or with the matching HTML and a hidden <code>input</code>.
       </div>
+      <div class="ui ignored warning message" data-since="2.8.7">
+      	<div class="header">
+      		<i class="mobile icon"></i><i class="apple icon"></i><i class="firefox icon"></i>
+      		iOS devices or firefox mobile do not show a scrollbar by default!
+      	</div>
+      	<p>
+      		To indicate more possible entries than shown, you may add the <code>scrollhint</code> class to the <code>menu</code> to show a short swipe animation on such devices.<br>When transforming <code>select</code> dropdowns this is done by using <code>className:{menu:'scrollhint menu'}</code> as a config setting
+      	</p>
+      </div>
       <div class="ui selection dropdown">
-        <input type="hidden" name="gender">
+        <input type="hidden" name="pet">
         <i class="dropdown icon"></i>
-        <div class="default text">Gender</div>
-        <div class="menu">
-          <div class="item" data-value="1">Male</div>
-          <div class="item" data-value="0">Female</div>
+        <div class="default text">Pet</div>
+        <div class="scrollhint menu">
+          <div class="item" data-value="0">Cat</div>
+          <div class="item" data-value="1">Dog</div>
+          <div class="item" data-value="2">Bird</div>
+          <div class="item" data-value="3">Rabbit</div>
+          <div class="item" data-value="4">Squirrel</div>
+          <div class="item" data-value="5">Horse</div>
+          <div class="item" data-value="6">Turtle</div>
+          <div class="item" data-value="7">Parrot</div>
         </div>
       </div>
     </div>
     <div class="another dropdown example">
-      <select class="ui dropdown">
-        <option value="">Gender</option>
-        <option value="1">Male</option>
-        <option value="0">Female</option>
+      <select class="ui selection dropdown">
+        <option value="">Pet</option>
+        <option value="0">Cat</option>
+        <option value="1">Dog</option>
+        <option value="2">Bird</option>
+        <option value="3">Rabbit</option>
+        <option value="4">Squirrel</option>
+        <option value="5">Horse</option>
+        <option value="6">Turtle</option>
+        <option value="7">Parrot</option>
       </select>
     </div>
     <div class="another dropdown example">
@@ -1301,7 +1322,6 @@
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
       </div>
-
       </div>
     </div>
     <div class="another dropdown example">
@@ -1380,10 +1400,9 @@
         </div>
     </div>
 
-    <div class="diacritics example">
+    <div class="diacritics example" data-since="2.7.2">
       <h4 class="ui header">
         Search ignoring Diacritics
-        <div class="ui black label">New in 2.7.2</div>
       </h4>
       <p>A selection dropdown can allow a user to ignore all Diacritics while searching.</p>
       <div class="ui ignored info message">
@@ -1431,10 +1450,9 @@
       </div>
     </div>
 
-    <div class="dropdown example">
+    <div class="dropdown example" data-since="2.4.2">
       <h4 class="ui header">
         Clearable Selection
-        <div class="ui teal label">New in 2.4.2</div>
       </h4>
       <p>A clearable selection dropdown can allow a user to cancel to cancel a previous selection</p>
       <div class="ui clearable selection dropdown">
@@ -1523,7 +1541,7 @@
 <option value="ux">User Experience</option>
       </select>
     </div>
-    <div class="dropdown example">
+    <div class="dropdown example" data-class="search">
       <h4 class="ui header">Multiple Search Selection</h4>
       <p>A selection dropdown can allow multiple search selections</p>
       <select class="ui fluid search dropdown" multiple>
@@ -1580,6 +1598,70 @@
         <option value="WI">Wisconsin</option>
         <option value="WY">Wyoming</option>
       </select>
+    </div>
+    <div class="keepsearchterm example" data-since="2.9.3" data-class="multiple search selection">
+      <p>A multiple search selection dropdown can keep its search value on item selection so the menu stays filtered</p>
+      <select class="ui fluid multiple search selection dropdown">
+        <option value="">State</option>
+        <option value="AL">Alabama</option>
+        <option value="AK">Alaska</option>
+        <option value="AZ">Arizona</option>
+        <option value="AR">Arkansas</option>
+        <option value="CA">California</option>
+        <option value="CO">Colorado</option>
+        <option value="CT">Connecticut</option>
+        <option value="DE">Delaware</option>
+        <option value="DC">District Of Columbia</option>
+        <option value="FL">Florida</option>
+        <option value="GA">Georgia</option>
+        <option value="HI">Hawaii</option>
+        <option value="ID">Idaho</option>
+        <option value="IL">Illinois</option>
+        <option value="IN">Indiana</option>
+        <option value="IA">Iowa</option>
+        <option value="KS">Kansas</option>
+        <option value="KY">Kentucky</option>
+        <option value="LA">Louisiana</option>
+        <option value="ME">Maine</option>
+        <option value="MD">Maryland</option>
+        <option value="MA">Massachusetts</option>
+        <option value="MI">Michigan</option>
+        <option value="MN">Minnesota</option>
+        <option value="MS">Mississippi</option>
+        <option value="MO">Missouri</option>
+        <option value="MT">Montana</option>
+        <option value="NE">Nebraska</option>
+        <option value="NV">Nevada</option>
+        <option value="NH">New Hampshire</option>
+        <option value="NJ">New Jersey</option>
+        <option value="NM">New Mexico</option>
+        <option value="NY">New York</option>
+        <option value="NC">North Carolina</option>
+        <option value="ND">North Dakota</option>
+        <option value="OH">Ohio</option>
+        <option value="OK">Oklahoma</option>
+        <option value="OR">Oregon</option>
+        <option value="PA">Pennsylvania</option>
+        <option value="RI">Rhode Island</option>
+        <option value="SC">South Carolina</option>
+        <option value="SD">South Dakota</option>
+        <option value="TN">Tennessee</option>
+        <option value="TX">Texas</option>
+        <option value="UT">Utah</option>
+        <option value="VT">Vermont</option>
+        <option value="VA">Virginia</option>
+        <option value="WA">Washington</option>
+        <option value="WV">West Virginia</option>
+        <option value="WI">Wisconsin</option>
+        <option value="WY">Wyoming</option>
+      </select>
+      <div class="code" data-type="javascript">
+          $('.ui.search.selection.dropdown')
+            .dropdown({
+              keepSearchTerm: true
+            })
+          ;
+      </div>
     </div>
     <div class="another dropdown example">
       <div class="ui ignored info message">
@@ -1833,7 +1915,6 @@
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
       </div>
-
 
       </div>
     </div>
@@ -2414,7 +2495,31 @@
         </div>
       </div>
     </div>
-
+    <div class="dropdown example">
+      <p>The description can be shown vertically underneath the entry using <code>vertical item</code>.</p>
+      <div class="ui floating labeled icon dropdown button">
+        <i class="filter icon"></i>
+        <span class="text">Filter Tags</span>
+        <div class="menu">
+          <div class="header">
+            Filter by tag
+          </div>
+          <div class="divider"></div>
+          <div class="vertical item">
+            <span class="description">2 new</span>
+            <span class="text">Important</span>
+          </div>
+          <div class="vertical item">
+            <span class="description">10 new</span>
+            <span class="text">Hopper</span>
+          </div>
+          <div class="vertical item">
+            <span class="description">5 new</span>
+            <span class="text">Discussion</span>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="dropdown example">
       <h4 class="ui header">Label</h4>
       <p>A dropdown menu can contain a <a href="/elements/label.html">label</a>.</p>
@@ -2425,7 +2530,7 @@
           <div class="header">
             Search Issues
           </div>
-          <div class="ui left icon input">
+          <div class="ui left search icon input">
             <i class="search icon"></i>
             <input type="text" name="search" placeholder="Search...">
           </div>
@@ -2464,7 +2569,7 @@
       </div>
     </div>
 
-    <div class="dropdown example">
+    <div class="dropdown example" data-class="!right floated, !left floated">
       <h4 class="ui header">Floated Content</h4>
       <p>A dropdown menu can contain floated content.</p>
       <div class="ui ignored info message">Floated content may stack to two lines without manually setting a width when or using a <code>fluid</code> dropdown
@@ -2500,7 +2605,7 @@
           <div class="header">
             Search Issues
           </div>
-          <div class="ui left icon input">
+          <div class="ui left search icon input">
             <i class="search icon"></i>
             <input type="text" name="search" placeholder="Search...">
           </div>
@@ -2563,6 +2668,35 @@
             Justen Kitsune
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="actionable example" data-since="2.9.0">
+      <h4 class="ui header">Actionable</h4>
+      <p>A dropdown menu can contain an actionable item which performs a custom callback once clicked instead of being selected itself</p>
+      <div class="ui selection dropdown">
+        <input type="hidden" name="">
+        <i class="dropdown icon"></i>
+        <div class="default text">Open me and select actionable items</div>
+        <div class="menu">
+          <div class="actionable item" data-value="abcdef">SECRET: Select me</div>
+          <div class="actionable item" data-value="21">TRUTH: Select me</div>
+          <div class="actionable item" data-value="0==1">LIE: Select me</div>
+          <div class="item">I am a selectable entry only</div>
+        </div>
+      </div>
+      <div class="evaluated code" data-type="javascript">
+        $('.actionable.example .ui.dropdown')
+          .dropdown({
+            collapseOnActionable: false,
+            onActionable: function(value, text, $selected) {
+              var type=text.split(":")[0];
+              $.toast({
+                title: type + ' Reveal',
+                message:'You need to know: '+ value
+              });
+            }
+          });
       </div>
     </div>
 
@@ -2662,10 +2796,22 @@
       </div>
     </div>
 
+    <div class="example" data-since="2.8.8">
+      <h4 class="ui header">Read-Only</h4>
+      <p>A dropdown can be read-only and does not allow user interaction</p>
+      <div class="ui read-only dropdown">
+        Dropdown <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item">Choice 1</div>
+          <div class="item">Choice 2</div>
+          <div class="item">Choice 3</div>
+        </div>
+      </div>
+    </div>
 
     <h2 class="ui dividing header">Variations</h2>
 
-    <div class="dropdown example" data-class="size">
+    <div class="dropdown example" data-class="size" data-since="2.5">
       <h4 class="ui header">Size</h4>
       <p>A dropdown can have different sizes</p>
       <div class="ui mini selection dropdown">
@@ -2748,9 +2894,10 @@
     <div class="dropdown example">
       <h4 class="ui header">Scrolling</h4>
       <p>A dropdown can have its menu scroll</p>
-      <div class="ui ignored warning message">
+     <div class="ui ignored warning message">
         Scrolling dropdowns are incompatible with the usage of <code>sub menu</code>.
       </div>
+      <div class="ui ignored message" data-since="2.9.3">You can also use <code>resizable scrolling</code> and a native resize drag handler will appear to the bottom right of the menu. This needs a <a href="https://caniuse.com/?search=resize" target="_blank">modern browser</a>, so does not work in IE11 or legacy Edge.</div>
       <div class="ui scrolling dropdown">
         <input type="hidden" name="gender">
         <div class="default text">Select choice</div>
@@ -2854,14 +3001,55 @@
       </div>
     </div>
 
+    <div class="another dropdown example" data-since="2.8.8">
+      <p>The menu of a non-inverted dropdown can be inverted</p>
+        <div class="ui selection dropdown">
+            <input type="hidden" name="choices">
+            <div class="default text">Select choice</div>
+            <i class="dropdown icon"></i>
+            <div class="inverted menu">
+                <div class="item">Choice 1</div>
+                <div class="item">Choice 2</div>
+                <div class="item">Choice 3</div>
+                <div class="item">Choice 4</div>
+                <div class="item">Choice 5</div>
+                <div class="item">Choice 6</div>
+                <div class="item">Choice 7</div>
+                <div class="item">Choice 8</div>
+                <div class="item">Choice 9</div>
+            </div>
+        </div>
+    </div>
+
     <div class="dropdown example">
       <h4 class="ui header">Compact</h4>
       <p>A compact dropdown has no minimum width</p>
+      <div class="ui ignored info message">
+          If you want menu items to linebreak on whitespace, use <code>multiline menu</code> as classname for the menu node
+      </div>
       <div class="ui compact selection dropdown">
         <i class="dropdown icon"></i>
         <div class="text">Compact</div>
         <div class="menu">
           <div class="item">A</div>
+          <div class="item">B</div>
+          <div class="item">C</div>
+        </div>
+      </div>
+      <div class="ui compact selection dropdown">
+        <i class="dropdown icon"></i>
+        <div class="text">Compact</div>
+        <div class="menu">
+          <div class="item">A very long line here</div>
+          <div class="item">B</div>
+          <div class="item">C</div>
+        </div>
+      </div>
+      <div class="ui compact selection dropdown">
+        <i class="dropdown icon"></i>
+        <div class="text">Compact</div>
+        <div class="multiline menu">
+          <div class="item">A very long multiline here</div>
           <div class="item">B</div>
           <div class="item">C</div>
         </div>
@@ -2889,7 +3077,7 @@
       </div>
     </div>
 
-    <div class="dropdown example">
+    <div class="dropdown example" data-since="2.7.3" data-class="!very long, !very short, long, short">
       <h4 class="ui header">Height</h4>
       <p>A selection dropdown can be long (2x of default height) so that more items can be glanced.</p>
       <select class="ui search long dropdown" multiple>
@@ -3073,7 +3261,7 @@
       </div>
     </div>
 
-    <div class="dropdown example">
+    <div class="dropdown example" data-since="2.7.3" data-class="!two column, !three column, !four column, !five column">
       <h4 class="ui header">Columnar Menu</h4>
       <p>A selection dropdown can allow menu to be equally divided so that more items can be glanced.</p>
       <select class="ui two column dropdown" multiple>
@@ -3272,12 +3460,9 @@
 
     <h2 class="ui header">Selection Dropdowns</h2>
 
-    <div class="clearable example">
+    <div class="clearable example" data-since="2.4.0">
       <h4 class="ui header">
         Clearable
-        <div class="ui teal label">
-          New in 2.4.0
-        </div>
       </h4>
       <p>Using the clearable setting will let users remove their selection from a dropdown.</p>
 
@@ -3529,7 +3714,6 @@
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
       </div>
-
       </div>
       <div class="ui divider"></div>
       <div class="ui secondary segment">
@@ -3853,7 +4037,6 @@
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
       </div>
-
       </div>
 
       <div class="ui sub header">Without Labels</div>
@@ -4105,7 +4288,6 @@
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
       </div>
-
       </div>
 
       <div class="evaluated code" data-type="javascript">
@@ -4190,7 +4372,80 @@
       </div>
     </div>
 
-    <div class="no label example">
+    <div class="stuck example" data-since="2.9.0">
+      <h4 class="ui header">Stuck User Additions</h4>
+      <p>While using <code>allowAdditions: true</code> together with <code>hideAdditions: false</code>, the first line indicating "add:" with the user addition may not be correctly displayed, depending on the container size and the distance between topmost visible item and menu's top item.
+
+      <p>You can stick this addition line to the top of the menu by providing the additional <code>stuck</code> class.</p>
+
+      <div class="ui ignored warning message">
+        A stuck user additions dropdown needs a modern browser with <a href="https://caniuse.com/?search=position%20sticky" target="_blank">position:sticky support</a>, so does not work in IE11 or legacy Edge
+      </div>
+
+      <div class="ui sub header">Single</div>
+      <select name="skills" class="ui fluid search dropdown">
+        <option value="">Skills</option>
+<option value="angular">Angular</option>
+<option value="css">CSS</option>
+<option value="design">Graphic Design</option>
+<option value="ember">Ember</option>
+<option value="html">HTML</option>
+<option value="ia">Information Architecture</option>
+<option value="javascript">Javascript</option>
+<option value="mech">Mechanical Engineering</option>
+<option value="meteor">Meteor</option>
+<option value="node">NodeJS</option>
+<option value="plumbing">Plumbing</option>
+<option value="python">Python</option>
+<option value="rails">Rails</option>
+<option value="react">React</option>
+<option value="repair">Kitchen Repair</option>
+<option value="ruby">Ruby</option>
+<option value="ui">UI Design</option>
+<option value="ux">User Experience</option>
+      </select>
+
+      <div class="ui sub header">Multiple</div>
+      <div class="ui fluid multiple search selection dropdown">
+        <input name="tags" type="hidden" />
+        <i class="dropdown icon"></i>
+        <div class="default text">Skills</div>
+        <div class="menu">
+          <div class="item" data-value="angular">Angular</div>
+<div class="item" data-value="css">CSS</div>
+<div class="item" data-value="design">Graphic Design</div>
+<div class="item" data-value="ember">Ember</div>
+<div class="item" data-value="html">HTML</div>
+<div class="item" data-value="ia">Information Architecture</div>
+<div class="item" data-value="javascript">Javascript</div>
+<div class="item" data-value="mech">Mechanical Engineering</div>
+<div class="item" data-value="meteor">Meteor</div>
+<div class="item" data-value="node">NodeJS</div>
+<div class="item" data-value="plumbing">Plumbing</div>
+<div class="item" data-value="python">Python</div>
+<div class="item" data-value="rails">Rails</div>
+<div class="item" data-value="react">React</div>
+<div class="item" data-value="repair">Kitchen Repair</div>
+<div class="item" data-value="ruby">Ruby</div>
+<div class="item" data-value="ui">UI Design</div>
+<div class="item" data-value="ux">User Experience</div>
+        </div>
+      </div>
+
+      <div class="evaluated code" data-type="javascript">
+        $('.stuck.example .ui.dropdown')
+          .dropdown({
+            allowAdditions: true,
+            hideAdditions: false,
+            className: {
+              addition: 'stuck addition'
+            }
+          })
+        ;
+      </div>
+    </div>
+
+    <div class="label example">
       <h4 class="ui header">Text Labels</h4>
       <p>Sometimes multiselect include options which are long and would appear awkwardly as labels. Setting <code>useLabels: false</code> will display a selected count, and allow reselection directly from the menu.</p>
       <div class="ui ignored info message">
@@ -4454,11 +4709,10 @@
         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
       </div>
-
       </div>
 
       <div class="evaluated code" data-type="javascript">
-        $('.no.label.example .ui.dropdown')
+        $('.label.example .ui.dropdown')
           .dropdown({
             useLabels: false
           })
@@ -4610,7 +4864,7 @@
       <div class="ui form">
         <div class="two fields">
           <div class="field">
-            <label>Favorite Animal</label>
+            <label>Github Repositories</label>
             <div class="ui search selection dropdown">
               <input type="hidden">
               <i class="dropdown icon"></i>
@@ -4619,7 +4873,7 @@
             </div>
           </div>
           <div class="field">
-            <label>Favorite Animals</label>
+            <label>Github Repositories</label>
             <div class="ui multiple search selection dropdown">
               <input type="hidden">
               <i class="dropdown icon"></i>
@@ -4635,7 +4889,11 @@
           .dropdown({
             apiSettings: {
               // this url parses query server side and returns filtered results
-              url: '//api.semantic-ui.com/tags/{query}'
+              url: 'https://api.github.com/search/repositories?q={query}'
+            },
+            fields: {
+            // the remote api has a different structure than expected, which we can adjust
+              remoteValues : 'items'
             },
           })
         ;
@@ -4653,7 +4911,13 @@
               "value" : "value1",
 
               // name displayed after selection (optional)
-              "text"  : "Choice 1"
+              "text"  : "Choice 1",
+
+              // Details displayed to the right of the text (optional)
+              "description"  : "Details",
+
+              // whether the detail description should be displayed underneath the text instead (optional)
+              "descriptionVertical"  : true,
 
               // whether field should be displayed as disabled (optional)
               "disabled"  : false,
@@ -4736,7 +5000,7 @@
           .dropdown({
             apiSettings: {
               // this url just returns a list of tags (with API response expected above)
-              url: '//api.semantic-ui.com/tags/'
+              url: '/animals.json'
             },
             filterRemoteData: true
           })
@@ -5205,10 +5469,9 @@
         ;
       </div>
     </div>
-    <div class="js example">
+    <div class="js example" data-since="2.2.12">
       <h4 class="ui header">
         Initializing with Javascript Only
-        <div class="ui teal label">New in 2.2.12</div>
       </h4>
       <p>You can specify a list of values in the settings object to avoid having to stub the html yourself.</p>
       <p>Adding <code>selected: true</code> to an item will have that item selected by default.</p>
@@ -5263,9 +5526,57 @@
           })
         ;
       </div>
+      <br/>
+      <p>You can also add submenus by adding <code>type: 'menu'</code> or <code>type: 'left menu'</code> and another <code>values</code> object to the item itself. <span class="ui teal label">New in 2.8.8</span></p>
+      <div class="code" data-label="Javascript" data-type="javascript">
+          $('.ui.dropdown').dropdown({
+            values: [
+              {
+                name: 'Human',
+                value: 'human',
+                type: 'menu',
+                values: [
+                  {
+                    name: 'Baby',
+                    value: 'baby'
+                  },
+                  {
+                    name: 'Kid',
+                    value: 'kid'
+                  },
+                  {
+                    name: 'Teen',
+                    value: 'teen'
+                  },
+                  {
+                    name: 'Adult',
+                    value: 'adult',
+                    type: 'left menu',
+                    values: [
+                      {
+                        name: 'young',
+                        value: 'young'
+                      },
+                      {
+                        name: 'middle age',
+                        value: 'middle-age'
+                      },
+                      {
+                        name: 'Old',
+                        value: 'old'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          })
+          ;
+      </div>
+
     </div>
-      <div class="no example">
-          <h4 class="ui header">Display images and/or icons by value setting<div class="ui black label">New in 2.7.7</div></h4>
+      <div class="no example" data-since="2.7.7">
+          <h4 class="ui header">Display images and/or icons by value setting</h4>
           <p>Images and/or icons in front of an item can be dynamically created by providing image paths, icon names or classnames for different styling</p>
           <div class="ui ignored info message">Also works in a JSON response from a <code><a href="#match-search-query-on-server">remote API call</a></code></div>
           <div class="evaluated code" data-type="javascript">
@@ -5343,8 +5654,36 @@
 
       </div>
 
-      <div class="no example">
-          <h4 class="ui header">Supporting image labels for multiselection<div class="ui black label">New in 2.7.7</div></h4>
+      <div class="no example" data-since="2.8.8">
+          <h4 class="ui header">Display a (vertical) description by value setting</h4>
+          <p>An additional item description (optionally displayed vertically) can be dynamically created by providing two extra attributes</p>
+          <div class="ui ignored info message">Also works in a JSON response from a <code><a href="#match-search-query-on-server">remote API call</a></code></div>
+          <div class="evaluated code" data-type="javascript">
+              $('#verticaldescription').dropdown({
+                  placeholder: 'Show (vertical) descriptions',
+                  values:[{
+                    "name": "Inline Baby",
+                    "value": "jenny",
+                    "description": "Born 2018"
+                  },
+                  {
+                    "name": "Vertical Baby",
+                    "value": "elliot",
+                    "description": "Born 2020",
+                    "descriptionVertical": true
+                  }]
+              })
+              ;
+          </div>
+          <div class="ui fluid long selection dropdown" id="verticaldescription">
+              <input type="hidden">
+              <i class="dropdown icon"></i>
+              <div class="default text"></div>
+          </div>
+      </div>
+
+      <div class="no example" data-since="2.7.7">
+          <h4 class="ui header">Supporting image labels for multiselection</h4>
           <p>If needed, you can adjust the classname for multiselection labels to make use of <code><a href="/elements/label.html#image">image label</a></code></p>
           <div class="evaluated code" data-type="javascript">
               $('#imagelabels').dropdown({
@@ -5826,16 +6165,25 @@
     <h2 class="ui dividing header">Behavior</h2>
 
     <p>All the following behaviors can be called using the syntax:</p>
-    <div class="code">
+    <div class="code" data-type="javascript">
     $('.your.element')
       .dropdown('behavior name', argumentOne, argumentTwo)
+    ;
+
+    // For example using the below mentioned 'clear(preventChangeTrigger)'
+    $('.ui.dropdown')
+      .dropdown('clear', true)
+    ;
+    // Using the same but omit the default value for the preventChangeTrigger argument (which is false)
+    $('.ui.dropdown')
+      .dropdown('clear')
     ;
     </div>
 
     <table class="ui definition sortable celled table segment">
       <thead>
         <tr>
-          <th>Behavior</th>
+          <th>Behavior (arguments)</th>
           <th>Description</th>
         </tr>
       </thead>
@@ -5845,7 +6193,7 @@
           <td>Recreates dropdown menu from passed values. <code>values</code> should be an object with the following structure: <code>{ values: [ {value, text, name} ] }</code>.</td>
         </tr>
           <td>change values (values)</td>
-          <td>Changes dropdown to use new values</td>
+          <td>Changes dropdown to use new values. <code>values</code> structure: <code>[ {value, text, name} ]</code>.</td>
         </tr>
         <tr>
           <td>refresh</td>
@@ -5866,6 +6214,10 @@
         <tr>
           <td>clear (preventChangeTrigger)</td>
           <td>Clears dropdown of selection. Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event (default: <code>false</code>).</td>
+        </tr>
+        <tr>
+          <td>clear cache</td>
+          <td>Clears the remote api cache once</td>
         </tr>
         <tr>
           <td>hide others</td>
@@ -5892,8 +6244,8 @@
           <td>Saves current text and value as new defaults (for use with restore)</td>
         </tr>
         <tr>
-          <td>set selected(value)</td>
-          <td>Sets value as selected</td>
+          <td>set selected(value,preventChangeTrigger)</td>
+          <td>Sets value as selected. Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event (default: <code>false</code>).</td>
         </tr>
         <tr>
           <td>remove selected(value)</td>
@@ -5912,8 +6264,8 @@
           <td>Sets dropdown text to a value</td>
         </tr>
         <tr>
-          <td>set value (value,text,$selected,preventChangeTrigger)</td>
-          <td>Sets dropdown input to value (does not update display state). <code>text</code> and <code>$selected</code> are used internally and can be ignored. Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event</td>
+          <td>set value (value,preventChangeTrigger)</td>
+          <td>Sets dropdown input to value (does not update display state). Set <code>preventChangeTrigger</code> to <code>true</code> to omit the change event (default: <code>false</code>).</td>
         </tr>
         <tr>
           <td>get text</td>
@@ -5921,11 +6273,19 @@
         </tr>
         <tr>
           <td>get value</td>
-          <td>Returns current dropdown input value</td>
+          <td>Returns current dropdown input value. When the dropdown was created out of a <code>select</code> tag, the value will always be an array, otherwise a string (delimited when multiple)</td>
+        </tr>
+        <tr>
+          <td>get values</td>
+          <td>Returns current dropdown input values as array. Useful for <a href="#multiple-selections">multiple selection</a> dropdowns regardless if made out of a div or select</td>
         </tr>
         <tr>
           <td>get item(value)</td>
           <td>Returns DOM element that matches a given input value</td>
+        </tr>
+        <tr>
+          <td>get query</td>
+          <td>Returns current search term entered</td>
         </tr>
         <tr>
           <td>bind touch events</td>
@@ -5989,6 +6349,10 @@
           <td>get placeholder text</td>
           <td>Returns placeholder text</td>
         </tr>
+        <tr>
+          <td>destroy</td>
+          <td>Destroys instance and removes all events</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -6030,13 +6394,13 @@
         </tr>
         <tr>
           <td>ignoreCase</td>
-          <td>false<div class="ui label">New in 2.2.13</div></td>
-          <td>Whether values with non matching cases should be treated as identical when adding them to a dropdown.</td>
+          <td>false</td>
+          <td data-since="2.2.13">Whether values with non matching cases should be treated as identical when adding them to a dropdown.</td>
         </tr>
         <tr>
           <td>ignoreSearchCase</td>
-          <td>true<div class="ui label">New in 2.8.0</div></td>
-          <td>Whether values with non matching cases should be treated as identical when filtering the items.</td>
+          <td>true</td>
+          <td data-since="2.8.0">Whether values with non matching cases should be treated as identical when filtering the items.</td>
         </tr>
         <tr>
           <td>allowReselection</td>
@@ -6116,13 +6480,23 @@
         </tr>
         <tr>
           <td>forceSelection</td>
-          <td>true</td>
-          <td>Whether search selection will force currently selected choice when element is blurred.</td>
+          <td>false</td>
+          <td>Whether search selection will force currently selected choice when element is blurred.<br>If a <code>select</code> tag with a <code>required</code> attribute was used, the forceSelection setting will be set to true automatically</td>
+        </tr>
+        <tr>
+          <td>keepSearchTerm</td>
+          <td>false</td>
+          <td>Whether the search value should be kept and menu stays filtered on item selection.</td>
         </tr>
         <tr>
           <td>allowCategorySelection</td>
           <td>false</td>
           <td>Whether menu items with sub-menus (categories) should be selectable</td>
+        </tr>
+        <tr>
+          <td>fireOnInit</td>
+          <td>false</td>
+          <td>Whether callbacks should fire when initializing dropdown values</td>
         </tr>
         <tr>
           <td>placeholder</td>
@@ -6147,8 +6521,8 @@
         <tr>
           <td>ignoreDiacritics</td>
           <td>false</td>
-          <td>When activated, searches will also match results for base diacritic letters. For example when searching for 'a', it will also match 'á' or 'â' or 'å' and so on...
-              It will also ignore diacritics for the searchterm, so if searching for 'ó', it will match 'ó', but also 'o', 'ô' or 'õ' and so on...<div class="ui black label">New in 2.7.2</div><div class="ui red label">Not available in IE</div></td>
+          <td data-since="2.7.2">When activated, searches will also match results for base diacritic letters. For example when searching for 'a', it will also match 'á' or 'â' or 'å' and so on...
+              It will also ignore diacritics for the searchterm, so if searching for 'ó', it will match 'ó', but also 'o', 'ô' or 'õ' and so on... <div class="ui tiny horizontal red label">Not available in IE</div></td>
         </tr>
       </tbody>
     </table>
@@ -6164,7 +6538,7 @@
       <thead>
         <tr>
         <th>Setting</th>
-        <th class="eight wide">Default</th>
+        <th class="ten wide">Default</th>
         <th>Description</th>
         </tr>
       </thead>
@@ -6177,21 +6551,24 @@
         <tr>
           <td>fields</td>
           <td>
-            <div class="code" data-type="css">
+            <div class="code" data-type="javascript">
             fields: {
-              remoteValues : 'results',    // grouping for api results
-              values       : 'values',     // grouping for all dropdown values
-              disabled     : 'disabled',   // whether value should be disabled
-              name         : 'name',       // displayed dropdown text
-              value        : 'value',      // actual dropdown value
-              text         : 'text',       // displayed text when selected
-              type         : 'type',       // type of dropdown element
-              image        : 'image',      // optional image path
-              imageClass   : 'imageClass', // optional individual class for image
-              icon         : 'icon',       // optional icon name
-              iconClass    : 'iconClass',  // optional individual class for icon (for example to use flag instead)
-              class        : 'class',      // optional individual class for item/header
-              divider      : 'divider'     // optional divider append for group headers
+              remoteValues         : 'results',    // grouping for api results
+              values               : 'values',     // grouping for all dropdown values
+              disabled             : 'disabled',   // whether value should be disabled
+              name                 : 'name',       // displayed dropdown text
+              description          : 'description', // displayed dropdown description
+              descriptionVertical  : 'descriptionVertical', // whether description should be vertical
+              value                : 'value',      // actual dropdown value
+              text                 : 'text',       // displayed text when selected
+              type                 : 'type',       // type of dropdown element
+              image                : 'image',      // optional image path
+              imageClass           : 'imageClass', // optional individual class for image
+              icon                 : 'icon',       // optional icon name
+              iconClass            : 'iconClass',  // optional individual class for icon (for example to use flag instead)
+              class                : 'class',      // optional individual class for item/header
+              divider              : 'divider'     // optional divider append for group headers
+              actionable           : 'actionable'  // optional actionable item
             }
             </div>
           </td>
@@ -6207,6 +6584,11 @@
           <td>true</td>
           <td>When enabled, will automatically store selected name/value pairs in <code>sessionStorage</code> to preserve user selection on page refresh. Disabling will clear remote dropdown values on refresh.</td>
         </tr>
+        <tr>
+          <td>throttle</td>
+          <td>200</td>
+          <td>How long to wait after last user input to search remotely</td>
+        </tr>
       </tbody>
     </table>
     </div>
@@ -6221,7 +6603,7 @@
       <thead>
         <tr>
         <th>Setting</th>
-        <th class="eight wide">Default</th>
+        <th class="seven wide">Default</th>
         <th>Description</th>
         </tr>
       </thead>
@@ -6234,6 +6616,13 @@
           <td>Whether multiselect should use labels. Must be set to true when <code>allowAdditions</code> is <code>true</code></td>
         </tr>
         <tr>
+          <td>delimiter</td>
+          <td>
+           <code>,</code>
+          </td>
+          <td>When multiselect uses normal input tag, the values will be delimited with this character. Also used as the keyboard shortcut while entering multiple values</td>
+        </tr>
+        <tr>
           <td>maxSelections</td>
           <td>
            false
@@ -6241,24 +6630,31 @@
           <td>When set to a number, sets the maximum number of selections</td>
         </tr>
         <tr>
-          <td>glyphWidth</td>
+          <td>headerDivider</td>
           <td>
-           1.0714
+           true
           </td>
-          <td>Maximum glyph width, used to calculate search size. This is usually size of a "W" in your font in <code>em</code></td>
+          <td>whether option headers should have an additional divider line underneath when converted from <code>&lt;select&gt;&lt;optgroup&gt;</code></td>
+        </tr>
+        <tr>
+          <td>collapseOnActionable</td>
+          <td>
+           true
+          </td>
+          <td>whether the dropdown should collapse upon selection of an actionable item</td>
         </tr>
         <tr>
           <td>label</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             label: {
-              transition : 'horizontal flip',
+              transition : 'scale',
               duration   : 200,
               variation  : false
             }
             </div>
           </td>
-          <td>Allows customization of multi-select labels</td>
+          <td>Allows customization of multi-select labels. Setting <code>transition: false</code> will not animate the label at all</td>
         </tr>
       </tbody>
     </table>
@@ -6294,13 +6690,13 @@
         </tr>
         <tr>
           <td>fullTextSearch</td>
-          <td>false</td>
+          <td>'exact'</td>
           <td>Specifying to "true" will use a fuzzy full text search, setting to "exact" will force the exact search to be matched somewhere in the string, setting to "false" will only match start of string.</td>
         </tr>
         <tr>
-          <td>hideDividers <div class="ui label">New in 2.4.0</div></td>
+          <td>hideDividers></td>
           <td>false</td>
-          <td>How to handle dividers in the dropdown while searching. Dividers are defined as all siblings of items that match the <a href="#dom-settings">divider selector</a>
+          <td data-since="2.4.0">How to handle dividers in the dropdown while searching. Dividers are defined as all siblings of items that match the <a href="#dom-settings">divider selector</a>
             <div class="ui vertical divided list">
               <div class="item">
                 <div class="header">false</div>
@@ -6344,7 +6740,7 @@
         </tr>
         <tr>
           <td>showOnFocus</td>
-          <td>true</td>
+          <td>false</td>
           <td>Whether to show dropdown menu automatically on element focus.</td>
         </tr>
         <tr>
@@ -6357,22 +6753,37 @@
           <td>
             auto (slide down / slide up)
           </td>
-          <td>Named transition to use when animating menu in and out. Defaults to <code>slide down</code> or <code>slide up</code> depending on dropdown direction. Fade and slide down are available without including <a href="/modules/transition.html">ui transitions</a></td>
+          <td data-since="2.8.8">Named transition to use when animating menu in and out. Defaults to <code>slide down</code> or <code>slide up</code> depending on dropdown direction. Fade and slide down are available without including <a href="/modules/transition.html">ui transitions</a>
+                <p>Alternatively you can provide an object to set individual values for hide/show transitions as well as hide/show duration
+                    <div class="code" data-type="javascript">
+                    {
+                        showMethod   : 'fade',
+                        showDuration : 200,
+                        hideMethod   : 'zoom',
+                        hideDuration : 500,
+                    }
+                    </div>
+              </p>
+          </td>
         </tr>
         <tr>
           <td>duration</td>
           <td>
             200
           </td>
-          <td>Duration of animation events</td>
+          <td>Duration of animation events. The value will be ignored when individual hide/show duration values are provided via the <code>transition</code> setting</td>
+        </tr>
+        <tr>
+          <td>displayType</td>
+          <td>false</td>
+          <td>Specify the final transition display type (block, inline-block etc) so that it doesn't have to be calculated.</td>
         </tr>
         <tr>
           <td>keys</td>
           <td>
-          <div class="code">
+          <div class="code" data-type="javascript">
           keys : {
             backspace  : 8,
-            delimiter  : 188, // comma
             deleteKey  : 46,
             enter      : 13,
             escape     : 27,
@@ -6386,18 +6797,17 @@
           </div>
           </td>
           <td>
-            The <code>keycode</code> used to represent keyboard shortcuts. To avoid issues with some foreign languages, you can pass <code>false</code> for comma delimiter's value
+            The <code>keycode</code> used to represent keyboard shortcuts.
           </td>
         </tr>
         <tr>
           <td>delay</td>
           <td>
-          <div class="code">
+          <div class="code" data-type="javascript">
           delay : {
             hide   : 300,
             show   : 200,
-            search : 50,
-            touch  : 50
+            search : 20
           }
           </div>
           </td>
@@ -6407,7 +6817,7 @@
     </table>
 
     </div>
-
+    <div class="no example">
     <h4 class="ui header">
       Callbacks
     </h4>
@@ -6435,6 +6845,11 @@
           <td>onRemove(removedValue, removedText, $removedChoice)</td>
           <td>Dropdown</td>
           <td>Is called after a dropdown selection is removed using a multiple select dropdown, only receives the removed value</td>
+        </tr>
+        <tr>
+          <td>onActionable(value, text, $choice)</td>
+          <td>Dropdown</td>
+          <td>Is called after an actionable item has been selected</td>
         </tr>
         <tr>
           <td>onLabelCreate(value, text)</td>
@@ -6466,17 +6881,67 @@
           <td>Dropdown</td>
           <td>Is called before a dropdown is hidden. If <code>false</code> is returned, dropdown will not be hidden.</td>
         </tr>
+        <tr>
+          <td>onSearch</td>
+          <td>Dropdown</td>
+          <td>Is called before a search takes place to filter the items list. If <code>false</code> is returned, the search and item filtering is cancelled.</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2 class="ui dividing header">
+      Templates
+    </h2>
+
+    <p>These templates are used to generate the HTML structures for parts of dropdown</p>
+
+     <table class="ui sortable celled definition table">
+      <thead>
+        <th></th>
+        <th class="twelve wide">Functions</th>
+      </thead>
+        <tr>
+          <td>templates</td>
+          <td>
+            <div class="code" data-type="javascript">
+            $.fn.dropdown.settings.templates : {
+              deQuote: function(string) {
+                // returns removed/replaced double quotes from a string
+              },
+              escape: function(string) {
+                // returns escaped string for injected results
+              },
+              dropdown: function (select, fields, preserveHTML, className) {
+               // returns dropdown HTML from select values
+              },
+              menu: function (response, fields, preserveHTML, className) {
+               // returns menu html from response data
+              },
+              label: function (value, text, preserveHTML, className) {
+               // returns label html for multiselect
+              },
+              message: function (message) {
+               // returns messages like "No results"
+              },
+              addition: function (choice) {
+               // return user addition for selection menu
+              }
+            }
+            </div>
+          </td>
+        </tr>
       </tbody>
     </table>
 
-    <h4 class="ui header">
+    <h2 class="ui dividing header">
       Module Settings
-    </h4>
-
-    <h3 class="ui header">
+    </h2>
+    <div class="no example">
+    <h4 class="ui header">
       DOM Settings
       <div class="sub header">DOM settings specify how this module should interface with the DOM</div>
-    </h3>
+    </h4>
     <table class="ui celled sortable definition table segment">
       <thead>
         <tr>
@@ -6498,7 +6963,7 @@
               You can specify site wide messages by modifying <code>$.fn.dropdown.settings.message</code>
               that will apply on any dropdown if it appears in the page.
             </p>
-            <div class="code">
+            <div class="code" data-type="javascript">
             message: {
               addResult     : 'Add <b>{term}</b>',
               count         : '{count} selected',
@@ -6511,7 +6976,7 @@
         <tr>
           <td>selector</td>
           <td colspan="2">
-            <div class="code" data-type="html">
+            <div class="code" data-type="javascript">
             selector : {
               addition     : '.addition',
               divider      : '.divider, .header',
@@ -6526,7 +6991,10 @@
               message      : '.message',
               menuIcon     : '.dropdown.icon',
               search       : 'input.search, .menu > .search > input',
-              text         : '> .text:not(.icon)'
+              sizer        : '> span.sizer',
+              text         : '> .text:not(.icon)',
+              unselectable : '.disabled, .filtered',
+              clearIcon    : '> .remove.icon'
             }
             </div>
           </td>
@@ -6534,7 +7002,7 @@
         <tr>
           <td>regExp</td>
           <td colspan="2">
-            <div class="code">
+            <div class="code" data-type="javascript">
             regExp : {
               escape   : /[-[\]{}()*+?.,\\^$|#\s]/g,
             }
@@ -6544,7 +7012,7 @@
         <tr>
           <td>metadata</td>
           <td colspan="2">
-            <div class="code">
+            <div class="code" data-type="javascript">
             metadata : {
               defaultText     : 'defaultText',
               defaultValue    : 'defaultValue',
@@ -6558,27 +7026,43 @@
         <tr>
           <td>className</td>
           <td colspan="2">
-            <div class="code">
+            <div class="code" data-type="javascript">
             className : {
-              active      : 'active',
-              addition    : 'addition',
-              animating   : 'animating',
-              disabled    : 'disabled',
-              dropdown    : 'ui dropdown',
-              filtered    : 'filtered',
-              hidden      : 'hidden transition',
-              item        : 'item',
-              label       : 'ui label',
-              loading     : 'loading',
-              menu        : 'menu',
-              message     : 'message',
-              multiple    : 'multiple',
-              placeholder : 'default',
-              search      : 'search',
-              selected    : 'selected',
-              selection   : 'selection',
-              upward      : 'upward',
-              visible     : 'visible'
+              active              : 'active',
+              addition            : 'addition',
+              animating           : 'animating',
+              description         : 'description',
+              descriptionVertical : 'vertical',
+              disabled            : 'disabled',
+              empty               : 'empty',
+              dropdown            : 'ui dropdown',
+              filtered            : 'filtered',
+              hidden              : 'hidden transition',
+              icon                : 'icon',
+              image               : 'image',
+              item                : 'item',
+              label               : 'ui label',
+              loading             : 'loading',
+              menu                : 'menu',
+              message             : 'message',
+              multiple            : 'multiple',
+              placeholder         : 'default',
+              sizer               : 'sizer',
+              search              : 'search',
+              selected            : 'selected',
+              selection           : 'selection',
+              text                : 'text',
+              upward              : 'upward',
+              leftward            : 'left',
+              visible             : 'visible',
+              clearable           : 'clearable',
+              noselection         : 'noselection',
+              delete              : 'delete',
+              header              : 'header',
+              divider             : 'divider',
+              groupIcon           : '',
+              unfilterable        : 'unfilterable',
+              actionable          : 'actionable'
             }
             </div>
           </td>
@@ -6590,41 +7074,45 @@
         </tr>
         <tr>
           <td>silent</td>
-          <td>False</td>
+          <td>false</td>
           <td>Silences all console output including error messages, regardless of other debug settings.</td>
         </tr>
         <tr>
           <td>debug</td>
-          <td>False</td>
+          <td>false</td>
           <td>Provides standard debug output to console</td>
         </tr>
         <tr>
           <td>performance</td>
-          <td>True</td>
+          <td>true</td>
           <td>Provides performance stats in console, and suppresses other debug output.</td>
         </tr>
         <tr>
           <td>verbose</td>
-          <td>True</td>
+          <td>false</td>
           <td>Provides ancillary debug output to console</td>
         </tr>
         <tr>
           <td>error</td>
           <td colspan="2">
-            <div class="code">
+            <div class="code" data-type="javascript">
             error   : {
-              action       : 'You called a dropdown action that was not defined',
-              alreadySetup : 'Once a select has been initialized behaviors must be called on the created ui dropdown',
-              labels       : 'Allowing user additions currently requires the use of labels.',
-              method       : 'The method you called is not defined.',
-              noTransition : 'This module requires ui transitions <https://github.com/Semantic-Org/UI-Transition>'
+              action          : 'You called a dropdown action that was not defined',
+              alreadySetup    : 'Once a select has been initialized behaviors must be called on the created ui dropdown',
+              labels          : 'Allowing user additions currently requires the use of labels.',
+              missingMultiple : '<select> requires multiple property to be set to correctly preserve multiple values',
+              method          : 'The method you called is not defined.',
+              noAPI           : 'The API module is required to load resources remotely',
+              noStorage       : 'Saving remote data requires session storage',
+              noElement       : 'This module requires ui {element}',
+              noNormalize     : '"ignoreDiacritics" setting will be ignored. Browser does not support String().normalize(). You may consider including <https://cdn.jsdelivr.net/npm/unorm@1.4.1/lib/unorm.min.js> as a polyfill.'
             }
             </div>
           </td>
         </tr>
       </tbody>
     </table>
-
+    </div>
   </div>
 
   <div class="ui tab" data-tab="security">
@@ -6653,7 +7141,7 @@
       .dropdown({
         preserveHTML : false,
         apiSettings: {
-          url: '//api.github.com/search/repositories?q={query}'
+          url: 'https://api.github.com/search/repositories?q={query}'
         }
       });
     </div>
@@ -6767,39 +7255,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -6811,7 +7270,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -6822,7 +7282,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

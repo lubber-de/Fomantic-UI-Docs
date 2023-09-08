@@ -23,7 +23,6 @@ semantic.emoji.ready = function() {
         chunkpos = parseInt($button.attr('data-chunkpos'),10),
         $example = $button.prev(),
         $grid = $example.find('.grid'),
-        $code = $example.find('.code'),
         chunkSize = 25
     ;
 
@@ -38,7 +37,6 @@ semantic.emoji.ready = function() {
           $column = $('<div>', {class:'column', html: '<br>'+obj.shortname.replace(/:/g,'')}),
           $emoji = $('<em>', {'data-emoji':obj.shortname})
       ;
-      $code.append($emoji);
       $grid.append($column.prepend($emoji.addClass('medium')).attr('data-tooltip',obj.name));
     }
     if(chunkpos === maxChunk) {
@@ -67,10 +65,9 @@ semantic.emoji.ready = function() {
     var $example = $('<div>', {class:'emoji example'});
     $example.append($('<h4>', {class:'ui header', text: cat.charAt(0).toUpperCase() + cat.substring(1)}));
     $example.append($('<div>',{class:'ui doubling five column grid'}));
-    $example.append($('<div>',{class:'existing code'}));
     $emojiContainer.append($example);
 
-    var $moreButton = $('<a>',{class:'emoji-category-button',text:'Show more '+cat+' emojis', 'data-chunkpos':0,'data-category':cat, click:addEmojiChunk});
+    var $moreButton = $('<a>',{class:'emoji-category-button',text:'Show more '+cat+' emojis', 'data-chunkpos':0,'data-category':cat, on:{click:addEmojiChunk}});
     $moreButton.append($('<i>', {class:'ui angle down icon'}));
 
     $emojiContainer.append($moreButton);
@@ -78,25 +75,58 @@ semantic.emoji.ready = function() {
     categories[cat].sort(function(a,b){
       return (a.shortname<b.shortname?-1:a.shortname>b.shortname?1:0);
     });
-    $moreButton.click();
+    $moreButton.trigger('click');
   });
 
   $('emojiSearch.ui.search')
     .search({
       source: allEmojis,
       type: 'category',
+      fullTextSearch: true,
       maxResults: 10,
+      cache: false,
       searchFields:['name','keywordsString'],
       fields: {
         price   : 'emojiTag',
         title   : 'name',
         description: 'keywordsString'
+      },
+      onResults     : function(result) {
+        setTimeout(function() {
+          var
+              $results = $('emojiSearch.ui.search .result')
+          ;
+          $results.each(function() {
+            var
+                $result = $(this)
+            ;
+            new ClipboardJS(this, {
+              text: function() {
+                var
+                    emojiHTML = $result.find('em').get(0).outerHTML
+                ;
+                return emojiHTML;
+              }
+            });
+          });
+        }, 0);
+      },
+      onSelect: function() {
+        var
+            $search = $('emojiSearch .input > input')
+        ;
+        $search.trigger('blur');
+        $.toast({
+          class: 'inverted',
+          compact: false,
+          showIcon: 'copy',
+          message: 'Copied to clipboard!',
+          displayTime: 2000
+        });
+        return false;
       }
     })
   ;
 };
 
-// attach ready event
-$(document)
-  .ready(semantic.emoji.ready)
-;
+semantic.emoji.ready();

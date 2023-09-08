@@ -4,7 +4,7 @@ semantic.slider = {};
 semantic.slider.ready = function() {
   // selector cache
   var
-    $slider     = $('.ui.slider')
+    $slider     = $('.ui.slider:not([id])')
   ;
   $slider
     .slider({
@@ -13,14 +13,14 @@ semantic.slider.ready = function() {
       start: 5
     })
   ;
-  
+
   $('#slider-1')
     .slider({
       min: 0,
       max: 10,
       start: 5,
       onChange: function(value) {
-        $('#slider-input-1').val(value)
+        $('#slider-input-1').val(value);
       }
     })
   ;
@@ -32,7 +32,6 @@ semantic.slider.ready = function() {
       start: 10,
       end: 90,
       step: 5,
-      debug: true,
       verbose: true,
       onChange: function(range, firstVal, secondVal) {
         if (firstVal > secondVal) {
@@ -43,6 +42,44 @@ semantic.slider.ready = function() {
       }
     })
   ;
+  $('#slider-range-minmax')
+    .slider({
+        min: 5,
+        max: 100,
+        start: 10,
+        end: 50,
+        minRange: 10,
+        maxRange: 40,
+        step: 0
+    })
+  ;
+
+  $('#restrictedlabelsslider')
+    .slider({
+        restrictedLabels: [0, 10, 15, 35, 80, 90, 100],
+        min: 0,
+        max: 100,
+        step: 0,
+        autoAdjustLabels: false
+    })
+  ;
+
+    $('#slider-tooltip-1')
+        .slider({
+            showThumbTooltip: true,
+            step: 0
+        })
+    ;
+    $('#slider-tooltip-2')
+        .slider({
+            showThumbTooltip: true,
+            tooltipConfig: {
+                position: 'bottom center',
+                variation: 'small visible green'
+            },
+            step: 0
+        })
+    ;
 
   $('#slider-custom-step')
     .slider({
@@ -51,7 +88,7 @@ semantic.slider.ready = function() {
       start: 4,
       step: 2,
       onChange: function(value) {
-        $('#slider-input-3').val(value)
+        $('#slider-input-3').val(value);
       }
     })
   ;
@@ -63,7 +100,7 @@ semantic.slider.ready = function() {
       start: 3.82,
       step: 0,
       onChange: function(value) {
-        $('#slider-input-unstepped').val(value)
+        $('#slider-input-unstepped').val(value);
       }
     })
   ;

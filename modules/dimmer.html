@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Dimmer | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Dimmer | Fomantic-UI Docs</title>
 
 <meta name="description" content="A dimmer hides distractions to focus attention on particular content" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="dim" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -860,6 +851,16 @@
         Dimmer
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the dimmer module here"
+            data-url="https://fomantic-ui.com/modules/dimmer.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A dimmer hides distractions to focus attention on particular content
         </div>
       </h1>
@@ -921,7 +922,6 @@
   </div>
 </div>
 
-
 <div class="main ui container">
 
   <div class="active ui tab" data-tab="definition">
@@ -931,7 +931,7 @@
     <div class="example">
       <h4 class="ui header">Dimmer</h4>
       <p>A simple dimmer displays no content</p>
-      <div class="code">
+      <div class="code" data-type="javascript">
         // left button
         $('.segment').dimmer('show');
         // right button
@@ -970,7 +970,7 @@
       </div>
     </div>
 
-    <div class="example">
+    <div class="example" data-class="content" data-use-content="true">
       <h4 class="ui header">Content Dimmer</h4>
       <p>A dimmer can display content</p>
       <div class="ui ignored info message">Since <div class="ui horizontal label">2.3</div> dimmers with content now only need a single wrapping <code>content</code> container.</div>
@@ -1040,10 +1040,9 @@
     <h2 class="ui dividing header">Variations</h2>
 
     <h3>Dimmable</h3>
-    <div class="example">
+    <div class="example" data-since="2.0">
       <h4 class="ui header">
         Blurring
-        <span class="ui teal label">New in 2.0</span>
       </h4>
       <p>A dimmable element can blur its contents</p>
       <div class="ui blurring segment">
@@ -1069,10 +1068,9 @@
     </div>
 
     <h3>Alignment</h3>
-    <div class="example">
+    <div class="example" data-since="2.3" data-class="!top aligned, !bottom aligned">
       <h4 class="ui header">
         Vertical Alignment
-        <span class="ui teal label">New in 2.3</span>
       </h4>
       <p>A dimmer can have its content top or bottom aligned.</p>
       <div class="ui segment">
@@ -1135,7 +1133,7 @@
       </div>
     </div>
 
-    <div class="example">
+    <div class="example" data-class="medium, light, very light">
       <h4 class="ui header">Dimmer Shades</h4>
       <p>A dimmer can be formatted to have a different depth of background shading using the additional classes <code>medium</code>, <code>light</code> or <code>very light</code></p>
       <div class="ignored ui info message">Also works in combination with <code>inverted</code></div>
@@ -1157,7 +1155,7 @@
       </div>
     </div>
 
-    <div class="example">
+    <div class="example" data-since="2.6.4" data-class="!top dimmer, !center dimmer, !bottom dimmer">
       <h4 class="ui header">Partially Dimmer</h4>
       <p>A dimmer can be displayed only partially and limited to the overall height of its content instead of the whole to be covered area. This can be used for example as a caption on any element by using <code>top dimmer</code>, <code>center dimmer</code> or <code>bottom dimmer</code></p>
       <div class="ui segment">
@@ -1194,7 +1192,7 @@
     </div>
     <div class="partially example">
       <div class="ignored ui info message">Works also very well with transitions <code>fade up</code> or <code>fade down</code></div>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
       $('.partially.example .dimmer')
         .dimmer({
             transition: 'fade up',
@@ -1230,7 +1228,7 @@
     <div class="event example">
       <h4 class="ui header">Dimmer Events</h4>
       <p>A dimmer can trigger a visibility change on an event</p>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
       $('.event.example .image')
         .dimmer({
           on: 'hover'
@@ -1274,9 +1272,9 @@
       </div>
     </div>
 
-    <div class="dimmerloader example">
-      <p>You can customize a loader in a dimmer via javascript <div class="ui black label">New in 2.7.0</div></p>
-      <div class="evaluated code">
+    <div class="dimmerloader example" data-since="2.7.0">
+      <p>You can customize a loader in a dimmer via javascript</p>
+      <div class="evaluated code" data-type="javascript">
           $('.dimmerloader.example .image')
           .dimmer({
               displayLoader: true,
@@ -1302,7 +1300,7 @@
     <div class="no example">
       <h4 class="ui header">Display</h4>
       <p>You can display a dimmer by either invoking .dimmer('show') on a section or a dimmer itself. If you choose to  dim a dimmable section, a dimmer will automatically be created.</p>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       // these two are the same
       $('.ui.dimmable')
         .dimmer('show')
@@ -1316,7 +1314,7 @@
     <div class="no example">
       <h4 class="ui header">Creating Dimmers</h4>
       <p>If a dimmer does not exist inside the element it will be created on first use.</p>
-      <div class="code" data-demo="true">
+      <div class="code" data-demo="true" data-type="javascript">
         $('h4')
           .dimmer('toggle')
         ;
@@ -1326,7 +1324,7 @@
     <div class="no example">
       <h4 class="ui header">Showing a Specific Dimmer</h4>
       <p>If a dimmer is already inside an element, you can call behavior on the dimmable section or the dimmer itself.</p>
-      <div class="code" data-demo="true">
+      <div class="code" data-demo="true" data-type="javascript">
         // If a dimmer exists on a page, you can make it appear by calling it directly
         $('.page.dimmer:first')
           .dimmer('toggle')
@@ -1342,7 +1340,7 @@
       Behaviors must be called on the same content which you originally initialize the dimmer, whether it is the <code>dimmable</code> context, or the <code>ui dimmer</code>
     </div>
 
-    <div class="code">
+    <div class="code" data-type="javascript">
     $('.your.element')
       .dimmer('behavior name', argumentOne, argumentTwo)
     ;
@@ -1442,6 +1440,10 @@
           <td>set disabled</td>
           <td>Sets a dimmer as disabled</td>
         </tr>
+        <tr>
+          <td>destroy</td>
+          <td>Destroys instance and removes all events</td>
+        </tr>
       </tbody>
     </table>
 
@@ -1493,23 +1495,35 @@
           <td>Whether to dim dimmers using CSS transitions.</td>
         </tr>
         <tr>
+          <td>transition</td>
+          <td>
+            fade
+          </td>
+          <td data-since="2.8.8">Named transition to use when animating menu in and out. Fade and slide down are available without including <a href="/modules/transition.html">ui transitions</a>
+          <br>
+              <p>Alternatively you can provide an object to set individual values for hide/show transitions as well as hide/show duration
+                  <div class="code" data-type="javascript">
+                  {
+                      showMethod   : 'fade',
+                      showDuration : 200,
+                      hideMethod   : 'zoom',
+                      hideDuration : 500,
+                  }
+                  </div>
+              </p>
+          </td>
+        </tr>
+        <tr>
           <td>duration</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             duration    : {
               show : 500,
               hide : 500
             }
             </div>
           </td>
-          <td>Animation duration of dimming. If an integer is used, that value will apply to both show and hide animations.</td>
-        </tr>
-        <tr>
-          <td>transition</td>
-          <td>
-            Fade
-          </td>
-          <td>Named transition to use when animating menu in and out. Fade and slide down are available without including <a href="/modules/transition.html">ui transitions</a></td>
+          <td>Animation duration of dimming. If an integer is used, that value will apply to both show and hide animations. Will be ignored completely when individual hide/show duration values are provided via the <code>transition</code> setting</td>
         </tr>
         <tr>
             <td>displayLoader</td>
@@ -1550,17 +1564,27 @@
         <tr>
           <td>onShow</td>
           <td>dimmable</td>
-          <td>Callback on element show</td>
+          <td>Callback before dimmer is shown. Returning <code>false</code> from this callback will cancel the dimmer from showing.</td>
         </tr>
         <tr>
           <td>onHide</td>
           <td>dimmable</td>
-          <td>Callback on element hide</td>
+          <td>Callback before dimmer is hidden. Returning <code>false</code> from this callback will cancel the dimmer from hiding.</td>
         </tr>
         <tr>
           <td>onChange</td>
           <td>dimmable</td>
           <td>Callback on element show or hide</td>
+        </tr>
+        <tr>
+          <td>onVisible</td>
+          <td>dimmable</td>
+          <td>Callback on element when dimmer is fully shown</td>
+        </tr>
+        <tr>
+          <td>onHidden</td>
+          <td>dimmable</td>
+          <td>Callback on element when dimmer is fully hidden</td>
         </tr>
       </tbody>
     </table>
@@ -1587,7 +1611,7 @@
         <tr>
           <td>selector</td>
           <td>
-            <div class="code" data-type="css">
+            <div class="code" data-type="javascript">
             selector: {
               dimmable : '.dimmable',
               dimmer   : '.ui.dimmer',
@@ -1600,7 +1624,7 @@
         <tr>
           <td>template</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             template : {
               dimmer: function() {
                return $('<div />').attr('class', 'ui dimmer');
@@ -1613,7 +1637,7 @@
         <tr>
           <td>className</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             className : {
               active     : 'active',
               dimmable   : 'dimmable',
@@ -1635,28 +1659,28 @@
         </tr>
         <tr>
           <td>silent</td>
-          <td>False</td>
+          <td>false</td>
           <td>Silences all console output including error messages, regardless of other debug settings.</td>
         </tr>
         <tr>
           <td>debug</td>
-          <td>False</td>
+          <td>false</td>
           <td>Provides standard debug output to console</td>
         </tr>
         <tr>
           <td>performance</td>
-          <td>True</td>
+          <td>true</td>
           <td>Provides standard debug output to console</td>
         </tr>
         <tr>
           <td>verbose</td>
-          <td>True</td>
+          <td>false</td>
           <td>Provides ancillary debug output to console</td>
         </tr>
         <tr>
           <td>errors</td>
           <td>
-            <div class="code">
+            <div class="code" data-type="javascript">
             error   : {
               method   : 'The method you called is not defined.'
             }
@@ -1729,39 +1753,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -1773,7 +1768,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -1784,7 +1780,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

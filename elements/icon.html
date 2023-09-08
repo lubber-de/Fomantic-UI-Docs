@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Icon | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Icon | Fomantic-UI Docs</title>
 
 <meta name="description" content="An icon is a glyph used to represent something else" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="icon" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,7 +834,6 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
@@ -856,6 +847,16 @@
         Icon
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the icon element here"
+            data-url="https://fomantic-ui.com/elements/icon.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           An icon is a glyph used to represent something else
         </div>
       </h1>
@@ -902,7 +903,6 @@
   </div>
 </div>
 
-
 <script src="/javascript/icon.js"></script>
 
 <div class="main ui container">
@@ -920,10 +920,13 @@
     <h2 class="ui header">Icon Set</h2>
     <p>An icon set contains an arbitrary number of glyphs</p>
     <div class="ui ignored warning message">
-      Icons serve a very similar function to text in a page. In Semantic icons receive a special tag <code>&lt;i&gt;</code> which allow for an abbreviated markup when sitting along-side text.
+      Icons serve a very similar function to text in a page. In Fomantic, icons receive a special tag <code>&lt;i&gt;</code> which allow for an abbreviated markup when sitting along-side text.
     </div>
 
-    <div class="ui ignored message">Semantic includes a complete port of <a href="https://fontawesome.com/" target="_blank">Font Awesome 5.13.0</a> designed by the <a href="https://twitter.com/fontawesome">FontAwesome</a> team for its standard icon set.</div>
+    <div class="ui ignored message">Fomantic includes a complete port of <a href="https://fontawesome.com/" target="_blank">Font Awesome 5.15.4</a> designed by the <a href="https://twitter.com/fontawesome">FontAwesome</a> team for its standard icon set.</div>
+    <div class="ui ignored info message">
+      You can reduce your custom generated CSS by adjusting the <code>@icons-map</code>,<code>@icons-outline-map</code>, <code>@icons-brand-map</code>, ... variables in your themes <code>icon.variables</code> file to only the icons you need.
+    </div>
 
     <div class="icon example">
       <h4 class="ui header">Accessibility</h4>
@@ -967,6 +970,7 @@
         <i class="wheelchair icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Alert</h4>
       <p>Icons which can alert users to an action or information</p>
@@ -995,6 +999,7 @@
         <i class="skull crossbones icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Animals</h4>
       <p>Icons can represent animals</p>
@@ -1035,6 +1040,7 @@
         <i class="spider icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Arrows</h4>
       <p>Icons can be used to indicate a direction</p>
@@ -1079,7 +1085,7 @@
         <div class="column"><i class="caret square up outline icon" data-search-terms="arrow, caret-square-o-up, collapse, triangle, upload"></i>caret square up outline</div>
         <div class="column"><i class="caret up icon" data-search-terms="arrow, collapse, triangle"></i>caret up</div>
         <div class="column"><i class="cart arrow down icon" data-search-terms="download, save, shopping"></i>cart arrow down</div>
-        <div class="column"><i class="chart line icon" data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></i>chart line</div>
+        <div class="column"><i class="chartline icon" data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></i>chartline</div>
         <div class="column"><i class="chevron circle down icon" data-search-terms="arrow, download, dropdown, menu, more"></i>chevron circle down</div>
         <div class="column"><i class="chevron circle left icon" data-search-terms="arrow, back, previous"></i>chevron circle left</div>
         <div class="column"><i class="chevron circle right icon" data-search-terms="arrow, forward, next"></i>chevron circle right</div>
@@ -1094,8 +1100,8 @@
         <div class="column"><i class="compress arrows alternate icon" data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></i>compress arrows alternate</div>
         <div class="column"><i class="download icon" data-search-terms="export, hard drive, save, transfer"></i>download</div>
         <div class="column"><i class="exchange alternate icon" data-search-terms="arrow, arrows, exchange, reciprocate, return, swap, transfer"></i>exchange alternate</div>
-        <div class="column"><i class="expand alternate icon" data-search-terms="arrow, bigger, enlarge, resize"></i>expand alternate</div>
-        <div class="column"><i class="expand arrows alternate icon" data-search-terms="arrows-alt, bigger, enlarge, move, resize"></i>expand arrows alternate</div>
+        <div class="column"><i class="expand alternate icon" data-search-terms="arrows, bigger, enlarge, fullscreen, resize"></i>expand alternate</div>
+        <div class="column"><i class="expand arrows alternate icon" data-search-terms="bigger, enlarge, fullscreen, move, resize"></i>expand arrows alternate</div>
         <div class="column"><i class="external alternate icon" data-search-terms="external-link, new, open, share"></i>external alternate</div>
         <div class="column"><i class="external link square alternate icon" data-search-terms="external-link-square, new, open, share"></i>external link square alternate</div>
         <div class="column"><i class="hand point down icon" data-search-terms="finger, hand-o-down, point"></i>hand point down</div>
@@ -1194,7 +1200,7 @@
         <i class="caret square up outline icon"></i>
         <i class="caret up icon"></i>
         <i class="cart arrow down icon"></i>
-        <i class="chart line icon"></i>
+        <i class="chartline icon"></i>
         <i class="chevron circle down icon"></i>
         <i class="chevron circle left icon"></i>
         <i class="chevron circle right icon"></i>
@@ -1269,6 +1275,7 @@
         <i class="upload icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Audio & Video</h4>
       <p>Icons can be used to represent common ways to interact with audio and video</p>
@@ -1284,9 +1291,9 @@
         <div class="column"><i class="compress alternate icon" data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></i>compress alternate</div>
         <div class="column"><i class="compress arrows alternate icon" data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></i>compress arrows alternate</div>
         <div class="column"><i class="eject icon" data-search-terms="abort, cancel, cd, discharge"></i>eject</div>
-        <div class="column"><i class="expand icon" data-search-terms="arrow, bigger, enlarge, resize"></i>expand</div>
-        <div class="column"><i class="expand alternate icon" data-search-terms="arrow, bigger, enlarge, resize"></i>expand alternate</div>
-        <div class="column"><i class="expand arrows alternate icon" data-search-terms="arrows-alt, bigger, enlarge, move, resize"></i>expand arrows alternate</div>
+        <div class="column"><i class="expand icon" data-search-terms="bigger, enlarge, fullscreen, resize"></i>expand</div>
+        <div class="column"><i class="expand alternate icon" data-search-terms="arrows, bigger, enlarge, fullscreen, resize"></i>expand alternate</div>
+        <div class="column"><i class="expand arrows alternate icon" data-search-terms="bigger, enlarge, fullscreen, move, resize"></i>expand arrows alternate</div>
         <div class="column"><i class="fast backward icon" data-search-terms="beginning, first, previous, rewind, start"></i>fast backward</div>
         <div class="column"><i class="fast forward icon" data-search-terms="end, last, next"></i>fast forward</div>
         <div class="column"><i class="file audio icon" data-search-terms="document, mp3, music, page, play, sound"></i>file audio</div>
@@ -1393,6 +1400,7 @@
         <i class="youtube icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Automotive</h4>
       <p>Icons can represent vehicles and automotive activities</p>
@@ -1443,6 +1451,7 @@
         <i class="truck pickup icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Autumn</h4>
       <p>Icons which represent the Autumn season</p>
@@ -1473,6 +1482,7 @@
         <i class="wine bottle icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Beverage</h4>
       <p>Icons which represent types of beverages</p>
@@ -1507,6 +1517,7 @@
         <i class="wine glass alternate icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Buildings</h4>
       <p>Icons can represent common building types</p>
@@ -1577,6 +1588,7 @@
         <i class="warehouse icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Business</h4>
       <p>Icons can be used to represent business and common business actions</p>
@@ -1606,8 +1618,8 @@
         <div class="column"><i class="chart area icon" data-search-terms="analytics, area, chart, graph"></i>chart area</div>
         <div class="column"><i class="chart bar icon" data-search-terms="analytics, bar, chart, graph"></i>chart bar</div>
         <div class="column"><i class="chart bar outline icon" data-search-terms="analytics, bar, chart, graph"></i>chart bar outline</div>
-        <div class="column"><i class="chart line icon" data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></i>chart line</div>
         <div class="column"><i class="chart pie icon" data-search-terms="analytics, chart, diagram, graph, pie"></i>chart pie</div>
+        <div class="column"><i class="chartline icon" data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></i>chartline</div>
         <div class="column"><i class="city icon" data-search-terms="buildings, busy, skyscrapers, urban, windows"></i>city</div>
         <div class="column"><i class="clipboard icon" data-search-terms="copy, notes, paste, record"></i>clipboard</div>
         <div class="column"><i class="clipboard outline icon" data-search-terms="copy, notes, paste, record"></i>clipboard outline</div>
@@ -1706,8 +1718,8 @@
         <i class="chart area icon"></i>
         <i class="chart bar icon"></i>
         <i class="chart bar outline icon"></i>
-        <i class="chart line icon"></i>
         <i class="chart pie icon"></i>
+        <i class="chartline icon"></i>
         <i class="city icon"></i>
         <i class="clipboard icon"></i>
         <i class="clipboard outline icon"></i>
@@ -1781,6 +1793,7 @@
         <i class="wallet icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Camping</h4>
       <p>Icons which represent camping activities and equipment</p>
@@ -1831,6 +1844,7 @@
         <i class="tree icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Charity</h4>
       <p>Icons can represent common charity activities</p>
@@ -1875,6 +1889,7 @@
         <i class="seedling icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Chat</h4>
       <p>Icons can represent common chat symbols and actions</p>
@@ -1935,6 +1950,7 @@
         <i class="video slash icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Chess</h4>
       <p>Icons which represent the game chess</p>
@@ -1961,6 +1977,7 @@
         <i class="square full icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Childhood</h4>
       <p>Icons which represent childhood activities</p>
@@ -1999,6 +2016,7 @@
         <i class="snowman icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Clothing</h4>
       <p>Icons which represent types of clothing</p>
@@ -2025,6 +2043,7 @@
         <i class="user tie icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Code</h4>
       <p>Icons can represent programming and programming tools</p>
@@ -2109,6 +2128,7 @@
         <i class="window restore outline icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Communication</h4>
       <p>Icons which represent common ways of communication</p>
@@ -2215,10 +2235,12 @@
         <i class="wifi icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Computers</h4>
       <p>Icons can represent computing devices, or types of content found on a computer</p>
       <div class="ui doubling five column grid">
+        <div class="column"><i class="compact disc icon" data-search-terms="album, bluray, cd, disc, dvd, media, movie, music, record, video, vinyl"></i>compact disc</div>
         <div class="column"><i class="database icon" data-search-terms="computer, development, directory, memory, storage"></i>database</div>
         <div class="column"><i class="desktop icon" data-search-terms="computer, cpu, demo, desktop, device, imac, machine, monitor, pc, screen"></i>desktop</div>
         <div class="column"><i class="download icon" data-search-terms="export, hard drive, save, transfer"></i>download</div>
@@ -2252,6 +2274,7 @@
         <div class="column"><i class="upload icon" data-search-terms="hard drive, import, publish"></i>upload</div>
       </div>
       <div class="existing code">
+        <i class="compact disc icon"></i>
         <i class="database icon"></i>
         <i class="desktop icon"></i>
         <i class="download icon"></i>
@@ -2285,6 +2308,7 @@
         <i class="upload icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Construction</h4>
       <p>Icons which represent construction activities</p>
@@ -2327,6 +2351,7 @@
         <i class="wrench icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Currency</h4>
       <p>Icons can represent units of currency</p>
@@ -2381,6 +2406,7 @@
         <i class="yen sign icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Date & Time</h4>
       <p>Icons that represent common ways of showing date and time</p>
@@ -2437,6 +2463,7 @@
         <i class="stopwatch icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Design</h4>
       <p>Icons can represent common design related symbols or techniques</p>
@@ -2553,6 +2580,7 @@
         <i class="vector square icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Editors</h4>
       <p>Icons can represent text editors and common editor actions</p>
@@ -2727,6 +2755,7 @@
         <i class="wrench icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Education</h4>
       <p>Icons can represent education types and activities</p>
@@ -2773,6 +2802,7 @@
         <i class="user graduate icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Emoji</h4>
       <p>Icons which represent emoji's</p>
@@ -2925,6 +2955,7 @@
         <i class="tired outline icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Energy</h4>
       <p>Icons which represent energy equipment, types and status</p>
@@ -2989,6 +3020,7 @@
         <i class="wind icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Files</h4>
       <p>Icons can represent elements of a computer and its file system</p>
@@ -3073,6 +3105,7 @@
         <i class="sticky note outline icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Finance</h4>
       <p>Icons which represent financial activities</p>
@@ -3082,8 +3115,8 @@
         <div class="column"><i class="balance scale right icon" data-search-terms="justice, legal, measure, unbalanced, weight"></i>balance scale right</div>
         <div class="column"><i class="book icon" data-search-terms="diary, documentation, journal, library, read"></i>book</div>
         <div class="column"><i class="cash register icon" data-search-terms="buy, cha-ching, change, checkout, commerce, leaerboard, machine, pay, payment, purchase, store"></i>cash register</div>
-        <div class="column"><i class="chart line icon" data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></i>chart line</div>
         <div class="column"><i class="chart pie icon" data-search-terms="analytics, chart, diagram, graph, pie"></i>chart pie</div>
+        <div class="column"><i class="chartline icon" data-search-terms="activity, analytics, chart, dashboard, gain, graph, increase, line"></i>chartline</div>
         <div class="column"><i class="coins icon" data-search-terms="currency, dime, financial, gold, money, penny"></i>coins</div>
         <div class="column"><i class="comment dollar icon" data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></i>comment dollar</div>
         <div class="column"><i class="comments dollar icon" data-search-terms="bubble, chat, commenting, conversation, feedback, message, money, note, notification, pay, sms, speech, spend, texting, transfer"></i>comments dollar</div>
@@ -3113,8 +3146,8 @@
         <i class="balance scale right icon"></i>
         <i class="book icon"></i>
         <i class="cash register icon"></i>
-        <i class="chart line icon"></i>
         <i class="chart pie icon"></i>
+        <i class="chartline icon"></i>
         <i class="coins icon"></i>
         <i class="comment dollar icon"></i>
         <i class="comments dollar icon"></i>
@@ -3139,6 +3172,7 @@
         <i class="wallet icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Fitness</h4>
       <p>Icons which represent fitness activities</p>
@@ -3181,6 +3215,7 @@
         <i class="walking icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Food</h4>
       <p>Icons which represent food</p>
@@ -3231,6 +3266,7 @@
         <i class="stroopwafel icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Fruits & Vegetables</h4>
       <p>Icons which represent fruit and vegetables</p>
@@ -3253,6 +3289,7 @@
         <i class="seedling icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Games</h4>
       <p>Icons which represent gaming equipment and platforms</p>
@@ -3319,6 +3356,7 @@
         <i class="xbox icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Genders</h4>
       <p>Icons can represent genders or types of sexuality</p>
@@ -3353,6 +3391,7 @@
         <i class="venus mars icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Halloween</h4>
       <p>Icons which represent Halloween</p>
@@ -3383,6 +3422,7 @@
         <i class="toilet paper icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Hands</h4>
       <p>Icons can represent hand signals and gestures</p>
@@ -3477,6 +3517,7 @@
         <i class="thumbs up outline icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Health</h4>
       <p>Icons which represent common health symbols</p>
@@ -3515,6 +3556,7 @@
         <i class="wheelchair icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Holiday</h4>
       <p>Icons which represent holiday items</p>
@@ -3543,6 +3585,7 @@
         <i class="snowman icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Hotel</h4>
       <p>Icons which represent hotel items and utilities</p>
@@ -3623,6 +3666,7 @@
         <i class="wifi icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Household</h4>
       <p>Icons which represent household items and utilities</p>
@@ -3648,6 +3692,7 @@
         <div class="column"><i class="plug icon" data-search-terms="connect, electric, online, power"></i>plug</div>
         <div class="column"><i class="pump soap icon" data-search-terms="anti-bacterial, clean, covid-19, disinfect, hygiene, sanitizer, soap"></i>pump soap</div>
         <div class="column"><i class="shower icon" data-search-terms="bath, clean, faucet, water"></i>shower</div>
+        <div class="column"><i class="sink icon" data-search-terms="bathroom, covid-19, faucet, kitchen, wash"></i>sink</div>
         <div class="column"><i class="snowflake icon" data-search-terms="precipitation, rain, winter"></i>snowflake</div>
         <div class="column"><i class="snowflake outline icon" data-search-terms="precipitation, rain, winter"></i>snowflake outline</div>
         <div class="column"><i class="soap icon" data-search-terms="bubbles, clean, covid-19, hygiene, wash"></i>soap</div>
@@ -3677,6 +3722,7 @@
         <i class="plug icon"></i>
         <i class="pump soap icon"></i>
         <i class="shower icon"></i>
+        <i class="sink icon"></i>
         <i class="snowflake icon"></i>
         <i class="snowflake outline icon"></i>
         <i class="soap icon"></i>
@@ -3685,6 +3731,7 @@
         <i class="tv icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Images</h4>
       <p>Icons that represent common image symbols and actions</p>
@@ -3698,7 +3745,7 @@
         <div class="column"><i class="clone outline icon" data-search-terms="arrange, copy, duplicate, paste"></i>clone outline</div>
         <div class="column"><i class="compress icon" data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></i>compress</div>
         <div class="column"><i class="compress arrows alternate icon" data-search-terms="collapse, fullscreen, minimize, move, resize, shrink, smaller"></i>compress arrows alternate</div>
-        <div class="column"><i class="expand icon" data-search-terms="arrow, bigger, enlarge, resize"></i>expand</div>
+        <div class="column"><i class="expand icon" data-search-terms="bigger, enlarge, fullscreen, resize"></i>expand</div>
         <div class="column"><i class="eye icon" data-search-terms="look, optic, see, seen, show, sight, views, visible"></i>eye</div>
         <div class="column"><i class="eye dropper icon" data-search-terms="beaker, clone, color, copy, eyedropper, pipette"></i>eye dropper</div>
         <div class="column"><i class="eye outline icon" data-search-terms="look, optic, see, seen, show, sight, views, visible"></i>eye outline</div>
@@ -3719,6 +3766,7 @@
         <div class="column"><i class="portrait icon" data-search-terms="id, image, photo, picture, selfie"></i>portrait</div>
         <div class="column"><i class="sliders horizontal icon" data-search-terms="adjust, settings, sliders, toggle"></i>sliders horizontal</div>
         <div class="column"><i class="tint icon" data-search-terms="color, drop, droplet, raindrop, waterdrop"></i>tint</div>
+        <div class="column"><i class="unsplash icon" data-search-terms=""></i>unsplash</div>
       </div>
       <div class="existing code">
         <i class="adjust icon"></i>
@@ -3751,8 +3799,10 @@
         <i class="portrait icon"></i>
         <i class="sliders horizontal icon"></i>
         <i class="tint icon"></i>
+        <i class="unsplash icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Interfaces</h4>
       <p>Icons can represent common actions a user can take or use</p>
@@ -4175,6 +4225,7 @@
         <i class="wrench icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Logistics</h4>
       <p>Icons can represent common logistic activity</p>
@@ -4205,6 +4256,7 @@
         <i class="warehouse icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Maps</h4>
       <p>Icons can be used to represent elements on a map</p>
@@ -4347,6 +4399,8 @@
         <div class="column"><i class="university icon" data-search-terms="bank, building, college, higher education - students, institution"></i>university</div>
         <div class="column"><i class="utensil spoon icon" data-search-terms="cutlery, dining, scoop, silverware, spoon"></i>utensil spoon</div>
         <div class="column"><i class="utensils icon" data-search-terms="cutlery, dining, dinner, eat, food, fork, knife, restaurant"></i>utensils</div>
+        <div class="column"><i class="vest icon" data-search-terms="biker, fashion, style"></i>vest</div>
+        <div class="column"><i class="vest patches icon" data-search-terms="biker, fashion, style"></i>vest patches</div>
         <div class="column"><i class="wheelchair icon" data-search-terms="accessible, handicap, person"></i>wheelchair</div>
         <div class="column"><i class="wifi icon" data-search-terms="connection, hotspot, internet, network, wireless"></i>wifi</div>
         <div class="column"><i class="wine glass icon" data-search-terms="alcohol, beverage, cabernet, drink, grapes, merlot, sauvignon"></i>wine glass</div>
@@ -4491,12 +4545,15 @@
         <i class="university icon"></i>
         <i class="utensil spoon icon"></i>
         <i class="utensils icon"></i>
+        <i class="vest icon"></i>
+        <i class="vest patches icon"></i>
         <i class="wheelchair icon"></i>
         <i class="wifi icon"></i>
         <i class="wine glass icon"></i>
         <i class="wrench icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Maritime</h4>
       <p>Icons which represent maritime tools and activities</p>
@@ -4527,6 +4584,7 @@
         <i class="wind icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Marketing</h4>
       <p>Icons can represent marketing materials and symbols</p>
@@ -4563,6 +4621,7 @@
         <i class="search location icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Mathematics</h4>
       <p>Icons which represent common mathematic symbols</p>
@@ -4605,12 +4664,15 @@
         <i class="wave square icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Medical</h4>
       <p>Icons can represent common medical actions</p>
       <div class="ui doubling five column grid">
         <div class="column"><i class="allergies icon" data-search-terms="allergy, freckles, hand, hives, pox, skin, spots"></i>allergies</div>
         <div class="column"><i class="ambulance icon" data-search-terms="covid-19, emergency, emt, er, help, hospital, support, vehicle"></i>ambulance</div>
+        <div class="column"><i class="bacteria icon" data-search-terms="antibiotic, antibody, covid-19, health, organism, sick"></i>bacteria</div>
+        <div class="column"><i class="bacterium icon" data-search-terms="antibiotic, antibody, covid-19, health, organism, sick"></i>bacterium</div>
         <div class="column"><i class="band aid icon" data-search-terms="bandage, boo boo, first aid, ouch"></i>band aid</div>
         <div class="column"><i class="biohazard icon" data-search-terms="covid-19, danger, dangerous, hazmat, medical, radioactive, toxic, waste, zombie"></i>biohazard</div>
         <div class="column"><i class="bone icon" data-search-terms="calcium, dog, skeletal, skeleton, tibia"></i>bone</div>
@@ -4687,6 +4749,8 @@
       <div class="existing code">
         <i class="allergies icon"></i>
         <i class="ambulance icon"></i>
+        <i class="bacteria icon"></i>
+        <i class="bacterium icon"></i>
         <i class="band aid icon"></i>
         <i class="biohazard icon"></i>
         <i class="bone icon"></i>
@@ -4761,6 +4825,7 @@
         <i class="x ray icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Moving</h4>
       <p>Icons can represent moving activities</p>
@@ -4797,10 +4862,12 @@
         <i class="wine glass icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Music</h4>
       <p>Icons which represent musical instruments, items and platforms</p>
       <div class="ui doubling five column grid">
+        <div class="column"><i class="compact disc icon" data-search-terms="album, bluray, cd, disc, dvd, media, movie, music, record, video, vinyl"></i>compact disc</div>
         <div class="column"><i class="drum icon" data-search-terms="instrument, music, percussion, snare, sound"></i>drum</div>
         <div class="column"><i class="drum steelpan icon" data-search-terms="calypso, instrument, music, percussion, reggae, snare, sound, steel, tropical"></i>drum steelpan</div>
         <div class="column"><i class="file audio icon" data-search-terms="document, mp3, music, page, play, sound"></i>file audio</div>
@@ -4825,6 +4892,7 @@
         <div class="column"><i class="volume up icon" data-search-terms="audio, higher, louder, music, sound, speaker"></i>volume up</div>
       </div>
       <div class="existing code">
+        <i class="compact disc icon"></i>
         <i class="drum icon"></i>
         <i class="drum steelpan icon"></i>
         <i class="file audio icon"></i>
@@ -4849,6 +4917,7 @@
         <i class="volume up icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Objects</h4>
       <p>Icons can be used to represent common objects</p>
@@ -5377,6 +5446,7 @@
         <i class="wrench icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Payments & Shopping</h4>
       <p>Icons can represent common forms of payment and shopping actions</p>
@@ -5412,6 +5482,7 @@
         <div class="column"><i class="gem icon" data-search-terms="diamond, jewelry, sapphire, stone, treasure"></i>gem</div>
         <div class="column"><i class="gem outline icon" data-search-terms="diamond, jewelry, sapphire, stone, treasure"></i>gem outline</div>
         <div class="column"><i class="gift icon" data-search-terms="christmas, generosity, giving, holiday, party, present, wrapped, xmas"></i>gift</div>
+        <div class="column"><i class="google pay icon" data-search-terms=""></i>google pay</div>
         <div class="column"><i class="google wallet icon" data-search-terms=""></i>google wallet</div>
         <div class="column"><i class="handshake icon" data-search-terms="agreement, greeting, meeting, partnership"></i>handshake</div>
         <div class="column"><i class="handshake outline icon" data-search-terms="agreement, greeting, meeting, partnership"></i>handshake outline</div>
@@ -5469,6 +5540,7 @@
         <i class="gem icon"></i>
         <i class="gem outline icon"></i>
         <i class="gift icon"></i>
+        <i class="google pay icon"></i>
         <i class="google wallet icon"></i>
         <i class="handshake icon"></i>
         <i class="handshake outline icon"></i>
@@ -5495,6 +5567,7 @@
         <i class="trophy icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Pharmacy</h4>
       <p>Icons which represent pharmaceutical items and activities</p>
@@ -5557,6 +5630,7 @@
         <i class="vials icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Political</h4>
       <p>Icons which represent political activities and actions</p>
@@ -5599,6 +5673,7 @@
         <i class="vote yea icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Religion</h4>
       <p>Icons which represent religious activities and symbols</p>
@@ -5669,6 +5744,7 @@
         <i class="yin yang icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Science</h4>
       <p>Icons which represent science activities and items</p>
@@ -5735,6 +5811,7 @@
         <i class="vials icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Science Fiction</h4>
       <p>Icons which represent science fiction story items</p>
@@ -5781,6 +5858,7 @@
         <i class="user astronaut icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Security</h4>
       <p>Icons which represent security items and activities</p>
@@ -5845,6 +5923,7 @@
         <i class="user shield icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Shapes</h4>
       <p>Icons can be used to create shapes</p>
@@ -5901,6 +5980,7 @@
         <i class="star outline icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Shopping</h4>
       <p>Icons which represent shopping activities and actions</p>
@@ -5945,6 +6025,7 @@
         <i class="tshirt icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Social</h4>
       <p>Icons which represent social actions</p>
@@ -6039,6 +6120,7 @@
         <i class="video icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Spinners</h4>
       <p>Icons can represent loading</p>
@@ -6099,6 +6181,7 @@
         <i class="yin yang icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Sports</h4>
       <p>Icons which represent sports</p>
@@ -6145,6 +6228,7 @@
         <i class="volleyball ball icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Spring</h4>
       <p>Icons which represent spring activities</p>
@@ -6169,6 +6253,7 @@
         <i class="umbrella icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Status</h4>
       <p>Icons can represent different states</p>
@@ -6413,6 +6498,7 @@
         <i class="wifi icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Summer</h4>
       <p>Icons which represent summer activities</p>
@@ -6449,6 +6535,7 @@
         <i class="water icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Tabletop Gaming</h4>
       <p>Icons which represent table-top games</p>
@@ -6491,6 +6578,7 @@
         <i class="wizards of the coast icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Toggle</h4>
       <p>Icons which represent toggling an action</p>
@@ -6533,6 +6621,7 @@
         <i class="wifi icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Travel</h4>
       <p>Icons which represent traveling activities</p>
@@ -6619,6 +6708,7 @@
         <i class="wine glass alternate icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Users & People</h4>
       <p>Icons can represent users or people</p>
@@ -6691,6 +6781,7 @@
         <div class="column"><i class="user times icon" data-search-terms="archive, delete, remove, x"></i>user times</div>
         <div class="column"><i class="users icon" data-search-terms="friends, group, people, persons, profiles, team"></i>users</div>
         <div class="column"><i class="users cog icon" data-search-terms="admin, cog, group, person, settings, team"></i>users cog</div>
+        <div class="column"><i class="users slash icon" data-search-terms="disband, friends, group, people, persons, profiles, separate, team, ungroup"></i>users slash</div>
         <div class="column"><i class="walking icon" data-search-terms="exercise, health, pedometer, person, steps"></i>walking</div>
         <div class="column"><i class="wheelchair icon" data-search-terms="accessible, handicap, person"></i>wheelchair</div>
       </div>
@@ -6763,10 +6854,12 @@
         <i class="user times icon"></i>
         <i class="users icon"></i>
         <i class="users cog icon"></i>
+        <i class="users slash icon"></i>
         <i class="walking icon"></i>
         <i class="wheelchair icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Vehicles</h4>
       <p>Icons can represent vehicles or transport</p>
@@ -6841,6 +6934,7 @@
         <i class="wheelchair icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Weather</h4>
       <p>Icons which represent the weather</p>
@@ -6897,6 +6991,7 @@
         <i class="wind icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Winter</h4>
       <p>Icons which represent winter activities</p>
@@ -6925,6 +7020,7 @@
         <i class="tram icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Writing</h4>
       <p>Icons can represent writing and editing</p>
@@ -7007,6 +7103,7 @@
         <i class="thumbtack icon"></i>
       </div>
     </div>
+
     <div class="icon example">
       <h4 class="ui header">Brands</h4>
       <p>Icons can represent logos to common brands</p>
@@ -7016,7 +7113,6 @@
         <div class="column"><i class="accusoft icon" data-search-terms=""></i>accusoft</div>
         <div class="column"><i class="acquisitions incorporated icon" data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></i>acquisitions incorporated</div>
         <div class="column"><i class="adn icon" data-search-terms=""></i>adn</div>
-        <div class="column"><i class="adobe icon" data-search-terms="acrobat, app, design, illustrator, indesign, photoshop"></i>adobe</div>
         <div class="column"><i class="adversal icon" data-search-terms=""></i>adversal</div>
         <div class="column"><i class="affiliatetheme icon" data-search-terms=""></i>affiliatetheme</div>
         <div class="column"><i class="airbnb icon" data-search-terms=""></i>airbnb</div>
@@ -7077,6 +7173,7 @@
         <div class="column"><i class="centos icon" data-search-terms="linux, operating system, os"></i>centos</div>
         <div class="column"><i class="chrome icon" data-search-terms="browser"></i>chrome</div>
         <div class="column"><i class="chromecast icon" data-search-terms=""></i>chromecast</div>
+        <div class="column"><i class="cloudflare icon" data-search-terms=""></i>cloudflare</div>
         <div class="column"><i class="cloudscale icon" data-search-terms=""></i>cloudscale</div>
         <div class="column"><i class="cloudsmith icon" data-search-terms=""></i>cloudsmith</div>
         <div class="column"><i class="cloudversify icon" data-search-terms=""></i>cloudversify</div>
@@ -7109,6 +7206,7 @@
         <div class="column"><i class="d and d beyond icon" data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, gaming, tabletop"></i>d and d beyond</div>
         <div class="column"><i class="dailymotion icon" data-search-terms=""></i>dailymotion</div>
         <div class="column"><i class="dashcube icon" data-search-terms=""></i>dashcube</div>
+        <div class="column"><i class="deezer icon" data-search-terms=""></i>deezer</div>
         <div class="column"><i class="delicious icon" data-search-terms=""></i>delicious</div>
         <div class="column"><i class="deploydog icon" data-search-terms=""></i>deploydog</div>
         <div class="column"><i class="deskpro icon" data-search-terms=""></i>deskpro</div>
@@ -7131,6 +7229,7 @@
         <div class="column"><i class="earlybirds icon" data-search-terms=""></i>earlybirds</div>
         <div class="column"><i class="ebay icon" data-search-terms=""></i>ebay</div>
         <div class="column"><i class="edge icon" data-search-terms="browser, ie"></i>edge</div>
+        <div class="column"><i class="edge legacy icon" data-search-terms=""></i>edge legacy</div>
         <div class="column"><i class="elementor icon" data-search-terms=""></i>elementor</div>
         <div class="column"><i class="ello icon" data-search-terms=""></i>ello</div>
         <div class="column"><i class="ember icon" data-search-terms=""></i>ember</div>
@@ -7190,6 +7289,7 @@
         <div class="column"><i class="goodreads g icon" data-search-terms=""></i>goodreads g</div>
         <div class="column"><i class="google icon" data-search-terms=""></i>google</div>
         <div class="column"><i class="google drive icon" data-search-terms=""></i>google drive</div>
+        <div class="column"><i class="google pay icon" data-search-terms=""></i>google pay</div>
         <div class="column"><i class="google play icon" data-search-terms=""></i>google play</div>
         <div class="column"><i class="google plus icon" data-search-terms="google-plus-circle, google-plus-official"></i>google plus</div>
         <div class="column"><i class="google plus g icon" data-search-terms="google-plus, social network"></i>google plus g</div>
@@ -7199,12 +7299,14 @@
         <div class="column"><i class="grav icon" data-search-terms=""></i>grav</div>
         <div class="column"><i class="gripfire icon" data-search-terms=""></i>gripfire</div>
         <div class="column"><i class="grunt icon" data-search-terms=""></i>grunt</div>
+        <div class="column"><i class="guilded icon" data-search-terms=""></i>guilded</div>
         <div class="column"><i class="gulp icon" data-search-terms=""></i>gulp</div>
         <div class="column"><i class="hacker news icon" data-search-terms=""></i>hacker news</div>
         <div class="column"><i class="hacker news square icon" data-search-terms=""></i>hacker news square</div>
         <div class="column"><i class="hackerrank icon" data-search-terms=""></i>hackerrank</div>
         <div class="column"><i class="hips icon" data-search-terms=""></i>hips</div>
         <div class="column"><i class="hire a helper icon" data-search-terms=""></i>hire a helper</div>
+        <div class="column"><i class="hive icon" data-search-terms=""></i>hive</div>
         <div class="column"><i class="hooli icon" data-search-terms=""></i>hooli</div>
         <div class="column"><i class="hornbill icon" data-search-terms=""></i>hornbill</div>
         <div class="column"><i class="hotjar icon" data-search-terms=""></i>hotjar</div>
@@ -7213,8 +7315,10 @@
         <div class="column"><i class="hubspot icon" data-search-terms=""></i>hubspot</div>
         <div class="column"><i class="ideal icon" data-search-terms=""></i>ideal</div>
         <div class="column"><i class="imdb icon" data-search-terms=""></i>imdb</div>
+        <div class="column"><i class="innosoft icon" data-search-terms=""></i>innosoft</div>
         <div class="column"><i class="instagram icon" data-search-terms=""></i>instagram</div>
         <div class="column"><i class="instagram square icon" data-search-terms=""></i>instagram square</div>
+        <div class="column"><i class="instalod icon" data-search-terms=""></i>instalod</div>
         <div class="column"><i class="intercom icon" data-search-terms="app, customer, messenger"></i>intercom</div>
         <div class="column"><i class="internet explorer icon" data-search-terms="browser, ie"></i>internet explorer</div>
         <div class="column"><i class="invision icon" data-search-terms="app, design, interface"></i>invision</div>
@@ -7244,7 +7348,6 @@
         <div class="column"><i class="lesscss icon" data-search-terms=""></i>lesscss</div>
         <div class="column"><i class="linechat icon" data-search-terms=""></i>linechat</div>
         <div class="column"><i class="linkedin icon" data-search-terms="linkedin-square"></i>linkedin</div>
-        <div class="column"><i class="linkedin in icon" data-search-terms="linkedin"></i>linkedin in</div>
         <div class="column"><i class="linode icon" data-search-terms=""></i>linode</div>
         <div class="column"><i class="linux icon" data-search-terms="tux"></i>linux</div>
         <div class="column"><i class="lyft icon" data-search-terms=""></i>lyft</div>
@@ -7278,6 +7381,7 @@
         <div class="column"><i class="npm icon" data-search-terms=""></i>npm</div>
         <div class="column"><i class="ns8 icon" data-search-terms=""></i>ns8</div>
         <div class="column"><i class="nutritionix icon" data-search-terms=""></i>nutritionix</div>
+        <div class="column"><i class="octopus deploy icon" data-search-terms=""></i>octopus deploy</div>
         <div class="column"><i class="odnoklassniki icon" data-search-terms=""></i>odnoklassniki</div>
         <div class="column"><i class="odnoklassniki square icon" data-search-terms=""></i>odnoklassniki square</div>
         <div class="column"><i class="old republic icon" data-search-terms="politics, star wars"></i>old republic</div>
@@ -7293,6 +7397,7 @@
         <div class="column"><i class="patreon icon" data-search-terms=""></i>patreon</div>
         <div class="column"><i class="paypal icon" data-search-terms=""></i>paypal</div>
         <div class="column"><i class="penny arcade icon" data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, pax, tabletop"></i>penny arcade</div>
+        <div class="column"><i class="perbyte icon" data-search-terms=""></i>perbyte</div>
         <div class="column"><i class="periscope icon" data-search-terms=""></i>periscope</div>
         <div class="column"><i class="phabricator icon" data-search-terms=""></i>phabricator</div>
         <div class="column"><i class="phoenix framework icon" data-search-terms=""></i>phoenix framework</div>
@@ -7333,6 +7438,7 @@
         <div class="column"><i class="rev icon" data-search-terms=""></i>rev</div>
         <div class="column"><i class="rocketchat icon" data-search-terms=""></i>rocketchat</div>
         <div class="column"><i class="rockrms icon" data-search-terms=""></i>rockrms</div>
+        <div class="column"><i class="rust icon" data-search-terms=""></i>rust</div>
         <div class="column"><i class="safari icon" data-search-terms="browser"></i>safari</div>
         <div class="column"><i class="salesforce icon" data-search-terms=""></i>salesforce</div>
         <div class="column"><i class="sass icon" data-search-terms=""></i>sass</div>
@@ -7389,9 +7495,9 @@
         <div class="column"><i class="themeco icon" data-search-terms=""></i>themeco</div>
         <div class="column"><i class="themeisle icon" data-search-terms=""></i>themeisle</div>
         <div class="column"><i class="think peaks icon" data-search-terms=""></i>think peaks</div>
+        <div class="column"><i class="tiktok icon" data-search-terms=""></i>tiktok</div>
         <div class="column"><i class="trade federation icon" data-search-terms=""></i>trade federation</div>
         <div class="column"><i class="trello icon" data-search-terms="atlassian"></i>trello</div>
-        <div class="column"><i class="tripadvisor icon" data-search-terms=""></i>tripadvisor</div>
         <div class="column"><i class="tumblr icon" data-search-terms=""></i>tumblr</div>
         <div class="column"><i class="tumblr square icon" data-search-terms=""></i>tumblr square</div>
         <div class="column"><i class="twitch icon" data-search-terms=""></i>twitch</div>
@@ -7402,8 +7508,10 @@
         <div class="column"><i class="ubuntu icon" data-search-terms="linux, operating system, os"></i>ubuntu</div>
         <div class="column"><i class="uikit icon" data-search-terms=""></i>uikit</div>
         <div class="column"><i class="umbraco icon" data-search-terms=""></i>umbraco</div>
+        <div class="column"><i class="uncharted icon" data-search-terms=""></i>uncharted</div>
         <div class="column"><i class="uniregistry icon" data-search-terms=""></i>uniregistry</div>
         <div class="column"><i class="unity icon" data-search-terms=""></i>unity</div>
+        <div class="column"><i class="unsplash icon" data-search-terms=""></i>unsplash</div>
         <div class="column"><i class="untappd icon" data-search-terms=""></i>untappd</div>
         <div class="column"><i class="ups icon" data-search-terms="United Parcel Service, package, shipping"></i>ups</div>
         <div class="column"><i class="usb icon" data-search-terms=""></i>usb</div>
@@ -7421,6 +7529,7 @@
         <div class="column"><i class="vk icon" data-search-terms=""></i>vk</div>
         <div class="column"><i class="vnv icon" data-search-terms=""></i>vnv</div>
         <div class="column"><i class="vuejs icon" data-search-terms=""></i>vuejs</div>
+        <div class="column"><i class="watchman monitoring icon" data-search-terms=""></i>watchman monitoring</div>
         <div class="column"><i class="waze icon" data-search-terms=""></i>waze</div>
         <div class="column"><i class="weebly icon" data-search-terms=""></i>weebly</div>
         <div class="column"><i class="weibo icon" data-search-terms=""></i>weibo</div>
@@ -7432,6 +7541,7 @@
         <div class="column"><i class="windows icon" data-search-terms="microsoft, operating system, os"></i>windows</div>
         <div class="column"><i class="wix icon" data-search-terms=""></i>wix</div>
         <div class="column"><i class="wizards of the coast icon" data-search-terms="Dungeons & Dragons, d&d, dnd, fantasy, game, gaming, tabletop"></i>wizards of the coast</div>
+        <div class="column"><i class="wodu icon" data-search-terms=""></i>wodu</div>
         <div class="column"><i class="wolf pack battalion icon" data-search-terms=""></i>wolf pack battalion</div>
         <div class="column"><i class="wordpress icon" data-search-terms=""></i>wordpress</div>
         <div class="column"><i class="wordpress simple icon" data-search-terms=""></i>wordpress simple</div>
@@ -7460,7 +7570,6 @@
         <i class="accusoft icon"></i>
         <i class="acquisitions incorporated icon"></i>
         <i class="adn icon"></i>
-        <i class="adobe icon"></i>
         <i class="adversal icon"></i>
         <i class="affiliatetheme icon"></i>
         <i class="airbnb icon"></i>
@@ -7521,6 +7630,7 @@
         <i class="centos icon"></i>
         <i class="chrome icon"></i>
         <i class="chromecast icon"></i>
+        <i class="cloudflare icon"></i>
         <i class="cloudscale icon"></i>
         <i class="cloudsmith icon"></i>
         <i class="cloudversify icon"></i>
@@ -7553,6 +7663,7 @@
         <i class="d and d beyond icon"></i>
         <i class="dailymotion icon"></i>
         <i class="dashcube icon"></i>
+        <i class="deezer icon"></i>
         <i class="delicious icon"></i>
         <i class="deploydog icon"></i>
         <i class="deskpro icon"></i>
@@ -7575,6 +7686,7 @@
         <i class="earlybirds icon"></i>
         <i class="ebay icon"></i>
         <i class="edge icon"></i>
+        <i class="edge legacy icon"></i>
         <i class="elementor icon"></i>
         <i class="ello icon"></i>
         <i class="ember icon"></i>
@@ -7634,6 +7746,7 @@
         <i class="goodreads g icon"></i>
         <i class="google icon"></i>
         <i class="google drive icon"></i>
+        <i class="google pay icon"></i>
         <i class="google play icon"></i>
         <i class="google plus icon"></i>
         <i class="google plus g icon"></i>
@@ -7643,12 +7756,14 @@
         <i class="grav icon"></i>
         <i class="gripfire icon"></i>
         <i class="grunt icon"></i>
+        <i class="guilded icon"></i>
         <i class="gulp icon"></i>
         <i class="hacker news icon"></i>
         <i class="hacker news square icon"></i>
         <i class="hackerrank icon"></i>
         <i class="hips icon"></i>
         <i class="hire a helper icon"></i>
+        <i class="hive icon"></i>
         <i class="hooli icon"></i>
         <i class="hornbill icon"></i>
         <i class="hotjar icon"></i>
@@ -7657,8 +7772,10 @@
         <i class="hubspot icon"></i>
         <i class="ideal icon"></i>
         <i class="imdb icon"></i>
+        <i class="innosoft icon"></i>
         <i class="instagram icon"></i>
         <i class="instagram square icon"></i>
+        <i class="instalod icon"></i>
         <i class="intercom icon"></i>
         <i class="internet explorer icon"></i>
         <i class="invision icon"></i>
@@ -7688,7 +7805,6 @@
         <i class="lesscss icon"></i>
         <i class="linechat icon"></i>
         <i class="linkedin icon"></i>
-        <i class="linkedin in icon"></i>
         <i class="linode icon"></i>
         <i class="linux icon"></i>
         <i class="lyft icon"></i>
@@ -7722,6 +7838,7 @@
         <i class="npm icon"></i>
         <i class="ns8 icon"></i>
         <i class="nutritionix icon"></i>
+        <i class="octopus deploy icon"></i>
         <i class="odnoklassniki icon"></i>
         <i class="odnoklassniki square icon"></i>
         <i class="old republic icon"></i>
@@ -7737,6 +7854,7 @@
         <i class="patreon icon"></i>
         <i class="paypal icon"></i>
         <i class="penny arcade icon"></i>
+        <i class="perbyte icon"></i>
         <i class="periscope icon"></i>
         <i class="phabricator icon"></i>
         <i class="phoenix framework icon"></i>
@@ -7777,6 +7895,7 @@
         <i class="rev icon"></i>
         <i class="rocketchat icon"></i>
         <i class="rockrms icon"></i>
+        <i class="rust icon"></i>
         <i class="safari icon"></i>
         <i class="salesforce icon"></i>
         <i class="sass icon"></i>
@@ -7833,9 +7952,9 @@
         <i class="themeco icon"></i>
         <i class="themeisle icon"></i>
         <i class="think peaks icon"></i>
+        <i class="tiktok icon"></i>
         <i class="trade federation icon"></i>
         <i class="trello icon"></i>
-        <i class="tripadvisor icon"></i>
         <i class="tumblr icon"></i>
         <i class="tumblr square icon"></i>
         <i class="twitch icon"></i>
@@ -7846,8 +7965,10 @@
         <i class="ubuntu icon"></i>
         <i class="uikit icon"></i>
         <i class="umbraco icon"></i>
+        <i class="uncharted icon"></i>
         <i class="uniregistry icon"></i>
         <i class="unity icon"></i>
+        <i class="unsplash icon"></i>
         <i class="untappd icon"></i>
         <i class="ups icon"></i>
         <i class="usb icon"></i>
@@ -7865,6 +7986,7 @@
         <i class="vk icon"></i>
         <i class="vnv icon"></i>
         <i class="vuejs icon"></i>
+        <i class="watchman monitoring icon"></i>
         <i class="waze icon"></i>
         <i class="weebly icon"></i>
         <i class="weibo icon"></i>
@@ -7876,6 +7998,7 @@
         <i class="windows icon"></i>
         <i class="wix icon"></i>
         <i class="wizards of the coast icon"></i>
+        <i class="wodu icon"></i>
         <i class="wolf pack battalion icon"></i>
         <i class="wordpress icon"></i>
         <i class="wordpress simple icon"></i>
@@ -7899,7 +8022,36 @@
         <i class="zhihu icon"></i>
       </div>
     </div>
-    
+
+
+    <div class="icon example">
+      <h4 class="ui header">Deprecated</h4>
+      <p>Deprecated icons won't work properly when used with transitions as they contain <code>in</code> or <code>out</code></p>
+      <div class="ui doubling five column grid">
+        <div class="column"><i class="in cart icon" data-search-terms=""></i>in cart</div>
+        <div class="column"><i class="linkedin in icon" data-search-terms="linkedin"></i>linkedin in</div>
+        <div class="column"><i class="log out icon" data-search-terms=""></i>log out</div>
+        <div class="column"><i class="sign in icon" data-search-terms=""></i>sign in</div>
+        <div class="column"><i class="sign in alternate icon" data-search-terms="arrow, enter, join, log in, login, sign in, sign up, sign-in, signin, signup"></i>sign in alternate</div>
+        <div class="column"><i class="sign out icon" data-search-terms=""></i>sign out</div>
+        <div class="column"><i class="sign out alternate icon" data-search-terms="arrow, exit, leave, log out, logout, sign-out"></i>sign out alternate</div>
+        <div class="column"><i class="zoom in icon" data-search-terms=""></i>zoom in</div>
+        <div class="column"><i class="zoom out icon" data-search-terms=""></i>zoom out</div>
+      </div>
+      <div class="existing code">
+        <i class="in cart icon"></i>
+        <i class="linkedin in icon"></i>
+        <i class="log out icon"></i>
+        <i class="sign in icon"></i>
+        <i class="sign in alternate icon"></i>
+        <i class="sign out icon"></i>
+        <i class="sign out alternate icon"></i>
+        <i class="zoom in icon"></i>
+        <i class="zoom out icon"></i>
+      </div>
+    </div>
+
+
   </div>
 
   <div class="ui tab" data-tab="definition">
@@ -7979,7 +8131,13 @@
       <i class="circular inverted users icon"></i>
       <i class="circular inverted teal users icon"></i>
     </div>
-
+    <div class="example" data-since="2.8.8">
+      <h4 class="ui header">Circular Colored</h4>
+      <p>The circular color can appear in the same color as the icon itself</p>
+      <i class="circular colored red users icon"></i>
+      <i class="circular colored green users icon"></i>
+      <i class="circular colored blue users icon"></i>
+    </div>
     <div class="example">
       <h4 class="ui header">Bordered</h4>
       <div class="ui ignored info message">
@@ -7991,8 +8149,14 @@
       <i class="bordered inverted black users icon"></i>
       <i class="bordered inverted teal users icon"></i>
     </div>
-
-    <div class="example">
+    <div class="example" data-since="2.8.8">
+      <h4 class="ui header">Bordered Colored</h4>
+      <p>The bordered color can appear in the same color as the icon itself</p>
+      <i class="bordered colored red users icon"></i>
+      <i class="bordered colored green users icon"></i>
+      <i class="bordered colored blue users icon"></i>
+    </div>
+    <div class="example" data-class="colors">
       <h4 class="ui header">Colored</h4>
       <p>An icon can be formatted with different colors</p>
       <i class="primary users icon"></i>
@@ -8050,7 +8214,7 @@
         <i class="black user icon"></i>
       </i>
     </div>
-    <div class="example" data-class="corner">
+    <div class="example" data-class="corner, !top left, !top right, !bottom left, !bottom right">
       <h4 class="ui header">Corner Icon</h4>
       <p>A group of icons can display a smaller corner icon</p>
       <i class="huge icons">
@@ -8149,39 +8313,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -8193,7 +8328,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -8204,7 +8340,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>

@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!-- Standard Meta -->
 <meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="image_src" type="image/jpeg" href="/images/logo.png" />
 
-<!-- Site Properities -->
-<meta name="generator" content="DocPad v6.79.4" />
-<title>Form Validation | Fomantic-UI</title>
+<!-- Site Properties -->
+<meta name="generator" content="DocPad v6.83.2" />
+<title>Form Validation | Fomantic-UI Docs</title>
 
 <meta name="description" content="A form validation behavior checks data against a set of criteria before passing it along to the server" />
-<meta name="keywords" content="html5, ui, library, framework, javascript, fork, official" />
+<meta name="keywords" content="html5, ui, library, framework, javascript, css, fork, official" />
   
-
   <script src="/javascript/library/jquery.min.js"></script>
   <script src="/javascript/library/clipboard.min.js"></script>
-  <script src="/javascript/library/cookie.min.js"></script>
   <script src="/javascript/library/easing.min.js"></script>
   <script src="/javascript/library/highlight.min.js"></script>
   <script src="/javascript/library/history.min.js"></script>
-  <script src="/javascript/library/state.js"></script>
   <script src="/javascript/library/tablesort.min.js"></script>
-  <script src="/javascript/library/underscore.min.js"></script>
 
 
-
-<script src="/dist/semantic.min.js"></script>
+<script src="/dist/semantic.min.js?v=2.9.3"></script>
 
 <script src="/javascript/docs.js"></script>
-
-  <link rel="stylesheet" type="text/css" class="ui" href="/dist/semantic.min.css">
-
-
-
-<link rel="stylesheet" type="text/css" href="/stylesheets/docs.css">
-<link rel="stylesheet" type="text/css" href="/stylesheets/rtl.css">
-
-
-
-
-
   
+<link rel="stylesheet" type="text/css" class="ui" media="screen,print" href="/dist/semantic.min.css?v=2.9.3">
 
-  
-<script type="text/javascript">
-  window.liveSettings = {
-    api_key    : '9ede3015b9f84c1aabc81ab839c55d74',
-    parse_attr : [
-      'data-title',
-      'data-content'
-    ],
-    detectlang   : false,
-    autocollect  : true,
-    ignore_tags  : ['i', 'code', 'pre'],
-    parse_attr   : ['data-title', 'data-content', 'data-text'],
-    ignore_class : ['code', 'anchor']
-  };
-</script>
-<script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+
+
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/docs.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/rtl.css">
 
 
 </head>
 <body id="example" class="form" ontouchstart="">
   
-  <div class="ui vertical inverted sidebar menu" id="toc">
+  
+  <div class="ui huge vertical inverted sidebar menu" id="toc">
   
 
 
@@ -86,7 +58,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -161,8 +133,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -279,7 +249,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -344,8 +314,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -382,8 +364,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -398,8 +378,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -424,6 +402,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -431,7 +414,6 @@
     
   </div>
 </div>
-
 </div>
 
 <div class="ui black big launch right attached fixed button">
@@ -443,7 +425,7 @@
 
 
 
-<div class="ui fixed inverted main menu">
+<div class="ui big fixed inverted main menu">
   <div class="ui container">
     <a class="launch icon item">
       <i class="content icon"></i>
@@ -456,7 +438,7 @@
     <div class="right menu">
       
       <div class="vertically fitted borderless item">
-        <iframe class="github" src="//ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
+        <iframe class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
       </div>
       
       <!--
@@ -473,11 +455,10 @@
     </div>
   </div>
 </div>
-
   <div class="pusher">
     <div class="full height">
       <div class="toc">
-        <div class="ui vertical inverted menu">
+        <div class="ui big vertical inverted menu">
           
 
 
@@ -497,7 +478,7 @@
   <b>Getting Started</b>
 </a>
 <a class="item" href="/introduction/new.html">
-  <b>New in 2.8</b>
+  <b>New in 2.9</b>
 </a>
 <div class="item">
   <div class="header">Introduction</div>
@@ -572,8 +553,6 @@
     
       <a class="item" href="/elements/emoji.html">
         Emoji
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
     
@@ -690,7 +669,7 @@
   <div class="menu">
     
       <a class="item" href="/views/advertisement.html">
-        Advertisement
+        Ad
         
       </a>
     
@@ -755,8 +734,20 @@
         
       </a>
   
+      <a class="item" href="/modules/flyout.html">
+        Flyout
+        
+        <span class="ui mini empty orange circular ui label"></span>
+        
+      </a>
+  
       <a class="item" href="/modules/modal.html">
         Modal
+        
+      </a>
+  
+      <a class="item" href="/modules/nag.html">
+        Nag
         
       </a>
   
@@ -793,8 +784,6 @@
       <a class="item" href="/modules/slider.html">
         Slider
         
-        <span class="ui mini empty teal circular ui label"></span>
-        
       </a>
   
       <a class="item" href="/modules/sticky.html">
@@ -809,8 +798,6 @@
   
       <a class="item" href="/modules/toast.html">
         Toast
-        
-        <span class="ui mini empty teal circular ui label"></span>
         
       </a>
   
@@ -835,6 +822,11 @@
         
       </a>
     
+      <a class="item" href="/behaviors/state.html">
+        State
+        
+      </a>
+    
       <a class="item" href="/behaviors/visibility.html">
         Visibility
         
@@ -842,12 +834,10 @@
     
   </div>
 </div>
-
         </div>
       </div>
       <div class="article">
-        <script src="/dist/components/form.js"></script>
-<script src="/javascript/validate-form.js"></script>
+        <script src="/javascript/validate-form.js"></script>
 
 
 
@@ -859,6 +849,16 @@
         Form Validation
         
         <div class="sub header">
+          <a class="twitter-share-button twitter"
+            href="https://twitter.com/share"
+            data-text="Fomantic-UI 2.9.3 is the official community fork of Semantic-UI&#010;Find the validation behavior here"
+            data-url="https://fomantic-ui.com/behaviors/validation.html"
+            data-via="fomanticui">
+          </a>
+          <script type="text/javascript">
+          window.twttr=(function(d,s,id){var t,js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)){return}js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);return window.twttr||(t={_e:[],ready:function(f){t._e.push(f)}})}(document,"script","twitter-wjs"));
+          </script>
+          <iframe title="github star button" class="github" src="https://ghbtns.com/github-btn.html?user=fomantic&amp;repo=fomantic-ui&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100" height="20"></iframe>
           A form validation behavior checks data against a set of criteria before passing it along to the server
         </div>
       </h1>
@@ -906,7 +906,6 @@
   </div>
 </div>
 
-
 <div class="main ui container">
 
   <div class="ui active tab" data-tab="usage">
@@ -917,9 +916,9 @@
       <h4 class="ui header">Specifying Validation Rules</h4>
       <p>Form validation requires passing in a validation object with the rules required to validate your form.</p>
       <div class="ui ignored info message">
-        A validation object includes a list of form elements, and rules to validate each field against. Fields are matched by either the <code>id</code>, <code>name</code>, or <code>data-validate</code> property (in that order) matching the identifier specified in the settings object. Validation objects must use either shorthand or longhand exclusively.
+        A validation object includes a list of form elements, and rules to validate each field against. Fields are matched by either the <code>id</code>, <code>name</code>, or <code>data-validate</code> property (in that order) matching the identifier specified in the settings object. As of 2.8.8, validation objects can mix shorthand or longhand notation.
       </div>
-      <div class="ignore code" data-title="Shorthand Validation">
+      <div class="ignore code" data-title="Shorthand Validation" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -933,8 +932,8 @@
         })
       ;
       </div>
-      <div class="ui horizontal divider">or</div>
-      <div class="ignore code" data-title="Full Validation Settings">
+      <div class="ui horizontal divider ignored">or</div>
+      <div class="ignore code" data-title="Full Validation Settings" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -976,6 +975,7 @@
             },
             password: {
               identifier: 'password',
+              errorLimit: 1,
               rules: [
                 {
                   type   : 'empty',
@@ -1049,11 +1049,11 @@
         <div class="ui error message"></div>
       </div>
     </form>
-    <div class="color example">
-      <h4 class="ui header">Passing Parameters to Rules <div class="ui horizontal teal label">New in 2.2.3</div></h4>
+    <div class="color example" data-since="2.2.3">
+      <h4 class="ui header">Passing Parameters to Rules</h4>
       <p>Typically rules that include a parameter are written <code>minLength[2]</code> with the value being passed in as brackets.</p>
       <p>If passing in properties as a string is not ideal, or if you are pulling values from another javascript variable, it might make sense to consider using <code>value</code> to pass in the rule value.</p>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
         $('.ui.form').form({
           fields: {
             color: {
@@ -1101,7 +1101,7 @@
           </tr>
         </tbody>
       </table>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -1115,7 +1115,7 @@
             field2: {
               rules: [
                 {
-                  type   : 'exactly[dog]',
+                  type   : 'isExactly[dog]',
                   prompt : '{name} is set to "{value}" that is totally wrong. It should be {ruleValue}'
                 }
               ]
@@ -1123,7 +1123,7 @@
             field3: {
               rules: [
                 {
-                  type   : 'exactly[cat]',
+                  type   : 'isExactly[cat]',
                   prompt : function(value) {
                     if(value == 'dog') {
                       return 'I told you to put cat, not dog!';
@@ -1162,7 +1162,7 @@
       <h4 class="ui header">Matching Fields</h4>
       <p>By default the property name used in the validation object will match against the <code>id</code>, <code>name</code>, or <code>data-validate</code> property of each input to find the corresponding field to match validation rules against.</p>
       <p>If you need to specify a different identifier you can use the <code>identifier</code> property on each validation rule</p>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -1216,7 +1216,7 @@
           </tr>
         </tbody>
       </table>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -1234,6 +1234,33 @@
       </div>
     </div>
 
+    <div class="native example" data-since="2.9.3">
+      <h4 class="ui header">Native Browser Validation</h4>
+      <p>You can also make use of the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#using_built-in_form_validation">native browser built-in form validation</a> without the need to specify rules. You can still provide rules in addition, but you could also completely rely on native validation.</p>
+      <div class="ignored code" data-type="javascript">
+      $('.ui.form')
+        .form({
+            inline: true
+        })
+      ;
+      </div>
+      <form class="ui form segment">
+        <div class="field">
+          <label>Number</label>
+          <input type="number" name="number" min="1" max="10" placeholder="Anything between 1 and 10" required>
+        </div>
+        <div class="field">
+          <label>Url</label>
+          <input type="url" name="url" placeholder="A valid url needed" required>
+        </div>
+        <div class="field">
+          <label>File</label>
+          <input type="file" name="file" placeholder="A valid url needed" required>
+        </div>
+        <div class="ui primary submit button">Submit</div>
+        </form>
+    </div>
+
     <h2 class="ui dividing header">Rules</h2>
 
     <div class="no example">
@@ -1242,7 +1269,8 @@
       </h4>
         <p>Validation rules are a set of conditions required to validate a field</p>
       <div class="ui info message">Validation rules are found in <code>$.fn.form.settings.rules</code>, to add new global validation rules, modify <code>$.fn.form.settings.rules</code> to include your function.</div>
-      <div class="in red message">To pass parameters to a rule, use bracket notation in your settings object. For example <code>type: 'not[dog]'</code></div>
+      <div class="ui info message">To pass parameters to a rule, use bracket notation in your settings object. For example <code>type: 'not[dog]'</code></div>
+      <div data-since="2.8.8" class="ui info message">Despite the global setting <code>shouldTrim</code> you can optionally specify to trim/not trim values before validation by adding <code>shouldTrim:true</code> or <code>shouldTrim:false</code> to each rule</div>
 
       <h3 class="ui header"><a href="#empty">Empty</a></h3>
       <table class="ui celled sortable basic table segment">
@@ -1258,7 +1286,7 @@
         </tbody>
       </table>
 
-      <h3 class="ui header"><a href="#content-type">Content Type</h3>
+      <h3 class="ui header"><a href="#content-type">Content Type</a></h3>
       <table class="ui celled sortable basic table segment">
         <tbody>
           <tr>
@@ -1273,18 +1301,28 @@
           </tr>
           <tr>
             <td>integer</td>
-            <td>A field is an integer value, or matches an integer range</td>
+            <td>A field is an integer value or matches an integer range</td>
             <td><code>integer</code> or <code>integer[1..10]</code></td>
           </tr>
           <tr>
             <td>decimal</td>
-            <td>A field must be a decimal number</td>
-            <td></td>
+            <td>A field must be a decimal number or matches a decimal range</td>
+            <td><code>decimal</code> or <code>decimal[0.1..1.5]</code></td>
           </tr>
           <tr>
             <td>number</td>
-            <td>A field is any number decimal or non-decimal</td>
-            <td></td>
+            <td>A field is any number decimal or non-decimal or matches a number range</td>
+            <td><code>number</code> or <code>number[1..10]</code></td>
+          </tr>
+          <tr>
+            <td>minValue</td>
+            <td>A field has a minimum number decimal or non-decimal</td>
+            <td><code>minValue[1.5]</code></td>
+          </tr>
+          <tr>
+            <td>maxValue</td>
+            <td>A field has a maximum number decimal or non-decimal</td>
+            <td><code>maxValue[50]</code></td>
           </tr>
           <tr>
             <td>regExp[expression]</td>
@@ -1378,6 +1416,11 @@
             <td>A field is less than a max length</td>
             <td><code>maxLength[50]</code></td>
           </tr>
+          <tr>
+            <td>size</td>
+            <td>A field has a size between min and max characters</td>
+            <td data-since="2.9.2"><code>size[6..12]</code></td>
+          </tr>
         </tbody>
       </table>
 
@@ -1422,7 +1465,7 @@
     <div class="custom rule example">
       <h4 class="ui header">Adding Custom Rules</h4>
       <p>You can extend form validation to include your own rules. Keep in mind these will need to be executed synchronously.</p>
-      <div class="ignore code">
+      <div class="ignore code" data-type="javascript">
       // some arbitrary business-logic
       window.user = {
         name       : 'Simon',
@@ -1543,7 +1586,7 @@
       <p>
         Form includes behaviors for reading from and writing to form fields.
       </p>
-      <div class="code" data-demo="true">
+      <div class="code" data-demo="true" data-type="javascript">
       $('.writing.example form')
         // set one value
         .form('set value', 'name', 'Jack')
@@ -1632,7 +1675,7 @@
       <div class="ui ignored info message">
         Although <code>get values</code> allows you to use any matching identifier, returned values will always use the corresponding <code>name</code> attribute of the element.
       </div>
-      <div class="code" data-demo="true">
+      <div class="code" data-demo="true" data-type="javascript">
       var
         $form = $('.get.example form'),
         // get one value
@@ -1741,7 +1784,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.field.example form')
           .form({
             on: 'blur',
@@ -1781,7 +1824,7 @@
 
     <div class="type example">
       <h4 class="ui header">Content Type</h4>
-      <p>Inputs can match against common content types, or your own custom <a href="http://www.regular-expressions.info/" target="_blank">regular expressions</a>.</p>
+      <p>Inputs can match against common content types, or your own custom <a href="https://www.regular-expressions.info/" target="_blank">regular expressions</a>.</p>
       <form class="ui form">
         <div class="two fields">
           <div class="field">
@@ -1816,7 +1859,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.type.example form')
           .form({
             on: 'blur',
@@ -1957,7 +2000,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.payment.example form')
           .form({
             on: 'blur',
@@ -2012,7 +2055,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.match.example form')
           .form({
             on: 'blur',
@@ -2060,7 +2103,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.length.example form')
           .form({
             on: 'blur',
@@ -2146,7 +2189,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.content.example form')
           .form({
             on: 'blur',
@@ -2271,7 +2314,7 @@
         <div class="ui submit button">Submit</div>
         <div class="ui error message"></div>
       </form>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
         $('.multi.example form')
           .form({
             on: 'blur',
@@ -2310,16 +2353,16 @@
 
     <h2 class="ui dividing header">Form Examples</h2>
 
-    <div class="add example">
+    <div class="add example" data-since="2.2.11">
       <h4 class="ui header">
-        Adding Rules Programmatically <div class="ui teal label">New in 2.2.11</div>
+        Adding Rules Programmatically
       </h4>
       <p>You can use the special behaviors <code>add field/rule</code>, <code>remove rule</code> and <code>remove field</code> to dynamically add or remove fields or rules. </p>
       <div class="ui ignored info message">
         <div class="ui header">Adding Multiple Rules and Complex Rules</div>
-        You can specify shorthand or full rule objects when adding rules. You can also specifiy fields as an array to modify multiple fields.</code>.
+        You can specify shorthand or full rule objects when adding rules. You can also specify fields as an array to modify multiple fields.</code>.
       </div>
-      <div class="code">
+      <div class="code" data-type="javascript">
       // lets only validate username to start
       $('.add.example .ui.form')
         .form({
@@ -2327,7 +2370,7 @@
         })
       ;
       </div>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
       // lets toggle some validation based on button
       $('.add.example .ui.positive.button')
         .on('click', function() {
@@ -2347,7 +2390,7 @@
         })
       ;
       </div>
-      <div class="evaluated code">
+      <div class="evaluated code" data-type="javascript">
       $('.add.example .ui.negative.button')
         .on('click', function() {
           $('.add.example .ui.form')
@@ -2393,7 +2436,7 @@
     <div class="dropdown example">
       <h4 class="ui header">Validating Dropdowns</h4>
       <p><a href="/modules/dropdown.html">Dropdowns</a> can also be validated like other form fields. Simply match the validation rule to the <code>input</code> or <code>select</code> associated with the dropdown</p>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.dropdown')
         .dropdown()
       ;
@@ -2431,7 +2474,7 @@
     <div class="data example">
       <h4 class="ui header">Using Server Name Attributes</h4>
       <p>Sometimes an integration requires you to use a specific value for <code>name</code>, or <code>id</code>. In these cases, you can match a form field using the <code>data-validate</code> property.</p>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.form')
         .form(
           fields: {
@@ -2449,13 +2492,12 @@
       </form>
     </div>
 
-    <div class="depends example">
+    <div class="depends example" data-since="2.2">
       <h4 class="ui header">
         Dependent Fields
-        <div class="ui teal horizontal label">New in 2.2</div>
       </h4>
       <p>You can specify validation fields to only be used when other fields are present. Simply add <code>depends: 'identifier'</code> with the ID of the field that must be non-blank for this rule to evaluate.</p>
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -2493,7 +2535,7 @@
     <div class="optional example">
       <h4 class="ui header">Optional Fields</h4>
       <p>Adding the parameter <code>optional: true</code> will only add your validation rules when the field is <b>not empty</b>.
-      <div class="ignored code">
+      <div class="ignored code" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -2541,7 +2583,7 @@
     <div class="optional example">
       <h4 class="ui header">Setting Site Defaults</h4>
       <p>You can specify site wide validation settings by modifying <code>$.fn.form.settings.defaults</code> that will apply on any form validation if the field appears in the form</b>.
-      <div class="code">
+      <div class="code" data-type="javascript">
       $.fn.form.settings.defaults = {
         email: {
           identifier : 'email',
@@ -2659,7 +2701,7 @@
     <div class="dog example">
       <h4 class="ui header">Creating Custom Validation</h4>
       <p>You can use multiple arbitrary rules to validate a form</p>
-      <div class="ignore code">
+      <div class="ignore code" data-type="javascript">
       $('.ui.form')
         .form({
           fields: {
@@ -2701,17 +2743,17 @@
     <div class="calendar example">
       <h4 class="ui header">Handling dates from calendars</h4>
       <p>Calendar fields are automatically validated, but you might want to grab the value as a Date object, or as its input, or maybe format it to exactly fit your needs.</p>
-      <div class="ignore code">
+      <div class="ignore code" data-type="javascript">
         $('.ui.form').form({
           dateHandling: 'date'
         });
       </div>
-      <div class="ignore code">
+      <div class="ignore code" data-type="javascript">
         $('.ui.form').form({
           dateHandling: 'input'
         });
       </div>
-      <div class="ignore code">
+      <div class="ignore code" data-type="javascript">
         $('.ui.form').form({
           dateHandling: 'formatter'
         });
@@ -2752,10 +2794,10 @@
       </form>
     </div>
 
-    <div class="dirty example">
+    <div class="dirty example" data-since="2.7.5">
       <h4 class="ui header">Dirty / Clean state</h4>
       <p>
-        When initialized, form has a <em>clean</em> state that record all field values. Once at least one field is modified, form enter in <em>dirty</em> state, that can be catched trough the <code>onDirty</code> event.
+        When initialized, form has a <em>clean</em> state that record all field values. Once at least one field is modified, form enter in <em>dirty</em> state, that can be caught through the <code>onDirty</code> event.
       </p>
       <p>
         Dirty fields can be retrieved by calling the <code>$('form').form('get dirty fields')</code> method, and form can be set to a <em>clean</em> state even with new values by calling the <code>$('form').form('set as clean')</code> method. All new values will then be set as default.
@@ -2825,7 +2867,7 @@
 
     <table class="ui definition celled table">
       <tr>
-        <td>submit</td>
+        <td class="five wide">submit</td>
         <td>Submits selected form</td>
       </tr>
       <tr>
@@ -2833,28 +2875,24 @@
         <td>Returns true/false whether a form passes its validation rules</td>
       </tr>
       <tr>
-        <td>add rule(field, rules)<div class="ui label">New in 2.2.11</div></td>
-        <td>Adds rule to existing rules for field, also aliased as <code>add field</code></td>
+        <td>add rule(field, rules)</td>
+        <td data-since="2.2.11">Adds rule to existing rules for field, also aliased as <code>add field</code></td>
       </tr>
       <tr>
-        <td>add fields(fields) <div class="ui label">New in 2.2.11</div></td>
-        <td>Adds fields object to existing fields</td>
+        <td>add fields(fields)</div></td>
+        <td data-since="2.2.11">Adds fields object to existing fields</td>
       </tr>
       <tr>
-        <td>remove rule(field, rules)<div class="ui label">New in 2.2.11</div></td>
-        <td>Removes specific rule from field leaving other rules</td>
+        <td>remove rule(field, rules)</td>
+        <td data-since="2.2.11">Removes specific rule from field leaving other rules</td>
       </tr>
       <tr>
-        <td>remove field(field)<div class="ui label">New in 2.2.11</div></td>
-        <td>Remove all validation for a field</td>
+        <td>remove field(field)</td>
+        <td data-since="2.2.11">Remove all validation for a field</td>
       </tr>
       <tr>
-        <td>add prompt(identifier, errors)</td>
-        <td>Adds error prompt to the field with the given identifier</td>
-      </tr>
-      <tr>
-        <td>is valid(fieldName)</td>
-        <td>Returns true/false whether a field passes its validation rules</td>
+        <td>is valid(fieldName, showErrors)</td>
+        <td>Returns true/false whether a field passes its validation rules. If you add <code>true</code> as the second parameter, any failed rule will update the UI</td>
       </tr>
       <tr>
         <td>validate form</td>
@@ -2873,8 +2911,8 @@
         <td>Returns value of element with id</td>
       </tr>
       <tr>
-        <td>get values(identifiers)</td>
-        <td>Returns object of element values that match array of identifiers. If no IDS are passed will return all fields</td>
+        <td>get values([identifiers])</td>
+        <td>Returns object of element values that match array of string identifiers. If no IDs are passed will return all fields</td>
       </tr>
       <tr>
         <td>set value(identifier, value)</td>
@@ -2893,20 +2931,24 @@
         <td>Returns whether a field exists</td>
       </tr>
       <tr>
-        <td>add errors(errors)</td>
-        <td>Manually add errors to form, given an array errors</td>
+        <td>add errors(error)<br>add errors([errors])<br>add errors({identifier:error})<br>add errors({identifier:[errors]})</td>
+        <td>Manually add errors to form, given an array of string errors or an object using keys as field identifier each containing an error string/array of strings value. Such object will automatically add the field label infront of the error message or, if <code>inline:true</code>, will display the inline prompt to the related field. </td>
       </tr>
       <tr>
-        <td>add prompt(identifier, prompt)</td>
-        <td>Adds a custom user prompt for a given element with identifier</td>
+        <td>remove errors</td>
+        <td>Removes all current errors from the error message box</td>
+      </tr>
+      <tr>
+        <td>add prompt(identifier, error)<br>add prompt(identifier, [errors])</td>
+        <td>Adds a custom user prompt for a given element with identifier displaying a given string or an array of strings as a <a href="/elements/list.html#bulleted">bulleted list</a></td>
       </tr>
       <tr>
         <td>clear</td>
-        <td>Empty all fields</td>
+        <td>Empty all fields and remove possible errors</td>
       </tr>
       <tr>
         <td>reset</td>
-        <td>Set all fields to their initial value</td>
+        <td>Set all fields to their initial value and remove possible errors</td>
       </tr>
       <tr>
         <td>set defaults</td>
@@ -2923,6 +2965,10 @@
       <tr>
         <td>set auto check</td>
         <td>Automatically adds the "empty" rule or automatically checks a checkbox for all fields with classname or attribute <code>required</code></td>
+      </tr>
+      <tr>
+        <td>set optional(identifier, bool = true)</td>
+        <td data-since="2.8.8">Set or unset matching fields as optional</td>
       </tr>
     </table>
 
@@ -2967,9 +3013,9 @@
             <td>Adds inline error on field validation error</td>
           </tr>
           <tr>
-            <td>shouldTrim <div class="ui label">New in 2.4.0</div></td>
+            <td>shouldTrim</td>
             <td>true</td>
-            <td>Whether or not the form should trim the value before validating</td>
+            <td data-since="2.4.0">Whether or not the form should trim the value before validating</td>
           </tr>
           <tr>
             <td>dateHandling</td>
@@ -2985,7 +3031,7 @@
           </tr>
           <tr>
             <td>duration</td>
-            <td>150</td>
+            <td>200</td>
             <td>Animation speed for inline prompt</td>
           </tr>
           <tr>
@@ -2997,6 +3043,16 @@
             <td>autoCheckRequired</td>
             <td>false</td>
             <td>Whether fields with classname or attribute <code>required</code> should automatically add the "empty" rule or automatically checks checkbox fields</td>
+          </tr>
+          <tr>
+            <td>errorFocus</td>
+            <td>true</td>
+            <td data-since="2.8.8">Whether, on an invalid form validation, it should automatically focus either the first error field (<code>true</code>) or a specific dom node (Use a unique selector string such as <code>.ui.error.message</code> or <code>#myelement</code>) or nothing (<code>false</code>)</td>
+          </tr>
+          <tr>
+            <td>errorLimit</td>
+            <td>0</td>
+            <td data-since="2.9.3">Number of max shown errors per field if a field got multiple rules (0=unlimited). This can also be provided for each field individually inside the <code>fields</code> setting. See the <a href="#specifying-validation-rules">Full Validation Settings Example</a></td>
           </tr>
         </tbody>
       </table>
@@ -3017,7 +3073,7 @@
           <tr>
             <td>text</td>
             <td>
-              <div class="code">
+              <div class="code" data-type="javascript">
               text: {
                 unspecifiedRule  : 'Please enter a valid value',
                 unspecifiedField : 'This field',
@@ -3025,15 +3081,18 @@
               }
               </div>
               <div class="ui warning message">
-                The <code>leavingMessage</code> text will only be displayed on Internet Explorer browsers. Other browsers will display a standard message, to prevent intruding popups (more informations <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event">here</a>).
+                The <code>leavingMessage</code> text will only be displayed on Internet Explorer browsers. Other browsers will display a standard message, to prevent intruding popups (more information <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event">here</a>).
               </div>
             </td>
           </tr>
           <tr>
             <td>prompt</td>
             <td>
-              <div class="code">
+              <div class="code" data-type="javascript">
               prompt: {
+                range                : '{name} must be in a range from {min} to {max}',
+                maxValue             : '{name} must have a maximum value of {ruleValue}',
+                minValue             : '{name} must have a minimum value of {ruleValue}',
                 empty                : '{name} must have a value',
                 checked              : '{name} must be checked',
                 email                : '{name} must be a valid e-mail',
@@ -3048,18 +3107,19 @@
                 notExactly           : '{name} cannot be set to exactly \'{ruleValue}\'',
                 contain              : '{name} cannot contain \'{ruleValue}\'',
                 containExactly       : '{name} cannot contain exactly \'{ruleValue}\'',
-                doesntContain        : '{name} must contain  \'{ruleValue}\'',
+                doesntContain        : '{name} must contain \'{ruleValue}\'',
                 doesntContainExactly : '{name} must contain exactly \'{ruleValue}\'',
                 minLength            : '{name} must be at least {ruleValue} characters',
-                length               : '{name} must be at least {ruleValue} characters',
                 exactLength          : '{name} must be exactly {ruleValue} characters',
                 maxLength            : '{name} cannot be longer than {ruleValue} characters',
+                size                 : '{name} must have a length between {min} and {max} characters',
                 match                : '{name} must match {ruleValue} field',
                 different            : '{name} must have a different value than {ruleValue} field',
                 creditCard           : '{name} must be a valid credit card number',
                 minCount             : '{name} must have at least {ruleValue} choices',
                 exactCount           : '{name} must have exactly {ruleValue} choices',
-                maxCount             : '{name} must have {ruleValue} or less choices'
+                maxCount             : '{name} must have {ruleValue} or less choices',
+                addErrors            : '{name}: {error}',
               }
               </div>
             </td>
@@ -3067,12 +3127,12 @@
         </tbody>
       </table>
     </div>
-    
+
     <div class="no example">
       <h4 class="ui header">
         Formatters
       </h4>
-      <p>Settings to modify default returned values. Actually exclusively used with calendar fields (trough the <code>dateHandling: 'formatter'</code> setting).</p>
+      <p>Settings to modify default returned values. Actually exclusively used with calendar fields (through the <code>dateHandling: 'formatter'</code> setting).</p>
 
       <table class="ui celled sortable definition table">
         <thead>
@@ -3083,7 +3143,7 @@
           <tr>
             <td>formatter</td>
             <td>
-              <div class="code">
+              <div class="code" data-type="javascript">
               formatter: {
                 date: function(date) {
                   return Intl.DateTimeFormat('en-GB').format(date);
@@ -3123,7 +3183,7 @@
         </tbody>
       </table>
     </div>
-    
+
     <div class="no example">
       <h4 class="ui header">
         Callbacks
@@ -3217,11 +3277,12 @@
           <tr>
             <td>selector</td>
             <td>
-              <div class="code">
+              <div class="code" data-type="javascript">
         selector : {
           checkbox  : 'input[type="checkbox"], input[type="radio"]',
           clear     : '.clear',
-          field     : 'input, textarea, select',
+          field     : 'input:not(.search):not([type="reset"]):not([type="button"]):not([type="submit"]), textarea, select',
+          file      : 'input[type="file"]',
           group     : '.field',
           input     : 'input',
           message   : '.error.message',
@@ -3240,7 +3301,7 @@
           <tr>
             <td>metadata</td>
             <td>
-              <div class="code">
+              <div class="code" data-type="javascript">
 
         metadata : {
           defaultValue : 'default',
@@ -3256,12 +3317,15 @@
           <tr>
             <td>className</td>
             <td>
-              <div class="code">
+              <div class="code" data-type="javascript">
         className : {
+          initial: 'initial',
           error   : 'error',
           label   : 'ui basic red pointing prompt label',
           pressed : 'down',
-          success : 'success'
+          success : 'success',
+          required: 'required',
+          disabled: 'disabled'
         }
               </div>
             </td>
@@ -3306,12 +3370,14 @@
           <tr>
             <td>errors</td>
             <td colspan="2">
-              <div class="code">
+              <div class="code" data-type="javascript">
         errors   : {
-          identifier : 'You must specify a string identifier for each field',
-          method     : 'The method you called is not defined.',
-          noRule     : 'There is no rule matching the one you specified',
-          oldSyntax  : 'Starting in 2.0 forms now only take a single settings object. Validation settings converted to new syntax automatically.'
+          method        : 'The method you called is not defined.',
+          noRule        : 'There is no rule matching the one you specified',
+          oldSyntax     : 'Starting in 2.0 forms now only take a single settings object. Validation settings converted to new syntax automatically.'
+          noField       : 'Field identifier {identifier} not found',
+          noElement     : 'This module requires ui {element}',
+          noErrorMessage: 'No error message provided',
         }
               </div>
             </td>
@@ -3382,39 +3448,10 @@
       <a class="item" href="https://github.com/fomantic/Fomantic-UI/blob/master/LICENSE.md" target="_blank">Free & Open Source (MIT)</a>
     </div>
   </div>
-
-  <div id="codefund"></div>
-  <script src="https://app.codefund.io/properties/728/funder.js" async></script>
 </footer>
-
       </div>
     </div>
   </div>
-  <div class="ui basic language modal">
-  <i class="close icon"></i>
-  <div class="header">The <span class="name"></span> Translation Needs Your Help</div>
-  <div class="image content">
-    <div class="middle aligned image">
-      <i class="world icon"></i>
-    </div>
-    <div class="description">
-      <p>This translation is only <b><span class="complete"></span>%</b> complete!</p>
-      <div class="ui inverted indicating progress">
-        <div class="bar"></div>
-      </div>
-      <p>We need your help to make Semantic available to  people who speak your language.</p>
-      <p>Our translation tools are easy to use and allow you to translate text without having to leave the site.
-      </p>
-    </div>
-  </div>
-  <div class="actions">
-    <div class="ui inverted cancel button">No Thanks</div>
-    <a href="https://github.com/fomantic/Fomantic-UI/wiki/Translating-Semantic-UI-Docs" target="_blank" class="ui inverted approve teal button">
-      <i class="mail icon"></i>
-      Help Translate
-    </a>
-  </div>
-</div>
   <div class="ui demo page dimmer">
   <div class="content">
     <div class="center">
@@ -3426,7 +3463,8 @@
     </div>
   </div>
 </div>
-  <script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces2015"></script>
+<script>
 window.less = {
   async        : true,
   environment  : 'production',
@@ -3437,7 +3475,6 @@ window.less = {
 </script>
 
 <script src="/javascript/library/less.min.js"></script>
-
 
 </body>
 </html>
