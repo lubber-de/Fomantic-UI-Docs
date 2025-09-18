@@ -307,7 +307,7 @@ themes      : ['Default', 'Colored']
       </div>
     </div>
 
-    <div class="example">
+    <div class="example" data-since="2.8.8">
       <h4 class="ui header">Right aligned</h4>
       <p>A checkbox can be aligned to the right of the label</p>
       <div class="ui form">
